@@ -1,0 +1,30 @@
+[
+  {
+	"name": "1: touchpad while typing = true",
+	"command": "xinput set-prop 13 300 0"
+  },
+  {
+	"name": "2: touchpad while typing = false",
+	"command": "xinput set-prop 13 300 1"
+  },
+  {
+	"name": "3: i3 config",
+	"command": "termite -e 'nvim /home/oskar/.config/i3/config'"
+  },
+  {
+    "name": "4: clean up pacman cache",
+	"command": "termite -e 'yay -Sc'"
+  },
+  {
+    "name": "5: myrmidon config",
+	"command": "termite -e 'nvim /home/oskar/scripts/rofi/myrmidon/commands.json'"
+  },
+  {
+	"name": "6: pause java",
+	"command": "pkill -STOP java"
+  },
+  {
+	"name": "7: resume java",
+	"command": "pkill -CONT java"
+  }
+]

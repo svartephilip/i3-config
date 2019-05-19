@@ -1,0 +1,20 @@
+/* placed in .mozilla/firefox/something.default/chrome/ */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#navigator-toolbox {
+    position: relative;
+    z-index: 1;
+    height: 3px;
+    margin-bottom: -3px;
+    overflow: hidden;
+    transition-property: height;
+    transition-delay: 1s;
+    transition-duration: 2s;
+}
+
+#navigator-toolbox:hover {
+    height: 62px;
+    transition-property: height;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+}
