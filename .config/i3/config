@@ -362,6 +362,7 @@ exec --no-startup-id "xinput set-prop 13 290 1"
 exec --no-startup-id "xinput set-prop 13 305 1"
 exec --no-startup-id "xinput set-prop 13 308 1"
 
+exec --no-startup-id "sh -c 'sleep 30; exec ~/scripts/push-to-git.sh"
 exec --no-startup-id compton
 exec --no-startup-id clipmenud
 exec --no-startup-id autorandr -c
