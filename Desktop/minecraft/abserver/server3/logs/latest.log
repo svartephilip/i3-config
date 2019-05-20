@@ -1,0 +1,451 @@
+[18:01:08] [Server thread/INFO]: Starting minecraft server version 1.14.1
+[18:01:08] [Server thread/INFO]: Loading properties
+[18:01:08] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-4f661b2-d06991d (MC: 1.14.1) (Implementing API version 1.14.1-R0.1-SNAPSHOT)
+[18:01:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:01:08] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:01:08] [Server thread/INFO]: Debug logging is disabled
+[18:01:08] [Server thread/INFO]: Default game type: SURVIVAL
+[18:01:08] [Server thread/INFO]: Generating keypair
+[18:01:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:01:09] [Server thread/INFO]: Using epoll channel type
+[18:01:14] [Server thread/WARN]: Plugin dynmap v3.0-beta-3-160 does not specify an api-version.
+[18:01:14] [Server thread/WARN]: Plugin isSlimeChunk v1.0.1 does not specify an api-version.
+[18:01:14] [Server thread/WARN]: Plugin MinePacks v1.19.2 does not specify an api-version.
+[18:01:14] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
+[18:01:14] [Server thread/ERROR]: Could not load 'plugins/TPPets-2.2.1.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: WorldEdit
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:220) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.loadPlugins(CraftServer.java:347) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:194) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:761) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+[18:01:14] [Server thread/WARN]: Plugin wSleep v1.0 does not specify an api-version.
+[18:01:15] [Server thread/INFO]: [dynmap] Loading dynmap v3.0-beta-3-160
+[18:01:15] [Server thread/INFO]: [dynmap] version=git-Spigot-4f661b2-d06991d (MC: 1.14.1)
+[18:01:15] [Server thread/ERROR]: [dynmap] Unable to find method getById for net.minecraft.server.v1_14_R1.Block
+[18:01:15] [Server thread/ERROR]: [dynmap] Unable to find method a for net.minecraft.server.v1_14_R1.BiomeBase
+[18:01:15] [Server thread/ERROR]: [dynmap] Unable to find field y for net.minecraft.server.v1_14_R1.BiomeBase
+[18:01:15] [Server thread/INFO]: [dynmap] Unload queue not found - default to unload all chunks
+[18:01:15] [Server thread/INFO]: [dynmap] inhabitedTicks field not found - inhabited shader not functional
+[18:01:15] [Server thread/ERROR]: [dynmap] Unable to find method b for net.minecraft.server.v1_14_R1.WorldBorder
+[18:01:15] [Server thread/ERROR]: Error initializing dynmap - bukkit version incompatible! initializing dynmap v3.0-beta-3-160 (Is it up to date?)
+java.lang.IllegalArgumentException: Error initializing dynmap - bukkit version incompatible!
+	at org.dynmap.bukkit.helper.BukkitVersionHelperGeneric.<init>(BukkitVersionHelperGeneric.java:159) ~[?:?]
+	at org.dynmap.bukkit.helper.BukkitVersionHelperCB.<init>(BukkitVersionHelperCB.java:45) ~[?:?]
+	at org.dynmap.bukkit.Helper.getHelper(Helper.java:46) ~[?:?]
+	at org.dynmap.bukkit.DynmapPlugin.onLoad(DynmapPlugin.java:780) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.loadPlugins(CraftServer.java:352) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:194) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:761) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+[18:01:15] [Server thread/INFO]: [PluginConstructorAPI] Loading PluginConstructorAPI v1.0.51
+[18:01:15] [Server thread/INFO]: [Horse_Inspector] Loading Horse_Inspector v1.2.0
+[18:01:15] [Server thread/INFO]: [isSlimeChunk] Loading isSlimeChunk v1.0.1
+[18:01:15] [Server thread/INFO]: [MinePacks] Loading MinePacks v1.19.2
+[18:01:15] [Server thread/INFO]: [HiddenLorax] Loading HiddenLorax v1.1.1
+[18:01:15] [Server thread/INFO]: [VeinMiner] Loading VeinMiner v1.14.0
+[18:01:15] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[18:01:15] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.6
+[18:01:15] [Server thread/INFO]: [mcMMOHorse] Loading mcMMOHorse v4.3.53
+[18:01:15] [Server thread/INFO]: [wSleep] Loading wSleep v1.0
+[18:01:15] [Server thread/INFO]: [ServerMinimap] Loading ServerMinimap v0.7.19
+[18:01:15] [Server thread/INFO]: Preparing level "world"
+[18:01:15] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, treecapitator-v2-5-1-1551454023.zip
+[18:01:16] [Server thread/INFO]: Loaded 6 recipes
+[18:01:22] [Server thread/INFO]: Loaded 90 custom command functions
+[18:01:22] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:01:22] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[18:01:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:01:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:01:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[18:01:22] [Server thread/INFO]: Max TNT Explosions: 100
+[18:01:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:01:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:01:22] [Server thread/INFO]: Mob Spawn Range: 4
+[18:01:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: View Distance: 10
+[18:01:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:01:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:01:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:01:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:01:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:01:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:01:22] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:01:22] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[18:01:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:01:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:01:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[18:01:22] [Server thread/INFO]: Max TNT Explosions: 100
+[18:01:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:01:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:01:22] [Server thread/INFO]: Mob Spawn Range: 4
+[18:01:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: View Distance: 10
+[18:01:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:01:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:01:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:01:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:01:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:01:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:01:22] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:01:22] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[18:01:22] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:01:22] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:01:22] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[18:01:22] [Server thread/INFO]: Max TNT Explosions: 100
+[18:01:22] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:01:22] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:01:22] [Server thread/INFO]: Mob Spawn Range: 4
+[18:01:22] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:01:22] [Server thread/INFO]: View Distance: 10
+[18:01:22] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:01:22] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:01:22] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:01:22] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:01:22] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:01:22] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:01:22] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[18:01:22] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[18:01:23] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[18:01:23] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[18:01:24] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[18:01:24] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[18:01:25] [Server-Worker-2/INFO]: Preparing spawn area: 8%
+[18:01:25] [Server-Worker-2/INFO]: Preparing spawn area: 19%
+[18:01:26] [Server-Worker-3/INFO]: Preparing spawn area: 28%
+[18:01:26] [Server-Worker-1/INFO]: Preparing spawn area: 61%
+[18:01:27] [Server thread/INFO]: Time elapsed: 5137 ms
+[18:01:27] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[18:01:27] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[18:01:28] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[18:01:28] [Server-Worker-1/INFO]: Preparing spawn area: 0%
+[18:01:29] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[18:01:29] [Server-Worker-2/INFO]: Preparing spawn area: 3%
+[18:01:30] [Server-Worker-3/INFO]: Preparing spawn area: 33%
+[18:01:30] [Server-Worker-3/INFO]: Preparing spawn area: 83%
+[18:01:31] [Server-Worker-2/INFO]: Preparing spawn area: 87%
+[18:01:31] [Server thread/INFO]: Time elapsed: 3937 ms
+[18:01:31] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[18:01:31] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[18:01:32] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[18:01:32] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[18:01:33] [Server-Worker-3/INFO]: Preparing spawn area: 0%
+[18:01:33] [Server-Worker-1/INFO]: Preparing spawn area: 86%
+[18:01:33] [Server thread/INFO]: Time elapsed: 2332 ms
+[18:01:33] [Server thread/INFO]: [dynmap] Enabling dynmap v3.0-beta-3-160
+[18:01:33] [Server thread/INFO]: [dynmap] Dynmap is disabled (unsupported platform)
+[18:01:33] [Server thread/INFO]: [PluginConstructorAPI] Enabling PluginConstructorAPI v1.0.51
+[18:01:33] [Server thread/INFO]: [Horse_Inspector] Enabling Horse_Inspector v1.2.0
+[18:01:33] [Server thread/INFO]: [Horse_Inspector] Config file loaded.
+[18:01:34] [Server thread/INFO]: [Horse_Inspector] Updated version available: 1.2.1
+[18:01:34] [Server thread/INFO]: [isSlimeChunk] Enabling isSlimeChunk v1.0.1
+[18:01:34] [Server thread/INFO]: [MinePacks] Enabling MinePacks v1.19.2
+[18:01:34] [Server thread/INFO]: [MinePacks] [32mConfig file successfully loaded.[0m
+[18:01:34] [Server thread/INFO]: [MinePacks] [32mLanguage file successfully loaded.[0m
+[18:01:34] [Server thread/INFO]: Minepacks-Connection-Pool - is starting.
+[18:01:35] [Server thread/INFO]: [MinePacks] Checking backpack storage format ...
+[18:01:35] [Server thread/INFO]: [MinePacks] Checking for updates ...
+[18:01:35] [Server thread/INFO]: [MinePacks] MinePacks has been enabled!
+[18:01:35] [Server thread/INFO]: [HiddenLorax] Enabling HiddenLorax v1.1.1
+[18:01:35] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v1.14.0
+[18:01:35] [Server thread/INFO]: [VeinMiner] Registering events
+[18:01:35] [Server thread/INFO]: [VeinMiner] Registering commands
+[18:01:35] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[18:01:35] [Server thread/INFO]: [VeinMiner] Thank you for enabling Metrics! I greatly appreciate the use of plugin statistics
+[18:01:35] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[18:01:35] [Server thread/INFO]: [VeinMiner] Unknown world found... "WorldName". Ignoring...
+[18:01:35] [Server thread/INFO]: [VeinMiner] Performing an update check!
+[18:01:35] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[18:01:35] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[18:01:35] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[18:01:35] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.6
+[18:01:35] [Server thread/INFO]: [mcMMOHorse] Enabling mcMMOHorse v4.3.53
+[18:01:35] [Server thread/INFO]: [mcMMOHorse] Finished loading 3 horses.
+[18:01:35] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] Your version of VeinMiner (1.14.0) is up to date!
+[18:01:39] [Server thread/INFO]: [wSleep] Enabling wSleep v1.0
+[18:01:39] [Server thread/INFO]: [wSleep] Enabled
+[18:01:39] [Server thread/INFO]: [wSleep] Add me on discord at: Dayton#6136
+[18:01:39] [Server thread/INFO]: [ServerMinimap] Enabling ServerMinimap v0.7.19
+[18:01:39] [Server thread/INFO]: [ServerMinimap] Created Minimap with ID 0. Use /give <name> MAP 1 0 to get the map as item. (Vanilla command)
+[18:01:39] [Server thread/INFO]: [ServerMinimap] Alternative command: /minimap (Plugin command)
+[18:01:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:01:39] [Server thread/INFO]: Done (24.624s)! For help, type "help"
+[18:01:56] [User Authenticator #1/INFO]: UUID of player Kyuukiya is 8742f0f1-ead2-4b69-9575-3bc02449604e
+[18:01:56] [Server thread/WARN]: Using offline mode UUID file for player Kyuukiya as it is the only copy we can find.
+[18:01:58] [Server thread/INFO]: Kyuukiya[/10.0.0.76:52680] logged in with entity id 104 at ([world]-256.62445340578034, 71.0, 221.16987154633418)
+[18:02:20] [Server thread/INFO]: Kyuukiya lost connection: Disconnected
+[18:02:21] [Server thread/INFO]: Kyuukiya left the game
+[18:02:39] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[18:02:39] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[18:02:39] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:02:39] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:02:39] [Server thread/INFO]: Debug logging is disabled
+[18:02:39] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:02:39] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[18:02:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:02:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:02:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[18:02:39] [Server thread/INFO]: Max TNT Explosions: 100
+[18:02:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:02:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:02:39] [Server thread/INFO]: Mob Spawn Range: 4
+[18:02:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: View Distance: 10
+[18:02:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:02:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:02:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:02:39] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:02:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:02:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:02:39] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:02:39] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[18:02:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:02:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:02:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[18:02:39] [Server thread/INFO]: Max TNT Explosions: 100
+[18:02:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:02:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:02:39] [Server thread/INFO]: Mob Spawn Range: 4
+[18:02:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: View Distance: 10
+[18:02:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:02:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:02:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:02:39] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:02:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:02:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:02:39] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:02:39] [Server thread/INFO]: Entity Activation Range: An 6 / Mo 16 / Mi 2 / Tiv true
+[18:02:39] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:02:39] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[18:02:39] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[18:02:39] [Server thread/INFO]: Max TNT Explosions: 100
+[18:02:39] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:02:39] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:02:39] [Server thread/INFO]: Mob Spawn Range: 4
+[18:02:39] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Potato Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Vine Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[18:02:39] [Server thread/INFO]: View Distance: 10
+[18:02:39] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:02:39] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:02:39] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:02:39] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:02:39] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:02:39] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:02:39] [Server thread/INFO]: [ServerMinimap] Disabling ServerMinimap v0.7.19
+[18:02:39] [Server thread/INFO]: [wSleep] Disabling wSleep v1.0
+[18:02:39] [Server thread/INFO]: [mcMMOHorse] Disabling mcMMOHorse v4.3.53
+[18:02:39] [Server thread/INFO]: [0;32;1mAll horses saved to database.[m
+[18:02:39] [Server thread/INFO]: [PlugMan] Disabling PlugMan v2.1.6
+[18:02:39] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[18:02:39] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v1.14.0
+[18:02:39] [Server thread/INFO]: [VeinMiner] Clearing localized data
+[18:02:39] [Server thread/INFO]: [HiddenLorax] Disabling HiddenLorax v1.1.1
+[18:02:39] [Server thread/INFO]: [MinePacks] Disabling MinePacks v1.19.2
+[18:02:39] [Server thread/INFO]: [MinePacks] Checking for updates ...
+[18:02:40] [Server thread/INFO]: Minepacks-Connection-Pool - is closing down.
+[18:02:43] [Server thread/INFO]: [MinePacks] MinePacks has been disabled.
+[18:02:43] [Server thread/INFO]: [isSlimeChunk] Disabling isSlimeChunk v1.0.1
+[18:02:43] [Server thread/INFO]: [Horse_Inspector] Disabling Horse_Inspector v1.2.0
+[18:02:43] [Server thread/INFO]: [PluginConstructorAPI] Disabling PluginConstructorAPI v1.0.51
+[18:02:43] [Server thread/INFO]: [dynmap] Disabling dynmap v3.0-beta-3-160
+[18:02:43] [Server thread/ERROR]: Error occurred while disabling dynmap v3.0-beta-3-160 (Is it up to date?)
+java.lang.NullPointerException: null
+	at org.dynmap.bukkit.DynmapPlugin.onDisable(DynmapPlugin.java:927) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:265) ~[spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:377) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:437) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:429) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.plugin.SimplePluginManager.clearPlugins(SimplePluginManager.java:472) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.reload(CraftServer.java:771) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.Bukkit.reload(Bukkit.java:576) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchCommand(CraftServer.java:707) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchServerCommand(CraftServer.java:692) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.handleCommandQueue(DedicatedServer.java:433) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:397) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:956) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:801) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+[18:02:43] [Server thread/INFO]: Loaded 6 recipes
+[18:02:43] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, treecapitator-v2-5-1-1551454023.zip
+[18:02:44] [Server thread/INFO]: Loaded 6 recipes
+[18:02:44] [Server thread/INFO]: Loaded 90 custom command functions
+[18:02:44] [Server thread/WARN]: Plugin dynmap v3.0-beta-3-160 does not specify an api-version.
+[18:02:44] [Server thread/WARN]: Plugin isSlimeChunk v1.0.1 does not specify an api-version.
+[18:02:44] [Server thread/WARN]: Plugin MinePacks v1.19.2 does not specify an api-version.
+[18:02:44] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
+[18:02:44] [Server thread/ERROR]: Could not load 'plugins/TPPets-2.2.1.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: WorldEdit
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:220) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.loadPlugins(CraftServer.java:347) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.reload(CraftServer.java:803) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.Bukkit.reload(Bukkit.java:576) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchCommand(CraftServer.java:707) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchServerCommand(CraftServer.java:692) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.handleCommandQueue(DedicatedServer.java:433) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:397) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:956) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:801) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+[18:02:44] [Server thread/WARN]: Plugin wSleep v1.0 does not specify an api-version.
+[18:02:44] [Server thread/INFO]: [dynmap] Loading dynmap v3.0-beta-3-160
+[18:02:44] [Server thread/INFO]: [dynmap] version=git-Spigot-4f661b2-d06991d (MC: 1.14.1)
+[18:02:44] [Server thread/ERROR]: [dynmap] Unable to find method getById for net.minecraft.server.v1_14_R1.Block
+[18:02:44] [Server thread/ERROR]: [dynmap] Unable to find method a for net.minecraft.server.v1_14_R1.BiomeBase
+[18:02:44] [Server thread/ERROR]: [dynmap] Unable to find field y for net.minecraft.server.v1_14_R1.BiomeBase
+[18:02:44] [Server thread/INFO]: [dynmap] Unload queue not found - default to unload all chunks
+[18:02:44] [Server thread/INFO]: [dynmap] inhabitedTicks field not found - inhabited shader not functional
+[18:02:44] [Server thread/ERROR]: [dynmap] Unable to find method b for net.minecraft.server.v1_14_R1.WorldBorder
+[18:02:44] [Server thread/ERROR]: Error initializing dynmap - bukkit version incompatible! initializing dynmap v3.0-beta-3-160 (Is it up to date?)
+java.lang.IllegalArgumentException: Error initializing dynmap - bukkit version incompatible!
+	at org.dynmap.bukkit.helper.BukkitVersionHelperGeneric.<init>(BukkitVersionHelperGeneric.java:159) ~[?:?]
+	at org.dynmap.bukkit.helper.BukkitVersionHelperCB.<init>(BukkitVersionHelperCB.java:45) ~[?:?]
+	at org.dynmap.bukkit.Helper.getHelper(Helper.java:46) ~[?:?]
+	at org.dynmap.bukkit.DynmapPlugin.onLoad(DynmapPlugin.java:780) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.loadPlugins(CraftServer.java:352) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.reload(CraftServer.java:803) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.Bukkit.reload(Bukkit.java:576) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:27) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:149) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchCommand(CraftServer.java:707) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchServerCommand(CraftServer.java:692) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.handleCommandQueue(DedicatedServer.java:433) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.b(DedicatedServer.java:397) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:956) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:801) [spigot.jar:git-Spigot-4f661b2-d06991d]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
+[18:02:44] [Server thread/INFO]: [PluginConstructorAPI] Loading PluginConstructorAPI v1.0.51
+[18:02:44] [Server thread/INFO]: [Horse_Inspector] Loading Horse_Inspector v1.2.0
+[18:02:44] [Server thread/INFO]: [isSlimeChunk] Loading isSlimeChunk v1.0.1
+[18:02:44] [Server thread/INFO]: [MinePacks] Loading MinePacks v1.19.2
+[18:02:44] [Server thread/INFO]: [HiddenLorax] Loading HiddenLorax v1.1.1
+[18:02:44] [Server thread/INFO]: [VeinMiner] Loading VeinMiner v1.14.0
+[18:02:44] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[18:02:44] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.6
+[18:02:44] [Server thread/INFO]: [mcMMOHorse] Loading mcMMOHorse v4.3.53
+[18:02:44] [Server thread/INFO]: [wSleep] Loading wSleep v1.0
+[18:02:44] [Server thread/INFO]: [ServerMinimap] Loading ServerMinimap v0.7.19
+[18:02:44] [Server thread/INFO]: [dynmap] Enabling dynmap v3.0-beta-3-160
+[18:02:44] [Server thread/INFO]: [dynmap] Dynmap is disabled (unsupported platform)
+[18:02:44] [Server thread/INFO]: [PluginConstructorAPI] Enabling PluginConstructorAPI v1.0.51
+[18:02:44] [Server thread/INFO]: [Horse_Inspector] Enabling Horse_Inspector v1.2.0
+[18:02:44] [Server thread/INFO]: [Horse_Inspector] Config file loaded.
+[18:02:45] [Server thread/INFO]: [Horse_Inspector] Updated version available: 1.2.1
+[18:02:45] [Server thread/INFO]: [isSlimeChunk] Enabling isSlimeChunk v1.0.1
+[18:02:45] [Server thread/INFO]: [MinePacks] Enabling MinePacks v1.19.2
+[18:02:45] [Server thread/INFO]: [MinePacks] [32mConfig file successfully loaded.[0m
+[18:02:45] [Server thread/INFO]: [MinePacks] [32mLanguage file successfully loaded.[0m
+[18:02:45] [Server thread/INFO]: Minepacks-Connection-Pool - is starting.
+[18:02:45] [Server thread/INFO]: [MinePacks] Checking backpack storage format ...
+[18:02:45] [Server thread/INFO]: [MinePacks] Checking for updates ...
+[18:02:45] [Server thread/INFO]: [MinePacks] MinePacks has been enabled!
+[18:02:45] [Server thread/INFO]: [HiddenLorax] Enabling HiddenLorax v1.1.1
+[18:02:45] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v1.14.0
+[18:02:45] [Server thread/INFO]: [VeinMiner] Registering events
+[18:02:45] [Server thread/INFO]: [VeinMiner] Registering commands
+[18:02:45] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[18:02:45] [Server thread/INFO]: [VeinMiner] Thank you for enabling Metrics! I greatly appreciate the use of plugin statistics
+[18:02:45] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[18:02:45] [Server thread/INFO]: [VeinMiner] Unknown world found... "WorldName". Ignoring...
+[18:02:45] [Server thread/INFO]: [VeinMiner] Performing an update check!
+[18:02:45] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4
+[18:02:45] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[18:02:45] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[18:02:45] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.6
+[18:02:45] [Server thread/INFO]: [mcMMOHorse] Enabling mcMMOHorse v4.3.53
+[18:02:45] [Server thread/INFO]: [mcMMOHorse] Finished loading 3 horses.
+[18:02:45] [ForkJoinPool.commonPool-worker-2/INFO]: [VeinMiner] Your version of VeinMiner (1.14.0) is up to date!
+[18:02:49] [Server thread/INFO]: [wSleep] Enabling wSleep v1.0
+[18:02:49] [Server thread/INFO]: [wSleep] Enabled
+[18:02:49] [Server thread/INFO]: [wSleep] Add me on discord at: Dayton#6136
+[18:02:49] [Server thread/INFO]: [ServerMinimap] Enabling ServerMinimap v0.7.19
+[18:02:49] [Server thread/INFO]: [ServerMinimap] Created Minimap with ID 0. Use /give <name> MAP 1 0 to get the map as item. (Vanilla command)
+[18:02:49] [Server thread/INFO]: [ServerMinimap] Alternative command: /minimap (Plugin command)
+[18:02:49] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:02:49] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[18:02:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10590ms or 211 ticks behind
+[18:03:18] [User Authenticator #2/INFO]: UUID of player Kyuukiya is 8742f0f1-ead2-4b69-9575-3bc02449604e
+[18:03:19] [Server thread/INFO]: Kyuukiya[/10.0.0.76:52684] logged in with entity id 573 at ([world]8580.492678302322, 64.0, -3756.8522389255486)
+[18:05:45] [Server thread/INFO]: Kyuukiya issued server command: /gamemode creative
+[18:05:45] [Server thread/INFO]: [Kyuukiya: Set own game mode to Creative Mode]
+[18:06:53] [Server thread/WARN]: Kyuukiya moved too quickly! 3.0775561200553057,0.0,28.387124568526815
+[18:06:53] [Server thread/WARN]: Kyuukiya moved too quickly! 2.87452869558183,0.0,27.88409610285953
+[18:06:53] [Server thread/WARN]: Kyuukiya moved too quickly! 2.87452869558183,0.0,27.88409610285953
+[18:13:17] [Server thread/INFO]: Kyuukiya issued server command: /backpack
+[18:15:00] [Server thread/INFO]: Kyuukiya issued server command: /gamemode survival
+[18:15:00] [Server thread/INFO]: [Kyuukiya: Set own game mode to Survival Mode]

@@ -1,0 +1,22 @@
+Prefix: '&6&lLogin &8&l»'
+
+Login: '&2Du hast dich erfolgreich angemeldet.'
+Register: '&2Du hast dich erfolgreich registriert.'
+ChangePassword: '&2Du hast dein Passwort erfolgreich geändert.'
+
+WrongPassword: '&4Falsches Passwort.'
+PasswordsNotEqual: '&4Die Passwörter stimmen nicht überein.'
+WrongPasswordSyntax: '&4Verwende ein Passwort mit einer Länge zwischen 3 und 16 Zeichen.'
+
+LoginUsage: '&7Bitte melde dich an: &e/login <Passwort>'
+RegisterUsage: '&7Bitte registriere dich: &e/register <Passwort> <Passwort>'
+ChangePasswordUsage: '&7Passwort ändern: &e/changepassword <Altes Passwort> <Neues Passwort> <Neues Passwort>'
+
+AlreadyLoggedIn: '&4Du bist bereits angemeldet.'
+KickReason: '&4Deine Login-Zeit ist abgelaufen.'
+
+SetLoginLocation: '&7Du hast die Login-Location gespeichert.'
+SetSpawnLocation: '&7Du hast die Spawn-Location gespeichert.'
+CantSaveLocation: '&7Die Location konnte nicht gespeichert werden.'
+
+NoPermission: '&4Keine Berechtigung.'
