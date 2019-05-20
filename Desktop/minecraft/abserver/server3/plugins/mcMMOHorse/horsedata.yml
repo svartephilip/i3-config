@@ -4,12 +4,12 @@ Horses:
       name: Chicken Boy
       wrath: 4
       agility: 143
-      swiftness: 291
+      swiftness: 294
       vitality: 5
       color: BROWN
       isdead: false
       godmode: false
-      powerlevel: 86
+      powerlevel: 87
       style: BLACK_DOTS
       variant: HORSE
       hassaddle: true
@@ -53,12 +53,12 @@ Horses:
       name: Daisy Girl
       wrath: 0
       agility: 9
-      swiftness: 92
+      swiftness: 96
       vitality: 0
       color: WHITE
       isdead: false
       godmode: false
-      powerlevel: 19
+      powerlevel: 20
       style: WHITE_DOTS
       variant: HORSE
       hassaddle: true

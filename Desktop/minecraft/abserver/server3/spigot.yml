@@ -83,8 +83,8 @@ world-settings:
     zombie-aggressive-towards-villager: true
     nerf-spawner-mobs: false
     merge-radius:
-      exp: 3.0
-      item: 2.5
+      exp: 3.5
+      item: 6.5
     growth:
       cactus-modifier: 100
       cane-modifier: 100

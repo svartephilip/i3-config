@@ -1,3 +1,3 @@
 #!/bin/sh
 
-java -Xms1G -Xmx1G -XX:+UseConcMarkSweepGC -jar spigot.jar
+sudo nice java -Xms1G -Xmx1G -XX:+UseConcMarkSweepGC -jar spigot.jar
