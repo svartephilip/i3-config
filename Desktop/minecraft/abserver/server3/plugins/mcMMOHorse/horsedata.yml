@@ -3,13 +3,13 @@ Horses:
     cb353b79-3bab-4e8f-a01f-d11115697ac9:
       name: Chicken Boy
       wrath: 4
-      agility: 143
-      swiftness: 294
+      agility: 150
+      swiftness: 313
       vitality: 5
       color: BROWN
       isdead: false
       godmode: false
-      powerlevel: 87
+      powerlevel: 91
       style: BLACK_DOTS
       variant: HORSE
       hassaddle: true
@@ -28,16 +28,16 @@ Horses:
     d90a603e-a27a-4484-9e30-86de05e8ebd8:
       name: Rainbow Johnson
       wrath: 0
-      agility: 32
-      swiftness: 153
+      agility: 39
+      swiftness: 168
       vitality: 0
       color: GRAY
       isdead: false
       godmode: false
-      powerlevel: 37
+      powerlevel: 40
       style: WHITE
       variant: HORSE
-      hassaddle: false
+      hassaddle: true
       sex: false
       spawned: false
       defaultSpeed: 0.26206755900133377
@@ -52,13 +52,13 @@ Horses:
     1e396ca9-e7f9-4327-a885-e6ccad6992fa:
       name: Daisy Girl
       wrath: 0
-      agility: 9
-      swiftness: 96
+      agility: 23
+      swiftness: 144
       vitality: 0
       color: WHITE
       isdead: false
       godmode: false
-      powerlevel: 20
+      powerlevel: 33
       style: WHITE_DOTS
       variant: HORSE
       hassaddle: true
