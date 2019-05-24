@@ -143,6 +143,9 @@ set wrap "Wrap lines
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Pressing ss will toggle and untoggle spell checking
 map <leader>ss :setlocal spell!<cr>
+map <leader>snn :setlocal spelllang=nn<cr>
+map <leader>snb :setlocal spelllang=nb<cr>
+map <leader>sen :setlocal spelllang=en<cr>
 map <leader>gg :GrammarousCheck<cr>
 map <leader>GG :GrammarousReset<cr>
 
