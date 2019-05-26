@@ -352,7 +352,6 @@ bindsym XF86TouchpadToggle exec touchpad
 # wallpaper
 bindsym $mod+shift+x exec i3lock -i ~/.config/i3/wallpapers/"space storm 4k_blur.png" -t
 # exec_always feh --bg-scale ~/.config/i3/wallpapers/'space storm 4k.jpg'
-
 exec wal -R
 
 exec_always --no-startup-id "sh -c 'sleep 3; exec setxkbmap -option caps:swapescape'"
