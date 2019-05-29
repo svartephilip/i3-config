@@ -358,9 +358,9 @@ exec_always --no-startup-id "sh -c 'sleep 3; exec setxkbmap -option caps:swapesc
 exec_always --no-startup-id "sh -c 'sleep 6; exec setxkbmap -option compose:prsc'"
 
 # enable tapping
-exec --no-startup-id "xinput set-prop 13 288 1"
+exec --no-startup-id "xinput set-prop 13 287 1"
 # enable middle emulation
-exec --no-startup-id "xinput set-prop 13 306 1"
+exec --no-startup-id "xinput set-prop 13 305 1"
 # exec --no-startup-id "xinput set-prop 13 308 1"
 
 exec --no-startup-id "sh -c 'sleep 30; exec ~/scripts/push-to-git.sh'"
