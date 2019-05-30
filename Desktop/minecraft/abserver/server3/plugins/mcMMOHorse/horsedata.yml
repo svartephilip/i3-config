@@ -19,10 +19,10 @@ Horses:
       defaultJump: 0.7970716905002183
       inventory:
       - ==: org.bukkit.inventory.ItemStack
-        v: 1957
+        v: 1963
         type: SADDLE
       - ==: org.bukkit.inventory.ItemStack
-        v: 1957
+        v: 1963
         type: IRON_HORSE_ARMOR
   Kyuukiya:
     d90a603e-a27a-4484-9e30-86de05e8ebd8:
@@ -44,10 +44,10 @@ Horses:
       defaultJump: 0.5332639546839196
       inventory:
       - ==: org.bukkit.inventory.ItemStack
-        v: 1957
+        v: 1963
         type: SADDLE
       - ==: org.bukkit.inventory.ItemStack
-        v: 1957
+        v: 1963
         type: GOLDEN_HORSE_ARMOR
     1e396ca9-e7f9-4327-a885-e6ccad6992fa:
       name: Daisy Girl
@@ -67,8 +67,8 @@ Horses:
       defaultJump: 0.7225464741268007
       inventory:
       - ==: org.bukkit.inventory.ItemStack
-        v: 1957
+        v: 1963
         type: SADDLE
       - ==: org.bukkit.inventory.ItemStack
-        v: 1957
+        v: 1963
         type: GOLDEN_HORSE_ARMOR

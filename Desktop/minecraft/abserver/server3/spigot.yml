@@ -100,6 +100,7 @@ world-settings:
       vine-modifier: 100
       cocoa-modifier: 100
     entity-activation-range:
+      raiders: 48
       animals: 6
       monsters: 16
       misc: 2
