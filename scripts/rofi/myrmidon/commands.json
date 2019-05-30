@@ -1,11 +1,11 @@
 [
   {
 	"name": "1: touchpad while typing = true",
-	"command": "xinput set-prop 13 298 0"
+	"command": "xinput set-prop 13 297 0"
   },
   {
 	"name": "2: touchpad while typing = false",
-	"command": "xinput set-prop 13 298 1"
+	"command": "xinput set-prop 13 297 1"
   },
   {
 	"name": "3: i3 config",
