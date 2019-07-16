@@ -1,0 +1,16 @@
+dynmap v3.0-beta-3-160
+HiddenLorax v1.1.1
+Horse_Inspector v1.2.0
+isSlimeChunk v1.0.1
+mcMMOHorse v4.3.55
+Minepacks v2.0.7-Release
+Multiverse-Core v2.5.0-b727
+Multiverse-Inventories v2.5.0-SNAPSHOT-b444
+PermissionsEx v1.23.4
+PluginConstructorAPI v1.0.51
+PlugMan v2.1.6
+ServerMinimap v0.7.19
+TPPets v2.2.1
+VeinMiner v1.14.0
+WorldEdit v7.0.0;214af8a
+wSleep v1.0
