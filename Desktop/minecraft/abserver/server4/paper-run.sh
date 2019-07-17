@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VERSION=${1}
+VERSION=${1:-1.14}
 ~/scripts/push-to-git.sh
 sudo rm ./paperclip.jar
 sudo wget https://papermc.io/ci/job/Paper-$VERSION/lastSuccessfulBuild/artifact/paperclip.jar
