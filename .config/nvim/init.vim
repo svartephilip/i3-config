@@ -29,6 +29,9 @@ call plug#end()
 filetype plugin on
 filetype indent on
 
+"Enable Pandoc after
+let g:pandoc#after#modules#enabled = ["tablemode"]
+
 "" Get a nonsense text like Lorem ipsum
 call fake#define('sentense', 'fake#capitalize('
                         \ . 'join(map(range(fake#int(3,15)),"fake#gen(\"nonsense\")"))'
@@ -158,7 +161,7 @@ map <leader>sd z= " suggested words
 nmap <leader>gp :<Plug>(grammarous-move-to-previous-error)<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" => Vim
+" => Vim Table Mode
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 function! s:isAtStartOfLine(mapping)
@@ -175,6 +178,6 @@ inoreabbrev <expr> __
           \ <SID>isAtStartOfLine('__') ?
           \ '<c-o>:silent! TableModeDisable<cr>' : '__'
 
-let g:table_mode_corner = '+'
-let g:table_mode_corner_corner='+'
-" let g:table_mode_header_fillchar='='
+"let g:table_mode_corner='+'
+"let g:table_mode_corner_corner='+'
+let g:table_mode_header_fillchar='='
