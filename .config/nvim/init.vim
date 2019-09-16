@@ -30,7 +30,7 @@ filetype plugin on
 filetype indent on
 
 "Enable Pandoc after
-let g:pandoc#after#modules#enabled = ["tablemode"]
+let g:pandoc#after#modules#enabled = ["tablemode", "ultisnips"]
 
 "" Get a nonsense text like Lorem ipsum
 call fake#define('sentense', 'fake#capitalize('
