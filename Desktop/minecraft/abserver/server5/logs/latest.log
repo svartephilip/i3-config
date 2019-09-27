@@ -1,0 +1,627 @@
+[16:39:53] [Server thread/INFO]: Loading properties
+[16:39:53] [Server thread/INFO]: This server is running Paper version git-Paper-148 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[16:39:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:39:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:39:54] [Server thread/INFO]: Debug logging is disabled
+[16:39:54] [Server thread/INFO]: Default game type: SURVIVAL
+[16:39:54] [Server thread/INFO]: Generating keypair
+[16:39:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:39:54] [Server thread/INFO]: Using epoll channel type
+[16:39:59] [Server thread/WARN]: Plugin dynmap v2.5-Dev201706100405 does not specify an api-version.
+[16:39:59] [Server thread/WARN]: Plugin isSlimeChunk v1.0.1 does not specify an api-version.
+[16:39:59] [Server thread/WARN]: Plugin PermissionsEx v1.23.4 does not specify an api-version.
+[16:39:59] [Server thread/WARN]: Plugin TPPets v2.2.1 does not specify an api-version.
+[16:39:59] [Server thread/WARN]: Plugin wSleep v1.0 does not specify an api-version.
+[16:40:00] [Server thread/WARN]: Plugin Multiverse-Core v2.5.0-b727 does not specify an api-version.
+[16:40:00] [Server thread/WARN]: Plugin Multiverse-Inventories v2.5.0-SNAPSHOT-b444 does not specify an api-version.
+[16:40:00] [Server thread/INFO]: [dynmap] Loading dynmap v2.5-Dev201706100405
+[16:40:00] [Server thread/INFO]: [dynmap] version=git-Paper-148 (MC: 1.14.4)
+[16:40:00] [Server thread/ERROR]: [dynmap] Unable to find method getById for net.minecraft.server.v1_14_R1.Block
+[16:40:00] [Server thread/ERROR]: [dynmap] Unable to find method a for net.minecraft.server.v1_14_R1.BiomeBase
+[16:40:00] [Server thread/ERROR]: [dynmap] Unable to find field temperature for net.minecraft.server.v1_14_R1.BiomeBase
+[16:40:00] [Server thread/ERROR]: [dynmap] Unable to find field humidity for net.minecraft.server.v1_14_R1.BiomeBase
+[16:40:00] [Server thread/ERROR]: [dynmap] Unable to find field y for net.minecraft.server.v1_14_R1.BiomeBase
+[16:40:00] [Server thread/INFO]: [dynmap] Unload queue not found - default to unload all chunks
+[16:40:00] [Server thread/INFO]: [dynmap] inhabitedTicks field not found - inhabited shader not functional
+[16:40:00] [Server thread/ERROR]: [dynmap] Unable to find method b for net.minecraft.server.v1_14_R1.WorldBorder
+[16:40:00] [Server thread/ERROR]: [org.bukkit.craftbukkit.v1_14_R1.CraftServer] Error initializing dynmap - bukkit version incompatible! initializing dynmap v2.5-Dev201706100405 (Is it up to date?)
+java.lang.IllegalArgumentException: Error initializing dynmap - bukkit version incompatible!
+	at org.dynmap.bukkit.BukkitVersionHelperGeneric.<init>(BukkitVersionHelperGeneric.java:129) ~[?:?]
+	at org.dynmap.bukkit.BukkitVersionHelperCB.<init>(BukkitVersionHelperCB.java:39) ~[?:?]
+	at org.dynmap.bukkit.BukkitVersionHelper.getHelper(BukkitVersionHelper.java:42) ~[?:?]
+	at org.dynmap.bukkit.DynmapPlugin.onLoad(DynmapPlugin.java:756) ~[?:?]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.loadPlugins(CraftServer.java:360) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:218) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:869) ~[patched_1.14.4.jar:git-Paper-148]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+[16:40:00] [Server thread/INFO]: [PluginConstructorAPI] Loading PluginConstructorAPI v1.0.51
+[16:40:00] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.0.0;214af8a
+[16:40:01] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@c3d7282]
+[16:40:01] [Server thread/INFO]: [Horse_Inspector] Loading Horse_Inspector v1.2.0
+[16:40:01] [Server thread/INFO]: [EternalLight] Loading EternalLight v1.3
+[16:40:01] [Server thread/INFO]: [Minepacks] Loading Minepacks v2.0.8-Release
+[16:40:01] [Server thread/INFO]: [Minepacks] PCGF-PluginLib not installed. Switching to standalone mode!
+[16:40:01] [Server thread/INFO]: [isSlimeChunk] Loading isSlimeChunk v1.0.1
+[16:40:01] [Server thread/INFO]: [HiddenLorax] Loading HiddenLorax v1.1.1
+[16:40:01] [Server thread/INFO]: [VeinMiner] Loading VeinMiner v1.14.0
+[16:40:01] [Server thread/INFO]: [PermissionsEx] Loading PermissionsEx v1.23.4
+[16:40:01] [Server thread/INFO]: [PlugMan] Loading PlugMan v2.1.6
+[16:40:01] [Server thread/INFO]: [TPPets] Loading TPPets v2.2.1
+[16:40:01] [Server thread/INFO]: [mcMMOHorse] Loading mcMMOHorse v4.3.56
+[16:40:01] [Server thread/INFO]: [wSleep] Loading wSleep v1.0
+[16:40:01] [Server thread/INFO]: [ServerMinimap] Loading ServerMinimap v0.7.19
+[16:40:01] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v2.5.0-b727
+[16:40:01] [Server thread/INFO]: [Multiverse-Inventories] Loading Multiverse-Inventories v2.5.0-SNAPSHOT-b444
+[16:40:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:40:01] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.0.0;214af8a
+[16:40:01] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[16:40:01] [Server thread/INFO]: Preparing level "world"
+[16:40:02] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit, double-door-v1-0-2-1562433174.zip, treecapitator-v2-5-1-1551454023.zip
+[16:40:12] [Server thread/INFO]: Loaded 6 recipes
+[16:40:13] [Server thread/INFO]: Loaded 173 custom command functions
+[16:40:13] [Server thread/INFO]: -------- World Settings For [world] --------
+[16:40:13] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:40:13] [Server thread/INFO]: Mob Spawn Range: 8
+[16:40:13] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:40:13] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:40:13] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:40:13] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:40:13] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:40:13] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:40:13] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:40:13] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:40:13] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:40:13] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:40:13] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:40:13] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:40:13] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:40:13] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:40:13] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:40:13] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:40:13] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:40:13] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:40:13] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:40:13] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[16:40:13] [Server thread/INFO]: Max TNT Explosions: 100
+[16:40:13] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:40:13] [Server thread/INFO]: View Distance: 10
+[16:40:13] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:40:13] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:40:13] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:40:13] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:40:13] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:40:13] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:40:13] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R2 as the Bukkit adapter
+[16:40:14] [Server thread/WARN]: Failed to load the built-in legacy id registry
+java.lang.NoSuchMethodError: net.minecraft.server.v1_14_R1.IBlockState.d()Ljava/util/Collection;
+	at com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R2.getProperties(Spigot_v1_14_R2.java:398) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitBlockRegistry.getProperties(BukkitBlockRegistry.java:52) ~[?:?]
+	at com.sk89q.worldedit.world.block.BlockType.lambda$getPropertyMap$1(BlockType.java:121) ~[?:?]
+	at com.sk89q.worldedit.world.block.BlockType.updateField(BlockType.java:74) ~[?:?]
+	at com.sk89q.worldedit.world.block.BlockType.getPropertyMap(BlockType.java:120) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseProperties(DefaultBlockParser.java:171) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseLogic(DefaultBlockParser.java:314) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseFromInput(DefaultBlockParser.java:88) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseFromInput(DefaultBlockParser.java:61) ~[?:?]
+	at com.sk89q.worldedit.internal.registry.AbstractFactory.parseFromInput(AbstractFactory.java:73) ~[?:?]
+	at com.sk89q.worldedit.world.registry.LegacyMapper.loadFromResource(LegacyMapper.java:99) ~[?:?]
+	at com.sk89q.worldedit.world.registry.LegacyMapper.<init>(LegacyMapper.java:66) ~[?:?]
+	at com.sk89q.worldedit.world.registry.LegacyMapper.getInstance(LegacyMapper.java:179) ~[?:?]
+	at com.sk89q.worldedit.WorldEdit.loadMappings(WorldEdit.java:367) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.setupWorldData(WorldEditPlugin.java:153) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.access$100(WorldEditPlugin.java:89) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin$WorldInitListener.onWorldInit(WorldEditPlugin.java:466) ~[?:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:37) ~[patched_1.14.4.jar:git-Paper-148]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:80) ~[patched_1.14.4.jar:git-Paper-148]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[patched_1.14.4.jar:git-Paper-148]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:545) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.a(MinecraftServer.java:445) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.init(DedicatedServer.java:282) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:869) ~[patched_1.14.4.jar:git-Paper-148]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+[16:40:14] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[16:40:14] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[16:40:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:40:14] [Server thread/INFO]: Mob Spawn Range: 8
+[16:40:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:40:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:40:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:40:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[16:40:14] [Server thread/INFO]: Max TNT Explosions: 100
+[16:40:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:40:14] [Server thread/INFO]: View Distance: 10
+[16:40:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:40:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:40:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:40:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:40:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:40:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:40:14] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[16:40:14] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:40:14] [Server thread/INFO]: Mob Spawn Range: 8
+[16:40:14] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:40:14] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:40:14] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:40:14] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:40:14] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[16:40:14] [Server thread/INFO]: Max TNT Explosions: 100
+[16:40:14] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:40:14] [Server thread/INFO]: View Distance: 10
+[16:40:14] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:40:14] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:40:14] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:40:14] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:40:14] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:40:14] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:40:14] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[16:40:16] [Server thread/INFO]: Preparing spawn area: 0%
+[16:40:16] [Server thread/INFO]: Preparing spawn area: 0%
+[16:40:16] [Server thread/INFO]: Preparing spawn area: 0%
+[16:40:16] [Server thread/INFO]: Preparing spawn area: 0%
+[16:40:16] [Server-Worker-2/INFO]: Preparing spawn area: 0%
+[16:40:16] [Server thread/INFO]: Preparing spawn area: 29%
+[16:40:17] [Server thread/INFO]: Loaded 441 spawn chunks for world world
+[16:40:17] [Server thread/INFO]: Time elapsed: 3065 ms
+[16:40:17] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[16:40:18] [Server thread/INFO]: Preparing spawn area: 0%
+[16:40:18] [Server thread/INFO]: Preparing spawn area: 0%
+[16:40:18] [Server thread/INFO]: Preparing spawn area: 12%
+[16:40:18] [Server thread/INFO]: Loaded 441 spawn chunks for world world_nether
+[16:40:18] [Server thread/INFO]: Time elapsed: 1431 ms
+[16:40:18] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[16:40:19] [Server thread/INFO]: Preparing spawn area: 0%
+[16:40:19] [Server thread/INFO]: Preparing spawn area: 0%
+[16:40:19] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[16:40:20] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[16:40:20] [Server thread/INFO]: Loaded 441 spawn chunks for world world_the_end
+[16:40:20] [Server thread/INFO]: Time elapsed: 1647 ms
+[16:40:20] [Server thread/INFO]: [dynmap] Enabling dynmap v2.5-Dev201706100405*
+[16:40:20] [Server thread/INFO]: [dynmap] Dynmap is disabled (unsupported platform)
+[16:40:20] [Server thread/INFO]: [PluginConstructorAPI] Enabling PluginConstructorAPI v1.0.51
+[16:40:20] [Server thread/INFO]: [Horse_Inspector] Enabling Horse_Inspector v1.2.0
+[16:40:20] [Server thread/INFO]: [Horse_Inspector] Config file loaded.
+[16:40:21] [Server thread/INFO]: [Horse_Inspector] Updated version available: 1.2.1
+[16:40:21] [Server thread/INFO]: [EternalLight] Enabling EternalLight v1.3
+[16:40:21] [Server thread/INFO]: [Minepacks] Enabling Minepacks v2.0.8-Release
+[16:40:21] [Server thread/INFO]: [Minepacks] Starting Minepacks in standalone mode!
+[16:40:21] [Server thread/INFO]: [Minepacks] [32mConfig file successfully loaded.[0m
+[16:40:21] [Server thread/INFO]: [Minepacks] [32mLanguage file successfully loaded. Language: english  Author: GeorgH93[0m
+[16:40:21] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Starting...
+[16:40:21] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Start completed.
+[16:40:22] [Server thread/INFO]: [Minepacks] [32mItem name language file successfully loaded. Language: english  Author: GeorgH93[0m
+[16:40:22] [Server thread/INFO]: [Minepacks] Loading item translations ...
+[16:40:22] [Server thread/INFO]: [Minepacks] Finished loading item translations for 830 items.
+[16:40:22] [Server thread/INFO]: [Minepacks] [32m Minepacks has been enabled! [33m :) [0m
+[16:40:22] [Server thread/INFO]: [isSlimeChunk] Enabling isSlimeChunk v1.0.1*
+[16:40:22] [Server thread/INFO]: [HiddenLorax] Enabling HiddenLorax v1.1.1
+[16:40:22] [Server thread/INFO]: [VeinMiner] Enabling VeinMiner v1.14.0
+[16:40:22] [Server thread/INFO]: [VeinMiner] Registering events
+[16:40:22] [Server thread/INFO]: [VeinMiner] Registering commands
+[16:40:22] [Server thread/INFO]: [VeinMiner] Enabling Plugin Metrics
+[16:40:22] [Server thread/INFO]: [VeinMiner] Thank you for enabling Metrics! I greatly appreciate the use of plugin statistics
+[16:40:22] [Server thread/INFO]: [VeinMiner] Loading configuration options to local memory
+[16:40:22] [Server thread/INFO]: [VeinMiner] Unknown world found... "WorldName". Ignoring...
+[16:40:22] [Server thread/INFO]: [VeinMiner] Performing an update check!
+[16:40:22] [Server thread/INFO]: [PermissionsEx] Enabling PermissionsEx v1.23.4*
+[16:40:22] [Server thread/INFO]: [PermissionsEx] Initializing file backend
+[16:40:22] [Server thread/INFO]: [PermissionsEx] Permissions file successfully reloaded
+[16:40:22] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[16:40:22] [Server thread/INFO]: [PlugMan] Enabling PlugMan v2.1.6
+[16:40:22] [Server thread/INFO]: [TPPets] Enabling TPPets v2.2.1*
+[16:40:22] [Server thread/INFO]: [TPPets] Setting up database.
+[16:40:22] [Server thread/INFO]: [TPPets] Getting data from database.
+[16:40:22] [Server thread/INFO]: [TPPets] Registering commands and events.
+[16:40:22] [Server thread/INFO]: [TPPets] Preventing player damage...
+[16:40:22] [Server thread/INFO]: [TPPets] Preventing environmental damage...
+[16:40:22] [Server thread/INFO]: [TPPets] Preventing mob damage...
+[16:40:22] [Server thread/INFO]: [TPPets] Preventing owner damage...
+[16:40:22] [Server thread/INFO]: [TPPets] Vault not detected on this server. Permission tppets.tpanywhere will only work with online players.
+[16:40:22] [Server thread/INFO]: [mcMMOHorse] Enabling mcMMOHorse v4.3.56
+[16:40:22] [Server thread/INFO]: [mcMMOHorse] Finished loading 1 horses.
+[16:40:22] [ForkJoinPool.commonPool-worker-1/INFO]: [VeinMiner] Your version of VeinMiner (1.14.0) is up to date!
+[16:40:27] [Server thread/INFO]: [wSleep] Enabling wSleep v1.0*
+[16:40:27] [Server thread/INFO]: [wSleep] Enabled
+[16:40:27] [Server thread/INFO]: [wSleep] Add me on discord at: Dayton#6136
+[16:40:27] [Server thread/INFO]: [ServerMinimap] Enabling ServerMinimap v0.7.19
+[16:40:27] [Server thread/INFO]: [ServerMinimap] Created Minimap with ID 0. Use /give <name> MAP 1 0 to get the map as item. (Vanilla command)
+[16:40:27] [Server thread/INFO]: [ServerMinimap] Alternative command: /minimap (Plugin command)
+[16:40:27] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v2.5.0-b727*
+[16:40:27] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v2.5.0-b727" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [Rigby, fernferret, lithium3141, main--, dumptruckman].
+[16:40:27] [Server thread/INFO]: -------- World Settings For [creative] --------
+[16:40:27] [Server thread/INFO]: Experience Merge Radius: 3.0
+[16:40:27] [Server thread/INFO]: Mob Spawn Range: 8
+[16:40:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[16:40:27] [Server thread/INFO]: Cane Growth Modifier: 100%
+[16:40:27] [Server thread/INFO]: Melon Growth Modifier: 100%
+[16:40:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[16:40:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[16:40:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[16:40:27] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[16:40:27] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[16:40:27] [Server thread/INFO]: Potato Growth Modifier: 100%
+[16:40:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[16:40:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[16:40:27] [Server thread/INFO]: Vine Growth Modifier: 100%
+[16:40:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[16:40:27] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[16:40:27] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[16:40:27] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[16:40:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[16:40:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[16:40:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[16:40:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[16:40:27] [Server thread/INFO]: Max TNT Explosions: 100
+[16:40:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[16:40:27] [Server thread/INFO]: View Distance: 10
+[16:40:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[16:40:27] [Server thread/INFO]: Item Merge Radius: 2.5
+[16:40:27] [Server thread/INFO]: Item Despawn Rate: 6000
+[16:40:27] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[16:40:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[16:40:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[16:40:27] [Server thread/INFO]: Preparing start region for dimension 'creative'/minecraft:overworld
+[16:40:28] [Server thread/INFO]: Preparing spawn area: 0%
+[16:40:28] [Server thread/INFO]: Preparing spawn area: 0%
+[16:40:28] [Server thread/INFO]: Preparing spawn area: 0%
+[16:40:29] [Server thread/INFO]: Loaded 441 spawn chunks for world creative
+[16:40:29] [Server thread/INFO]: Time elapsed: 1395 ms
+[16:40:29] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[16:40:29] [Server thread/INFO]: [Multiverse-Core] Version 2.5.0-b727 (API v20) Enabled - By Rigby, fernferret, lithium3141, main-- and dumptruckman
+[16:40:29] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v2.5.0-SNAPSHOT-b444*
+[16:40:29] [Server thread/INFO]: [Multiverse-Inventories 2.5.0-SNAPSHOT-b444] enabled.
+[16:40:29] [Server thread/INFO]: Done (27.670s)! For help, type "help"
+[16:40:29] [Server thread/INFO]: Timings Reset
+[16:50:15] [User Authenticator #1/INFO]: UUID of player Kyuukiya is 8742f0f1-ead2-4b69-9575-3bc02449604e
+[16:50:15] [Server thread/INFO]: Kyuukiya[/192.168.8.103:55442] logged in with entity id 214 at ([creative]-295.3674453310769, 72.0, 299.7828063546045)
+[16:50:46] [Server thread/INFO]: Kyuukiya lost connection: Disconnected
+[16:50:46] [Server thread/INFO]: Kyuukiya left the game
+[16:50:46] [Server thread/INFO]: [TPPets] Pet with UUID 97b1fda9fbcc4d1ca6704445b4bac414 updated in database.
+[16:50:46] [Server thread/INFO]: [TPPets] Pet with UUID 98f4a48ac63f46f6909baa09a8e54113 updated in database.
+[16:52:01] [User Authenticator #2/INFO]: UUID of player svartephilip is 0d4305fd-4218-4222-a587-97177a14fc24
+[16:52:01] [Server thread/INFO]: svartephilip[/127.0.0.1:59016] logged in with entity id 415 at ([world]-283.365797010342, 67.0, 295.9299089973534)
+[16:52:18] [Server thread/INFO]: svartephilip has made the advancement [Take Aim]
+[16:52:41] [User Authenticator #2/INFO]: UUID of player Kyuukiya is 8742f0f1-ead2-4b69-9575-3bc02449604e
+[16:52:41] [Server thread/INFO]: Kyuukiya[/192.168.8.103:55520] logged in with entity id 628 at ([creative]-279.1955722052129, 74.38172702217688, 298.135177061953)
+[16:53:14] [Server thread/INFO]: svartephilip issued server command: /mvtp creative
+[16:53:14] [Server thread/INFO]: [TPPets] Pet with UUID 97b1fda9fbcc4d1ca6704445b4bac414 updated in database.
+[16:53:14] [Server thread/INFO]: [TPPets] Pet with UUID 98f4a48ac63f46f6909baa09a8e54113 updated in database.
+[16:57:33] [Server thread/INFO]: svartephilip issued server command: /mvgamerule doFireTick true
+[17:00:29] [Server thread/INFO]: All horses saved to database.
+[17:06:51] [Server thread/INFO]: svartephilip issued server command: //wand
+[17:07:08] [Server thread/INFO]: svartephilip issued server command: //set minecraft:spruce_planks
+[17:08:32] [Server thread/INFO]: svartephilip issued server command: /time set day
+[17:08:32] [Server thread/INFO]: [svartephilip: Set the time to 1000]
+[17:08:39] [Server thread/INFO]: svartephilip issued server command: /time set 2000
+[17:08:39] [Server thread/INFO]: [svartephilip: Set the time to 2000]
+[17:08:46] [Server thread/INFO]: svartephilip issued server command: /time set 5000
+[17:08:46] [Server thread/INFO]: [svartephilip: Set the time to 5000]
+[17:09:02] [Server thread/INFO]: svartephilip issued server command: /mvgamerule doDaylightCycle false
+[17:13:49] [Server thread/INFO]: svartephilip issued server command: //set minecraft:cobblestone
+[17:13:59] [Server thread/INFO]: svartephilip issued server command: //set minecraft:cobblestone
+[17:15:15] [Server thread/INFO]: svartephilip issued server command: //set minecraft:cobblestone
+[17:16:57] [Server thread/INFO]: svartephilip issued server command: //stack 1
+[17:16:57] [Server thread/ERROR]: An unexpected error while handling a WorldEdit command
+java.lang.NoSuchMethodError: net.minecraft.server.v1_14_R1.IBlockState.d()Ljava/util/Collection;
+	at com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R2.getProperties(Spigot_v1_14_R2.java:404) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitBlockRegistry.getProperties(BukkitBlockRegistry.java:52) ~[?:?]
+	at com.sk89q.worldedit.world.block.BlockType.lambda$getPropertyMap$1(BlockType.java:121) ~[?:?]
+	at com.sk89q.worldedit.world.block.BlockType.updateField(BlockType.java:74) ~[?:?]
+	at com.sk89q.worldedit.world.block.BlockType.getPropertyMap(BlockType.java:120) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseProperties(DefaultBlockParser.java:171) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseLogic(DefaultBlockParser.java:314) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseFromInput(DefaultBlockParser.java:88) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseFromInput(DefaultBlockParser.java:61) ~[?:?]
+	at com.sk89q.worldedit.internal.registry.AbstractFactory.parseFromInput(AbstractFactory.java:73) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitAdapter$1.apply(BukkitAdapter.java:391) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitAdapter$1.apply(BukkitAdapter.java:386) ~[?:?]
+	at java.util.HashMap.computeIfAbsent(HashMap.java:1127) ~[?:1.8.0_222]
+	at com.sk89q.worldedit.bukkit.BukkitAdapter.adapt(BukkitAdapter.java:386) ~[?:?]
+	at com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R2.getBlock(Spigot_v1_14_R2.java:231) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitWorld.getFullBlock(BukkitWorld.java:446) ~[?:?]
+	at com.sk89q.worldedit.EditSession.getFullBlock(EditSession.java:573) ~[?:?]
+	at com.sk89q.worldedit.function.block.ExtentBlockCopy.apply(ExtentBlockCopy.java:72) ~[?:?]
+	at com.sk89q.worldedit.function.RegionMaskingFilter.apply(RegionMaskingFilter.java:53) ~[?:?]
+	at com.sk89q.worldedit.function.visitor.RegionVisitor.resume(RegionVisitor.java:57) ~[?:?]
+	at com.sk89q.worldedit.function.operation.OperationQueue.resume(OperationQueue.java:89) ~[?:?]
+	at com.sk89q.worldedit.function.operation.DelegateOperation.resume(DelegateOperation.java:52) ~[?:?]
+	at com.sk89q.worldedit.function.operation.Operations.completeLegacy(Operations.java:55) ~[?:?]
+	at com.sk89q.worldedit.EditSession.stackCuboidRegion(EditSession.java:1222) ~[?:?]
+	at com.sk89q.worldedit.command.RegionCommands.stack(RegionCommands.java:333) ~[?:?]
+	at com.sk89q.worldedit.command.RegionCommandsRegistration._stack(RegionCommandsRegistration.java:541) ~[?:?]
+	at org.enginehub.piston.CommandManager.execute(CommandManager.java:158) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlatformCommandManager.handleCommand(PlatformCommandManager.java:471) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_222]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_222]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_222]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_222]
+	at com.sk89q.worldedit.util.eventbus.MethodEventHandler.dispatch(MethodEventHandler.java:58) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.onCommand(WorldEditPlugin.java:328) ~[?:?]
+	at com.sk89q.bukkit.util.DynamicPluginCommand.execute(DynamicPluginCommand.java:55) ~[?:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159) ~[patched_1.14.4.jar:git-Paper-148]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchCommand(CraftServer.java:739) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.PlayerConnection.handleCommand(PlayerConnection.java:1800) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.PlayerConnection.a(PlayerConnection.java:1608) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.PacketPlayInChat.a(PacketPlayInChat.java:47) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.PacketPlayInChat.a(PacketPlayInChat.java:5) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.PlayerConnectionUtils.lambda$ensureMainThread$0(PlayerConnectionUtils.java:23) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.TickTask.run(SourceFile:18) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.aX(MinecraftServer.java:1012) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.executeNext(MinecraftServer.java:1005) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.sleepForTick(MinecraftServer.java:989) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:922) ~[patched_1.14.4.jar:git-Paper-148]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+[17:17:21] [Server thread/INFO]: svartephilip issued server command: //stack 1
+[17:17:21] [Server thread/ERROR]: An unexpected error while handling a WorldEdit command
+java.lang.NoSuchMethodError: net.minecraft.server.v1_14_R1.IBlockState.d()Ljava/util/Collection;
+	at com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R2.getProperties(Spigot_v1_14_R2.java:404) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitBlockRegistry.getProperties(BukkitBlockRegistry.java:52) ~[?:?]
+	at com.sk89q.worldedit.world.block.BlockType.lambda$getPropertyMap$1(BlockType.java:121) ~[?:?]
+	at com.sk89q.worldedit.world.block.BlockType.updateField(BlockType.java:74) ~[?:?]
+	at com.sk89q.worldedit.world.block.BlockType.getPropertyMap(BlockType.java:120) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseProperties(DefaultBlockParser.java:171) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseLogic(DefaultBlockParser.java:314) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseFromInput(DefaultBlockParser.java:88) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseFromInput(DefaultBlockParser.java:61) ~[?:?]
+	at com.sk89q.worldedit.internal.registry.AbstractFactory.parseFromInput(AbstractFactory.java:73) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitAdapter$1.apply(BukkitAdapter.java:391) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitAdapter$1.apply(BukkitAdapter.java:386) ~[?:?]
+	at java.util.HashMap.computeIfAbsent(HashMap.java:1127) ~[?:1.8.0_222]
+	at com.sk89q.worldedit.bukkit.BukkitAdapter.adapt(BukkitAdapter.java:386) ~[?:?]
+	at com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R2.getBlock(Spigot_v1_14_R2.java:231) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitWorld.getFullBlock(BukkitWorld.java:446) ~[?:?]
+	at com.sk89q.worldedit.EditSession.getFullBlock(EditSession.java:573) ~[?:?]
+	at com.sk89q.worldedit.function.block.ExtentBlockCopy.apply(ExtentBlockCopy.java:72) ~[?:?]
+	at com.sk89q.worldedit.function.RegionMaskingFilter.apply(RegionMaskingFilter.java:53) ~[?:?]
+	at com.sk89q.worldedit.function.visitor.RegionVisitor.resume(RegionVisitor.java:57) ~[?:?]
+	at com.sk89q.worldedit.function.operation.OperationQueue.resume(OperationQueue.java:89) ~[?:?]
+	at com.sk89q.worldedit.function.operation.DelegateOperation.resume(DelegateOperation.java:52) ~[?:?]
+	at com.sk89q.worldedit.function.operation.Operations.completeLegacy(Operations.java:55) ~[?:?]
+	at com.sk89q.worldedit.EditSession.stackCuboidRegion(EditSession.java:1222) ~[?:?]
+	at com.sk89q.worldedit.command.RegionCommands.stack(RegionCommands.java:333) ~[?:?]
+	at com.sk89q.worldedit.command.RegionCommandsRegistration._stack(RegionCommandsRegistration.java:541) ~[?:?]
+	at org.enginehub.piston.CommandManager.execute(CommandManager.java:158) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlatformCommandManager.handleCommand(PlatformCommandManager.java:471) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_222]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_222]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_222]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_222]
+	at com.sk89q.worldedit.util.eventbus.MethodEventHandler.dispatch(MethodEventHandler.java:58) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.onCommand(WorldEditPlugin.java:328) ~[?:?]
+	at com.sk89q.bukkit.util.DynamicPluginCommand.execute(DynamicPluginCommand.java:55) ~[?:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159) ~[patched_1.14.4.jar:git-Paper-148]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchCommand(CraftServer.java:739) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.PlayerConnection.handleCommand(PlayerConnection.java:1800) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.PlayerConnection.a(PlayerConnection.java:1608) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.PacketPlayInChat.a(PacketPlayInChat.java:47) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.PacketPlayInChat.a(PacketPlayInChat.java:5) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.PlayerConnectionUtils.lambda$ensureMainThread$0(PlayerConnectionUtils.java:23) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.TickTask.run(SourceFile:18) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.aX(MinecraftServer.java:1012) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.executeNext(MinecraftServer.java:1005) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.sleepForTick(MinecraftServer.java:989) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:922) ~[patched_1.14.4.jar:git-Paper-148]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+[17:17:24] [Server thread/INFO]: svartephilip issued server command: //stack 2
+[17:17:24] [Server thread/ERROR]: An unexpected error while handling a WorldEdit command
+java.lang.NoSuchMethodError: net.minecraft.server.v1_14_R1.IBlockState.d()Ljava/util/Collection;
+	at com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R2.getProperties(Spigot_v1_14_R2.java:404) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitBlockRegistry.getProperties(BukkitBlockRegistry.java:52) ~[?:?]
+	at com.sk89q.worldedit.world.block.BlockType.lambda$getPropertyMap$1(BlockType.java:121) ~[?:?]
+	at com.sk89q.worldedit.world.block.BlockType.updateField(BlockType.java:74) ~[?:?]
+	at com.sk89q.worldedit.world.block.BlockType.getPropertyMap(BlockType.java:120) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseProperties(DefaultBlockParser.java:171) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseLogic(DefaultBlockParser.java:314) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseFromInput(DefaultBlockParser.java:88) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseFromInput(DefaultBlockParser.java:61) ~[?:?]
+	at com.sk89q.worldedit.internal.registry.AbstractFactory.parseFromInput(AbstractFactory.java:73) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitAdapter$1.apply(BukkitAdapter.java:391) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitAdapter$1.apply(BukkitAdapter.java:386) ~[?:?]
+	at java.util.HashMap.computeIfAbsent(HashMap.java:1127) ~[?:1.8.0_222]
+	at com.sk89q.worldedit.bukkit.BukkitAdapter.adapt(BukkitAdapter.java:386) ~[?:?]
+	at com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R2.getBlock(Spigot_v1_14_R2.java:231) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitWorld.getFullBlock(BukkitWorld.java:446) ~[?:?]
+	at com.sk89q.worldedit.EditSession.getFullBlock(EditSession.java:573) ~[?:?]
+	at com.sk89q.worldedit.function.block.ExtentBlockCopy.apply(ExtentBlockCopy.java:72) ~[?:?]
+	at com.sk89q.worldedit.function.RegionMaskingFilter.apply(RegionMaskingFilter.java:53) ~[?:?]
+	at com.sk89q.worldedit.function.visitor.RegionVisitor.resume(RegionVisitor.java:57) ~[?:?]
+	at com.sk89q.worldedit.function.operation.OperationQueue.resume(OperationQueue.java:89) ~[?:?]
+	at com.sk89q.worldedit.function.operation.DelegateOperation.resume(DelegateOperation.java:52) ~[?:?]
+	at com.sk89q.worldedit.function.operation.Operations.completeLegacy(Operations.java:55) ~[?:?]
+	at com.sk89q.worldedit.EditSession.stackCuboidRegion(EditSession.java:1222) ~[?:?]
+	at com.sk89q.worldedit.command.RegionCommands.stack(RegionCommands.java:333) ~[?:?]
+	at com.sk89q.worldedit.command.RegionCommandsRegistration._stack(RegionCommandsRegistration.java:541) ~[?:?]
+	at org.enginehub.piston.CommandManager.execute(CommandManager.java:158) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlatformCommandManager.handleCommand(PlatformCommandManager.java:471) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_222]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_222]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_222]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_222]
+	at com.sk89q.worldedit.util.eventbus.MethodEventHandler.dispatch(MethodEventHandler.java:58) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.onCommand(WorldEditPlugin.java:328) ~[?:?]
+	at com.sk89q.bukkit.util.DynamicPluginCommand.execute(DynamicPluginCommand.java:55) ~[?:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159) ~[patched_1.14.4.jar:git-Paper-148]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchCommand(CraftServer.java:739) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.PlayerConnection.handleCommand(PlayerConnection.java:1800) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.PlayerConnection.a(PlayerConnection.java:1608) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.PacketPlayInChat.a(PacketPlayInChat.java:47) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.PacketPlayInChat.a(PacketPlayInChat.java:5) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.PlayerConnectionUtils.lambda$ensureMainThread$0(PlayerConnectionUtils.java:23) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.TickTask.run(SourceFile:18) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.aX(MinecraftServer.java:1012) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.executeNext(MinecraftServer.java:1005) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.sleepForTick(MinecraftServer.java:989) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:922) ~[patched_1.14.4.jar:git-Paper-148]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+[17:17:44] [Server thread/INFO]: svartephilip issued server command: //stack 1
+[17:17:44] [Server thread/ERROR]: An unexpected error while handling a WorldEdit command
+java.lang.NoSuchMethodError: net.minecraft.server.v1_14_R1.IBlockState.d()Ljava/util/Collection;
+	at com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R2.getProperties(Spigot_v1_14_R2.java:404) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitBlockRegistry.getProperties(BukkitBlockRegistry.java:52) ~[?:?]
+	at com.sk89q.worldedit.world.block.BlockType.lambda$getPropertyMap$1(BlockType.java:121) ~[?:?]
+	at com.sk89q.worldedit.world.block.BlockType.updateField(BlockType.java:74) ~[?:?]
+	at com.sk89q.worldedit.world.block.BlockType.getPropertyMap(BlockType.java:120) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseProperties(DefaultBlockParser.java:171) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseLogic(DefaultBlockParser.java:314) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseFromInput(DefaultBlockParser.java:88) ~[?:?]
+	at com.sk89q.worldedit.extension.factory.parser.DefaultBlockParser.parseFromInput(DefaultBlockParser.java:61) ~[?:?]
+	at com.sk89q.worldedit.internal.registry.AbstractFactory.parseFromInput(AbstractFactory.java:73) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitAdapter$1.apply(BukkitAdapter.java:391) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitAdapter$1.apply(BukkitAdapter.java:386) ~[?:?]
+	at java.util.HashMap.computeIfAbsent(HashMap.java:1127) ~[?:1.8.0_222]
+	at com.sk89q.worldedit.bukkit.BukkitAdapter.adapt(BukkitAdapter.java:386) ~[?:?]
+	at com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_14_R2.getBlock(Spigot_v1_14_R2.java:231) ~[?:?]
+	at com.sk89q.worldedit.bukkit.BukkitWorld.getFullBlock(BukkitWorld.java:446) ~[?:?]
+	at com.sk89q.worldedit.EditSession.getFullBlock(EditSession.java:573) ~[?:?]
+	at com.sk89q.worldedit.function.block.ExtentBlockCopy.apply(ExtentBlockCopy.java:72) ~[?:?]
+	at com.sk89q.worldedit.function.RegionMaskingFilter.apply(RegionMaskingFilter.java:53) ~[?:?]
+	at com.sk89q.worldedit.function.visitor.RegionVisitor.resume(RegionVisitor.java:57) ~[?:?]
+	at com.sk89q.worldedit.function.operation.OperationQueue.resume(OperationQueue.java:89) ~[?:?]
+	at com.sk89q.worldedit.function.operation.DelegateOperation.resume(DelegateOperation.java:52) ~[?:?]
+	at com.sk89q.worldedit.function.operation.Operations.completeLegacy(Operations.java:55) ~[?:?]
+	at com.sk89q.worldedit.EditSession.stackCuboidRegion(EditSession.java:1222) ~[?:?]
+	at com.sk89q.worldedit.command.RegionCommands.stack(RegionCommands.java:333) ~[?:?]
+	at com.sk89q.worldedit.command.RegionCommandsRegistration._stack(RegionCommandsRegistration.java:541) ~[?:?]
+	at org.enginehub.piston.CommandManager.execute(CommandManager.java:158) ~[?:?]
+	at com.sk89q.worldedit.extension.platform.PlatformCommandManager.handleCommand(PlatformCommandManager.java:471) ~[?:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_222]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_222]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_222]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_222]
+	at com.sk89q.worldedit.util.eventbus.MethodEventHandler.dispatch(MethodEventHandler.java:58) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventHandler.handleEvent(EventHandler.java:73) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.dispatch(EventBus.java:193) ~[?:?]
+	at com.sk89q.worldedit.util.eventbus.EventBus.post(EventBus.java:181) ~[?:?]
+	at com.sk89q.worldedit.bukkit.WorldEditPlugin.onCommand(WorldEditPlugin.java:328) ~[?:?]
+	at com.sk89q.bukkit.util.DynamicPluginCommand.execute(DynamicPluginCommand.java:55) ~[?:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:159) ~[patched_1.14.4.jar:git-Paper-148]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.dispatchCommand(CraftServer.java:739) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.PlayerConnection.handleCommand(PlayerConnection.java:1800) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.PlayerConnection.a(PlayerConnection.java:1608) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.PacketPlayInChat.a(PacketPlayInChat.java:47) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.PacketPlayInChat.a(PacketPlayInChat.java:5) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.PlayerConnectionUtils.lambda$ensureMainThread$0(PlayerConnectionUtils.java:23) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.TickTask.run(SourceFile:18) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.executeTask(IAsyncTaskHandler.java:136) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandlerReentrant.executeTask(SourceFile:23) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.executeNext(IAsyncTaskHandler.java:109) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.aX(MinecraftServer.java:1012) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.executeNext(MinecraftServer.java:1005) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.IAsyncTaskHandler.awaitTasks(IAsyncTaskHandler.java:119) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.sleepForTick(MinecraftServer.java:989) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:922) ~[patched_1.14.4.jar:git-Paper-148]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+[17:20:29] [Server thread/INFO]: All horses saved to database.
+[17:21:06] [Server thread/INFO]: Kyuukiya lost connection: Disconnected
+[17:21:06] [Server thread/INFO]: Kyuukiya left the game
+[17:40:29] [Server thread/INFO]: All horses saved to database.
+[17:44:37] [Server thread/INFO]: svartephilip issued server command: /tp kyuukiya svartephilip
+[18:00:29] [Server thread/INFO]: All horses saved to database.
+[18:11:59] [Server thread/INFO]: svartephilip lost connection: Disconnected
+[18:11:59] [Server thread/INFO]: svartephilip left the game
+[18:11:59] [Server thread/INFO]: [TPPets] Pet with UUID 98f4a48ac63f46f6909baa09a8e54113 updated in database.
+[18:12:00] [Server thread/INFO]: [TPPets] Pet with UUID 97b1fda9fbcc4d1ca6704445b4bac414 updated in database.
+[18:12:04] [Server thread/INFO]: Stopping the server
+[18:12:04] [Server thread/INFO]: Stopping server
+[18:12:04] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v2.5.0-SNAPSHOT-b444
+[18:12:04] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v2.5.0-b727
+[18:12:04] [Server thread/INFO]: [ServerMinimap] Disabling ServerMinimap v0.7.19
+[18:12:04] [Server thread/INFO]: [wSleep] Disabling wSleep v1.0
+[18:12:04] [Server thread/INFO]: [mcMMOHorse] Disabling mcMMOHorse v4.3.56
+[18:12:04] [Server thread/INFO]: All horses saved to database.
+[18:12:04] [Server thread/INFO]: [TPPets] Disabling TPPets v2.2.1
+[18:12:04] [Server thread/INFO]: [PlugMan] Disabling PlugMan v2.1.6
+[18:12:04] [Server thread/INFO]: [PermissionsEx] Disabling PermissionsEx v1.23.4
+[18:12:04] [Server thread/INFO]: WEPIF: PermissionsEx detected! Using PermissionsEx for permissions.
+[18:12:04] [Server thread/INFO]: [VeinMiner] Disabling VeinMiner v1.14.0
+[18:12:04] [Server thread/INFO]: [VeinMiner] Clearing localized data
+[18:12:04] [Server thread/INFO]: [HiddenLorax] Disabling HiddenLorax v1.1.1
+[18:12:04] [Server thread/INFO]: [isSlimeChunk] Disabling isSlimeChunk v1.0.1
+[18:12:04] [Server thread/INFO]: [Minepacks] Disabling Minepacks v2.0.8-Release
+[18:12:05] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown initiated...
+[18:12:05] [Server thread/INFO]: [at.pcgamingfreaks.MinepacksStandalone.libs.com.zaxxer.hikari.HikariDataSource] Minepacks-Connection-Pool - Shutdown completed.
+[18:12:08] [Server thread/INFO]: [Minepacks] [31m Minepacks has been disabled. [33m :( [0m
+[18:12:08] [Server thread/INFO]: [EternalLight] Disabling EternalLight v1.3
+[18:12:08] [Server thread/INFO]: [Horse_Inspector] Disabling Horse_Inspector v1.2.0
+[18:12:08] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.0.0;214af8a
+[18:12:08] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[18:12:08] [Server thread/INFO]: [PluginConstructorAPI] Disabling PluginConstructorAPI v1.0.51
+[18:12:08] [Server thread/INFO]: [dynmap] Disabling dynmap v2.5-Dev201706100405
+[18:12:08] [Server thread/ERROR]: Error occurred while disabling dynmap v2.5-Dev201706100405 (Is it up to date?)
+java.lang.NullPointerException: null
+	at org.dynmap.bukkit.DynmapPlugin.onDisable(DynmapPlugin.java:902) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:265) ~[patched_1.14.4.jar:git-Paper-148]
+	at org.bukkit.plugin.java.JavaPluginLoader.disablePlugin(JavaPluginLoader.java:373) ~[patched_1.14.4.jar:git-Paper-148]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:453) ~[patched_1.14.4.jar:git-Paper-148]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:439) ~[patched_1.14.4.jar:git-Paper-148]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:432) ~[patched_1.14.4.jar:git-Paper-148]
+	at org.bukkit.craftbukkit.v1_14_R1.CraftServer.disablePlugins(CraftServer.java:401) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.stop(MinecraftServer.java:727) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.DedicatedServer.stop(DedicatedServer.java:742) ~[patched_1.14.4.jar:git-Paper-148]
+	at net.minecraft.server.v1_14_R1.MinecraftServer.run(MinecraftServer.java:959) ~[patched_1.14.4.jar:git-Paper-148]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_222]
+[18:12:08] [Server thread/INFO]: Saving players
+[18:12:08] [Server thread/INFO]: Saving worlds
+[18:12:08] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[18:12:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:12:08] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[18:12:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:12:08] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[18:12:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:12:08] [Server thread/INFO]: Saving chunks for level 'creative'/minecraft:creative
+[18:12:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (creative): All chunks are saved
+[18:12:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:12:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:12:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:12:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (creative): All chunks are saved

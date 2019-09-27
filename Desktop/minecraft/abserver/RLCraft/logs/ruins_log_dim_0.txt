@@ -1,0 +1,13 @@
+Did not find any Building data for ./config/ruins_config/taiga, creating empty folder for it: success
+Did not find any Building data for ./config/ruins_config/swampland, creating empty folder for it: success
+Did not find any Building data for ./config/ruins_config/savanna, creating empty folder for it: success
+Did not find any Building data for ./config/ruins_config/mesa, creating empty folder for it: success
+Did not find any Building data for ./config/ruins_config/meadow, creating empty folder for it: success
+Did not find any Building data for ./config/ruins_config/glacier, creating empty folder for it: success
+
+Loading options from: /home/oskar/Desktop/minecraft/abserver/RLCraft/world
+tries_per_chunk_normal = 6
+chance_to_spawn_normal = 10.0
+templateInstancesMinDistance = 256.0
+anyRuinsMinDistance = 64.0
+Ruins mod loaded successfully for world ./world, template files: 178

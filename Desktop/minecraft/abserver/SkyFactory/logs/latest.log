@@ -1,0 +1,80 @@
+[00:00:00] [Server thread/INFO] [tombstone]: All players have been successfully backed up
+[00:00:39] [Server thread/INFO] [morpheus]: svartephilip is now sleeping. 1/2 (50%)
+[00:00:39] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: svartephilip moved wrongly!
+[00:03:55] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kyuukiya has made the advancement [Condensed Milk]
+[00:04:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: svartephilip has made the advancement [Condensed Milk]
+[00:04:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kyuukiya has made the advancement [I've Been Slimed]
+[00:12:14] [Server thread/INFO] [morpheus]: svartephilip is now sleeping. 1/2 (50%)
+[00:12:14] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: svartephilip moved wrongly!
+[00:17:04] [Aromabackup-Backup/OFF] [Aroma1997Core]: Message to players; Message: Starting Backup. The server may lag for a bit!
+[00:17:04] [Aromabackup-Backup/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [AromaBackup] Starting Backup. The server may lag for a bit!
+[00:17:06] [Server thread/INFO] [net.minecraft.world.chunk.storage.AnvilChunkLoader]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:17:06] [Server thread/INFO] [net.minecraft.world.chunk.storage.AnvilChunkLoader]: ThreadedAnvilChunkStorage (DIM2): All chunks are saved
+[00:17:06] [Aromabackup-Backup/INFO] [AromaBackup]: Deleted backup ./backups/world/Backup--world--2019-09-21--23-59.zip.
+[00:17:06] [Aromabackup-Backup/OFF] [Aroma1997Core]: Message to players; Message: Server Backup done!
+[00:17:06] [Aromabackup-Backup/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [AromaBackup] Server Backup done!
+[00:20:43] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kyuukiya has made the advancement [Hog Tied]
+[00:23:27] [Server thread/INFO] [morpheus]: svartephilip is now sleeping. 1/2 (50%)
+[00:23:27] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: svartephilip moved wrongly!
+[00:31:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: svartephilip has made the advancement [Hog Tied]
+[00:33:59] [Server thread/INFO] [morpheus]: Kyuukiya is now sleeping. 1/2 (50%)
+[00:33:59] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Kyuukiya moved wrongly!
+[00:40:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: svartephilip has made the advancement [This Tree is Forever]
+[00:42:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kyuukiya has made the advancement [Citizen Cane]
+[00:44:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: svartephilip has made the advancement [Cobble Cobble]
+[00:44:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kyuukiya has made the advancement [Cobble Cobble]
+[00:45:25] [Server thread/INFO] [morpheus]: svartephilip is now sleeping. 1/2 (50%)
+[00:45:25] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: svartephilip moved wrongly!
+[00:47:04] [Aromabackup-Backup/OFF] [Aroma1997Core]: Message to players; Message: Starting Backup. The server may lag for a bit!
+[00:47:04] [Aromabackup-Backup/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [AromaBackup] Starting Backup. The server may lag for a bit!
+[00:47:06] [Server thread/INFO] [net.minecraft.world.chunk.storage.AnvilChunkLoader]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:47:06] [File IO Thread/INFO] [net.minecraft.world.chunk.storage.AnvilChunkLoader]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:47:06] [Server thread/INFO] [net.minecraft.world.chunk.storage.AnvilChunkLoader]: ThreadedAnvilChunkStorage (DIM2): All chunks are saved
+[00:47:06] [Aromabackup-Backup/INFO] [AromaBackup]: Deleted backup ./backups/world/Backup--world--2019-09-22--15-47.zip.
+[00:47:06] [Aromabackup-Backup/OFF] [Aroma1997Core]: Message to players; Message: Server Backup done!
+[00:47:06] [Aromabackup-Backup/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [AromaBackup] Server Backup done!
+[00:56:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: svartephilip has made the advancement [Bonsai!!!]
+[00:56:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: svartephilip has made the advancement [Fertile Soil]
+[00:57:08] [Server thread/INFO] [morpheus]: Kyuukiya is now sleeping. 1/2 (50%)
+[00:57:08] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: Kyuukiya moved wrongly!
+[00:57:24] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: svartephilip has made the advancement [Hop to It]
+[00:57:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: svartephilip has made the advancement [Cowabonsai!]
+[01:00:00] [Server thread/INFO] [tombstone]: All players have been successfully backed up
+[01:02:14] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: svartephilip lost connection: Disconnected
+[01:02:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: svartephilip left the game
+[01:02:16] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Kyuukiya lost connection: Disconnected
+[01:02:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Kyuukiya left the game
+[01:09:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[01:09:17] [Server thread/INFO] [AromaBackup]: Delaying server stop to finish Backup.
+[01:09:17] [Server thread/INFO] [Prestige]: Saving data for 0d4305fd-4218-4222-a587-97177a14fc24.
+[01:09:17] [Server thread/INFO] [Prestige]: Saving data for 8742f0f1-ead2-4b69-9575-3bc02449604e.
+[01:09:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[01:09:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[01:09:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[01:09:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/DIM_0
+[01:09:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/Storage Cell
+[01:09:17] [Server thread/INFO] [FML]: Unloading dimension 0
+[01:09:17] [Server thread/INFO] [FML]: Unloading dimension 2
+[01:09:17] [Server thread/INFO] [fluxnetworks]: FluxNetworkData has been unloaded
+[01:09:17] [Server thread/INFO] [fluxnetworks]: Cleared Network Caches
+[01:09:17] [Server thread/INFO] [mcjty.lib.varia.Logging]: Cleaning up all world data: 1 data blobs
+[01:09:17] [Server thread/INFO] [nuclearcraft]: Server Closing...
+[01:09:17] [Server thread/INFO] [Parabox]: Saving Parabox world data.
+[01:09:17] [Server thread/INFO] [practicallogistics2]: Cleared Server Info Handler
+[01:09:17] [Server thread/INFO] [practicallogistics2]: Cleared Network Handler
+[01:09:17] [Server thread/INFO] [practicallogistics2]: Cleared Data Factory
+[01:09:17] [Server thread/INFO] [practicallogistics2]: Cleared Wireless Data Manager
+[01:09:17] [Server thread/INFO] [practicallogistics2]: Cleared Wireless Redstone Manager
+[01:09:17] [Server thread/INFO] [practicallogistics2]: Cleared Cable Connection Handler
+[01:09:17] [Server thread/INFO] [practicallogistics2]: Cleared Redstone Connection Handler
+[01:09:17] [Server thread/INFO] [practicallogistics2]: Cleared Server Display Handler
+[01:09:17] [Server thread/INFO] [practicallogistics2]: Cleared Chunk Viewer Handler
+[01:09:17] [Server thread/INFO] [topography]: Cleaning up
+[01:09:17] [Server thread/INFO] [topography]: Unregistering Dimension 0
+[01:09:17] [Server thread/INFO] [topography]: Registering Dimension 0
+[01:09:17] [Server thread/INFO] [topography]: Unregistering Dimension -1
+[01:09:17] [Server thread/INFO] [topography]: Registering Dimension -1
+[01:09:17] [Server thread/INFO] [topography]: Done clean-up
+[01:09:17] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[01:09:17] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[01:09:17] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds

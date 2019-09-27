@@ -1,0 +1,7 @@
+
+Loading options from: /home/oskar/Desktop/minecraft/abserver/RLCraft/world/DIM1
+tries_per_chunk_normal = 6
+chance_to_spawn_normal = 10.0
+templateInstancesMinDistance = 256.0
+anyRuinsMinDistance = 64.0
+Ruins mod loaded successfully for world ./world/DIM1, template files: 178

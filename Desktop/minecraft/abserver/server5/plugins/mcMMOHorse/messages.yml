@@ -1,0 +1,131 @@
+Banish_horse: '&aPlease banish your current horse first.'
+Horse_bred: '&aHorse successfully bred!'
+Horses_saved: '&aAll horses saved to database.'
+Invalid_color: '&aPlease specify a valid horse color.'
+Invalid_command: '&aInvalid command.'
+Invalid_name: '&aPlease specify a horse name.'
+Invalid_page: '&aInvalid page number.'
+Invalid_style: '&aPlease specify a valid horse style.'
+Invalid_variant: '&aPlease specify a valid horse variant.'
+Max_horses: '&aYou already claimed the max number of horses!'
+NoEconomy: '&aEconomy features are disabled!'
+No_horses: '&aYou don''t have a horse yet!'
+No_more_horses: '&aYou don''t have any more horses!'
+No_horses_summoned: '&aYou don''t have a horse summoned!'
+No_Permission: '&aYou are not allowed to use this command!'
+No_Permission_Horse: '&aYou are not allowed to ride this horse!'
+Page_does_not_exist: '&aPage does not exist.'
+Player_only: '&aThis command can only be run by a &bplayer.'
+Breed_New_Foal: '&a The foal &e%name%&a has been born.*'
+No_wild_horses: '&aYou cannot interact with wild horses.'
+No_breeding_horses: '&aYou cannot breed these two horses: '
+Allow_breeding: '&aYou have set breeding for %0% to %1% '
+Not_enough_money: '&aYou do not have enough money to buy this horse!'
+Bought_horse: '&aYou have just bought the horse '
+Bought_horse_exp1: '&aTo summon your new horse, use the command /h summon <Your Horse>'
+Horse_needs_tame: '&aThis horse needs to be tamed and saddled first!'
+PurchasedHorse: '&aHorse purchased for &e%amount%'
+Next_cost: '&aNext horse costs: &e%amount%'
+Claimed_name: '&b %name% &a claimed!'
+Skill_Increased_By: '&e %name% skill increased by %difference%. Total (%level%)'
+Need_Time_To_Recharge: '&e%name%&c needs some time to recharge.'
+Skill_Refreshed: '&a**Your &e%ability%&a is refreshed*'
+Renamed_horse: '&aHorse %oldname% has been changed to %newname%'
+Change_Speed_horse: '&aHorse %oldname% has had their speed change to %speed%'
+Change_Jump_horse: '&aHorse %oldname% has had their jump height change to %jump%'
+Horse_Too_Tired: '&c%name% is too tired to use that ability. &e(%cd%s)'
+Invalid_price: '&aInvalid horse price.'
+Horse_Does_Not_Exist: '&b%name%&a does not exist.'
+Offer_Declined: '&aOffer declined.'
+MUST_RIDE_HORSE_TO_CLAIM: '&aYou must be riding your horse to claim it!'
+No_Offer_Pending: '&aYou don''t have an offer pending.'
+Banished_In_Unloaded_Chunk: '&a The chunk your horse is in must be loaded before bansishement!'
+VALID_FIRST_NAMES:
+- Big
+- Boomer
+- Bubba
+- Bubble
+- Candy
+- Chicken
+- Chubby
+- Chunky
+- Cinnamon
+- Daisy
+- Fluffy
+- Lil'
+- Little
+- Muffin
+- Peachy
+- Pooky
+- Rainbow
+- Sir
+- Snuggle
+- Sprinkle
+- Stinker
+- Swag
+- Tickle
+- Tinkle
+- Tootsie
+- Twinkle
+- Gary
+- Henry
+- King
+- Foal Ball
+- Apple
+- Carrot
+- Potato
+- Sugar
+- Butter
+- Silver
+VALID_LAST_NAMES:
+- Blossom
+- Booty
+- Bottoms
+- Boy
+- Bunches
+- Buttercup
+- Cucumber
+- Cumquat
+- Daddy
+- Freckles
+- Girl
+- Horsey
+- Hugs A Lot
+- Marshmallow
+- McFluffems
+- McGiggles
+- McNuggs
+- McShowoff
+- McSnuggles
+- Noodles
+- Pancake
+- Poops A Lot
+- Potato
+- McSwifty
+- The Brave
+- The Noble
+- The First
+- Johnson
+- Grimes
+- McSnuffles
+Shop Title: §6McMMO Horses Shop
+Scoreboard:
+  baseJump: Base-Jump
+  Base: Base
+  Infuriate: 'Infuriate:'
+  bonus: Bonus
+  roll: 'Roll:'
+  dodge: 'Dodge:'
+  spring: 'Sprint:'
+  wrath: 'Power Level:'
+  Vitality: 'Vitality:'
+  Agility: 'Agility:'
+  Swiftness: 'Swiftness:'
+  Sex: 'Sex:'
+  Sex_Male: Male
+  Sex_Female: Female
+  Sex_Gelding: (Gelding)
+  PlusMore: Plus %amount% more...
+  owned: '&aOwned: &7'
+  Unlimited: Unlimited
+  Stats: '''s Stats'

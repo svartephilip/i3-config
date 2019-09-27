@@ -1,0 +1,368 @@
+# Configuration file
+
+general {
+    I:"Base XP Cost"=1
+    B:"Disable Sheep Dropping Wool on Death"=false
+
+    # Set this to false if you don't want to use skills, just the advancement locks
+    B:"Enable Skillable Tabs"=true
+    B:"Enforce requirements on Fake Players"=true
+    I:"Level Cap"=32
+    I:"Levels per Skill Point"=2
+
+    # Set requirements for items in this list. Each entry is composed of the item key and the requirements
+    # The item key is in the simple mod:item_id format. Optionally, it can be in mod:item_id:metadata, if you want to match metadata.
+    # The requirements are in a comma separated list, each in a key|value format. For example, to make an iron pickaxe require 5 mining
+    # and 5 building, you'd use the following string:
+    # "minecraft:iron_pickaxe=mining|5,building|5"
+    # 
+    # Item usage can also be locked behind an advancement, by using adv|id. For example, to make the elytra require the "Acquire Hardware." advancement
+    # you'd use the following string:
+    # "minecraft:elytra=adv|minecraft:story/smelt_iron"
+    # 
+    # Skill requirements and advancements can be mixed and matched, so you can make an item require both, if you want.
+    # You can also lock placed blocks from being used or broken, in the same manner.
+    # 
+    # Locks defined here apply to all the following cases: Right clicking an item, placing a block, breaking a block, using a block that's placed,
+    # left clicking an item, using an item to break any block, and equipping an armor item.
+    # 
+    # You can lock entire mods by just using their name as the left argument. You can then specify specific items to not be locked,
+    # by defining their lock in the normal way. If you want an item to not be locked in this way, use "none" after the = [default: [minecraft:iron_shovel=gathering|5], [minecraft:iron_axe=gathering|5], [minecraft:iron_sword=attack|5], [minecraft:iron_pickaxe=mining|5], [minecraft:iron_hoe=farming|5], [minecraft:iron_helmet=defense|5], [minecraft:iron_chestplate=defense|5], [minecraft:iron_leggings=defense|5], [minecraft:iron_boots=defense|5], [minecraft:golden_shovel=gathering|5,magic|5], [minecraft:golden_axe=gathering|5,magic|5], [minecraft:golden_sword=attack|5,magic|5], [minecraft:golden_pickaxe=mining|5,magic|5], [minecraft:golden_hoe=farming|5,magic|5], [minecraft:golden_helmet=defense|5,magic|5], [minecraft:golden_chestplate=defense|5,magic|5], [minecraft:golden_leggings=defense|5,magic|5], [minecraft:golden_boots=defense|5,magic|5], [minecraft:diamond_shovel=gathering|16], [minecraft:diamond_axe=gathering|16], [minecraft:diamond_sword=attack|16], [minecraft:diamond_pickaxe=mining|16], [minecraft:diamond_hoe=farming|16], [minecraft:diamond_helmet=defense|16], [minecraft:diamond_chestplate=defense|16], [minecraft:diamond_leggings=defense|16], [minecraft:diamond_boots=defense|16], [minecraft:shears=farming|5,gathering|5], [minecraft:fishing_rod=gathering|8], [minecraft:shield=defense|8], [minecraft:bow=attack|8], [minecraft:ender_pearl=magic|8], [minecraft:ender_eye=magic|16,building|8], [minecraft:elytra=defense|16,agility|24,magic|16], [minecraft:lead=farming|5], [minecraft:end_crystal=building|24,magic|32], [minecraft:iron_horse_armor=defense|5,agility|5], [minecraft:golden_horse_armor=defense|5,magic|5,agility|5], [minecraft:diamond_horse_armor=defense|16,agility|16], [minecraft:fireworks=agility|24], [minecraft:dye:15=farming|12], [minecraft:saddle=agility|12], [minecraft:redstone=building|5], [minecraft:redstone_torch=building|5], [minecraft:skull:1=building|20,attack|20,defense|20]]
+    S:"Skill Locks" <
+        minecraft:iron_shovel=gathering|8
+        minecraft:iron_axe=gathering|8
+        minecraft:iron_sword=attack|8
+        minecraft:iron_pickaxe=mining|8
+        minecraft:iron_hoe=farming|8
+        minecraft:iron_helmet=defense|8
+        minecraft:iron_chestplate=defense|8
+        minecraft:iron_leggings=defense|8
+        minecraft:iron_boots=defense|8
+        minecraft:golden_shovel=gathering|4,magic|4
+        minecraft:golden_axe=gathering|4,magic|4
+        minecraft:golden_sword=attack|4,magic|4
+        minecraft:golden_pickaxe=mining|4,magic|4
+        minecraft:golden_hoe=farming|4,magic|4
+        minecraft:golden_helmet=defense|4,magic|4
+        minecraft:golden_chestplate=defense|4,magic|4
+        minecraft:golden_leggings=defense|4,magic|4
+        minecraft:golden_boots=defense|4,magic|4
+        minecraft:diamond_shovel=gathering|16
+        minecraft:diamond_axe=gathering|16
+        minecraft:diamond_sword=attack|16
+        minecraft:diamond_pickaxe=mining|16
+        minecraft:diamond_hoe=farming|16
+        minecraft:diamond_helmet=defense|16
+        minecraft:diamond_chestplate=defense|16
+        minecraft:diamond_leggings=defense|16
+        minecraft:diamond_boots=defense|16
+        minecraft:shears=gathering|4
+        minecraft:fishing_rod=gathering|8
+        minecraft:shield=defense|8
+        minecraft:bow=attack|8
+        minecraft:ender_pearl=magic|8
+        minecraft:ender_eye=magic|16,building|8
+        minecraft:elytra=defense|16,agility|24,magic|16
+        minecraft:lead=farming|4
+        minecraft:end_crystal=building|24,magic|32
+        minecraft:iron_horse_armor=defense|8,agility|8
+        minecraft:golden_horse_armor=defense|4,magic|4,agility|4
+        minecraft:diamond_horse_armor=defense|16,agility|16
+        minecraft:fireworks=agility|24
+        minecraft:dye:15=farming|12
+        minecraft:saddle=agility|8
+        minecraft:redstone=building|4
+        minecraft:redstone_torch=building|4
+        minecraft:skull:1=building|20,attack|20,defense|20
+        
+        minecraft:anvil=building|12
+        minecraft:brewing_stand=building|8,magic|12
+        minecraft:enchanting_table=building|4,magic|8
+        
+        mujmajnkraftsbettersurvival:itemsmallshield=defense|4
+        mujmajnkraftsbettersurvival:itembigshield=defense|12
+        
+        mujmajnkraftsbettersurvival:itemironhammer=attack|8
+        mujmajnkraftsbettersurvival:itemdiamondhammer=attack|16
+        mujmajnkraftsbettersurvival:itemgoldhammer=attack|4,magic|4
+        
+        mujmajnkraftsbettersurvival:itemironspear=attack|8
+        mujmajnkraftsbettersurvival:itemdiamondspear=attack|16
+        mujmajnkraftsbettersurvival:itemgoldspear=attack|4,magic|4
+        
+        mujmajnkraftsbettersurvival:itemironbattleaxe=attack|8
+        mujmajnkraftsbettersurvival:itemdiamondbattleaxe=attack|16
+        mujmajnkraftsbettersurvival:itemgoldhbattleaxe=attack|4,magic|4
+        
+        mujmajnkraftsbettersurvival:itemirondagger=attack|8
+        mujmajnkraftsbettersurvival:itemdiamonddagger=attack|16
+        mujmajnkraftsbettersurvival:itemgolddagger=attack|4,magic|4
+        
+        mujmajnkraftsbettersurvival:itemironnunchaku=attack|8
+        mujmajnkraftsbettersurvival:itemdiamondnunchaku=attack|16
+        mujmajnkraftsbettersurvival:itemgoldnunchaku=attack|4,magic|4
+        
+        mujmajnkraftsbettersurvival:itemcrossbow=attack|4
+        
+        toughasnails:lifeblood_crystal=magic|16
+        
+        switchbow:switchbow=attack|8,magic|8
+        switchbow:switchcrossbow=attack|4,magic|8
+        
+        toolbelt:belt=agility|4
+        
+		wolfarmor:chain_wolf_armor=defense|4,agility|4
+        wolfarmor:iron_wolf_armor=defense|8,agility|8
+        wolfarmor:gold_wolf_armor=defense|4,magic|4,agility|4
+        wolfarmor:diamond_wolf_armor=defense|16,agility|16
+        
+        adhooks:pudge_launcher=agility|4
+        adhooks:web_launcher=agility|8
+        adhooks:spear_launcher=agility|12
+        
+        qualitytools:reforging_station=building|8
+		
+		minecraft:iron_ore=mining|4
+		minecraft:gold_ore=mining|2,magic|2
+		minecraft:lapis_ore=mining|4,magic|4
+		minecraft:redstone_ore=mining|6
+		minecraft:diamond_ore=mining|8
+		minecraft:emerald_ore=mining|8
+		minecraft:quartz_ore=mining|4
+		
+		minecraft:reeds=farming|4
+		minecraft:wheat_seeds=farming|2
+		minecraft:carrot=farming|4
+		minecraft:potato=farming|4
+		minecraft:beetroot_seeds=farming|4
+		minecraft:pumpkin_seeds=farming|6
+		minecraft:melon_seeds=farming|6
+		minecraft:cactus=farming|6
+		minecraft:sapling:0=farming|8
+		minecraft:sapling:1=farming|8
+		minecraft:sapling:2=farming|8
+		minecraft:sapling:3=farming|8
+		minecraft:sapling:4=farming|8
+		minecraft:sapling:5=farming|8
+		
+		minecraft:chainmail_helmet=defense|4
+		minecraft:chainmail_chestplate=defense|4
+		minecraft:chainmail_leggings=defense|4
+		minecraft:chainmail_boots=defense|4
+		
+		minecraft:iron_door=building|4
+		minecraft:iron_trapdoor=building|4
+		
+		roughtweaks:medikitenchanted=magic|8
+		
+		iceandfire:silver_ore=mining|2
+		iceandfire:sapphire_ore=mining|6
+		
+		iceandfire:armor_silver_metal_helmet=defense|4
+		iceandfire:armor_silver_metal_chestplate=defense|4
+		iceandfire:armor_silver_metal_leggings=defense|4
+		iceandfire:armor_silver_metal_boots=defense|4
+		
+		iceandfire:silver_sword=attack|2
+		iceandfire:silver_shovel=gathering|2
+		iceandfire:silver_pickaxe=mining|2
+		iceandfire:silver_axe=gathering|2
+		iceandfire:silver_hoe=farming|2
+		
+		iceandfire:dragonbone_sword=attack|24
+		iceandfire:dragonbone_sword_fire=attack|24
+		iceandfire:dragonbone_sword_ice=attack|24
+		iceandfire:dragonbone_shovel=gathering|24
+		iceandfire:dragonbone_pickaxe=mining|24
+		iceandfire:dragonbone_axe=gathering|24
+		iceandfire:dragonbone_hoe=farming|24
+		iceandfire:dragonbone_bow=attack|24
+
+		iceandfire:armor_red_helmet=defense|24
+		iceandfire:armor_red_chestplate=defense|24
+		iceandfire:armor_red_leggings=defense|24
+		iceandfire:armor_red_boots=defense|24
+		iceandfire:armor_bronze_helmet=defense|24
+		iceandfire:armor_bronze_chestplate=defense|24
+		iceandfire:armor_bronze_leggings=defense|24
+		iceandfire:armor_bronze_boots=defense|24
+		iceandfire:armor_green_helmet=defense|24
+		iceandfire:armor_green_chestplate=defense|24
+		iceandfire:armor_green_leggings=defense|24
+		iceandfire:armor_green_boots=defense|24
+		iceandfire:armor_gray_helmet=defense|24
+		iceandfire:armor_gray_chestplate=defense|24
+		iceandfire:armor_gray_leggings=defense|24
+		iceandfire:armor_gray_boots=defense|24
+		iceandfire:armor_blue_helmet=defense|24
+		iceandfire:armor_blue_chestplate=defense|24
+		iceandfire:armor_blue_leggings=defense|24
+		iceandfire:armor_blue_boots=defense|24
+		iceandfire:armor_white_helmet=defense|24
+		iceandfire:armor_white_chestplate=defense|24
+		iceandfire:armor_white_leggings=defense|24
+		iceandfire:armor_white_boots=defense|24
+		iceandfire:armor_sapphire_helmet=defense|24
+		iceandfire:armor_sapphire_chestplate=defense|24
+		iceandfire:armor_sapphire_leggings=defense|24
+		iceandfire:armor_sapphire_boots=defense|24
+		iceandfire:armor_silver_helmet=defense|24
+		iceandfire:armor_silver_chestplate=defense|24
+		iceandfire:armor_silver_leggings=defense|24
+		iceandfire:armor_silver_boots=defense|24
+		
+		iceandfire:dragonarmor_iron=defense|16,agility|16
+		iceandfire:dragonarmor_gold=defense|8,magic|8,agility|8
+		iceandfire:dragonarmor_diamond=defense|24,agility|24
+		iceandfire:dragonarmor_iron=defense|8,agility|8
+		iceandfire:dragonarmor_gold=defense|4,magic|4,agility|4
+		iceandfire:dragonarmor_diamond=defense|16,agility|16
+		
+		swampmobs:venomaxeblade=attack|16
+		swampmobs:goldenvenomaxeblade=attack|16
+		swampmobs:verdantvenomaxeblade=attack|16
+		infernomobs:cinderfallsword=attack|16
+		infernomobs:azurecinderfallsword=attack|16
+		infernomobs:verdantcinderfallsword=attack|16
+		
+		lycanitesmobs:summoningstaff=magic|8
+		lycanitesmobs:stablesummoningstaff=magic|8
+		lycanitesmobs:bloodsummoningstaff=magic|8
+		lycanitesmobs:sturdysummoningstaff=magic|8
+		lycanitesmobs:savagesummoningstaff=magic|8
+		
+		arcticmobs:frostboltscepter=magic|4
+		arcticmobs:frostwebscepter=magic|4
+		arcticmobs:tundrascepter=magic|4
+		arcticmobs:firescepter=magic|4
+		arcticmobs:blizzardscepter=magic|4
+		demonmobs:doomfirescepter=magic|4
+		demonmobs:hellfirescepter=magic|4
+		demonmobs:devilstarscepter=magic|4
+		demonmobs:demoniclightningscepter=magic|4
+		desertmobs:scythescepter=magic|4
+		desertmobs:mudshotscepter=magic|4
+		forestmobs:lifedrainscepter=magic|4
+		freshwatermobs:aquapulsescepter=magic|4
+		freshwatermobs:waterjetscepter=magic|4
+		infernomobs:emberscepter=magic|4
+		infernomobs:magmascepter=magic|4
+		infernomobs:firescepter=magic|4
+		junglemobs:poopscepter=magic|4
+		mountainmobs:boulderblastscept=magic|4
+		mountainmobs:arcadelaserstormscepter=magic|4
+		plainsmobs:quillscepter=magic|4
+		shadowmobs:spectralboltscepter=magic|4
+		shadowmobs:bloodleechscepter=magic|4
+		swampmobs:poisonrayscepter=magic|4
+		swampmobs:venomshotscepter=magic|4
+     >
+    I:"XP Increase Per Level"=1
+
+    # Between how many levels should XP costs increase?
+    # Default is 1, which means it increases cost every level. 3 would make the cost increase every 3 levels.
+    I:"XP Increase Stagger"=1
+}
+
+
+traits {
+
+    golden_osmosis {
+        B:Enabled=true
+        S:Requirements=magic|20,mining|6,gathering|6,attack|6
+        I:"Skill Points"=10
+    }
+
+    safe_port {
+        B:Enabled=true
+        S:Requirements=magic|20,agility|16,defense|16
+        I:"Skill Points"=6
+    }
+
+    undershirt {
+        B:Enabled=true
+        S:Requirements=defense|12,agility|4
+        I:"Skill Points"=6
+    }
+
+    effect_twist {
+        B:Enabled=true
+        S:Requirements=defense|20,attack|16,magic|16
+        I:"Skill Points"=8
+    }
+
+    neutralissse {
+        B:Enabled=true
+        S:Requirements=attack|24,agility|8
+        I:"Skill Points"=10
+    }
+
+    battle_spirit {
+        B:Enabled=true
+        S:Requirements=attack|16,defense|16,agility|12
+        I:"Skill Points"=6
+    }
+
+    more_wheat {
+        B:Enabled=true
+        S:Requirements=farming|12
+        I:"Skill Points"=6
+    }
+
+    green_thumb {
+        B:Enabled=true
+        S:Requirements=farming|16,magic|16
+        I:"Skill Points"=8
+    }
+
+    fossil_digger {
+        B:Enabled=true
+        S:Requirements=mining|6
+        I:"Skill Points"=2
+    }
+
+    obsidian_smasher {
+        B:Enabled=true
+        S:Requirements=mining|16
+        I:"Skill Points"=4
+    }
+
+    roadwalk {
+        B:Enabled=true
+        S:Requirements=agility|12,building|8
+        I:"Skill Points"=6
+    }
+
+    sidestep {
+        B:Enabled=true
+        S:Requirements=agility|26,defense|20
+        I:"Skill Points"=10
+    }
+
+    lucky_fisherman {
+        B:Enabled=true
+        S:Requirements=gathering|12,magic|4
+        I:"Skill Points"=6
+    }
+
+    drop_guarantee {
+        B:Enabled=true
+        S:Requirements=gathering|20,attack|8
+        I:"Skill Points"=8
+    }
+
+    chorus_transmute {
+        B:Enabled=true
+        S:Requirements=building|16,magic|16
+        I:"Skill Points"=8
+    }
+
+    perfect_recover {
+        B:Enabled=true
+        S:Requirements=building|8,gathering|4,mining|6
+        I:"Skill Points"=4
+    }
+
+}
+
+

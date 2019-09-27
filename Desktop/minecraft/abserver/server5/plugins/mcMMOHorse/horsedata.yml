@@ -1,0 +1,23 @@
+Horses:
+  svartephilip:
+    2542d65c-850b-474a-acab-f35c8c2a67ae:
+      name: Gary McNuggs
+      wrath: 4
+      agility: 37
+      swiftness: 101
+      vitality: 5
+      color: DARK_BROWN
+      isdead: false
+      godmode: false
+      powerlevel: 27
+      style: BLACK_DOTS
+      variant: HORSE
+      hassaddle: true
+      sex: false
+      defaultSpeed: 0.3071816279701462
+      defaultJump: 0.970796236541142
+      inventory:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 1976
+        type: SADDLE
+      - null
