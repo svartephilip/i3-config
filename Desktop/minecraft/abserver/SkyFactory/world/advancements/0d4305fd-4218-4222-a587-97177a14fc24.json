@@ -38,6 +38,7 @@
       "Completed Trees to Diamonds": "2019-09-26 21:43:17 +0200",
       "Completed Stone Crook": "2019-09-25 20:26:35 +0200",
       "Completed Tin Man": "2019-09-22 16:06:34 +0200",
+      "Completed Silver Surfer": "2019-09-27 21:01:39 +0200",
       "Completed You Cotton Something?": "2019-09-22 00:10:24 +0200",
       "Completed Clay Aiken": "2019-09-21 20:16:49 +0200",
       "Completed SkyFactory 4": "2019-09-21 18:25:13 +0200",
@@ -92,6 +93,12 @@
       "Obtain Tinkers\u0027 Stencil Table": "2019-09-26 20:29:39 +0200"
     },
     "done": true
+  },
+  "compactmachines:test/7x7x7": {
+    "criteria": {
+      "Obtain Netherrack": "2019-09-27 19:18:19 +0200"
+    },
+    "done": false
   },
   "sf4:age_storage/complete_no_prestige": {
     "criteria": {
@@ -216,6 +223,12 @@
     },
     "done": false
   },
+  "sf4:age_exploration/nether": {
+    "criteria": {
+      "Entered Nether": "2019-09-27 19:16:58 +0200"
+    },
+    "done": true
+  },
   "hardcore:hardcore/forgivingvoid": {
     "criteria": {
       "Completed Age of Exploration": "2019-09-21 18:25:13 +0200"
@@ -229,13 +242,16 @@
       "Completed Forging Ahead": "2019-09-26 20:41:53 +0200",
       "Completed Age of Enhancement": "2019-09-21 18:25:13 +0200",
       "Completed To Be ORe Not to Be": "2019-09-22 16:00:00 +0200",
+      "Completed Suit Up": "2019-09-27 19:30:55 +0200",
       "Completed Axe Me Anything": "2019-09-26 21:14:49 +0200",
       "Completed Sign My Cast": "2019-09-26 21:34:59 +0200",
       "Completed Pattern Me, Sir": "2019-09-26 21:18:50 +0200",
+      "Completed Paxel Rose": "2019-09-27 19:53:33 +0200",
       "Completed Ore\u0027nt You Glad I Didn\u0027t Say Banana": "2019-09-22 16:23:10 +0200",
       "Completed Getting Warmer": "2019-09-22 16:02:46 +0200",
       "Completed Up in Arms": "2019-09-26 20:44:03 +0200",
       "Completed Tim the Tool Man Taylor": "2019-09-26 20:29:43 +0200",
+      "Completed Ding!": "2019-09-27 18:41:00 +0200",
       "Completed Keep It Between the Lines": "2019-09-26 20:29:39 +0200",
       "Completed Better With Mods": "2019-09-26 21:43:40 +0200"
     },
@@ -280,6 +296,7 @@
       "Completed Trees to Diamonds": "2019-09-26 21:43:17 +0200",
       "Completed Stone Crook": "2019-09-25 20:26:35 +0200",
       "Completed Tin Man": "2019-09-22 16:06:34 +0200",
+      "Completed Silver Surfer": "2019-09-27 21:01:39 +0200",
       "Completed You Cotton Something?": "2019-09-22 00:10:24 +0200",
       "Completed Clay Aiken": "2019-09-21 20:16:49 +0200",
       "Completed SkyFactory 4": "2019-09-21 18:25:13 +0200",
@@ -300,6 +317,12 @@
     },
     "done": false
   },
+  "sf4:age_enhancement/armorforge": {
+    "criteria": {
+      "Obtain Armor Forge": "2019-09-27 19:30:55 +0200"
+    },
+    "done": true
+  },
   "sf4:age_farming/root": {
     "criteria": {
       "inventoryChange": "2019-09-21 18:25:13 +0200"
@@ -315,6 +338,8 @@
   "sf4:age_exploration/completenoprestige": {
     "criteria": {
       "Prestige Mode Disabled": "2019-09-21 18:25:13 +0200",
+      "Completed No Cake Like Home": "2019-09-27 19:16:58 +0200",
+      "Completed Nether Here Nor There": "2019-09-27 19:16:58 +0200",
       "Completed Age of Exploration": "2019-09-21 18:25:13 +0200"
     },
     "done": false
@@ -549,6 +574,12 @@
     },
     "done": true
   },
+  "sf4:age_exploration/overworldcake": {
+    "criteria": {
+      "Obtain Overworld Cake": "2019-09-27 19:16:58 +0200"
+    },
+    "done": true
+  },
   "sf4:age1/sapling/dirt": {
     "criteria": {
       "Obtain Dirt Sapling": "2019-09-21 18:26:24 +0200",
@@ -558,6 +589,8 @@
   },
   "sf4:age_exploration/complete": {
     "criteria": {
+      "Completed No Cake Like Home": "2019-09-27 19:16:58 +0200",
+      "Completed Nether Here Nor There": "2019-09-27 19:16:58 +0200",
       "Completed Age of Exploration": "2019-09-21 18:25:13 +0200"
     },
     "done": false
@@ -615,9 +648,10 @@
   },
   "sf4:age1/amber/silver": {
     "criteria": {
-      "Completed Root": "2019-09-21 18:25:13 +0200"
+      "Completed Root": "2019-09-21 18:25:13 +0200",
+      "Obtain Silver Amber": "2019-09-27 21:01:39 +0200"
     },
-    "done": false
+    "done": true
   },
   "sf4:age_enhancement/toolstation": {
     "criteria": {
@@ -667,7 +701,9 @@
       "Obtain Dirt Sapling": "2019-09-21 18:26:24 +0200",
       "Obtain Silver Sapling": "2019-09-26 18:42:27 +0200",
       "Obtain Coal Sapling": "2019-09-21 23:57:51 +0200",
+      "Obtain Netherrack Sapling": "2019-09-27 19:30:21 +0200",
       "Obtain Diamond Sapling": "2019-09-27 00:40:49 +0200",
+      "Obtain Copper Sapling": "2019-09-27 18:19:12 +0200",
       "Obtain Cottonwood Sapling": "2019-09-22 00:10:24 +0200",
       "Obtain Lapis Sapling": "2019-09-22 18:05:29 +0200",
       "Obtain Emerald Sapling": "2019-09-27 00:40:59 +0200",
@@ -713,6 +749,12 @@
   "sf4:age_farming/cowjar": {
     "criteria": {
       "Obtain Cow in a Jar": "2019-09-27 00:04:01 +0200"
+    },
+    "done": true
+  },
+  "sf4:age_enhancement/levelup": {
+    "criteria": {
+      "Level Up Tinkers\u0027 Pickaxe": "2019-09-27 18:41:00 +0200"
     },
     "done": true
   },
@@ -788,13 +830,16 @@
       "Completed Forging Ahead": "2019-09-26 20:41:53 +0200",
       "Completed Age of Enhancement": "2019-09-21 18:25:13 +0200",
       "Completed To Be ORe Not to Be": "2019-09-22 16:00:00 +0200",
+      "Completed Suit Up": "2019-09-27 19:30:55 +0200",
       "Completed Axe Me Anything": "2019-09-26 21:14:49 +0200",
       "Completed Sign My Cast": "2019-09-26 21:34:59 +0200",
       "Completed Pattern Me, Sir": "2019-09-26 21:18:50 +0200",
+      "Completed Paxel Rose": "2019-09-27 19:53:33 +0200",
       "Completed Ore\u0027nt You Glad I Didn\u0027t Say Banana": "2019-09-22 16:23:10 +0200",
       "Completed Getting Warmer": "2019-09-22 16:02:46 +0200",
       "Completed Up in Arms": "2019-09-26 20:44:03 +0200",
       "Completed Tim the Tool Man Taylor": "2019-09-26 20:29:43 +0200",
+      "Completed Ding!": "2019-09-27 18:41:00 +0200",
       "Completed Keep It Between the Lines": "2019-09-26 20:29:39 +0200",
       "Completed Better With Mods": "2019-09-26 21:43:40 +0200"
     },
@@ -833,6 +878,12 @@
     },
     "done": true
   },
+  "sf4:age_enhancement/paxel": {
+    "criteria": {
+      "Obtain Pickle Tweaks Stone Paxel": "2019-09-27 19:53:33 +0200"
+    },
+    "done": true
+  },
   "sf4:age1/sapling/bone": {
     "criteria": {
       "Completed Root": "2019-09-21 18:25:13 +0200",
@@ -863,7 +914,11 @@
   "sf4:age_allthethingsomglol/modifiermaster": {
     "criteria": {
       "Diamond": "2019-09-26 21:43:40 +0200",
-      "Silktouch": "2019-09-27 00:43:38 +0200"
+      "Sharpness": "2019-09-27 21:40:29 +0200",
+      "Haste": "2019-09-27 19:13:48 +0200",
+      "Silktouch": "2019-09-27 00:43:38 +0200",
+      "Luck": "2019-09-27 20:48:15 +0200",
+      "Emerald": "2019-09-27 21:39:37 +0200"
     },
     "done": false
   },
@@ -918,6 +973,12 @@
       "Obtain Clay Bucket": "2019-09-22 17:32:33 +0200"
     },
     "done": true
+  },
+  "sf4:age_exploration/dragonkill": {
+    "criteria": {
+      "Enter Custom End Dimension": "2019-09-27 19:16:58 +0200"
+    },
+    "done": false
   },
   "sf4:age_farming/complete": {
     "criteria": {

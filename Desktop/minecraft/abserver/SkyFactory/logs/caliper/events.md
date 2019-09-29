@@ -184,8 +184,8 @@ submitted to any online service.
 | NetworkEvent$ConnectedLocalProvider                | 1              |
 | BlockEvent$CropGrowEvent$Post                      | 1              |
 | FluxNetworkEvent$SettingsChanged                   | 1              |
-| NetworkActivityEvent$Client                        | 1              |
 | PlayerSetSpawnEvent                                | 1              |
+| NetworkActivityEvent$Client                        | 1              |
 | TinkerToolEvent$OnShovelMakePath                   | 1              |
 | WailaTooltipEvent                                  | 1              |
 | APIRegistryEvent$PerkDisable                       | 1              |
@@ -223,15 +223,15 @@ submitted to any online service.
 | NetworkEvent$DisconnectedLocalProvider             | 1              |
 | RobotExhaustionEvent                               | 1              |
 | AdvancementCompletionEvent                         | 1              |
-| RobotMoveEvent$Pre                                 | 1              |
 | ProjectileEvent$OnHitBlock                         | 1              |
+| RobotMoveEvent$Pre                                 | 1              |
 | EntityMountEvent                                   | 1              |
 | FileSystemAccessEvent$Client                       | 1              |
 | ServerChatEvent                                    | 1              |
 | LivingEntityUseItemEvent                           | 1              |
 | NetworkPartEvent$AddedPart                         | 1              |
-| FurnaceFuelBurnTimeEvent                           | 1              |
 | LinkEvent$LinkEventEnterWorld                      | 1              |
+| FurnaceFuelBurnTimeEvent                           | 1              |
 | PlayerEvent$StopTracking                           | 1              |
 | PotionApplyEvent$New                               | 1              |
 | FunctionReloadEvent$Post                           | 1              |
@@ -272,16 +272,16 @@ submitted to any online service.
 ## ChunkDataEvent$Load
 | Owner               | Method               | Location                                                               | Priority | Source                                       | RecieveCanceled |
 |---------------------|----------------------|------------------------------------------------------------------------|----------|----------------------------------------------|-----------------|
-| CoFH World          | handleChunkLoadEvent | cofh.cofhworld.init.WorldHandler                                       | normal   | CoFHWorld-1.12.2-1.3.1.7-universal.jar       | false           |
-| MalisisCore         | onDataLoad           | net.malisis.core.util.chunkblock.ChunkBlockHandler                     | normal   | malisiscore-1.12.2-6.5.1.jar                 | false           |
-| Astral Sorcery      | onChLoad             | hellfirepvp.astralsorcery.common.base.FluidRarityRegistry              | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Forge Multipart CBE | chunkDataLoad        | codechicken.multipart.handler.MultipartEventHandler$                   | highest  | ForgeMultipart-1.12.2-2.6.1.81-universal.jar | false           |
-| Astral Sorcery      | onChDataLoad         | hellfirepvp.astralsorcery.common.world.retrogen.ChunkVersionController | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| MalisisCore         | onDataLoad           | net.malisis.core.util.blockdata.BlockDataHandler                       | normal   | malisiscore-1.12.2-6.5.1.jar                 | false           |
 | Mekanism            | onChunkDataLoad      | mekanism.common.Mekanism                                               | normal   | Mekanism-1.12.2-9.7.5.376.jar                | false           |
+| MalisisCore         | onDataLoad           | net.malisis.core.util.chunkblock.ChunkBlockHandler                     | normal   | malisiscore-1.12.2-6.5.1.jar                 | false           |
 | Chisel              | onChunkLoad          | INSTANCE                                                               | normal   | Chisel-MC1.12.2-0.2.1.35.jar                 | false           |
-| Forge Multipart CBE | onChunkDataLoad      | codechicken.lib.world.WorldExtensionManager$WorldExtensionEventHandler | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar | false           |
 | CoFH World          | handleChunkLoadEvent | cofh.cofhworld.init.WorldHandler                                       | normal   | CoFHWorld-1.12.2-1.3.1.7-universal.jar       | false           |
+| Forge Multipart CBE | chunkDataLoad        | codechicken.multipart.handler.MultipartEventHandler$                   | highest  | ForgeMultipart-1.12.2-2.6.1.81-universal.jar | false           |
+| MalisisCore         | onDataLoad           | net.malisis.core.util.blockdata.BlockDataHandler                       | normal   | malisiscore-1.12.2-6.5.1.jar                 | false           |
+| Astral Sorcery      | onChLoad             | hellfirepvp.astralsorcery.common.base.FluidRarityRegistry              | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| CoFH World          | handleChunkLoadEvent | cofh.cofhworld.init.WorldHandler                                       | normal   | CoFHWorld-1.12.2-1.3.1.7-universal.jar       | false           |
+| Astral Sorcery      | onChDataLoad         | hellfirepvp.astralsorcery.common.world.retrogen.ChunkVersionController | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Forge Multipart CBE | onChunkDataLoad      | codechicken.lib.world.WorldExtensionManager$WorldExtensionEventHandler | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar | false           |
 
 
 ## FluxConnectionEvent$Connected
@@ -299,54 +299,54 @@ submitted to any online service.
 ## AnvilUpdateEvent
 | Owner                           | Method        | Location                                                        | Priority | Source                                       | RecieveCanceled |
 |---------------------------------|---------------|-----------------------------------------------------------------|----------|----------------------------------------------|-----------------|
-| Apotheosis                      | anvilEvent    | shadows.ench.EnchModule                                         | normal   | Apotheosis-1.12.2-1.10.2.jar                 | false           |
 | Bookshelf                       | onAnvilUpdate | net.darkhax.bookshelf.Bookshelf                                 | normal   | Bookshelf-1.12.2-2.3.581.jar                 | false           |
-| Building Gadgets                | onAnvilUpdate | com.direwolf20.buildinggadgets.common.events.AnvilRepairHandler | normal   | BuildingGadgets-2.6.8.jar                    | false           |
-| Corail Tombstone                | onAnvilUpdate | ovh.corail.tombstone.event.EventHandler                         | lowest   | tombstone-3.5.2-1.12.jar                     | false           |
-| MatterOverdrive: Legacy Edition | onAnvilRepair | matteroverdrive.handler.PlayerEventHandler                      | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
 | Ender Utilities                 | onAnvilUpdate | fi.dy.masa.enderutilities.event.AnvilUpdateEventHandler         | normal   | enderutilities-1.12.2-0.7.12.jar             | false           |
+| Corail Tombstone                | onAnvilUpdate | ovh.corail.tombstone.event.EventHandler                         | lowest   | tombstone-3.5.2-1.12.jar                     | false           |
+| Apotheosis                      | anvilEvent    | shadows.ench.EnchModule                                         | normal   | Apotheosis-1.12.2-1.10.2.jar                 | false           |
+| MatterOverdrive: Legacy Edition | onAnvilRepair | matteroverdrive.handler.PlayerEventHandler                      | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
+| Building Gadgets                | onAnvilUpdate | com.direwolf20.buildinggadgets.common.events.AnvilRepairHandler | normal   | BuildingGadgets-2.6.8.jar                    | false           |
 
 
 ## LootingLevelEvent
 | Owner              | Method              | Location                                              | Priority | Source                             | RecieveCanceled |
 |--------------------|---------------------|-------------------------------------------------------|----------|------------------------------------|-----------------|
-| Tinkers' Construct | onLooting           | slimeknights.tconstruct.tools.ToolEvents              | normal   | TConstruct-1.12.2-2.12.0.135.jar   | false           |
 | Hunting Dimension  | onLootingCalculated | net.darkhax.huntingdim.handler.DimensionEffectHandler | normal   | HuntingDimension-1.12.2-1.0.38.jar | false           |
+| Tinkers' Construct | onLooting           | slimeknights.tconstruct.tools.ToolEvents              | normal   | TConstruct-1.12.2-2.12.0.135.jar   | false           |
 
 
 ## TickEvent$ServerTickEvent
 | Owner                           | Method            | Location                                                     | Priority | Source                                        | RecieveCanceled |
 |---------------------------------|-------------------|--------------------------------------------------------------|----------|-----------------------------------------------|-----------------|
+| MatterOverdrive: Legacy Edition | onServerTick      | matteroverdrive.handler.TickHandler                          | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar  | false           |
+| MCMultiPart                     | onServerTick      | mcmultipart.MCMPCommonProxy                                  | normal   | MCMultiPart-2.5.3.jar                         | false           |
+| Twitchcrumbs                    | tick              | net.blay09.mods.twitchcrumbs.Twitchcrumbs                    | normal   | Twitchcrumbs_1.12.2-3.0.4.jar                 | false           |
+| Parabox                         | serverTick        | net.darkhax.parabox.util.WorldSpaceTimeManager               | normal   | Parabox-1.12.2-2.0.0.jar                      | false           |
+| Astral Sorcery                  | serverTick        | hellfirepvp.astralsorcery.common.auxiliary.tick.TickManager  | normal   | astralsorcery-1.12.2-1.10.19.jar              | false           |
+| EnderStorage                    | tickEnd           | codechicken.enderstorage.network.TankSynchroniser            | normal   | EnderStorage-1.12.2-2.4.5.135-universal.jar   | false           |
 | PigUtils                        | onServerTick      | me.ichun.mods.ichunutil.common.core.event.EventHandlerServer | normal   | iChunUtil-1.12.2-7.1.4.jar                    | false           |
 | TogetherForever                 | onServerTick      | com.buuz135.togetherforever.action.GameStagesEventSyncAction | normal   | togetherforever-1.12.2-1.0.12-22.jar          | false           |
-| EnderCore                       | onServerTick      | com.enderio.core.common.util.Scheduler                       | normal   | EnderCore-1.12.2-0.5.57.jar                   | false           |
-| Corail Tombstone                | onServerTick      | ovh.corail.tombstone.event.EventHandler                      | lowest   | tombstone-3.5.2-1.12.jar                      | false           |
-| TorchMaster                     | onGlobalTick      | net.xalcon.torchmaster.common.EventHandlerServer             | normal   | torchmaster_1.12.2-1.7.1.74.jar               | false           |
-| OpenComputers                   | onTick            | li.cil.oc.common.asm.SimpleComponentTickHandler              | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar          | false           |
-| mob_grinding_utils              | onServerTickEvent | mob_grinding_utils.capability.base.EntityCapabilityHandler   | normal   | MobGrindingUtils-0.3.13.jar                   | false           |
-| Thermal Dynamics                | onServerTick      | cofh.thermaldynamics.util.TickHandler                        | normal   | ThermalDynamics-1.12.2-2.5.5.21-universal.jar | false           |
 | OreExcavation                   | onTick            | oreexcavation.handlers.EventHandler                          | normal   | OreExcavation-1.4.137.jar                     | false           |
-| MCMultiPart                     | onServerTick      | mcmultipart.MCMPCommonProxy                                  | normal   | MCMultiPart-2.5.3.jar                         | false           |
-| OpenComputers                   | onServerTick      | li.cil.oc.common.item.Tablet$                                | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar          | false           |
-| Mystcraft                       | onServerTick      | com.xcompwiz.mystcraft.core.MystcraftTickHandler             | normal   | mystcraft-1.12.2-0.13.7.03.jar                | false           |
-| PortalGun                       | onServerTick      | me.ichun.mods.portalgun.common.core.EventHandlerServer       | normal   | PortalGun-1.12.2-7.1.0.jar                    | false           |
+| Corail Tombstone                | onServerTick      | ovh.corail.tombstone.event.EventHandler                      | lowest   | tombstone-3.5.2-1.12.jar                      | false           |
 | CodeChicken Lib                 | onTickEnd         | codechicken.lib.internal.CCLLog                              | lowest   | CodeChickenLib-1.12.2-3.2.2.353-universal.jar | false           |
-| Minecraft Forge                 | onServerTick      | net.minecraftforge.common.ForgeInternalHandler               | normal   | forge-1.12.2-14.23.5.2846-universal.jar       | false           |
-| Triumph                         | onTick            | com.bloodnbonesgaming.triumph.events.TEventHandler           | normal   | Triumph-1.12.2-3.17.0.jar                     | false           |
-| Forge Multipart CBE             | serverTick        | codechicken.multipart.handler.MultipartEventHandler$         | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar  | false           |
-| Flux Networks                   | onServerTick      | sonar.flux.network.FluxCommon                                | normal   | fluxnetworks-1.12.2-3.0.19-21.jar             | false           |
-| EnderStorage                    | tickEnd           | codechicken.enderstorage.network.TankSynchroniser            | normal   | EnderStorage-1.12.2-2.4.5.135-universal.jar   | false           |
+| EnderCore                       | onServerTick      | com.enderio.core.common.util.Scheduler                       | normal   | EnderCore-1.12.2-0.5.57.jar                   | false           |
 | Ender Utilities                 | onServerTick      | fi.dy.masa.enderutilities.event.TickHandler                  | normal   | enderutilities-1.12.2-0.7.12.jar              | false           |
 | OG Dragon+                      | QueueSpawn        | com.gendeathrow.ogdragon.common.GD_EventHandler              | normal   | ogdragon-1.12.2-0.1.4.jar                     | false           |
+| Practical Logistics 2           | onServerTick      | sonar.logistics.base.events.PL2Events                        | normal   | practicallogistics2-1.12.2-3.0.8-11.jar       | false           |
+| PortalGun                       | onServerTick      | me.ichun.mods.portalgun.common.core.EventHandlerServer       | normal   | PortalGun-1.12.2-7.1.0.jar                    | false           |
+| mob_grinding_utils              | onServerTickEvent | mob_grinding_utils.capability.base.EntityCapabilityHandler   | normal   | MobGrindingUtils-0.3.13.jar                   | false           |
+| Minecraft Forge                 | onServerTick      | net.minecraftforge.common.ForgeInternalHandler               | normal   | forge-1.12.2-14.23.5.2846-universal.jar       | false           |
 | Mekanism                        | onTick            | Registry:
 []                                                 | normal   | Mekanism-1.12.2-9.7.5.376.jar                 | false           |
-| Parabox                         | serverTick        | net.darkhax.parabox.util.WorldSpaceTimeManager               | normal   | Parabox-1.12.2-2.0.0.jar                      | false           |
-| Practical Logistics 2           | onServerTick      | sonar.logistics.base.events.PL2Events                        | normal   | practicallogistics2-1.12.2-3.0.8-11.jar       | false           |
+| Forge Multipart CBE             | serverTick        | codechicken.multipart.handler.MultipartEventHandler$         | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar  | false           |
 | Aroma1997Core                   | serverTick        | aroma1997.core.util.registry.TickRegistry$3                  | normal   | Aroma1997Core-1.12.2-2.0.0.2.b165.jar         | false           |
-| Astral Sorcery                  | serverTick        | hellfirepvp.astralsorcery.common.auxiliary.tick.TickManager  | normal   | astralsorcery-1.12.2-1.10.19.jar              | false           |
+| OpenComputers                   | onServerTick      | li.cil.oc.common.item.Tablet$                                | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar          | false           |
+| TorchMaster                     | onGlobalTick      | net.xalcon.torchmaster.common.EventHandlerServer             | normal   | torchmaster_1.12.2-1.7.1.74.jar               | false           |
+| Thermal Dynamics                | onServerTick      | cofh.thermaldynamics.util.TickHandler                        | normal   | ThermalDynamics-1.12.2-2.5.5.21-universal.jar | false           |
+| OpenComputers                   | onTick            | li.cil.oc.common.asm.SimpleComponentTickHandler              | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar          | false           |
+| Triumph                         | onTick            | com.bloodnbonesgaming.triumph.events.TEventHandler           | normal   | Triumph-1.12.2-3.17.0.jar                     | false           |
+| Mystcraft                       | onServerTick      | com.xcompwiz.mystcraft.core.MystcraftTickHandler             | normal   | mystcraft-1.12.2-0.13.7.03.jar                | false           |
 | TogetherForever                 | onServerTick      | com.buuz135.togetherforever.TogetherForever                  | normal   | togetherforever-1.12.2-1.0.12-22.jar          | false           |
-| Twitchcrumbs                    | tick              | net.blay09.mods.twitchcrumbs.Twitchcrumbs                    | normal   | Twitchcrumbs_1.12.2-3.0.4.jar                 | false           |
-| MatterOverdrive: Legacy Edition | onServerTick      | matteroverdrive.handler.TickHandler                          | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar  | false           |
+| Flux Networks                   | onServerTick      | sonar.flux.network.FluxCommon                                | normal   | fluxnetworks-1.12.2-3.0.19-21.jar             | false           |
 
 
 ## MekanismAPI$BoxBlacklistEvent
@@ -360,25 +360,25 @@ submitted to any online service.
 | Owner                 | Method         | Location                                                               | Priority | Source                                       | RecieveCanceled |
 |-----------------------|----------------|------------------------------------------------------------------------|----------|----------------------------------------------|-----------------|
 | MalisisCore           | onChunkWatched | net.malisis.core.util.chunkblock.ChunkBlockHandler                     | normal   | malisiscore-1.12.2-6.5.1.jar                 | false           |
-| Forge Multipart CBE   | onChunkWatch   | codechicken.lib.world.WorldExtensionManager$WorldExtensionEventHandler | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar | false           |
+| Forge Multipart CBE   | chunkWatch     | codechicken.multipart.handler.MultipartEventHandler$                   | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar | false           |
 | Practical Logistics 2 | onChunkWatched | sonar.logistics.core.tiles.displays.DisplayViewerHandler               | normal   | practicallogistics2-1.12.2-3.0.8-11.jar      | false           |
 | MalisisCore           | onChunkWatched | net.malisis.core.util.blockdata.BlockDataHandler                       | normal   | malisiscore-1.12.2-6.5.1.jar                 | false           |
-| Forge Multipart CBE   | chunkWatch     | codechicken.multipart.handler.MultipartEventHandler$                   | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar | false           |
+| Forge Multipart CBE   | onChunkWatch   | codechicken.lib.world.WorldExtensionManager$WorldExtensionEventHandler | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar | false           |
 
 
 ## TickEvent$ClientTickEvent
 | Owner                           | Method         | Location                                                    | Priority | Source                                        | RecieveCanceled |
 |---------------------------------|----------------|-------------------------------------------------------------|----------|-----------------------------------------------|-----------------|
-| EnderStorage                    | tickEnd        | codechicken.enderstorage.network.TankSynchroniser           | normal   | EnderStorage-1.12.2-2.4.5.135-universal.jar   | false           |
-| Aroma1997Core                   | clientTick     | aroma1997.core.util.registry.TickRegistry$4                 | normal   | Aroma1997Core-1.12.2-2.0.0.2.b165.jar         | false           |
 | OpenComputers                   | onClientTick   | li.cil.oc.common.item.Tablet$                               | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar          | false           |
-| Minecraft Forge                 | checkSettings  | net.minecraftforge.common.ForgeInternalHandler              | normal   | forge-1.12.2-14.23.5.2846-universal.jar       | false           |
-| MatterOverdrive: Legacy Edition | onClientTick   | matteroverdrive.handler.TickHandler                         | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar  | false           |
-| Astral Sorcery                  | clientTick     | hellfirepvp.astralsorcery.common.auxiliary.tick.TickManager | normal   | astralsorcery-1.12.2-1.10.19.jar              | false           |
-| OpenComputers                   | onClientTick   | li.cil.oc.common.EventHandler$                              | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar          | false           |
-| Applied Energistics 2           | playerInteract | appeng.parts.PartPlacement                                  | normal   | appliedenergistics2-rv6-stable-6.jar          | false           |
-| CodeChicken Lib                 | onTickEnd      | codechicken.lib.internal.CCLLog                             | lowest   | CodeChickenLib-1.12.2-3.2.2.353-universal.jar | false           |
 | Practical Logistics 2           | onClientTick   | sonar.logistics.base.events.PL2Events                       | normal   | practicallogistics2-1.12.2-3.0.8-11.jar       | false           |
+| MatterOverdrive: Legacy Edition | onClientTick   | matteroverdrive.handler.TickHandler                         | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar  | false           |
+| Applied Energistics 2           | playerInteract | appeng.parts.PartPlacement                                  | normal   | appliedenergistics2-rv6-stable-6.jar          | false           |
+| Astral Sorcery                  | clientTick     | hellfirepvp.astralsorcery.common.auxiliary.tick.TickManager | normal   | astralsorcery-1.12.2-1.10.19.jar              | false           |
+| Aroma1997Core                   | clientTick     | aroma1997.core.util.registry.TickRegistry$4                 | normal   | Aroma1997Core-1.12.2-2.0.0.2.b165.jar         | false           |
+| CodeChicken Lib                 | onTickEnd      | codechicken.lib.internal.CCLLog                             | lowest   | CodeChickenLib-1.12.2-3.2.2.353-universal.jar | false           |
+| Minecraft Forge                 | checkSettings  | net.minecraftforge.common.ForgeInternalHandler              | normal   | forge-1.12.2-14.23.5.2846-universal.jar       | false           |
+| EnderStorage                    | tickEnd        | codechicken.enderstorage.network.TankSynchroniser           | normal   | EnderStorage-1.12.2-2.4.5.135-universal.jar   | false           |
+| OpenComputers                   | onClientTick   | li.cil.oc.common.EventHandler$                              | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar          | false           |
 
 
 ## RobotAttackEntityEvent$Post
@@ -390,11 +390,11 @@ submitted to any online service.
 ## LivingExperienceDropEvent
 | Owner             | Method                 | Location                                              | Priority | Source                             | RecieveCanceled |
 |-------------------|------------------------|-------------------------------------------------------|----------|------------------------------------|-----------------|
-| Apotheosis        | xp                     | shadows.potion.PotionModule                           | normal   | Apotheosis-1.12.2-1.10.2.jar       | false           |
-| NuclearCraft      | onXpDrop               | slimeknights.tconstruct.tools.traits.TraitEstablished | normal   | NuclearCraft-2.17a-1.12.2.jar      | false           |
-| Hunting Dimension | onExpCalculated        | net.darkhax.huntingdim.handler.DimensionEffectHandler | normal   | HuntingDimension-1.12.2-1.0.38.jar | false           |
-| InControl         | onLivingExperienceDrop | mcjty.incontrol.ForgeEventHandlers                    | lowest   | incontrol-1.12-3.9.10.jar          | false           |
 | Corail Tombstone  | onLivingExperienceDrop | ovh.corail.tombstone.event.EventHandler               | lowest   | tombstone-3.5.2-1.12.jar           | false           |
+| InControl         | onLivingExperienceDrop | mcjty.incontrol.ForgeEventHandlers                    | lowest   | incontrol-1.12-3.9.10.jar          | false           |
+| Apotheosis        | xp                     | shadows.potion.PotionModule                           | normal   | Apotheosis-1.12.2-1.10.2.jar       | false           |
+| Hunting Dimension | onExpCalculated        | net.darkhax.huntingdim.handler.DimensionEffectHandler | normal   | HuntingDimension-1.12.2-1.0.38.jar | false           |
+| NuclearCraft      | onXpDrop               | slimeknights.tconstruct.tools.traits.TraitEstablished | normal   | NuclearCraft-2.17a-1.12.2.jar      | false           |
 
 
 ## EntityEvent$EnteringChunk
@@ -406,135 +406,135 @@ submitted to any online service.
 ## ChunkEvent$Unload
 | Owner               | Method        | Location                                                                    | Priority | Source                                       | RecieveCanceled |
 |---------------------|---------------|-----------------------------------------------------------------------------|----------|----------------------------------------------|-----------------|
+| MalisisCore         | onDataUnload  | net.malisis.core.util.blockdata.BlockDataHandler                            | normal   | malisiscore-1.12.2-6.5.1.jar                 | false           |
+| Astral Sorcery      | onChUnload    | hellfirepvp.astralsorcery.common.starlight.network.TransmissionChunkTracker | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| OpenComputers       | onChunkUnload | li.cil.oc.server.network.Waypoints$                                         | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
 | Minecraft Forge     | onChunkUnload | net.minecraftforge.common.ForgeInternalHandler                              | normal   | forge-1.12.2-14.23.5.2846-universal.jar      | false           |
 | Forge Multipart CBE | onChunkUnLoad | codechicken.lib.world.WorldExtensionManager$WorldExtensionEventHandler      | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar | false           |
-| MalisisCore         | onDataUnload  | net.malisis.core.util.blockdata.BlockDataHandler                            | normal   | malisiscore-1.12.2-6.5.1.jar                 | false           |
-| OpenComputers       | onChunkUnload | li.cil.oc.server.network.Waypoints$                                         | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
-| OpenComputers       | onChunkUnload | li.cil.oc.server.network.WirelessNetwork$                                   | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
 | OpenComputers       | onChunkUnload | li.cil.oc.common.EventHandler$                                              | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
-| Astral Sorcery      | onChUnload    | hellfirepvp.astralsorcery.common.starlight.network.TransmissionChunkTracker | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| OpenComputers       | onChunkUnload | li.cil.oc.server.network.WirelessNetwork$                                   | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
 
 
 ## WorldEvent$Unload
 | Owner                           | Method                 | Location                                                                               | Priority | Source                                        | RecieveCanceled |
 |---------------------------------|------------------------|----------------------------------------------------------------------------------------|----------|-----------------------------------------------|-----------------|
-| OpenComputers                   | onWorldUnload          | li.cil.oc.client.ComponentTracker$                                                     | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar          | false           |
-| Forge Multipart CBE             | onWorldUnLoad          | codechicken.lib.world.WorldExtensionManager$WorldExtensionEventHandler                 | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar  | false           |
-| EnderStorage                    | onWorldUnload          | codechicken.enderstorage.network.TankSynchroniser                                      | normal   | EnderStorage-1.12.2-2.4.5.135-universal.jar   | false           |
-| MatterOverdrive: Legacy Edition | onWorldUnload          | matteroverdrive.handler.MatterRegistrationHandler                                      | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar  | false           |
-| Mekanism                        | onWorldUnload          | mekanism.common.Mekanism                                                               | normal   | Mekanism-1.12.2-9.7.5.376.jar                 | false           |
-| OreExcavation                   | onWorldUnload          | oreexcavation.handlers.EventHandler                                                    | normal   | OreExcavation-1.4.137.jar                     | false           |
-| Astral Sorcery                  | onWorldClear           | hellfirepvp.astralsorcery.common.util.effect.time.TimeStopController                   | normal   | astralsorcery-1.12.2-1.10.19.jar              | false           |
-| Forge Multipart CBE             | worldUnLoad            | codechicken.multipart.handler.MultipartEventHandler$                                   | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar  | false           |
-| Horse Power                     | onServerLeave          | se.gory_moon.horsepower.HPEventHandler                                                 | normal   | HorsePower-1.12.2-2.6.4.74.jar                | false           |
+| Dark Utilities                  | onWorldUnload          | net.darkhax.darkutils.handler.FakePlayerHandler                                        | normal   | DarkUtils-1.12.2-1.8.226.jar                  | false           |
+| OpenComputers                   | onWorldUnload          | li.cil.oc.server.network.WirelessNetwork$                                              | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar          | false           |
+| Applied Energistics 2           | unloadWorld            | appeng.hooks.TickHandler                                                               | normal   | appliedenergistics2-rv6-stable-6.jar          | false           |
 | Sky Grid                        | onWorldUnload          | funwayguy.skygrid.handlers.EventHandler                                                | normal   | SkyGrid-1.1.7.jar                             | false           |
-| MatterOverdrive: Legacy Edition | onWorldUnload          | matteroverdrive.handler.matter_network.FluidNetworkHandler                             | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar  | false           |
+| Mekanism                        | onWorldUnload          | mekanism.common.Mekanism                                                               | normal   | Mekanism-1.12.2-9.7.5.376.jar                 | false           |
+| Forge Multipart CBE             | worldUnLoad            | codechicken.multipart.handler.MultipartEventHandler$                                   | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar  | false           |
+| OpenComputers                   | onWorldUnload          | li.cil.oc.common.item.Tablet$                                                          | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar          | false           |
 | Thermal Dynamics                | worldUnload            | cofh.thermaldynamics.util.TickHandler                                                  | normal   | ThermalDynamics-1.12.2-2.5.5.21-universal.jar | false           |
 | OpenComputers                   | onWorldUnload          | li.cil.oc.server.ComponentTracker$                                                     | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar          | false           |
-| Mystcraft                       | handleWorldUnloadEvent | com.xcompwiz.mystcraft.core.MystcraftEventHandler                                      | normal   | mystcraft-1.12.2-0.13.7.03.jar                | false           |
-| OpenComputers                   | onWorldUnload          | li.cil.oc.server.network.WirelessNetwork$                                              | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar          | false           |
-| Dark Utilities                  | onWorldUnload          | net.darkhax.darkutils.handler.FakePlayerHandler                                        | normal   | DarkUtils-1.12.2-1.8.226.jar                  | false           |
-| MatterOverdrive: Legacy Edition | onWorldUnload          | matteroverdrive.starmap.GalaxyServer                                                   | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar  | false           |
-| Click Machine                   | unload                 | shadows.click.util.FakePlayerUtil                                                      | normal   | ClickMachine-1.12.2-1.2.0.jar                 | false           |
-| Applied Energistics 2           | unloadWorld            | appeng.hooks.TickHandler                                                               | normal   | appliedenergistics2-rv6-stable-6.jar          | false           |
-| Minecraft Forge                 | onDimensionUnload      | net.minecraftforge.common.ForgeInternalHandler                                         | highest  | forge-1.12.2-14.23.5.2846-universal.jar       | false           |
-| OpenComputers                   | onWorldUnload          | li.cil.oc.common.EventHandler$                                                         | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar          | false           |
-| PortalGun                       | onWorldUnload          | me.ichun.mods.ichunutil.common.module.worldportals.common.core.EventHandlerWorldPortal | normal   | PortalGun-1.12.2-7.1.0.jar                    | false           |
-| Astral Sorcery                  | onUnload               | hellfirepvp.astralsorcery.common.event.listener.EventHandlerIO                         | normal   | astralsorcery-1.12.2-1.10.19.jar              | false           |
 | Astral Sorcery                  | onWorldUnload          | hellfirepvp.astralsorcery.common.starlight.network.TransmissionChunkTracker            | normal   | astralsorcery-1.12.2-1.10.19.jar              | false           |
-| OpenComputers                   | onWorldUnload          | li.cil.oc.server.network.Waypoints$                                                    | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar          | false           |
+| Astral Sorcery                  | onWorldClear           | hellfirepvp.astralsorcery.common.util.effect.time.TimeStopController                   | normal   | astralsorcery-1.12.2-1.10.19.jar              | false           |
+| Forge Multipart CBE             | onWorldUnLoad          | codechicken.lib.world.WorldExtensionManager$WorldExtensionEventHandler                 | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar  | false           |
+| PortalGun                       | onWorldUnload          | me.ichun.mods.ichunutil.common.module.worldportals.common.core.EventHandlerWorldPortal | normal   | PortalGun-1.12.2-7.1.0.jar                    | false           |
+| OreExcavation                   | onWorldUnload          | oreexcavation.handlers.EventHandler                                                    | normal   | OreExcavation-1.4.137.jar                     | false           |
+| Astral Sorcery                  | onUnload               | hellfirepvp.astralsorcery.common.event.listener.EventHandlerIO                         | normal   | astralsorcery-1.12.2-1.10.19.jar              | false           |
+| OpenComputers                   | onWorldUnload          | li.cil.oc.common.EventHandler$                                                         | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar          | false           |
+| Click Machine                   | unload                 | shadows.click.util.FakePlayerUtil                                                      | normal   | ClickMachine-1.12.2-1.2.0.jar                 | false           |
+| MatterOverdrive: Legacy Edition | onWorldUnload          | matteroverdrive.starmap.GalaxyServer                                                   | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar  | false           |
+| MatterOverdrive: Legacy Edition | onWorldUnload          | matteroverdrive.handler.matter_network.FluidNetworkHandler                             | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar  | false           |
+| MatterOverdrive: Legacy Edition | onWorldUnload          | matteroverdrive.handler.MatterRegistrationHandler                                      | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar  | false           |
+| Horse Power                     | onServerLeave          | se.gory_moon.horsepower.HPEventHandler                                                 | normal   | HorsePower-1.12.2-2.6.4.74.jar                | false           |
+| Minecraft Forge                 | onDimensionUnload      | net.minecraftforge.common.ForgeInternalHandler                                         | highest  | forge-1.12.2-14.23.5.2846-universal.jar       | false           |
+| EnderStorage                    | onWorldUnload          | codechicken.enderstorage.network.TankSynchroniser                                      | normal   | EnderStorage-1.12.2-2.4.5.135-universal.jar   | false           |
+| OpenComputers                   | onWorldUnload          | li.cil.oc.client.ComponentTracker$                                                     | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar          | false           |
 | PortalGun                       | onWorldUnload          | me.ichun.mods.portalgun.common.core.EventHandlerServer                                 | normal   | PortalGun-1.12.2-7.1.0.jar                    | false           |
+| OpenComputers                   | onWorldUnload          | li.cil.oc.server.network.Waypoints$                                                    | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar          | false           |
+| Mystcraft                       | handleWorldUnloadEvent | com.xcompwiz.mystcraft.core.MystcraftEventHandler                                      | normal   | mystcraft-1.12.2-0.13.7.03.jar                | false           |
 | MatterOverdrive: Legacy Edition | onWorldUnload          | matteroverdrive.handler.matter_network.MatterNetworkHandler                            | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar  | false           |
-| OpenComputers                   | onWorldUnload          | li.cil.oc.common.item.Tablet$                                                          | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar          | false           |
-
-
-## BlockEvent$BreakEvent
-| Owner               | Method                | Location                                                                          | Priority | Source                                      | RecieveCanceled |
-|---------------------|-----------------------|-----------------------------------------------------------------------------------|----------|---------------------------------------------|-----------------|
-| Sky Grid            | onBlockBreak          | funwayguy.skygrid.handlers.EventHandler                                           | normal   | SkyGrid-1.1.7.jar                           | false           |
-| Extra Cells 2       | onBlockBreak          | extracells.util.ExtraCellsEventHandler                                            | normal   | ExtraCells-1.12.2-2.6.2a.jar                | false           |
-| Cyclic              | onBreakEvent          | com.lothrazar.cyclicmagic.enchant.EnchantXpBoost                                  | lowest   | Cyclic-1.12.2-1.19.11.jar                   | false           |
-| EnderCore           | handleBlockBreak      | com.enderio.core.common.handlers.XPBoostHandler                                   | normal   | EnderCore-1.12.2-0.5.57.jar                 | false           |
-| The Twilight Forest | breakBlock            | twilightforest.TFEventListener                                                    | normal   | twilightforest-1.12.2-3.8.689-universal.jar | false           |
-| Cyclic              | onBreakEvent          | Block{cyclicmagic:plate_vector}                                                   | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
-| Tinkers' Construct  | blockBreak            | slimeknights.tconstruct.tools.TraitEvents                                         | normal   | TConstruct-1.12.2-2.12.0.135.jar            | false           |
-| OreExcavation       | onBlockBreak          | oreexcavation.handlers.EventHandler                                               | lowest   | OreExcavation-1.4.137.jar                   | false           |
-| Corail Tombstone    | onBreak               | ovh.corail.tombstone.event.EventHandler                                           | lowest   | tombstone-3.5.2-1.12.jar                    | false           |
-| OpenComputers       | onBlockBreak          | li.cil.oc.common.EventHandler$                                                    | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar        | false           |
-| Compact Machines 3  | preventBreakingInHub  | org.dave.compactmachines3.skyworld.SkyWorldEvents                                 | normal   | compactmachines3-1.12.2-3.0.18-b278.jar     | false           |
-| Cyclic              | onBreakEvent          | com.lothrazar.cyclicmagic.enchant.EnchantExcavation                               | lowest   | Cyclic-1.12.2-1.19.11.jar                   | false           |
-| Astral Sorcery      | onBreak               | hellfirepvp.astralsorcery.common.constellation.perk.tree.root.AevitasRootPerk     | normal   | astralsorcery-1.12.2-1.10.19.jar            | false           |
-| Pickle Tweaks       | onBreakBlock          | com.blakebr0.pickletweaks.tweaks.TweakToolBreaking                                | high     | PickleTweaks-1.12.2-2.1.3.jar               | false           |
-| Astral Sorcery      | onBreak               | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyChainMining | low      | astralsorcery-1.12.2-1.10.19.jar            | false           |
-| Carry On            | harvestSpeed          | tschipp.carryon.common.event.ItemEvents                                           | normal   | CarryOn MC1.12.2 v1.12.1.jar                | false           |
-| Astral Sorcery      | onBreak               | hellfirepvp.astralsorcery.common.event.listener.EventHandlerServer                | lowest   | astralsorcery-1.12.2-1.10.19.jar            | false           |
-| Pickle Tweaks       | onBlockBroken         | com.blakebr0.pickletweaks.feature.FeatureToolInfo                                 | normal   | PickleTweaks-1.12.2-2.1.3.jar               | false           |
-| KleeSlabs           | onBreakBlock          | net.blay09.mods.kleeslabs.KleeSlabs                                               | normal   | KleeSlabs_1.12.2-5.4.11.jar                 | false           |
-| Triumph             | onPlayerBlockBreak    | com.bloodnbonesgaming.triumph.events.TEventHandler                                | normal   | Triumph-1.12.2-3.17.0.jar                   | false           |
-| Astral Sorcery      | breakBlock            | hellfirepvp.astralsorcery.common.event.listener.EventHandlerCapeEffects           | normal   | astralsorcery-1.12.2-1.10.19.jar            | false           |
-| NuclearCraft        | onBlockBreak          | slimeknights.tconstruct.tools.traits.TraitEstablished                             | normal   | NuclearCraft-2.17a-1.12.2.jar               | false           |
-| CoFH Core           | handleBlockBreakEvent | cofh.core.proxy.EventHandler                                                      | normal   | CoFHCore-1.12.2-4.6.3.27-universal.jar      | false           |
-| PortalGun           | onBlockBreak          | me.ichun.mods.portalgun.common.core.EventHandlerServer                            | normal   | PortalGun-1.12.2-7.1.0.jar                  | false           |
-| Chisel              | onBlockBreak          | team.chisel.common.item.ChiselController                                          | normal   | Chisel-MC1.12.2-0.2.1.35.jar                | false           |
-| CraftTweaker2       | onBlockBreakEvent     | crafttweaker.mc1120.events.CommonEventHandler                                     | normal   | CraftTweaker2-1.12-4.1.18.jar               | false           |
-| Astral Sorcery      | onBreak               | hellfirepvp.astralsorcery.common.constellation.perk.tree.root.EvorsioRootPerk     | lowest   | astralsorcery-1.12.2-1.10.19.jar            | false           |
-| Inspirations        | vineBreakEvent        | knightminer.inspirations.tools.ToolsEvents                                        | low      | Inspirations-1.12.2-0.2.4.jar               | false           |
-| Cyclic              | onBreakEvent          | com.lothrazar.cyclicmagic.block.wireless.BlockRedstoneWireless                    | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
 
 
 ## LivingEntityUseItemEvent$Finish
 | Owner              | Method                           | Location                                      | Priority | Source                        | RecieveCanceled |
 |--------------------|----------------------------------|-----------------------------------------------|----------|-------------------------------|-----------------|
-| Rustic             | onItemUseFinish                  | rustic.common.EventHandlerCommon              | highest  | rustic-1.0.15.jar             | false           |
-| CraftTweaker2      | onLivingEntityUseItemFinishEvent | crafttweaker.mc1120.events.CommonEventHandler | normal   | CraftTweaker2-1.12-4.1.18.jar | false           |
 | Cyclic             | onDrink                          | com.lothrazar.cyclicmagic.item.ItemFlight     | normal   | Cyclic-1.12.2-1.19.11.jar     | false           |
 | Rustic             | onWaterBottleUse                 | rustic.common.potions.EventHandlerPotions     | highest  | rustic-1.0.15.jar             | false           |
 | Construct's Armory | finishMilk                       | c4.conarm.common.armor.traits.TraitCalcic     | normal   | conarm-1.12.2-1.2.3.jar       | false           |
+| CraftTweaker2      | onLivingEntityUseItemFinishEvent | crafttweaker.mc1120.events.CommonEventHandler | normal   | CraftTweaker2-1.12-4.1.18.jar | false           |
+| Rustic             | onItemUseFinish                  | rustic.common.EventHandlerCommon              | highest  | rustic-1.0.15.jar             | false           |
+
+
+## BlockEvent$BreakEvent
+| Owner               | Method                | Location                                                                          | Priority | Source                                      | RecieveCanceled |
+|---------------------|-----------------------|-----------------------------------------------------------------------------------|----------|---------------------------------------------|-----------------|
+| Carry On            | harvestSpeed          | tschipp.carryon.common.event.ItemEvents                                           | normal   | CarryOn MC1.12.2 v1.12.1.jar                | false           |
+| Chisel              | onBlockBreak          | team.chisel.common.item.ChiselController                                          | normal   | Chisel-MC1.12.2-0.2.1.35.jar                | false           |
+| Cyclic              | onBreakEvent          | com.lothrazar.cyclicmagic.enchant.EnchantExcavation                               | lowest   | Cyclic-1.12.2-1.19.11.jar                   | false           |
+| KleeSlabs           | onBreakBlock          | net.blay09.mods.kleeslabs.KleeSlabs                                               | normal   | KleeSlabs_1.12.2-5.4.11.jar                 | false           |
+| Astral Sorcery      | breakBlock            | hellfirepvp.astralsorcery.common.event.listener.EventHandlerCapeEffects           | normal   | astralsorcery-1.12.2-1.10.19.jar            | false           |
+| Cyclic              | onBreakEvent          | Block{cyclicmagic:plate_vector}                                                   | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
+| Sky Grid            | onBlockBreak          | funwayguy.skygrid.handlers.EventHandler                                           | normal   | SkyGrid-1.1.7.jar                           | false           |
+| NuclearCraft        | onBlockBreak          | slimeknights.tconstruct.tools.traits.TraitEstablished                             | normal   | NuclearCraft-2.17a-1.12.2.jar               | false           |
+| CoFH Core           | handleBlockBreakEvent | cofh.core.proxy.EventHandler                                                      | normal   | CoFHCore-1.12.2-4.6.3.27-universal.jar      | false           |
+| Corail Tombstone    | onBreak               | ovh.corail.tombstone.event.EventHandler                                           | lowest   | tombstone-3.5.2-1.12.jar                    | false           |
+| Cyclic              | onBreakEvent          | com.lothrazar.cyclicmagic.block.wireless.BlockRedstoneWireless                    | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
+| EnderCore           | handleBlockBreak      | com.enderio.core.common.handlers.XPBoostHandler                                   | normal   | EnderCore-1.12.2-0.5.57.jar                 | false           |
+| Pickle Tweaks       | onBlockBroken         | com.blakebr0.pickletweaks.feature.FeatureToolInfo                                 | normal   | PickleTweaks-1.12.2-2.1.3.jar               | false           |
+| Tinkers' Construct  | blockBreak            | slimeknights.tconstruct.tools.TraitEvents                                         | normal   | TConstruct-1.12.2-2.12.0.135.jar            | false           |
+| OpenComputers       | onBlockBreak          | li.cil.oc.common.EventHandler$                                                    | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar        | false           |
+| Astral Sorcery      | onBreak               | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyChainMining | low      | astralsorcery-1.12.2-1.10.19.jar            | false           |
+| Inspirations        | vineBreakEvent        | knightminer.inspirations.tools.ToolsEvents                                        | low      | Inspirations-1.12.2-0.2.4.jar               | false           |
+| Astral Sorcery      | onBreak               | hellfirepvp.astralsorcery.common.constellation.perk.tree.root.AevitasRootPerk     | normal   | astralsorcery-1.12.2-1.10.19.jar            | false           |
+| The Twilight Forest | breakBlock            | twilightforest.TFEventListener                                                    | normal   | twilightforest-1.12.2-3.8.689-universal.jar | false           |
+| Compact Machines 3  | preventBreakingInHub  | org.dave.compactmachines3.skyworld.SkyWorldEvents                                 | normal   | compactmachines3-1.12.2-3.0.18-b278.jar     | false           |
+| Triumph             | onPlayerBlockBreak    | com.bloodnbonesgaming.triumph.events.TEventHandler                                | normal   | Triumph-1.12.2-3.17.0.jar                   | false           |
+| Cyclic              | onBreakEvent          | com.lothrazar.cyclicmagic.enchant.EnchantXpBoost                                  | lowest   | Cyclic-1.12.2-1.19.11.jar                   | false           |
+| Astral Sorcery      | onBreak               | hellfirepvp.astralsorcery.common.constellation.perk.tree.root.EvorsioRootPerk     | lowest   | astralsorcery-1.12.2-1.10.19.jar            | false           |
+| Astral Sorcery      | onBreak               | hellfirepvp.astralsorcery.common.event.listener.EventHandlerServer                | lowest   | astralsorcery-1.12.2-1.10.19.jar            | false           |
+| CraftTweaker2       | onBlockBreakEvent     | crafttweaker.mc1120.events.CommonEventHandler                                     | normal   | CraftTweaker2-1.12-4.1.18.jar               | false           |
+| PortalGun           | onBlockBreak          | me.ichun.mods.portalgun.common.core.EventHandlerServer                            | normal   | PortalGun-1.12.2-7.1.0.jar                  | false           |
+| Extra Cells 2       | onBlockBreak          | extracells.util.ExtraCellsEventHandler                                            | normal   | ExtraCells-1.12.2-2.6.2a.jar                | false           |
+| Pickle Tweaks       | onBreakBlock          | com.blakebr0.pickletweaks.tweaks.TweakToolBreaking                                | high     | PickleTweaks-1.12.2-2.1.3.jar               | false           |
+| OreExcavation       | onBlockBreak          | oreexcavation.handlers.EventHandler                                               | lowest   | OreExcavation-1.4.137.jar                   | false           |
 
 
 ## PlayerEvent$PlayerLoggedOutEvent
 | Owner               | Method              | Location                                                            | Priority | Source                                      | RecieveCanceled |
 |---------------------|---------------------|---------------------------------------------------------------------|----------|---------------------------------------------|-----------------|
+| CraftTweaker2       | onPlayerLoggedOut   | crafttweaker.mc1120.events.CommonEventHandler                       | normal   | CraftTweaker2-1.12-4.1.18.jar               | false           |
+| Deep Mob Learning   | playerLoggedOut     | xt9.deepmoblearning.common.events.PlayerHandler                     | normal   | deepmoblearning-1.12.2-2.5.2-universal.jar  | false           |
+| Baubles             | onPlayerLoggedOut   | baubles.common.event.EventHandlerEntity                             | normal   | Baubles-1.12-1.5.2.jar                      | false           |
 | ViesCraft           | onPlayerLogoutEvent | com.viesis.viescraft.common.utils.events.EventHandlerConfig         | normal   | ViesCraft-1.12.2-5.9.13.jar                 | false           |
 | Mekanism            | onPlayerLogoutEvent | mekanism.common.CommonPlayerTracker                                 | normal   | Mekanism-1.12.2-9.7.5.376.jar               | false           |
-| Astral Sorcery      | onLogout            | hellfirepvp.astralsorcery.common.event.listener.EventHandlerNetwork | normal   | astralsorcery-1.12.2-1.10.19.jar            | false           |
-| Iron Jetpacks       | onLogout            | com.blakebr0.ironjetpacks.handler.InputHandler                      | normal   | IronJetpacks-1.12-2-1.1.0.jar               | false           |
-| Mystcraft           | onPlayerLoggedOut   | com.xcompwiz.mystcraft.instability.bonus.EventManager               | normal   | mystcraft-1.12.2-0.13.7.03.jar              | false           |
-| PigUtils            | onPlayerLogout      | me.ichun.mods.ichunutil.common.core.event.EventHandlerServer        | highest  | iChunUtil-1.12.2-7.1.4.jar                  | false           |
-| Ender Utilities     | onPlayerLoggedOut   | fi.dy.masa.enderutilities.event.PlayerEventHandler                  | normal   | enderutilities-1.12.2-0.7.12.jar            | false           |
-| Construct's Armory  | onPlayerLoggedOut   | c4.conarm.common.events.ArmorEvents                                 | normal   | conarm-1.12.2-1.2.3.jar                     | false           |
-| Baubles             | onPlayerLoggedOut   | baubles.common.event.EventHandlerEntity                             | normal   | Baubles-1.12-1.5.2.jar                      | false           |
-| Game Stages         | onPlayerLoggedOut   | net.darkhax.gamestages.data.GameStageSaveHandler                    | normal   | GameStages-1.12.2-2.0.115.jar               | false           |
-| Deep Mob Learning   | playerLoggedOut     | xt9.deepmoblearning.common.events.PlayerHandler                     | normal   | deepmoblearning-1.12.2-2.5.2-universal.jar  | false           |
-| OpenComputers       | onPlayerDisconnect  | li.cil.oc.common.event.NanomachinesHandler$Common$                  | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar        | false           |
-| OpenComputers       | onPlayerLogout      | li.cil.oc.common.EventHandler$                                      | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar        | false           |
 | Statues mod         | onPlayerLogout      | com.svennieke.statues.handler.FishHandler                           | normal   | statues-1.12.X-0.8.7.2.jar                  | false           |
+| Mystcraft           | onPlayerLoggedOut   | com.xcompwiz.mystcraft.instability.bonus.EventManager               | normal   | mystcraft-1.12.2-0.13.7.03.jar              | false           |
 | Morpheus            | loggedOutEvent      | net.quetzi.morpheus.helpers.MorpheusEventHandler                    | normal   | Morpheus-1.12.2-3.5.106.jar                 | false           |
-| EnderStorage        | onPlayerLogout      | codechicken.enderstorage.network.TankSynchroniser                   | normal   | EnderStorage-1.12.2-2.4.5.135-universal.jar | false           |
-| Sync                | onPlayerLogout      | me.ichun.mods.sync.common.core.EventHandlerServer                   | normal   | Sync-1.12.2-7.1.0.jar                       | false           |
+| Astral Sorcery      | onLogout            | hellfirepvp.astralsorcery.common.event.listener.EventHandlerNetwork | normal   | astralsorcery-1.12.2-1.10.19.jar            | false           |
 | The Twilight Forest | onPlayerLogout      | twilightforest.TFEventListener                                      | normal   | twilightforest-1.12.2-3.8.689-universal.jar | false           |
+| Sync                | onPlayerLogout      | me.ichun.mods.sync.common.core.EventHandlerServer                   | normal   | Sync-1.12.2-7.1.0.jar                       | false           |
+| Ender Utilities     | onPlayerLoggedOut   | fi.dy.masa.enderutilities.event.PlayerEventHandler                  | normal   | enderutilities-1.12.2-0.7.12.jar            | false           |
+| OpenComputers       | onPlayerDisconnect  | li.cil.oc.common.event.NanomachinesHandler$Common$                  | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar        | false           |
+| Iron Jetpacks       | onLogout            | com.blakebr0.ironjetpacks.handler.InputHandler                      | normal   | IronJetpacks-1.12-2-1.1.0.jar               | false           |
+| Construct's Armory  | onPlayerLoggedOut   | c4.conarm.common.events.ArmorEvents                                 | normal   | conarm-1.12.2-1.2.3.jar                     | false           |
+| OpenComputers       | onPlayerLogout      | li.cil.oc.common.EventHandler$                                      | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar        | false           |
+| EnderStorage        | onPlayerLogout      | codechicken.enderstorage.network.TankSynchroniser                   | normal   | EnderStorage-1.12.2-2.4.5.135-universal.jar | false           |
+| Game Stages         | onPlayerLoggedOut   | net.darkhax.gamestages.data.GameStageSaveHandler                    | normal   | GameStages-1.12.2-2.0.115.jar               | false           |
+| PigUtils            | onPlayerLogout      | me.ichun.mods.ichunutil.common.core.event.EventHandlerServer        | highest  | iChunUtil-1.12.2-7.1.4.jar                  | false           |
 | PortalGun           | onPlayerLogout      | me.ichun.mods.portalgun.common.core.EventHandlerServer              | normal   | PortalGun-1.12.2-7.1.0.jar                  | false           |
-| CraftTweaker2       | onPlayerLoggedOut   | crafttweaker.mc1120.events.CommonEventHandler                       | normal   | CraftTweaker2-1.12-4.1.18.jar               | false           |
 
 
 ## PlayerEvent$BreakSpeed
 | Owner              | Method                  | Location                                                                               | Priority | Source                           | RecieveCanceled |
 |--------------------|-------------------------|----------------------------------------------------------------------------------------|----------|----------------------------------|-----------------|
-| Astral Sorcery     | onBreakSpeed            | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyLastBreath       | normal   | astralsorcery-1.12.2-1.10.19.jar | false           |
-| Item Stages        | onPlayerDig             | net.darkhax.itemstages.ItemStages                                                      | normal   | ItemStages-1.12.2-2.0.50.jar     | false           |
-| Apotheosis         | breakSpeed              | shadows.ench.EnchModule                                                                | normal   | Apotheosis-1.12.2-1.10.2.jar     | false           |
-| Astral Sorcery     | onWaterBreak            | hellfirepvp.astralsorcery.common.event.listener.EventHandlerCapeEffects                | normal   | astralsorcery-1.12.2-1.10.19.jar | false           |
-| Inspirations       | breakLeavesFast         | knightminer.inspirations.tools.ToolsEvents                                             | normal   | Inspirations-1.12.2-0.2.4.jar    | false           |
-| Astral Sorcery     | onBreakSpeed            | hellfirepvp.astralsorcery.common.constellation.perk.attribute.type.AttributeBreakSpeed | low      | astralsorcery-1.12.2-1.10.19.jar | false           |
-| Tinkers' Construct | offhandBreakSpeed       | slimeknights.tconstruct.library.tools.DualToolHarvestUtils                             | normal   | TConstruct-1.12.2-2.12.0.135.jar | false           |
-| Astral Sorcery     | onHarvestSpeed          | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyDigTypes         | normal   | astralsorcery-1.12.2-1.10.19.jar | false           |
-| Tinkers' Construct | mineSpeed               | slimeknights.tconstruct.tools.TraitEvents                                              | normal   | TConstruct-1.12.2-2.12.0.135.jar | false           |
-| Pickle Tweaks      | breakSpeed              | com.blakebr0.pickletweaks.tweaks.TweakHoeUselessifier                                  | normal   | PickleTweaks-1.12.2-2.1.3.jar    | false           |
-| Pickle Tweaks      | breakSpeed              | com.blakebr0.pickletweaks.tweaks.TweakToolUselessifier                                 | normal   | PickleTweaks-1.12.2-2.1.3.jar    | false           |
-| Pickle Tweaks      | breakSpeed              | com.blakebr0.pickletweaks.tweaks.TweakWeaponUselessifier                               | normal   | PickleTweaks-1.12.2-2.1.3.jar    | false           |
 | Pickle Tweaks      | onBreakingBlock         | com.blakebr0.pickletweaks.tweaks.TweakToolBreaking                                     | high     | PickleTweaks-1.12.2-2.1.3.jar    | false           |
-| Carry On           | harvestSpeed            | tschipp.carryon.common.event.ItemEvents                                                | normal   | CarryOn MC1.12.2 v1.12.1.jar     | false           |
+| Apotheosis         | breakSpeed              | shadows.ench.EnchModule                                                                | normal   | Apotheosis-1.12.2-1.10.2.jar     | false           |
+| Astral Sorcery     | onBreakSpeed            | hellfirepvp.astralsorcery.common.constellation.perk.attribute.type.AttributeBreakSpeed | low      | astralsorcery-1.12.2-1.10.19.jar | false           |
+| Pickle Tweaks      | breakSpeed              | com.blakebr0.pickletweaks.tweaks.TweakWeaponUselessifier                               | normal   | PickleTweaks-1.12.2-2.1.3.jar    | false           |
+| Item Stages        | onPlayerDig             | net.darkhax.itemstages.ItemStages                                                      | normal   | ItemStages-1.12.2-2.0.50.jar     | false           |
 | CraftTweaker2      | onPlayerBreakSpeedEvent | crafttweaker.mc1120.events.CommonEventHandler                                          | normal   | CraftTweaker2-1.12-4.1.18.jar    | false           |
+| Carry On           | harvestSpeed            | tschipp.carryon.common.event.ItemEvents                                                | normal   | CarryOn MC1.12.2 v1.12.1.jar     | false           |
+| Astral Sorcery     | onHarvestSpeed          | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyDigTypes         | normal   | astralsorcery-1.12.2-1.10.19.jar | false           |
+| Inspirations       | breakLeavesFast         | knightminer.inspirations.tools.ToolsEvents                                             | normal   | Inspirations-1.12.2-0.2.4.jar    | false           |
+| Pickle Tweaks      | breakSpeed              | com.blakebr0.pickletweaks.tweaks.TweakHoeUselessifier                                  | normal   | PickleTweaks-1.12.2-2.1.3.jar    | false           |
+| Astral Sorcery     | onWaterBreak            | hellfirepvp.astralsorcery.common.event.listener.EventHandlerCapeEffects                | normal   | astralsorcery-1.12.2-1.10.19.jar | false           |
+| Tinkers' Construct | offhandBreakSpeed       | slimeknights.tconstruct.library.tools.DualToolHarvestUtils                             | normal   | TConstruct-1.12.2-2.12.0.135.jar | false           |
+| Tinkers' Construct | mineSpeed               | slimeknights.tconstruct.tools.TraitEvents                                              | normal   | TConstruct-1.12.2-2.12.0.135.jar | false           |
+| Pickle Tweaks      | breakSpeed              | com.blakebr0.pickletweaks.tweaks.TweakToolUselessifier                                 | normal   | PickleTweaks-1.12.2-2.1.3.jar    | false           |
+| Astral Sorcery     | onBreakSpeed            | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyLastBreath       | normal   | astralsorcery-1.12.2-1.10.19.jar | false           |
 
 
 ## FMLNetworkEvent$ServerDisconnectionFromClientEvent
@@ -558,14 +558,14 @@ submitted to any online service.
 ## FillBucketEvent
 | Owner               | Method             | Location                                            | Priority | Source                                     | RecieveCanceled |
 |---------------------|--------------------|-----------------------------------------------------|----------|--------------------------------------------|-----------------|
-| Minecraft Forge     | onFillBucket       | net.minecraftforge.fluids.UniversalBucket           | low      | forge-1.12.2-14.23.5.2846-universal.jar    | false           |
+| HydroGel            | onBucketUse        | com.digitalfeonix.hydrogel.init.ModRegistry         | normal   | HydroGel-1.12.2-1.1.0.jar                  | false           |
+| Ceramics            | onBucketEvent      | knightminer.ceramics.items.ItemClayBucket           | low      | Ceramics-1.12-1.3.7.jar                    | false           |
+| CraftTweaker2       | onPlayerFillBucket | crafttweaker.mc1120.events.CommonEventHandler       | normal   | CraftTweaker2-1.12-4.1.18.jar              | false           |
+| Mystcraft           | bucketFix          | com.xcompwiz.mystcraft.core.MystcraftEventHandler   | normal   | mystcraft-1.12.2-0.13.7.03.jar             | false           |
+| Integrated Dynamics | onBucketFill       | org.cyclops.cyclopscore.item.BucketRegistry         | highest  | IntegratedDynamics-1.12.2-1.0.8.jar        | false           |
 | Tiny Progressions   | onBucket           | com.kashdeya.tinyprogressions.events.BucketUseEvent | normal   | tinyprogressions-1.12.2-3.3.32-Release.jar | false           |
 | Tiny Progressions   | onBucketUse        | com.kashdeya.tinyprogressions.events.BucketUseEvent | normal   | tinyprogressions-1.12.2-3.3.32-Release.jar | false           |
-| Ceramics            | onBucketEvent      | knightminer.ceramics.items.ItemClayBucket           | low      | Ceramics-1.12-1.3.7.jar                    | false           |
-| HydroGel            | onBucketUse        | com.digitalfeonix.hydrogel.init.ModRegistry         | normal   | HydroGel-1.12.2-1.1.0.jar                  | false           |
-| CraftTweaker2       | onPlayerFillBucket | crafttweaker.mc1120.events.CommonEventHandler       | normal   | CraftTweaker2-1.12-4.1.18.jar              | false           |
-| Integrated Dynamics | onBucketFill       | org.cyclops.cyclopscore.item.BucketRegistry         | highest  | IntegratedDynamics-1.12.2-1.0.8.jar        | false           |
-| Mystcraft           | bucketFix          | com.xcompwiz.mystcraft.core.MystcraftEventHandler   | normal   | mystcraft-1.12.2-0.13.7.03.jar             | false           |
+| Minecraft Forge     | onFillBucket       | net.minecraftforge.fluids.UniversalBucket           | low      | forge-1.12.2-14.23.5.2846-universal.jar    | false           |
 
 
 ## ArmoryEvent$OnItemBuilding
@@ -578,32 +578,32 @@ submitted to any online service.
 ## WorldEvent$CreateSpawnPosition
 | Owner              | Method             | Location                                               | Priority | Source                                  | RecieveCanceled |
 |--------------------|--------------------|--------------------------------------------------------|----------|-----------------------------------------|-----------------|
-| Topography         | onCreateWorldSpawn | com.bloodnbonesgaming.topography.event.EventSubscriber | normal   | Topography-1.12.2-1.5.1.jar             | false           |
-| The Lost Cities    | onCreateSpawnPoint | mcjty.lostcities.ForgeEventHandlers                    | normal   | lostcities-1.12-2.0.17.jar              | false           |
 | Compact Machines 3 | createSpawnPoint   | org.dave.compactmachines3.skyworld.SkyWorldEvents      | normal   | compactmachines3-1.12.2-3.0.18-b278.jar | false           |
+| The Lost Cities    | onCreateSpawnPoint | mcjty.lostcities.ForgeEventHandlers                    | normal   | lostcities-1.12-2.0.17.jar              | false           |
+| Topography         | onCreateWorldSpawn | com.bloodnbonesgaming.topography.event.EventSubscriber | normal   | Topography-1.12.2-1.5.1.jar             | false           |
 
 
 ## TickEvent$WorldTickEvent
 | Owner                           | Method                     | Location                                                               | Priority | Source                                        | RecieveCanceled |
 |---------------------------------|----------------------------|------------------------------------------------------------------------|----------|-----------------------------------------------|-----------------|
-| XNet                            | onWorldTick                | mcjty.xnet.ForgeEventHandlers                                          | normal   | xnet-1.12-1.7.6.jar                           | false           |
-| Aroma1997Core                   | worldTick                  | aroma1997.core.util.registry.TickRegistry$1                            | normal   | Aroma1997Core-1.12.2-2.0.0.2.b165.jar         | false           |
-| Forge Multipart CBE             | serverTick                 | codechicken.lib.world.WorldExtensionManager$WorldExtensionEventHandler | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar  | false           |
-| MatterOverdrive: Legacy Edition | onWorldTick                | matteroverdrive.handler.TickHandler                                    | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar  | false           |
+| MatterOverdrive: Legacy Edition | onWorldTick                | matteroverdrive.starmap.GalaxyServer                                   | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar  | false           |
+| More Cauldrons                  | CauldronTickEvent          | com.mrbysco.morecauldrons.events.EnhancedRecipeEvents                  | high     | More-Cauldrons-1.4.4.jar                      | false           |
+| Carry On                        | onWorldTick                | tschipp.carryon.common.event.ItemEvents                                | normal   | CarryOn MC1.12.2 v1.12.1.jar                  | false           |
 | AppleCore                       | onWorldTick                | squeek.applecore.network.SyncHandler                                   | normal   | AppleCore-mc1.12.2-3.2.0.jar                  | false           |
-| Statues mod                     | worldTick                  | com.svennieke.statues.handler.MagicHandler                             | normal   | statues-1.12.X-0.8.7.2.jar                    | false           |
-| Industrial Foregoing            | onWorldTick                | com.buuz135.industrial.proxy.event.WorldTickHandler                    | normal   | industrialforegoing-1.12.2-1.12.12-236.jar    | false           |
+| Astral Sorcery                  | worldTick                  | hellfirepvp.astralsorcery.common.auxiliary.tick.TickManager            | normal   | astralsorcery-1.12.2-1.10.19.jar              | false           |
+| Mekanism                        | onTick                     | mekanism.common.CommonWorldTickHandler                                 | normal   | Mekanism-1.12.2-9.7.5.376.jar                 | false           |
+| NuclearCraft                    | updateChunkRadiation       | nc.radiation.RadiationHandler                                          | normal   | NuclearCraft-2.17a-1.12.2.jar                 | false           |
+| Forge Multipart CBE             | serverTick                 | codechicken.lib.world.WorldExtensionManager$WorldExtensionEventHandler | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar  | false           |
+| Topography                      | onWorldTick                | com.bloodnbonesgaming.topography.event.EventSubscriber                 | normal   | Topography-1.12.2-1.5.1.jar                   | false           |
+| InControl                       | onWorldTick                | mcjty.incontrol.ForgeEventHandlers                                     | normal   | incontrol-1.12-3.9.10.jar                     | false           |
 | NuclearCraft                    | updateRadiationEnvironment | nc.radiation.environment.RadiationEnvironmentHandler                   | normal   | NuclearCraft-2.17a-1.12.2.jar                 | false           |
 | Thermal Dynamics                | tick                       | cofh.thermaldynamics.util.TickHandler                                  | normal   | ThermalDynamics-1.12.2-2.5.5.21-universal.jar | false           |
 | Morpheus                        | worldTickEvent             | net.quetzi.morpheus.helpers.MorpheusEventHandler                       | normal   | Morpheus-1.12.2-3.5.106.jar                   | false           |
-| Carry On                        | onWorldTick                | tschipp.carryon.common.event.ItemEvents                                | normal   | CarryOn MC1.12.2 v1.12.1.jar                  | false           |
-| NuclearCraft                    | updateChunkRadiation       | nc.radiation.RadiationHandler                                          | normal   | NuclearCraft-2.17a-1.12.2.jar                 | false           |
-| MatterOverdrive: Legacy Edition | onWorldTick                | matteroverdrive.starmap.GalaxyServer                                   | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar  | false           |
-| Astral Sorcery                  | worldTick                  | hellfirepvp.astralsorcery.common.auxiliary.tick.TickManager            | normal   | astralsorcery-1.12.2-1.10.19.jar              | false           |
-| Mekanism                        | onTick                     | mekanism.common.CommonWorldTickHandler                                 | normal   | Mekanism-1.12.2-9.7.5.376.jar                 | false           |
-| Topography                      | onWorldTick                | com.bloodnbonesgaming.topography.event.EventSubscriber                 | normal   | Topography-1.12.2-1.5.1.jar                   | false           |
-| More Cauldrons                  | CauldronTickEvent          | com.mrbysco.morecauldrons.events.EnhancedRecipeEvents                  | high     | More-Cauldrons-1.4.4.jar                      | false           |
-| InControl                       | onWorldTick                | mcjty.incontrol.ForgeEventHandlers                                     | normal   | incontrol-1.12-3.9.10.jar                     | false           |
+| Statues mod                     | worldTick                  | com.svennieke.statues.handler.MagicHandler                             | normal   | statues-1.12.X-0.8.7.2.jar                    | false           |
+| MatterOverdrive: Legacy Edition | onWorldTick                | matteroverdrive.handler.TickHandler                                    | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar  | false           |
+| XNet                            | onWorldTick                | mcjty.xnet.ForgeEventHandlers                                          | normal   | xnet-1.12-1.7.6.jar                           | false           |
+| Aroma1997Core                   | worldTick                  | aroma1997.core.util.registry.TickRegistry$1                            | normal   | Aroma1997Core-1.12.2-2.0.0.2.b165.jar         | false           |
+| Industrial Foregoing            | onWorldTick                | com.buuz135.industrial.proxy.event.WorldTickHandler                    | normal   | industrialforegoing-1.12.2-1.12.12-236.jar    | false           |
 
 
 ## GasNetwork$GasTransferEvent
@@ -618,77 +618,77 @@ submitted to any online service.
 | OpenComputers | onServerTick | li.cil.oc.common.EventHandler$ | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar | false           |
 
 
+## M
+| Owner     | Method                       | Location                                                    | Priority | Source                        | RecieveCanceled |
+|-----------|------------------------------|-------------------------------------------------------------|----------|-------------------------------|-----------------|
+| AE2 Stuff | handlePlayerChangedDimension | net.bdew.ae2stuff.items.visualiser.VisualiserPlayerTracker$ | normal   | ae2stuff-0.7.0.4-mc1.12.2.jar | false           |
+| AE2 Stuff | handlePlayerRespawn          | net.bdew.ae2stuff.items.visualiser.VisualiserPlayerTracker$ | normal   | ae2stuff-0.7.0.4-mc1.12.2.jar | false           |
+| AE2 Stuff | handlePlayerLogout           | net.bdew.ae2stuff.items.visualiser.VisualiserPlayerTracker$ | normal   | ae2stuff-0.7.0.4-mc1.12.2.jar | false           |
+
+
 ## PlayerEvent$Visibility
 | Owner              | Method             | Location                                                    | Priority | Source                  | RecieveCanceled |
 |--------------------|--------------------|-------------------------------------------------------------|----------|-------------------------|-----------------|
 | Construct's Armory | onPlayerVisibility | c4.conarm.common.armor.modifiers.accessories.ModTravelSneak | normal   | conarm-1.12.2-1.2.3.jar | false           |
 
 
-## M
-| Owner     | Method                       | Location                                                    | Priority | Source                        | RecieveCanceled |
-|-----------|------------------------------|-------------------------------------------------------------|----------|-------------------------------|-----------------|
-| AE2 Stuff | handlePlayerChangedDimension | net.bdew.ae2stuff.items.visualiser.VisualiserPlayerTracker$ | normal   | ae2stuff-0.7.0.4-mc1.12.2.jar | false           |
-| AE2 Stuff | handlePlayerLogout           | net.bdew.ae2stuff.items.visualiser.VisualiserPlayerTracker$ | normal   | ae2stuff-0.7.0.4-mc1.12.2.jar | false           |
-| AE2 Stuff | handlePlayerRespawn          | net.bdew.ae2stuff.items.visualiser.VisualiserPlayerTracker$ | normal   | ae2stuff-0.7.0.4-mc1.12.2.jar | false           |
+## EnderTeleportEvent
+| Owner              | Method               | Location                                                      | Priority | Source                                     | RecieveCanceled |
+|--------------------|----------------------|---------------------------------------------------------------|----------|--------------------------------------------|-----------------|
+| Compact Machines 3 | onEnderTeleport      | org.dave.compactmachines3.misc.MachineEventHandler            | normal   | compactmachines3-1.12.2-3.0.18-b278.jar    | false           |
+| Cyclic             | onEnderTeleportEvent | com.lothrazar.cyclicmagic.potion.effect.PotionEnder           | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
+| NuclearCraft       | onEnderTeleport      | slimeknights.tconstruct.tools.traits.TraitEnderference        | normal   | NuclearCraft-2.17a-1.12.2.jar              | false           |
+| mob_grinding_utils | teleportEvent        | mob_grinding_utils.events.MGUEndermanInhibitEvent             | lowest   | MobGrindingUtils-0.3.13.jar                | false           |
+| Dark Utilities     | onEnderTeleport      | net.darkhax.darkutils.features.endertether.FeatureEnderTether | normal   | DarkUtils-1.12.2-1.8.226.jar               | false           |
+| Cyclic             | onEnderTeleportEvent | com.lothrazar.cyclicmagic.module.tweaks.MountedTweaksModule   | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
+| Deep Mob Learning  | onPlayerClone        | xt9.deepmoblearning.common.events.TrialEndermanTeleport       | normal   | deepmoblearning-1.12.2-2.5.2-universal.jar | false           |
+| CraftTweaker2      | onEnderTeleportEvent | crafttweaker.mc1120.events.CommonEventHandler                 | normal   | CraftTweaker2-1.12-4.1.18.jar              | false           |
 
 
 ## AttachCapabilitiesEvent
 | Owner                           | Method                          | Location                                                                                            | Priority | Source                                       | RecieveCanceled |
 |---------------------------------|---------------------------------|-----------------------------------------------------------------------------------------------------|----------|----------------------------------------------|-----------------|
-| CommonCapabilities              | onEntityLoad                    | org.cyclops.cyclopscore.modcompat.capabilities.CapabilityConstructorRegistry$EntityEventListener    | normal   | CommonCapabilities-1.12.2-2.1.0.jar          | false           |
+| Tinkers' Construct              | attachCapability                | slimeknights.tconstruct.gadgets.item.ItemPiggybackPack                                              | normal   | TConstruct-1.12.2-2.12.0.135.jar             | false           |
 | Applied Energistics 2           | attachSpatialDimensionManager   | appeng.core.Registration                                                                            | normal   | appliedenergistics2-rv6-stable-6.jar         | false           |
+| Dark Utilities                  | onItemCapability                | net.darkhax.darkutils.features.charms.FeatureCharms                                                 | normal   | DarkUtils-1.12.2-1.8.226.jar                 | false           |
+| Construct's Armory              | attachCapabilities              | c4.conarm.lib.capabilities.ArmorAbilityHandler                                                      | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
+| EnderCore                       | attachCapabilities              | com.enderio.core.common.tweaks.BottleFluidCapability$BottleTweak                                    | normal   | EnderCore-1.12.2-0.5.57.jar                  | false           |
+| OpenComputers                   | onAttachCapabilities            | li.cil.oc.integration.minecraftforge.EventHandlerMinecraftForge$                                    | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
+| ModPack Basic Tools             | onConstructing                  | com.gendeathrow.mpbasic.common.infopanel.CapabilityInfoPanel$EventHandler                           | normal   | mpbasic-1.12.2-1.4.11.jar                    | false           |
+| NuclearCraft                    | attachStackRadiationCapability  | nc.capability.radiation.RadiationCapabilityHandler                                                  | normal   | NuclearCraft-2.17a-1.12.2.jar                | false           |
+| Tinkers Tool Leveling           | onCapabilityAttach              | slimeknights.toolleveling.EntityXpHandler                                                           | normal   | TinkerToolLeveling-1.12.2-1.1.0.jar          | false           |
 | CommonCapabilities              | onTileLoad                      | org.cyclops.cyclopscore.modcompat.capabilities.CapabilityConstructorRegistry$TileEventListener      | normal   | CommonCapabilities-1.12.2-2.1.0.jar          | false           |
-| Baubles                         | attachCapabilitiesPlayer        | baubles.common.event.EventHandlerEntity                                                             | normal   | Baubles-1.12-1.5.2.jar                       | false           |
-| Astral Sorcery                  | attachChunkCap                  | hellfirepvp.astralsorcery.common.base.FluidRarityRegistry                                           | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
 | OpenComputers                   | onAttachCapabilities            | li.cil.oc.common.EventHandler$                                                                      | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
-| Astral Sorcery                  | attachChunkCap                  | hellfirepvp.astralsorcery.common.base.RockCrystalHandler                                            | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Deep Mob Learning               | attachCapability                | xt9.deepmoblearning.common.events.CapabilityHandler                                                 | normal   | deepmoblearning-1.12.2-2.5.2-universal.jar   | false           |
+| Baubles                         | itemCapabilityAttach            | baubles.common.event.EventHandlerItem                                                               | lowest   | Baubles-1.12-1.5.2.jar                       | false           |
+| Cyclic                          | onEntityConstruct               | com.lothrazar.cyclicmagic.event.EventPlayerData                                                     | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
+| IntegratedDynamics-Compat       | onItemStackLoad                 | org.cyclops.cyclopscore.modcompat.capabilities.CapabilityConstructorRegistry$ItemStackEventListener | normal   | IntegratedDynamics-1.12.2-1.0.8.jar          | false           |
+| MCMultiPart                     | onAttachTile                    | mekanism.common.integration.multipart.MultipartMekanism                                             | normal   | MCMultiPart-2.5.3.jar                        | false           |
+| NuclearCraft                    | attachEntityRadiationCapability | nc.capability.radiation.RadiationCapabilityHandler                                                  | normal   | NuclearCraft-2.17a-1.12.2.jar                | false           |
+| Topography                      | onAttachCapability              | com.bloodnbonesgaming.topography.event.EventSubscriber                                              | normal   | Topography-1.12.2-1.5.1.jar                  | false           |
+| Ender Utilities                 | onAttachCapabilitiesEntity      | fi.dy.masa.enderutilities.event.EntityEventHandler                                                  | normal   | enderutilities-1.12.2-0.7.12.jar             | false           |
+| Astral Sorcery                  | attachPlague                    | hellfirepvp.astralsorcery.common.event.listener.EventHandlerServer                                  | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Astral Sorcery                  | attachChunkCap                  | hellfirepvp.astralsorcery.common.base.FluidRarityRegistry                                           | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Baubles                         | attachCapabilitiesPlayer        | baubles.common.event.EventHandlerEntity                                                             | normal   | Baubles-1.12-1.5.2.jar                       | false           |
+| TorchMaster                     | onWorldAttachCapabilityEvent    | net.xalcon.torchmaster.common.EventHandlerServer                                                    | normal   | torchmaster_1.12.2-1.7.1.74.jar              | false           |
+| The Twilight Forest             | attachEntityCapability          | twilightforest.capabilities.CapabilityList                                                          | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
+| Astral Sorcery                  | attachAmuletItemCapability      | hellfirepvp.astralsorcery.common.enchantment.amulet.PlayerAmuletHandler                             | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| ComPatchedStorage               | caps                            | shadows.compatched.ComPatchedStorage                                                                | normal   | ComPatchedStorage-1.12.2-1.6.0.jar           | false           |
+| Corail Tombstone                | onAttachCapability              | ovh.corail.tombstone.core.ConfigTombstone                                                           | normal   | tombstone-3.5.2-1.12.jar                     | false           |
+| CommonCapabilities              | onEntityLoad                    | org.cyclops.cyclopscore.modcompat.capabilities.CapabilityConstructorRegistry$EntityEventListener    | normal   | CommonCapabilities-1.12.2-2.1.0.jar          | false           |
+| Industrial Foregoing            | onAttachCapability              | com.buuz135.industrial.utils.compat.baubles.MeatFeederBauble$Event                                  | normal   | industrialforegoing-1.12.2-1.12.12-236.jar   | false           |
+| XNet                            | onEntityConstructing            | mcjty.lib.McJtyLib$EventHandler                                                                     | normal   | xnet-1.12-1.7.6.jar                          | false           |
 | OpenComputers                   | onAttachCapabilitiesItemStack   | li.cil.oc.common.EventHandler$                                                                      | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
 | MatterOverdrive: Legacy Edition | OnAttachCapability              | matteroverdrive.handler.EntityHandler                                                               | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
 | CommonCapabilities              | onItemStackLoad                 | org.cyclops.cyclopscore.modcompat.capabilities.CapabilityConstructorRegistry$ItemStackEventListener | normal   | CommonCapabilities-1.12.2-2.1.0.jar          | false           |
-| Topography                      | onAttachCapability              | com.bloodnbonesgaming.topography.event.EventSubscriber                                              | normal   | Topography-1.12.2-1.5.1.jar                  | false           |
-| Astral Sorcery                  | attachAmuletItemCapability      | hellfirepvp.astralsorcery.common.enchantment.amulet.PlayerAmuletHandler                             | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| NuclearCraft                    | attachTileRadiationCapability   | nc.capability.radiation.RadiationCapabilityHandler                                                  | normal   | NuclearCraft-2.17a-1.12.2.jar                | false           |
-| The Twilight Forest             | attachEntityCapability          | twilightforest.capabilities.CapabilityList                                                          | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
-| Baubles                         | itemCapabilityAttach            | baubles.common.event.EventHandlerItem                                                               | lowest   | Baubles-1.12-1.5.2.jar                       | false           |
-| EnderCore                       | attachCapabilities              | com.enderio.core.common.tweaks.BottleFluidCapability$BottleTweak                                    | normal   | EnderCore-1.12.2-0.5.57.jar                  | false           |
-| NuclearCraft                    | attachStackRadiationCapability  | nc.capability.radiation.RadiationCapabilityHandler                                                  | normal   | NuclearCraft-2.17a-1.12.2.jar                | false           |
-| NuclearCraft                    | attachEntityRadiationCapability | nc.capability.radiation.RadiationCapabilityHandler                                                  | normal   | NuclearCraft-2.17a-1.12.2.jar                | false           |
-| NuclearCraft                    | attachChunkRadiationCapability  | nc.capability.radiation.RadiationCapabilityHandler                                                  | normal   | NuclearCraft-2.17a-1.12.2.jar                | false           |
-| Deep Mob Learning               | attachCapability                | xt9.deepmoblearning.common.events.CapabilityHandler                                                 | normal   | deepmoblearning-1.12.2-2.5.2-universal.jar   | false           |
-| Construct's Armory              | attachCapabilities              | c4.conarm.lib.capabilities.ArmorAbilityHandler                                                      | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
-| ModPack Basic Tools             | onConstructing                  | com.gendeathrow.mpbasic.common.infopanel.CapabilityInfoPanel$EventHandler                           | normal   | mpbasic-1.12.2-1.4.11.jar                    | false           |
-| XNet                            | onEntityConstructing            | mcjty.lib.McJtyLib$EventHandler                                                                     | normal   | xnet-1.12-1.7.6.jar                          | false           |
-| ComPatchedStorage               | caps                            | shadows.compatched.ComPatchedStorage                                                                | normal   | ComPatchedStorage-1.12.2-1.6.0.jar           | false           |
-| OpenComputers                   | onAttachCapabilities            | li.cil.oc.integration.minecraftforge.EventHandlerMinecraftForge$                                    | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
-| IntegratedDynamics-Compat       | onItemStackLoad                 | org.cyclops.cyclopscore.modcompat.capabilities.CapabilityConstructorRegistry$ItemStackEventListener | normal   | IntegratedDynamics-1.12.2-1.0.8.jar          | false           |
-| Dark Utilities                  | onItemCapability                | net.darkhax.darkutils.features.charms.FeatureCharms                                                 | normal   | DarkUtils-1.12.2-1.8.226.jar                 | false           |
-| Carry On                        | onAttachCaps                    | tschipp.carryon.common.capabilities.event.PositionCommonEvents                                      | normal   | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
-| Astral Sorcery                  | attachPlague                    | hellfirepvp.astralsorcery.common.event.listener.EventHandlerServer                                  | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| TorchMaster                     | onWorldAttachCapabilityEvent    | net.xalcon.torchmaster.common.EventHandlerServer                                                    | normal   | torchmaster_1.12.2-1.7.1.74.jar              | false           |
-| Corail Tombstone                | onAttachCapability              | ovh.corail.tombstone.core.ConfigTombstone                                                           | normal   | tombstone-3.5.2-1.12.jar                     | false           |
-| Tinkers Tool Leveling           | onCapabilityAttach              | slimeknights.toolleveling.EntityXpHandler                                                           | normal   | TinkerToolLeveling-1.12.2-1.1.0.jar          | false           |
-| ProjectE                        | attachCaps                      | moze_intel.projecte.events.PlayerEvents                                                             | normal   | ProjectE-1.12.2-PE1.4.1.jar                  | false           |
-| mob_grinding_utils              | onAttachCapabilities            | mob_grinding_utils.capability.base.EntityCapabilityHandler                                          | normal   | MobGrindingUtils-0.3.13.jar                  | false           |
-| Industrial Foregoing            | onAttachCapability              | com.buuz135.industrial.utils.compat.baubles.MeatFeederBauble$Event                                  | normal   | industrialforegoing-1.12.2-1.12.12-236.jar   | false           |
-| Cyclic                          | onEntityConstruct               | com.lothrazar.cyclicmagic.event.EventPlayerData                                                     | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
-| IntegratedDynamics-Compat       | onTileLoad                      | org.cyclops.cyclopscore.modcompat.capabilities.CapabilityConstructorRegistry$TileEventListener      | normal   | IntegratedDynamics-1.12.2-1.0.8.jar          | false           |
 | Dark Utilities                  | attachCapabilities              | net.darkhax.darkutils.features.shulkerpearl.ShulkerDataHandler                                      | normal   | DarkUtils-1.12.2-1.8.226.jar                 | false           |
-| Tinkers' Construct              | attachCapability                | slimeknights.tconstruct.gadgets.item.ItemPiggybackPack                                              | normal   | TConstruct-1.12.2-2.12.0.135.jar             | false           |
-| Ender Utilities                 | onAttachCapabilitiesEntity      | fi.dy.masa.enderutilities.event.EntityEventHandler                                                  | normal   | enderutilities-1.12.2-0.7.12.jar             | false           |
-| MCMultiPart                     | onAttachTile                    | mekanism.common.integration.multipart.MultipartMekanism                                             | normal   | MCMultiPart-2.5.3.jar                        | false           |
-
-
-## EnderTeleportEvent
-| Owner              | Method               | Location                                                      | Priority | Source                                     | RecieveCanceled |
-|--------------------|----------------------|---------------------------------------------------------------|----------|--------------------------------------------|-----------------|
-| Cyclic             | onEnderTeleportEvent | com.lothrazar.cyclicmagic.potion.effect.PotionEnder           | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
-| Dark Utilities     | onEnderTeleport      | net.darkhax.darkutils.features.endertether.FeatureEnderTether | normal   | DarkUtils-1.12.2-1.8.226.jar               | false           |
-| Compact Machines 3 | onEnderTeleport      | org.dave.compactmachines3.misc.MachineEventHandler            | normal   | compactmachines3-1.12.2-3.0.18-b278.jar    | false           |
-| CraftTweaker2      | onEnderTeleportEvent | crafttweaker.mc1120.events.CommonEventHandler                 | normal   | CraftTweaker2-1.12-4.1.18.jar              | false           |
-| NuclearCraft       | onEnderTeleport      | slimeknights.tconstruct.tools.traits.TraitEnderference        | normal   | NuclearCraft-2.17a-1.12.2.jar              | false           |
-| Cyclic             | onEnderTeleportEvent | com.lothrazar.cyclicmagic.module.tweaks.MountedTweaksModule   | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
-| Deep Mob Learning  | onPlayerClone        | xt9.deepmoblearning.common.events.TrialEndermanTeleport       | normal   | deepmoblearning-1.12.2-2.5.2-universal.jar | false           |
-| mob_grinding_utils | teleportEvent        | mob_grinding_utils.events.MGUEndermanInhibitEvent             | lowest   | MobGrindingUtils-0.3.13.jar                | false           |
+| Astral Sorcery                  | attachChunkCap                  | hellfirepvp.astralsorcery.common.base.RockCrystalHandler                                            | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| mob_grinding_utils              | onAttachCapabilities            | mob_grinding_utils.capability.base.EntityCapabilityHandler                                          | normal   | MobGrindingUtils-0.3.13.jar                  | false           |
+| Carry On                        | onAttachCaps                    | tschipp.carryon.common.capabilities.event.PositionCommonEvents                                      | normal   | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
+| NuclearCraft                    | attachChunkRadiationCapability  | nc.capability.radiation.RadiationCapabilityHandler                                                  | normal   | NuclearCraft-2.17a-1.12.2.jar                | false           |
+| NuclearCraft                    | attachTileRadiationCapability   | nc.capability.radiation.RadiationCapabilityHandler                                                  | normal   | NuclearCraft-2.17a-1.12.2.jar                | false           |
+| IntegratedDynamics-Compat       | onTileLoad                      | org.cyclops.cyclopscore.modcompat.capabilities.CapabilityConstructorRegistry$TileEventListener      | normal   | IntegratedDynamics-1.12.2-1.0.8.jar          | false           |
+| ProjectE                        | attachCaps                      | moze_intel.projecte.events.PlayerEvents                                                             | normal   | ProjectE-1.12.2-PE1.4.1.jar                  | false           |
 
 
 ## TinkerRegisterEvent$DryingRackRegisterEvent
@@ -706,30 +706,30 @@ submitted to any online service.
 ## PlayerEvent$ItemCraftedEvent
 | Owner                           | Method                  | Location                                                             | Priority | Source                                       | RecieveCanceled |
 |---------------------------------|-------------------------|----------------------------------------------------------------------|----------|----------------------------------------------|-----------------|
-| Cyclops Core                    | onCrafted               | org.cyclops.cyclopscore.advancement.criterion.ItemCraftedTrigger     | normal   | CyclopsCore-1.12.2-1.0.6.jar                 | false           |
-| CraftTweaker2                   | onPlayerItemCrafted     | crafttweaker.mc1120.events.CommonEventHandler                        | normal   | CraftTweaker2-1.12-4.1.18.jar                | false           |
 | Integrated Dynamics             | onCrafted               | org.cyclops.integrateddynamics.part.PartTypeConnectorOmniDirectional | normal   | IntegratedDynamics-1.12.2-1.0.8.jar          | false           |
-| PortalGun                       | onItemCrafted           | me.ichun.mods.portalgun.common.core.EventHandlerServer               | normal   | PortalGun-1.12.2-7.1.0.jar                   | false           |
-| Astral Sorcery                  | onCraft                 | hellfirepvp.astralsorcery.common.event.listener.EventHandlerServer   | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Rustic                          | onOliveOilCraftingEvent | rustic.common.EventHandlerCommon                                     | normal   | rustic-1.0.15.jar                            | false           |
-| Cyclops Core                    | onCrafted               | org.cyclops.cyclopscore.advancement.criterion.ModItemObtainedTrigger | normal   | CyclopsCore-1.12.2-1.0.6.jar                 | false           |
-| MatterOverdrive: Legacy Edition | onItemCrafted           | matteroverdrive.handler.PlayerEventHandler                           | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
-| Mekanism                        | onCrafting              | mekanism.common.recipe.BinRecipe                                     | normal   | Mekanism-1.12.2-9.7.5.376.jar                | false           |
-| The Twilight Forest             | onCrafting              | twilightforest.TFEventListener                                       | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
-| OpenComputers                   | onCrafting              | li.cil.oc.common.EventHandler$                                       | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
-| Triumph                         | onCraftItem             | com.bloodnbonesgaming.triumph.events.TEventHandler                   | normal   | Triumph-1.12.2-3.17.0.jar                    | false           |
-| Tiny Progressions               | itemCrafted             | com.kashdeya.tinyprogressions.main.TinyProgressions                  | normal   | tinyprogressions-1.12.2-3.3.32-Release.jar   | false           |
-| Real Filing Cabinet             | enderFolderExtract      | com.bafomdad.realfilingcabinet.crafting.FolderExtractRecipe          | normal   | realfilingcabinet-1.12-0.2.0.14.jar          | false           |
 | Tinkers' Construct              | onCraft                 | slimeknights.tconstruct.shared.AchievementEvents                     | normal   | TConstruct-1.12.2-2.12.0.135.jar             | false           |
+| OpenComputers                   | onCrafting              | li.cil.oc.common.EventHandler$                                       | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
+| Mekanism                        | onCrafting              | mekanism.common.recipe.BinRecipe                                     | normal   | Mekanism-1.12.2-9.7.5.376.jar                | false           |
+| Real Filing Cabinet             | enderFolderExtract      | com.bafomdad.realfilingcabinet.crafting.FolderExtractRecipe          | normal   | realfilingcabinet-1.12-0.2.0.14.jar          | false           |
+| Cyclops Core                    | onCrafted               | org.cyclops.cyclopscore.advancement.criterion.ItemCraftedTrigger     | normal   | CyclopsCore-1.12.2-1.0.6.jar                 | false           |
+| Triumph                         | onCraftItem             | com.bloodnbonesgaming.triumph.events.TEventHandler                   | normal   | Triumph-1.12.2-3.17.0.jar                    | false           |
+| Astral Sorcery                  | onCraft                 | hellfirepvp.astralsorcery.common.event.listener.EventHandlerServer   | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Tiny Progressions               | itemCrafted             | com.kashdeya.tinyprogressions.main.TinyProgressions                  | normal   | tinyprogressions-1.12.2-3.3.32-Release.jar   | false           |
+| Rustic                          | onOliveOilCraftingEvent | rustic.common.EventHandlerCommon                                     | normal   | rustic-1.0.15.jar                            | false           |
+| MatterOverdrive: Legacy Edition | onItemCrafted           | matteroverdrive.handler.PlayerEventHandler                           | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
+| PortalGun                       | onItemCrafted           | me.ichun.mods.portalgun.common.core.EventHandlerServer               | normal   | PortalGun-1.12.2-7.1.0.jar                   | false           |
+| CraftTweaker2                   | onPlayerItemCrafted     | crafttweaker.mc1120.events.CommonEventHandler                        | normal   | CraftTweaker2-1.12-4.1.18.jar                | false           |
+| The Twilight Forest             | onCrafting              | twilightforest.TFEventListener                                       | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
+| Cyclops Core                    | onCrafted               | org.cyclops.cyclopscore.advancement.criterion.ModItemObtainedTrigger | normal   | CyclopsCore-1.12.2-1.0.6.jar                 | false           |
 
 
 ## PlayerEvent$StartTracking
 | Owner                           | Method                | Location                                                   | Priority | Source                                       | RecieveCanceled |
 |---------------------------------|-----------------------|------------------------------------------------------------|----------|----------------------------------------------|-----------------|
-| Carry On                        | onEntityStartTracking | tschipp.carryon.common.event.ItemEvents                    | normal   | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
+| mob_grinding_utils              | onEntityStartTracking | mob_grinding_utils.capability.base.EntityCapabilityHandler | normal   | MobGrindingUtils-0.3.13.jar                  | false           |
 | MatterOverdrive: Legacy Edition | onStartTracking       | matteroverdrive.handler.PlayerEventHandler                 | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
 | Baubles                         | onStartTracking       | baubles.common.event.EventHandlerEntity                    | normal   | Baubles-1.12-1.5.2.jar                       | false           |
-| mob_grinding_utils              | onEntityStartTracking | mob_grinding_utils.capability.base.EntityCapabilityHandler | normal   | MobGrindingUtils-0.3.13.jar                  | false           |
+| Carry On                        | onEntityStartTracking | tschipp.carryon.common.event.ItemEvents                    | normal   | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
 
 
 ## FluxConnectionEvent$SettingChanged
@@ -753,41 +753,41 @@ submitted to any online service.
 ## WorldEvent$Load
 | Owner                           | Method               | Location                                                                     | Priority | Source                                       | RecieveCanceled |
 |---------------------------------|----------------------|------------------------------------------------------------------------------|----------|----------------------------------------------|-----------------|
-| Forge Multipart CBE             | onWorldLoad          | codechicken.lib.world.WorldExtensionManager$WorldExtensionEventHandler       | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar | false           |
-| OpenComputers                   | onWorldLoad          | li.cil.oc.common.SaveHandler$                                                | highest  | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
-| TorchMaster                     | onWorldLoad          | net.xalcon.torchmaster.compat.RegistryBackwardsCompat                        | normal   | torchmaster_1.12.2-1.7.1.74.jar              | false           |
-| Sky Grid                        | onWorldLoad          | funwayguy.skygrid.handlers.EventHandler                                      | normal   | SkyGrid-1.1.7.jar                            | false           |
-| MatterOverdrive: Legacy Edition | onWorldLoad          | matteroverdrive.starmap.GalaxyServer                                         | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
 | OpenComputers                   | onWorldLoad          | li.cil.oc.server.network.Waypoints$                                          | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
-| Triumph                         | onWorldLoad          | com.bloodnbonesgaming.triumph.events.TEventHandler                           | normal   | Triumph-1.12.2-3.17.0.jar                    | false           |
-| EnderStorage                    | onWorldLoad          | codechicken.enderstorage.network.TankSynchroniser                            | normal   | EnderStorage-1.12.2-2.4.5.135-universal.jar  | false           |
-| Astral Sorcery                  | onLoad               | hellfirepvp.astralsorcery.common.event.listener.EventHandlerServer           | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| OpenComputers                   | onWorldLoad          | li.cil.oc.common.event.BlockChangeHandler$                                   | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
-| OG Dragon+                      | onWorldLoad          | com.gendeathrow.ogdragon.common.GD_EventHandler                              | normal   | ogdragon-1.12.2-0.1.4.jar                    | false           |
-| Mystcraft                       | handleWorldLoadEvent | com.xcompwiz.mystcraft.core.MystcraftEventHandler                            | normal   | mystcraft-1.12.2-0.13.7.03.jar               | false           |
-| MatterOverdrive: Legacy Edition | onWorldLoad          | matteroverdrive.handler.MatterRegistrationHandler                            | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
-| The Twilight Forest             | worldLoaded          | twilightforest.TFEventListener                                               | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
-| EnderStorage                    | onWorldLoad          | codechicken.enderstorage.manager.EnderStorageManager$EnderStorageSaveHandler | normal   | EnderStorage-1.12.2-2.4.5.135-universal.jar  | false           |
-| Compact Machines 3              | loadWorld            | org.dave.compactmachines3.skyworld.SkyWorldSavedData                         | normal   | compactmachines3-1.12.2-3.0.18-b278.jar      | false           |
-| Astral Sorcery                  | onWorldInit          | hellfirepvp.astralsorcery.common.auxiliary.CelestialGatewaySystem            | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Sky Grid                        | onWorldLoad          | funwayguy.skygrid.handlers.EventHandler                                      | normal   | SkyGrid-1.1.7.jar                            | false           |
 | Corail Tombstone                | onWorldLoad          | ovh.corail.tombstone.core.ConfigTombstone                                    | high     | tombstone-3.5.2-1.12.jar                     | false           |
-| Compact Machines 3              | loadWorld            | org.dave.compactmachines3.world.WorldSavedDataMachines                       | normal   | compactmachines3-1.12.2-3.0.18-b278.jar      | false           |
-| Astral Sorcery                  | onWorldLoad          | hellfirepvp.astralsorcery.common.starlight.network.TransmissionChunkTracker  | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Minecraft Forge                 | onDimensionLoad      | net.minecraftforge.common.ForgeInternalHandler                               | highest  | forge-1.12.2-14.23.5.2846-universal.jar      | false           |
-| Bookshelf                       | onWorldLoaded        | net.darkhax.bookshelf.Bookshelf                                              | normal   | Bookshelf-1.12.2-2.3.581.jar                 | false           |
+| Mystcraft                       | handleWorldLoadEvent | com.xcompwiz.mystcraft.core.MystcraftEventHandler                            | normal   | mystcraft-1.12.2-0.13.7.03.jar               | false           |
+| OpenComputers                   | onWorldLoad          | li.cil.oc.common.SaveHandler$                                                | highest  | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
+| Astral Sorcery                  | onLoad               | hellfirepvp.astralsorcery.common.event.listener.EventHandlerServer           | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
 | Corail Tombstone                | onWorldLoad          | ovh.corail.tombstone.core.WorldFunctionInjector                              | normal   | tombstone-3.5.2-1.12.jar                     | false           |
-| Mekanism                        | onWorldLoad          | mekanism.common.Mekanism                                                     | normal   | Mekanism-1.12.2-9.7.5.376.jar                | false           |
-| OpenComputers                   | onWorldLoad          | li.cil.oc.server.network.WirelessNetwork$                                    | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
-| OpenComputers                   | initForWorld         | li.cil.oc.common.Loot$                                                       | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
-| Corail Tombstone                | onWorldLoad          | ovh.corail.tombstone.event.EventHandler                                      | lowest   | tombstone-3.5.2-1.12.jar                     | false           |
+| Bookshelf                       | onWorldLoaded        | net.darkhax.bookshelf.Bookshelf                                              | normal   | Bookshelf-1.12.2-2.3.581.jar                 | false           |
+| MatterOverdrive: Legacy Edition | onWorldLoad          | matteroverdrive.handler.MatterRegistrationHandler                            | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
 | Sky Grid                        | onWorldLoad          | funwayguy.skygrid.core.SkyGrid                                               | normal   | SkyGrid-1.1.7.jar                            | false           |
+| OpenComputers                   | initForWorld         | li.cil.oc.common.Loot$                                                       | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
+| OpenComputers                   | onWorldLoad          | li.cil.oc.server.network.WirelessNetwork$                                    | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
+| Forge Multipart CBE             | onWorldLoad          | codechicken.lib.world.WorldExtensionManager$WorldExtensionEventHandler       | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar | false           |
+| Compact Machines 3              | loadWorld            | org.dave.compactmachines3.world.WorldSavedDataMachines                       | normal   | compactmachines3-1.12.2-3.0.18-b278.jar      | false           |
+| Corail Tombstone                | onWorldLoad          | ovh.corail.tombstone.event.EventHandler                                      | lowest   | tombstone-3.5.2-1.12.jar                     | false           |
+| OG Dragon+                      | onWorldLoad          | com.gendeathrow.ogdragon.common.GD_EventHandler                              | normal   | ogdragon-1.12.2-0.1.4.jar                    | false           |
+| Minecraft Forge                 | onDimensionLoad      | net.minecraftforge.common.ForgeInternalHandler                               | highest  | forge-1.12.2-14.23.5.2846-universal.jar      | false           |
+| OpenComputers                   | onWorldLoad          | li.cil.oc.common.event.BlockChangeHandler$                                   | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
+| Astral Sorcery                  | onWorldInit          | hellfirepvp.astralsorcery.common.auxiliary.CelestialGatewaySystem            | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| EnderStorage                    | onWorldLoad          | codechicken.enderstorage.manager.EnderStorageManager$EnderStorageSaveHandler | normal   | EnderStorage-1.12.2-2.4.5.135-universal.jar  | false           |
+| The Twilight Forest             | worldLoaded          | twilightforest.TFEventListener                                               | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
+| MatterOverdrive: Legacy Edition | onWorldLoad          | matteroverdrive.starmap.GalaxyServer                                         | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
+| EnderStorage                    | onWorldLoad          | codechicken.enderstorage.network.TankSynchroniser                            | normal   | EnderStorage-1.12.2-2.4.5.135-universal.jar  | false           |
+| Triumph                         | onWorldLoad          | com.bloodnbonesgaming.triumph.events.TEventHandler                           | normal   | Triumph-1.12.2-3.17.0.jar                    | false           |
+| TorchMaster                     | onWorldLoad          | net.xalcon.torchmaster.compat.RegistryBackwardsCompat                        | normal   | torchmaster_1.12.2-1.7.1.74.jar              | false           |
+| Astral Sorcery                  | onWorldLoad          | hellfirepvp.astralsorcery.common.starlight.network.TransmissionChunkTracker  | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Mekanism                        | onWorldLoad          | mekanism.common.Mekanism                                                     | normal   | Mekanism-1.12.2-9.7.5.376.jar                | false           |
+| Compact Machines 3              | loadWorld            | org.dave.compactmachines3.skyworld.SkyWorldSavedData                         | normal   | compactmachines3-1.12.2-3.0.18-b278.jar      | false           |
 
 
 ## TinkerEvent$OnItemBuilding
 | Owner                 | Method         | Location                                             | Priority | Source                              | RecieveCanceled |
 |-----------------------|----------------|------------------------------------------------------|----------|-------------------------------------|-----------------|
-| Tinkers Tool Leveling | onToolBuild    | slimeknights.toolleveling.EventHandler               | normal   | TinkerToolLeveling-1.12.2-1.1.0.jar | false           |
 | NuclearCraft          | onToolBuilding | slimeknights.tconstruct.tools.traits.TraitCheapskate | normal   | NuclearCraft-2.17a-1.12.2.jar       | false           |
+| Tinkers Tool Leveling | onToolBuild    | slimeknights.toolleveling.EventHandler               | normal   | TinkerToolLeveling-1.12.2-1.1.0.jar | false           |
 
 
 ## ClientChatReceivedEvent
@@ -802,19 +802,19 @@ submitted to any online service.
 | MatterOverdrive: Legacy Edition | onPlayerScanEvent | matteroverdrive.handler.PlayerEventHandler | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
 
 
+## AnvilRepairEvent
+| Owner            | Method                   | Location                                      | Priority | Source                        | RecieveCanceled |
+|------------------|--------------------------|-----------------------------------------------|----------|-------------------------------|-----------------|
+| CraftTweaker2    | onPlayerAnvilRepairEvent | crafttweaker.mc1120.events.CommonEventHandler | normal   | CraftTweaker2-1.12-4.1.18.jar | false           |
+| Apotheosis       | applyUnbreaking          | shadows.ench.EnchModule                       | normal   | Apotheosis-1.12.2-1.10.2.jar  | false           |
+| Corail Tombstone | onAnvilRepair            | ovh.corail.tombstone.event.EventHandler       | lowest   | tombstone-3.5.2-1.12.jar      | false           |
+
+
 ## NetworkEvent$ConnectedTile
 | Owner                 | Method                  | Location                                          | Priority | Source                                  | RecieveCanceled |
 |-----------------------|-------------------------|---------------------------------------------------|----------|-----------------------------------------|-----------------|
 | Practical Logistics 2 | onTileConnected         | sonar.logistics.base.events.LogisticsEventHandler | high     | practicallogistics2-1.12.2-3.0.8-11.jar | false           |
 | Practical Logistics 2 | onWirelessTileConnected | sonar.logistics.base.events.LogisticsEventHandler | lowest   | practicallogistics2-1.12.2-3.0.8-11.jar | false           |
-
-
-## AnvilRepairEvent
-| Owner            | Method                   | Location                                      | Priority | Source                        | RecieveCanceled |
-|------------------|--------------------------|-----------------------------------------------|----------|-------------------------------|-----------------|
-| CraftTweaker2    | onPlayerAnvilRepairEvent | crafttweaker.mc1120.events.CommonEventHandler | normal   | CraftTweaker2-1.12-4.1.18.jar | false           |
-| Corail Tombstone | onAnvilRepair            | ovh.corail.tombstone.event.EventHandler       | lowest   | tombstone-3.5.2-1.12.jar      | false           |
-| Apotheosis       | applyUnbreaking          | shadows.ench.EnchModule                       | normal   | Apotheosis-1.12.2-1.10.2.jar  | false           |
 
 
 ## ItemFishedEvent
@@ -847,9 +847,9 @@ submitted to any online service.
 | Owner               | Method      | Location                                                                    | Priority | Source                                       | RecieveCanceled |
 |---------------------|-------------|-----------------------------------------------------------------------------|----------|----------------------------------------------|-----------------|
 | Astral Sorcery      | onChLoad    | hellfirepvp.astralsorcery.common.starlight.network.TransmissionChunkTracker | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Forge Multipart CBE | onChunkLoad | codechicken.lib.world.WorldExtensionManager$WorldExtensionEventHandler      | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar | false           |
-| Forge Multipart CBE | onChunkLoad | codechicken.lib.world.TileChunkLoadHook                                     | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar | false           |
 | Astral Sorcery      | onChunkLoad | hellfirepvp.astralsorcery.common.event.listener.EventHandlerIO              | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Forge Multipart CBE | onChunkLoad | codechicken.lib.world.TileChunkLoadHook                                     | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar | false           |
+| Forge Multipart CBE | onChunkLoad | codechicken.lib.world.WorldExtensionManager$WorldExtensionEventHandler      | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar | false           |
 
 
 ## GrantCriterionEvent
@@ -861,18 +861,18 @@ submitted to any online service.
 ## LivingKnockBackEvent
 | Owner               | Method          | Location                                                                          | Priority | Source                             | RecieveCanceled |
 |---------------------|-----------------|-----------------------------------------------------------------------------------|----------|------------------------------------|-----------------|
+| Astral Sorcery      | onKnockBack     | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyNoKnockBack | normal   | astralsorcery-1.12.2-1.10.19.jar   | false           |
 | Tinkers' Complement | onKnockback     | knightminer.tcomplement.armor.items.ItemKnightSlimeArmor                          | normal   | TinkersComplement-1.12.2-0.4.0.jar | false           |
 | Construct's Armory  | playerKnockback | c4.conarm.common.events.ArmorEvents                                               | normal   | conarm-1.12.2-1.2.3.jar            | false           |
-| Astral Sorcery      | onKnockBack     | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyNoKnockBack | normal   | astralsorcery-1.12.2-1.10.19.jar   | false           |
 
 
 ## WorldEvent$PotentialSpawns
 | Owner              | Method               | Location                                               | Priority | Source                           | RecieveCanceled |
 |--------------------|----------------------|--------------------------------------------------------|----------|----------------------------------|-----------------|
-| Topography         | onGetPotentialSpawns | com.bloodnbonesgaming.topography.event.EventSubscriber | normal   | Topography-1.12.2-1.5.1.jar      | false           |
-| Tinkers' Construct | extraSlimeSpawn      | slimeknights.tconstruct.world.WorldEvents              | normal   | TConstruct-1.12.2-2.12.0.135.jar | false           |
-| Sky Grid           | getPotentialSpawn    | funwayguy.skygrid.handlers.EventHandler                | normal   | SkyGrid-1.1.7.jar                | false           |
 | InControl          | onPotentialSpawns    | mcjty.incontrol.ForgeEventHandlers                     | lowest   | incontrol-1.12-3.9.10.jar        | false           |
+| Topography         | onGetPotentialSpawns | com.bloodnbonesgaming.topography.event.EventSubscriber | normal   | Topography-1.12.2-1.5.1.jar      | false           |
+| Sky Grid           | getPotentialSpawn    | funwayguy.skygrid.handlers.EventHandler                | normal   | SkyGrid-1.1.7.jar                | false           |
+| Tinkers' Construct | extraSlimeSpawn      | slimeknights.tconstruct.world.WorldEvents              | normal   | TConstruct-1.12.2-2.12.0.135.jar | false           |
 
 
 ## NetworkInitializedEvent
@@ -884,116 +884,116 @@ submitted to any online service.
 ## TickEvent$RenderTickEvent
 | Owner                           | Method       | Location                                                    | Priority | Source                                       | RecieveCanceled |
 |---------------------------------|--------------|-------------------------------------------------------------|----------|----------------------------------------------|-----------------|
-| Compact Machines 3              | onRenderTick | org.dave.compactmachines3.misc.RenderTickCounter            | normal   | compactmachines3-1.12.2-3.0.18-b278.jar      | false           |
-| Astral Sorcery                  | renderTick   | hellfirepvp.astralsorcery.common.auxiliary.tick.TickManager | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
 | Bonsai Trees                    | onRenderTick | org.dave.bonsaitrees.misc.RenderTickCounter                 | normal   | bonsaitrees-1.1.3-b156.jar                   | false           |
 | MatterOverdrive: Legacy Edition | onRenderTick | matteroverdrive.handler.TickHandler                         | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
+| Astral Sorcery                  | renderTick   | hellfirepvp.astralsorcery.common.auxiliary.tick.TickManager | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Compact Machines 3              | onRenderTick | org.dave.compactmachines3.misc.RenderTickCounter            | normal   | compactmachines3-1.12.2-3.0.18-b278.jar      | false           |
 
 
 ## FMLNetworkEvent$ServerCustomPacketEvent
 | Owner                 | Method       | Location                                 | Priority | Source                               | RecieveCanceled |
 |-----------------------|--------------|------------------------------------------|----------|--------------------------------------|-----------------|
-| Applied Energistics 2 | serverPacket | appeng.core.sync.network.NetworkHandler  | normal   | appliedenergistics2-rv6-stable-6.jar | false           |
 | Chisels & Bits        | serverPacket | mod.chiselsandbits.network.NetworkRouter | normal   | chiselsandbits-14.32.jar             | false           |
+| Applied Energistics 2 | serverPacket | appeng.core.sync.network.NetworkHandler  | normal   | appliedenergistics2-rv6-stable-6.jar | false           |
 
 
 ## PlayerEvent$LoadFromFile
 | Owner                           | Method               | Location                                                       | Priority | Source                                       | RecieveCanceled |
 |---------------------------------|----------------------|----------------------------------------------------------------|----------|----------------------------------------------|-----------------|
-| OpenComputers                   | onPlayerLoad         | li.cil.oc.common.event.NanomachinesHandler$Common$             | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
-| Cyclic                          | playerLoad           | com.lothrazar.cyclicmagic.playerupgrade.EventExtendedInventory | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
-| Triumph                         | onPlayerLoad         | com.bloodnbonesgaming.triumph.events.TEventHandler             | normal   | Triumph-1.12.2-3.17.0.jar                    | false           |
 | MatterOverdrive: Legacy Edition | onPlayerLoadFromFile | matteroverdrive.handler.PlayerEventHandler                     | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
+| Cyclic                          | playerLoad           | com.lothrazar.cyclicmagic.playerupgrade.EventExtendedInventory | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
+| OpenComputers                   | onPlayerLoad         | li.cil.oc.common.event.NanomachinesHandler$Common$             | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
 | Game Stages                     | onPlayerLoad         | net.darkhax.gamestages.data.GameStageSaveHandler               | normal   | GameStages-1.12.2-2.0.115.jar                | false           |
+| Triumph                         | onPlayerLoad         | com.bloodnbonesgaming.triumph.events.TEventHandler             | normal   | Triumph-1.12.2-3.17.0.jar                    | false           |
 
 
 ## AdvancementEvent
 | Owner               | Method                   | Location                                               | Priority | Source                                      | RecieveCanceled |
 |---------------------|--------------------------|--------------------------------------------------------|----------|---------------------------------------------|-----------------|
-| Triumph             | onAdvancementCompleted   | com.bloodnbonesgaming.triumph.events.TEventHandler     | normal   | Triumph-1.12.2-3.17.0.jar                   | false           |
 | The Twilight Forest | onAdvancementGet         | twilightforest.TFEventListener                         | normal   | twilightforest-1.12.2-3.8.689-universal.jar | false           |
-| CraftTweaker2       | onPlayerAdvancementEvent | crafttweaker.mc1120.events.CommonEventHandler          | normal   | CraftTweaker2-1.12-4.1.18.jar               | false           |
 | Patchouli           | onAdvancement            | vazkii.patchouli.common.handler.AdvancementSyncHandler | normal   | Patchouli-1.0-19.jar                        | false           |
 | EnderCore           | onAchievement            | com.enderio.core.common.handlers.FireworkHandler       | normal   | EnderCore-1.12.2-0.5.57.jar                 | false           |
+| CraftTweaker2       | onPlayerAdvancementEvent | crafttweaker.mc1120.events.CommonEventHandler          | normal   | CraftTweaker2-1.12-4.1.18.jar               | false           |
+| Triumph             | onAdvancementCompleted   | com.bloodnbonesgaming.triumph.events.TEventHandler     | normal   | Triumph-1.12.2-3.17.0.jar                   | false           |
 
 
 ## PlayerEvent$PlayerLoggedInEvent
 | Owner                           | Method                     | Location                                                                     | Priority | Source                                       | RecieveCanceled |
 |---------------------------------|----------------------------|------------------------------------------------------------------------------|----------|----------------------------------------------|-----------------|
-| Tinkers' Construct              | playerLoggedIn             | slimeknights.tconstruct.common.config.ConfigSync                             | normal   | TConstruct-1.12.2-2.12.0.135.jar             | false           |
-| Astral Sorcery                  | onLogin                    | hellfirepvp.astralsorcery.common.event.listener.EventHandlerServer           | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| JourneyMap                      | playerLoggedInEvent        | journeymap.server.events.ForgeEvents                                         | normal   | journeymap-1.12.2-5.5.4.jar                  | false           |
-| CommonCapabilities              | onLoggedIn                 | org.cyclops.cyclopscore.event.PlayerRingOfFire                               | normal   | CommonCapabilities-1.12.2-2.1.0.jar          | false           |
-| Patchouli                       | onLogin                    | vazkii.patchouli.common.handler.AdvancementSyncHandler                       | normal   | Patchouli-1.0-19.jar                         | false           |
-| Building Gadgets                | onPlayerLogin              | com.direwolf20.buildinggadgets.common.events.ConfigEventHandler              | normal   | BuildingGadgets-2.6.8.jar                    | false           |
-| Sync                            | onPlayerLogin              | me.ichun.mods.sync.common.core.EventHandlerServer                            | normal   | Sync-1.12.2-7.1.0.jar                        | false           |
-| CraftTweaker2                   | onPlayerLoggedIn           | crafttweaker.mc1120.events.CommonEventHandler                                | normal   | CraftTweaker2-1.12-4.1.18.jar                | false           |
-| Carry On                        | onPlayerLogin              | tschipp.carryon.common.event.ItemEvents                                      | normal   | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
-| Morpheus                        | loggedInEvent              | net.quetzi.morpheus.helpers.MorpheusEventHandler                             | normal   | Morpheus-1.12.2-3.5.106.jar                  | false           |
-| Waila                           | onPlayerLoggedIn           | mcp.mobius.waila.handlers.NetworkHandler                                     | normal   | Hwyla-1.8.26-B41_1.12.2.jar                  | false           |
-| AppleSkin                       | onPlayerLoggedIn           | squeek.appleskin.network.SyncHandler                                         | normal   | AppleSkin-mc1.12-1.0.9.jar                   | false           |
-| Construct's Armory              | playerLoggedIn             | c4.conarm.common.ConfigHandler$ConfigEventHandler                            | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
-| Tinkers' Construct              | onPlayerLoggedIn           | slimeknights.tconstruct.shared.PlayerDataEvents                              | normal   | TConstruct-1.12.2-2.12.0.135.jar             | false           |
-| Cyclic                          | onSpawn                    | com.lothrazar.cyclicmagic.event.EventPlayerData                              | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
-| Mystcraft                       | onPlayerLoggedIn           | com.xcompwiz.mystcraft.instability.bonus.EventManager                        | normal   | mystcraft-1.12.2-0.13.7.03.jar               | false           |
-| Chisels & Bits                  | newConnection              | mod.chiselsandbits.network.NetworkRouter                                     | normal   | chiselsandbits-14.32.jar                     | false           |
-| IntegratedDynamics-Compat       | onLoggedIn                 | org.cyclops.cyclopscore.event.PlayerRingOfFire                               | normal   | IntegratedDynamics-1.12.2-1.0.8.jar          | false           |
-| Ender Utilities                 | onPlayerLoggedIn           | fi.dy.masa.enderutilities.event.PlayerEventHandler                           | normal   | enderutilities-1.12.2-0.7.12.jar             | false           |
-| Triumph                         | onPlayerJoin               | com.bloodnbonesgaming.triumph.events.TEventHandler                           | normal   | Triumph-1.12.2-3.17.0.jar                    | false           |
-| MatterOverdrive: Legacy Edition | onPlayerJoin               | matteroverdrive.starmap.GalaxyServer                                         | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
-| Corail Tombstone                | onPlayerLogued             | ovh.corail.tombstone.core.ConfigTombstone                                    | high     | tombstone-3.5.2-1.12.jar                     | false           |
-| Prestige                        | playerLogin                | com.jarhax.prestige.events.CommonEventHandler                                | normal   | Prestige-1.12.2-1.1.53.jar                   | false           |
-| Astral Sorcery                  | onLogin                    | hellfirepvp.astralsorcery.common.event.listener.EventHandlerNetwork          | low      | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Compact Machines 3              | onLogin                    | org.dave.compactmachines3.misc.PlayerEventHandler                            | normal   | compactmachines3-1.12.2-3.0.18-b278.jar      | false           |
-| Horse Power                     | onServerJoined             | se.gory_moon.horsepower.HPEventHandler                                       | normal   | HorsePower-1.12.2-2.6.4.74.jar               | false           |
-| Integrated Dynamics             | onPlayerLoggedIn           | org.cyclops.integrateddynamics.core.persist.world.LabelsWorldStorage         | normal   | IntegratedDynamics-1.12.2-1.0.8.jar          | false           |
-| ViesCraft                       | onPlayerLoginEvent         | com.viesis.viescraft.common.utils.events.EventHandlerConfig                  | normal   | ViesCraft-1.12.2-5.9.13.jar                  | false           |
-| The Twilight Forest             | banishNewbieToTwilightZone | twilightforest.TFEventListener                                               | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
-| OpenComputers                   | playerLoggedIn             | li.cil.oc.common.EventHandler$                                               | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
-| TogetherForever                 | playerJoin                 | com.buuz135.togetherforever.TogetherForever                                  | normal   | togetherforever-1.12.2-1.0.12-22.jar         | false           |
-| AromaBackup                     | login                      | aroma1997.backup.mc.EventListener                                            | normal   | AromaBackup-1.12.2-3.0.0.0.b117.jar          | false           |
-| Integrated Dynamics             | onLoggedIn                 | org.cyclops.cyclopscore.event.PlayerRingOfFire                               | normal   | IntegratedDynamics-1.12.2-1.0.8.jar          | false           |
-| NuclearCraft                    | configOnWorldLoad          | nc.config.NCConfig$ServerConfigEventHandler                                  | normal   | NuclearCraft-2.17a-1.12.2.jar                | false           |
-| Minecraft Forge                 | playerLogin                | forge                                                                        | normal   | forge-1.12.2-14.23.5.2846-universal.jar      | false           |
-| EnderStorage                    | onPlayerLogin              | codechicken.enderstorage.network.TankSynchroniser                            | normal   | EnderStorage-1.12.2-2.4.5.135-universal.jar  | false           |
-| Tinkers Tool Leveling           | playerLoggedIn             | slimeknights.toolleveling.config.ConfigSync                                  | normal   | TinkerToolLeveling-1.12.2-1.1.0.jar          | false           |
-| Mystcraft                       | playerLoggedIn             | com.xcompwiz.mystcraft.network.MystcraftConnectionHandler                    | normal   | mystcraft-1.12.2-0.13.7.03.jar               | false           |
-| ProjectE                        | playerConnect              | moze_intel.projecte.events.PlayerEvents                                      | normal   | ProjectE-1.12.2-PE1.4.1.jar                  | false           |
-| Prestige                        | onPlayerLoggedIn           | com.jarhax.prestige.Prestige                                                 | normal   | Prestige-1.12.2-1.1.53.jar                   | false           |
-| Integrated Tunnels              | onLoggedIn                 | org.cyclops.cyclopscore.event.PlayerRingOfFire                               | normal   | IntegratedTunnels-1.12.2-1.6.7.jar           | false           |
-| Game Stages                     | onPlayerLoggedIn           | net.darkhax.gamestages.data.GameStageSaveHandler                             | normal   | GameStages-1.12.2-2.0.115.jar                | false           |
-| Valkyrie Lib                    | onFirstLoginEvent          | com.valkyrieofnight.vliblegacy.m_guide.features.GItems                       | normal   | valkyrielib-1.12.2-2.0.20.1.jar              | false           |
-| EnderCore                       | onPlayerLogin              | com.enderio.core.common.config.ConfigHandler$1                               | normal   | EnderCore-1.12.2-0.5.57.jar                  | false           |
-| The Twilight Forest             | playerLogsIn               | twilightforest.TFEventListener                                               | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
-| EnderStorage                    | onPlayerLogin              | codechicken.enderstorage.manager.EnderStorageManager$EnderStorageSaveHandler | normal   | EnderStorage-1.12.2-2.4.5.135-universal.jar  | false           |
-| ModPack Basic Tools             | playerLoggedIn             | com.gendeathrow.mpbasic.common.infopanel.InfoPanelOnHandler                  | normal   | mpbasic-1.12.2-1.4.11.jar                    | false           |
-| EnderCore                       | onPlayerJoin               | com.enderio.core.common.handlers.JoinMessageHandler                          | normal   | EnderCore-1.12.2-0.5.57.jar                  | false           |
-| Cyclic                          | onWitchKingReturn          | com.lothrazar.cyclicmagic.event.EventKeyInput                                | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
-| Mekanism                        | onPlayerLoginEvent         | mekanism.common.CommonPlayerTracker                                          | normal   | Mekanism-1.12.2-9.7.5.376.jar                | false           |
-| Wall-Jump!                      | playerJoin                 | genandnic.walljump.common.CommonListener                                     | normal   | walljump-1.12.2-1.2.3.jar                    | false           |
-| AppleCore                       | onPlayerLoggedIn           | squeek.applecore.network.SyncHandler                                         | normal   | AppleCore-mc1.12.2-3.2.0.jar                 | false           |
-| Cyclic                          | playerLoggedInEvent        | com.lothrazar.cyclicmagic.playerupgrade.EventExtendedInventory               | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
 | Construct's Armory              | onPlayerLoggedIn           | c4.conarm.common.events.PlayerDataEvents                                     | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
-| Topography                      | playerLoginEvent           | com.bloodnbonesgaming.topography.event.EventSubscriber                       | normal   | Topography-1.12.2-1.5.1.jar                  | false           |
+| TogetherForever                 | playerJoin                 | com.buuz135.togetherforever.TogetherForever                                  | normal   | togetherforever-1.12.2-1.0.12-22.jar         | false           |
+| Game Stages                     | onPlayerLoggedIn           | net.darkhax.gamestages.data.GameStageSaveHandler                             | normal   | GameStages-1.12.2-2.0.115.jar                | false           |
 | Parabox                         | login                      | net.darkhax.parabox.util.WorldSpaceTimeManager                               | normal   | Parabox-1.12.2-2.0.0.jar                     | false           |
-| MatterOverdrive: Legacy Edition | onPlayerJoin               | matteroverdrive.handler.PlayerEventHandler                                   | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
-| PigUtils                        | onPlayerLogin              | me.ichun.mods.ichunutil.common.core.event.EventHandlerServer                 | highest  | iChunUtil-1.12.2-7.1.4.jar                   | false           |
-| CompactStorage                  | connect                    | com.tattyseal.compactstorage.event.ConnectionHandler                         | normal   | CompactStorage-3.1-12.jar                    | false           |
+| AppleCore                       | onPlayerLoggedIn           | squeek.applecore.network.SyncHandler                                         | normal   | AppleCore-mc1.12.2-3.2.0.jar                 | false           |
+| AromaBackup                     | login                      | aroma1997.backup.mc.EventListener                                            | normal   | AromaBackup-1.12.2-3.0.0.0.b117.jar          | false           |
+| Tinkers' Construct              | onPlayerLoggedIn           | slimeknights.tconstruct.shared.PlayerDataEvents                              | normal   | TConstruct-1.12.2-2.12.0.135.jar             | false           |
+| Integrated Tunnels              | onLoggedIn                 | org.cyclops.cyclopscore.event.PlayerRingOfFire                               | normal   | IntegratedTunnels-1.12.2-1.6.7.jar           | false           |
+| Sync                            | onPlayerLogin              | me.ichun.mods.sync.common.core.EventHandlerServer                            | normal   | Sync-1.12.2-7.1.0.jar                        | false           |
+| Mekanism                        | onPlayerLoginEvent         | mekanism.common.CommonPlayerTracker                                          | normal   | Mekanism-1.12.2-9.7.5.376.jar                | false           |
+| Valkyrie Lib                    | onFirstLoginEvent          | com.valkyrieofnight.vliblegacy.m_guide.features.GItems                       | normal   | valkyrielib-1.12.2-2.0.20.1.jar              | false           |
+| Morpheus                        | loggedInEvent              | net.quetzi.morpheus.helpers.MorpheusEventHandler                             | normal   | Morpheus-1.12.2-3.5.106.jar                  | false           |
+| OpenComputers                   | playerLoggedIn             | li.cil.oc.common.EventHandler$                                               | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
+| Cyclic                          | onSpawn                    | com.lothrazar.cyclicmagic.event.EventPlayerData                              | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
+| Triumph                         | onPlayerJoin               | com.bloodnbonesgaming.triumph.events.TEventHandler                           | normal   | Triumph-1.12.2-3.17.0.jar                    | false           |
+| Prestige                        | playerLogin                | com.jarhax.prestige.events.CommonEventHandler                                | normal   | Prestige-1.12.2-1.1.53.jar                   | false           |
+| Compact Machines 3              | onLogin                    | org.dave.compactmachines3.misc.PlayerEventHandler                            | normal   | compactmachines3-1.12.2-3.0.18-b278.jar      | false           |
+| Cyclic                          | playerLoggedInEvent        | com.lothrazar.cyclicmagic.playerupgrade.EventExtendedInventory               | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
+| AppleSkin                       | onPlayerLoggedIn           | squeek.appleskin.network.SyncHandler                                         | normal   | AppleSkin-mc1.12-1.0.9.jar                   | false           |
+| Integrated Dynamics             | onPlayerLoggedIn           | org.cyclops.integrateddynamics.core.persist.world.LabelsWorldStorage         | normal   | IntegratedDynamics-1.12.2-1.0.8.jar          | false           |
+| Construct's Armory              | playerLoggedIn             | c4.conarm.common.ConfigHandler$ConfigEventHandler                            | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
+| Wall-Jump!                      | playerJoin                 | genandnic.walljump.common.CommonListener                                     | normal   | walljump-1.12.2-1.2.3.jar                    | false           |
+| ProjectE                        | playerConnect              | moze_intel.projecte.events.PlayerEvents                                      | normal   | ProjectE-1.12.2-PE1.4.1.jar                  | false           |
 | IntegratedTunnels-Compat        | onLoggedIn                 | org.cyclops.cyclopscore.event.PlayerRingOfFire                               | normal   | IntegratedTunnels-1.12.2-1.6.7.jar           | false           |
-| Cyclops Core                    | onLoggedIn                 | org.cyclops.cyclopscore.event.PlayerRingOfFire                               | normal   | CyclopsCore-1.12.2-1.0.6.jar                 | false           |
-| ProjectE                        | onHighAlchemistJoin        | moze_intel.projecte.events.PlayerEvents                                      | normal   | ProjectE-1.12.2-PE1.4.1.jar                  | false           |
 | Integrated Dynamics             | onPlayerLoggedIn           | org.cyclops.integrateddynamics.item.ItemOnTheDynamicsOfIntegration           | normal   | IntegratedDynamics-1.12.2-1.0.8.jar          | false           |
+| NuclearCraft                    | configOnWorldLoad          | nc.config.NCConfig$ServerConfigEventHandler                                  | normal   | NuclearCraft-2.17a-1.12.2.jar                | false           |
+| MatterOverdrive: Legacy Edition | onPlayerJoin               | matteroverdrive.starmap.GalaxyServer                                         | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
+| CompactStorage                  | connect                    | com.tattyseal.compactstorage.event.ConnectionHandler                         | normal   | CompactStorage-3.1-12.jar                    | false           |
+| Cyclic                          | onWitchKingReturn          | com.lothrazar.cyclicmagic.event.EventKeyInput                                | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
+| ProjectE                        | onHighAlchemistJoin        | moze_intel.projecte.events.PlayerEvents                                      | normal   | ProjectE-1.12.2-PE1.4.1.jar                  | false           |
+| Horse Power                     | onServerJoined             | se.gory_moon.horsepower.HPEventHandler                                       | normal   | HorsePower-1.12.2-2.6.4.74.jar               | false           |
+| Tinkers' Construct              | playerLoggedIn             | slimeknights.tconstruct.common.config.ConfigSync                             | normal   | TConstruct-1.12.2-2.12.0.135.jar             | false           |
+| Tinkers Tool Leveling           | playerLoggedIn             | slimeknights.toolleveling.config.ConfigSync                                  | normal   | TinkerToolLeveling-1.12.2-1.1.0.jar          | false           |
+| Astral Sorcery                  | onLogin                    | hellfirepvp.astralsorcery.common.event.listener.EventHandlerServer           | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Mystcraft                       | onPlayerLoggedIn           | com.xcompwiz.mystcraft.instability.bonus.EventManager                        | normal   | mystcraft-1.12.2-0.13.7.03.jar               | false           |
+| PigUtils                        | onPlayerLogin              | me.ichun.mods.ichunutil.common.core.event.EventHandlerServer                 | highest  | iChunUtil-1.12.2-7.1.4.jar                   | false           |
+| Chisels & Bits                  | newConnection              | mod.chiselsandbits.network.NetworkRouter                                     | normal   | chiselsandbits-14.32.jar                     | false           |
+| The Twilight Forest             | playerLogsIn               | twilightforest.TFEventListener                                               | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
+| The Twilight Forest             | banishNewbieToTwilightZone | twilightforest.TFEventListener                                               | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
+| Astral Sorcery                  | onLogin                    | hellfirepvp.astralsorcery.common.event.listener.EventHandlerNetwork          | low      | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Carry On                        | onPlayerLogin              | tschipp.carryon.common.event.ItemEvents                                      | normal   | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
+| EnderStorage                    | onPlayerLogin              | codechicken.enderstorage.manager.EnderStorageManager$EnderStorageSaveHandler | normal   | EnderStorage-1.12.2-2.4.5.135-universal.jar  | false           |
+| ViesCraft                       | onPlayerLoginEvent         | com.viesis.viescraft.common.utils.events.EventHandlerConfig                  | normal   | ViesCraft-1.12.2-5.9.13.jar                  | false           |
+| CommonCapabilities              | onLoggedIn                 | org.cyclops.cyclopscore.event.PlayerRingOfFire                               | normal   | CommonCapabilities-1.12.2-2.1.0.jar          | false           |
+| Integrated Dynamics             | onLoggedIn                 | org.cyclops.cyclopscore.event.PlayerRingOfFire                               | normal   | IntegratedDynamics-1.12.2-1.0.8.jar          | false           |
+| Topography                      | playerLoginEvent           | com.bloodnbonesgaming.topography.event.EventSubscriber                       | normal   | Topography-1.12.2-1.5.1.jar                  | false           |
+| Waila                           | onPlayerLoggedIn           | mcp.mobius.waila.handlers.NetworkHandler                                     | normal   | Hwyla-1.8.26-B41_1.12.2.jar                  | false           |
+| Minecraft Forge                 | playerLogin                | forge                                                                        | normal   | forge-1.12.2-14.23.5.2846-universal.jar      | false           |
+| Patchouli                       | onLogin                    | vazkii.patchouli.common.handler.AdvancementSyncHandler                       | normal   | Patchouli-1.0-19.jar                         | false           |
+| Mystcraft                       | playerLoggedIn             | com.xcompwiz.mystcraft.network.MystcraftConnectionHandler                    | normal   | mystcraft-1.12.2-0.13.7.03.jar               | false           |
+| Cyclops Core                    | onLoggedIn                 | org.cyclops.cyclopscore.event.PlayerRingOfFire                               | normal   | CyclopsCore-1.12.2-1.0.6.jar                 | false           |
+| EnderCore                       | onPlayerJoin               | com.enderio.core.common.handlers.JoinMessageHandler                          | normal   | EnderCore-1.12.2-0.5.57.jar                  | false           |
+| Ender Utilities                 | onPlayerLoggedIn           | fi.dy.masa.enderutilities.event.PlayerEventHandler                           | normal   | enderutilities-1.12.2-0.7.12.jar             | false           |
+| Corail Tombstone                | onPlayerLogued             | ovh.corail.tombstone.core.ConfigTombstone                                    | high     | tombstone-3.5.2-1.12.jar                     | false           |
+| IntegratedDynamics-Compat       | onLoggedIn                 | org.cyclops.cyclopscore.event.PlayerRingOfFire                               | normal   | IntegratedDynamics-1.12.2-1.0.8.jar          | false           |
+| ModPack Basic Tools             | playerLoggedIn             | com.gendeathrow.mpbasic.common.infopanel.InfoPanelOnHandler                  | normal   | mpbasic-1.12.2-1.4.11.jar                    | false           |
+| CraftTweaker2                   | onPlayerLoggedIn           | crafttweaker.mc1120.events.CommonEventHandler                                | normal   | CraftTweaker2-1.12-4.1.18.jar                | false           |
+| Building Gadgets                | onPlayerLogin              | com.direwolf20.buildinggadgets.common.events.ConfigEventHandler              | normal   | BuildingGadgets-2.6.8.jar                    | false           |
+| EnderCore                       | onPlayerLogin              | com.enderio.core.common.config.ConfigHandler$1                               | normal   | EnderCore-1.12.2-0.5.57.jar                  | false           |
+| Prestige                        | onPlayerLoggedIn           | com.jarhax.prestige.Prestige                                                 | normal   | Prestige-1.12.2-1.1.53.jar                   | false           |
+| JourneyMap                      | playerLoggedInEvent        | journeymap.server.events.ForgeEvents                                         | normal   | journeymap-1.12.2-5.5.4.jar                  | false           |
+| EnderStorage                    | onPlayerLogin              | codechicken.enderstorage.network.TankSynchroniser                            | normal   | EnderStorage-1.12.2-2.4.5.135-universal.jar  | false           |
+| MatterOverdrive: Legacy Edition | onPlayerJoin               | matteroverdrive.handler.PlayerEventHandler                                   | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
 
 
 ## LivingEvent$LivingJumpEvent
 | Owner                           | Method                  | Location                                         | Priority | Source                                       | RecieveCanceled |
 |---------------------------------|-------------------------|--------------------------------------------------|----------|----------------------------------------------|-----------------|
-| ProjectE                        | onJump                  | moze_intel.projecte.gameObjs.items.armor.GemLegs | normal   | ProjectE-1.12.2-PE1.4.1.jar                  | false           |
-| MatterOverdrive: Legacy Edition | onEntityJump            | matteroverdrive.handler.EntityHandler            | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
-| Construct's Armory              | playerJump              | c4.conarm.common.events.ArmorEvents              | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
+| CraftTweaker2                   | onEntityLivingJumpEvent | crafttweaker.mc1120.events.CommonEventHandler    | normal   | CraftTweaker2-1.12-4.1.18.jar                | false           |
 | OpenComputers                   | onLivingJump            | li.cil.oc.common.event.HoverBootsHandler$        | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
 | Tinkers' Construct              | onLivingJump            | slimeknights.tconstruct.shared.BlockEvents       | normal   | TConstruct-1.12.2-2.12.0.135.jar             | false           |
-| CraftTweaker2                   | onEntityLivingJumpEvent | crafttweaker.mc1120.events.CommonEventHandler    | normal   | CraftTweaker2-1.12-4.1.18.jar                | false           |
+| MatterOverdrive: Legacy Edition | onEntityJump            | matteroverdrive.handler.EntityHandler            | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
+| ProjectE                        | onJump                  | moze_intel.projecte.gameObjs.items.armor.GemLegs | normal   | ProjectE-1.12.2-PE1.4.1.jar                  | false           |
+| Construct's Armory              | playerJump              | c4.conarm.common.events.ArmorEvents              | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
 
 
 ## FluxItemListenerEvent$RemoveConnectionListener
@@ -1041,16 +1041,16 @@ submitted to any online service.
 ## LivingEntityUseItemEvent$Start
 | Owner              | Method                          | Location                                      | Priority | Source                        | RecieveCanceled |
 |--------------------|---------------------------------|-----------------------------------------------|----------|-------------------------------|-----------------|
+| Rustic             | onMilkUse                       | rustic.common.potions.EventHandlerPotions     | normal   | rustic-1.0.15.jar             | false           |
 | Construct's Armory | onItemUse                       | c4.conarm.common.armor.traits.TraitCalcic     | normal   | conarm-1.12.2-1.2.3.jar       | false           |
 | CraftTweaker2      | onLivingEntityUseItemStartEvent | crafttweaker.mc1120.events.CommonEventHandler | normal   | CraftTweaker2-1.12-4.1.18.jar | false           |
-| Rustic             | onMilkUse                       | rustic.common.potions.EventHandlerPotions     | normal   | rustic-1.0.15.jar             | false           |
 
 
 ## ProjectileImpactEvent$Arrow
 | Owner               | Method                  | Location                       | Priority | Source                                      | RecieveCanceled |
 |---------------------|-------------------------|--------------------------------|----------|---------------------------------------------|-----------------|
-| Cyclic              | onProjectileImpactEvent | Block{cyclicmagic:imbuer}      | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
 | The Twilight Forest | arrowParry              | twilightforest.TFEventListener | normal   | twilightforest-1.12.2-3.8.689-universal.jar | false           |
+| Cyclic              | onProjectileImpactEvent | Block{cyclicmagic:imbuer}      | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
 
 
 ## WailaRenderEvent$Pre
@@ -1062,8 +1062,8 @@ submitted to any online service.
 ## FMLNetworkEvent$ClientCustomPacketEvent
 | Owner                 | Method       | Location                                 | Priority | Source                               | RecieveCanceled |
 |-----------------------|--------------|------------------------------------------|----------|--------------------------------------|-----------------|
-| Applied Energistics 2 | clientPacket | appeng.core.sync.network.NetworkHandler  | normal   | appliedenergistics2-rv6-stable-6.jar | false           |
 | Chisels & Bits        | clientPacket | mod.chiselsandbits.network.NetworkRouter | normal   | chiselsandbits-14.32.jar             | false           |
+| Applied Energistics 2 | clientPacket | appeng.core.sync.network.NetworkHandler  | normal   | appliedenergistics2-rv6-stable-6.jar | false           |
 
 
 ## AdvancementVisibilityEvent
@@ -1075,8 +1075,8 @@ submitted to any online service.
 ## PlayerDestroyItemEvent
 | Owner         | Method                   | Location                                      | Priority | Source                        | RecieveCanceled |
 |---------------|--------------------------|-----------------------------------------------|----------|-------------------------------|-----------------|
-| Ceramics      | onItemDestroyed          | knightminer.ceramics.items.ItemClayBucket     | normal   | Ceramics-1.12-1.3.7.jar       | false           |
 | CraftTweaker2 | onPlayerDestroyItemEvent | crafttweaker.mc1120.events.CommonEventHandler | normal   | CraftTweaker2-1.12-4.1.18.jar | false           |
+| Ceramics      | onItemDestroyed          | knightminer.ceramics.items.ItemClayBucket     | normal   | Ceramics-1.12-1.3.7.jar       | false           |
 
 
 ## NetworkPartEvent$RemovedPart
@@ -1101,67 +1101,67 @@ submitted to any online service.
 | Owner      | Method | Location                    | Priority | Source                       | RecieveCanceled |
 |------------|--------|-----------------------------|----------|------------------------------|-----------------|
 | Apotheosis | init   | shadows.deadly.DeadlyModule | normal   | Apotheosis-1.12.2-1.10.2.jar | false           |
-| Apotheosis | init   | shadows.ench.EnchModule     | normal   | Apotheosis-1.12.2-1.10.2.jar | false           |
-| Apotheosis | init   | shadows.spawn.SpawnerModule | normal   | Apotheosis-1.12.2-1.10.2.jar | false           |
 | Apotheosis | init   | shadows.potion.PotionModule | normal   | Apotheosis-1.12.2-1.10.2.jar | false           |
+| Apotheosis | init   | shadows.spawn.SpawnerModule | normal   | Apotheosis-1.12.2-1.10.2.jar | false           |
+| Apotheosis | init   | shadows.ench.EnchModule     | normal   | Apotheosis-1.12.2-1.10.2.jar | false           |
 
 
 ## ConfigFileChangedEvent
 | Owner     | Method              | Location                                       | Priority | Source                      | RecieveCanceled |
 |-----------|---------------------|------------------------------------------------|----------|-----------------------------|-----------------|
-| EnderCore | onConfigFileChanged | com.enderio.core.common.config.ConfigHandler   | normal   | EnderCore-1.12.2-0.5.57.jar | false           |
 | EnderCore | onConfigFileChanged | com.enderio.core.common.config.ConfigHandler$1 | normal   | EnderCore-1.12.2-0.5.57.jar | false           |
+| EnderCore | onConfigFileChanged | com.enderio.core.common.config.ConfigHandler   | normal   | EnderCore-1.12.2-0.5.57.jar | false           |
 
 
 ## LivingFallEvent
 | Owner                           | Method                  | Location                                                                      | Priority | Source                                       | RecieveCanceled |
 |---------------------------------|-------------------------|-------------------------------------------------------------------------------|----------|----------------------------------------------|-----------------|
-| Forgiving Void                  | onPlayerFall            | net.blay09.mods.forgivingvoid.ForgivingVoid                                   | lowest   | ForgivingVoid_1.12.2-1.0.22.jar              | true            |
-| MatterOverdrive: Legacy Edition | onLivingFallEvent       | matteroverdrive.handler.EntityHandler                                         | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
+| Inspirations                    | onFall                  | knightminer.inspirations.tweaks.TweaksEvents                                  | low      | Inspirations-1.12.2-0.2.4.jar                | false           |
 | Mystical Agriculture            | onFall                  | com.blakebr0.mysticalagriculture.items.armor.ItemSuperiumArmor$AbilityHandler | normal   | MysticalAgriculture-1.12.2-1.7.5.jar         | false           |
-| OpenComputers                   | onLivingFall            | li.cil.oc.common.event.HoverBootsHandler$                                     | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
-| Wall-Jump!                      | onLivingFall            | genandnic.walljump.common.CommonListener                                      | normal   | walljump-1.12.2-1.2.3.jar                    | false           |
 | Tinkers' Complement             | onFall                  | knightminer.tcomplement.armor.items.ItemKnightSlimeArmor                      | normal   | TinkersComplement-1.12.2-0.4.0.jar           | false           |
 | CraftTweaker2                   | onEntityLivingFallEvent | crafttweaker.mc1120.events.CommonEventHandler                                 | normal   | CraftTweaker2-1.12-4.1.18.jar                | false           |
-| Construct's Armory              | playerFall              | c4.conarm.common.events.ArmorEvents                                           | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
 | Cyclic                          | onFall                  | com.lothrazar.cyclicmagic.potion.effect.PotionBounce                          | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
+| Wall-Jump!                      | onLivingFall            | genandnic.walljump.common.CommonListener                                      | normal   | walljump-1.12.2-1.2.3.jar                    | false           |
+| Construct's Armory              | playerFall              | c4.conarm.common.events.ArmorEvents                                           | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
+| MatterOverdrive: Legacy Edition | onLivingFallEvent       | matteroverdrive.handler.EntityHandler                                         | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
+| Forgiving Void                  | onPlayerFall            | net.blay09.mods.forgivingvoid.ForgivingVoid                                   | lowest   | ForgivingVoid_1.12.2-1.0.22.jar              | true            |
 | Tinkers' Construct              | onFall                  | slimeknights.tconstruct.gadgets.item.ItemSlimeBoots                           | normal   | TConstruct-1.12.2-2.12.0.135.jar             | false           |
-| Inspirations                    | onFall                  | knightminer.inspirations.tweaks.TweaksEvents                                  | low      | Inspirations-1.12.2-0.2.4.jar                | false           |
+| OpenComputers                   | onLivingFall            | li.cil.oc.common.event.HoverBootsHandler$                                     | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
 
 
 ## PlayerEvent$Clone
 | Owner                           | Method                 | Location                                                                  | Priority | Source                                          | RecieveCanceled |
 |---------------------------------|------------------------|---------------------------------------------------------------------------|----------|-------------------------------------------------|-----------------|
+| NuclearCraft                    | onPlayerRespawn        | nc.handler.PlayerRespawnHandler                                           | normal   | NuclearCraft-2.17a-1.12.2.jar                   | false           |
+| Corail Tombstone                | onClone                | ovh.corail.tombstone.core.ConfigTombstone                                 | highest  | tombstone-3.5.2-1.12.jar                        | true            |
+| Carry On                        | onRespawn              | tschipp.carryon.common.event.ItemEvents                                   | normal   | CarryOn MC1.12.2 v1.12.1.jar                    | false           |
+| mob_grinding_utils              | onPlayerClone          | mob_grinding_utils.capability.base.EntityCapabilityHandler                | normal   | MobGrindingUtils-0.3.13.jar                     | false           |
+| Astral Sorcery                  | playerClone            | hellfirepvp.astralsorcery.common.constellation.perk.PerkEffectHelper      | normal   | astralsorcery-1.12.2-1.10.19.jar                | false           |
+| Corail Tombstone                | give                   | ovh.corail.tombstone.event.EventHandler                                   | lowest   | tombstone-3.5.2-1.12.jar                        | true            |
+| Tinkers' Construct              | onPlayerClone          | slimeknights.tconstruct.tools.modifiers.ModSoulbound                      | high     | TConstruct-1.12.2-2.12.0.135.jar                | false           |
 | Topography                      | onPlayerClone          | com.bloodnbonesgaming.topography.event.EventSubscriber                    | normal   | Topography-1.12.2-1.5.1.jar                     | false           |
+| MatterOverdrive: Legacy Edition | onPlayerClone          | matteroverdrive.handler.EntityHandler                                     | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar    | false           |
+| Deep Mob Learning               | onPlayerClone          | xt9.deepmoblearning.common.events.CapabilityHandler                       | normal   | deepmoblearning-1.12.2-2.5.2-universal.jar      | false           |
+| CoFH Core                       | handlePlayerCloneEvent | cofh.core.proxy.EventHandler                                              | high     | CoFHCore-1.12.2-4.6.3.27-universal.jar          | false           |
 | Construct's Armory              | onPlayerClone          | c4.conarm.common.armor.modifiers.ModSoulbound                             | high     | conarm-1.12.2-1.2.3.jar                         | false           |
 | Cyclic                          | onPlayerClone          | com.lothrazar.cyclicmagic.event.EventPlayerData                           | normal   | Cyclic-1.12.2-1.19.11.jar                       | false           |
-| mob_grinding_utils              | onPlayerClone          | mob_grinding_utils.capability.base.EntityCapabilityHandler                | normal   | MobGrindingUtils-0.3.13.jar                     | false           |
-| ModPack Basic Tools             | onRespawn              | com.gendeathrow.mpbasic.common.infopanel.CapabilityInfoPanel$EventHandler | normal   | mpbasic-1.12.2-1.4.11.jar                       | false           |
 | Construct's Armory              | onPlayerClone          | c4.conarm.lib.capabilities.ArmorAbilityHandler                            | normal   | conarm-1.12.2-1.2.3.jar                         | false           |
-| Corail Tombstone                | onClone                | ovh.corail.tombstone.core.ConfigTombstone                                 | highest  | tombstone-3.5.2-1.12.jar                        | true            |
-| Tinkers' Construct              | onPlayerClone          | slimeknights.tconstruct.tools.modifiers.ModSoulbound                      | high     | TConstruct-1.12.2-2.12.0.135.jar                | false           |
-| Carry On                        | onRespawn              | tschipp.carryon.common.event.ItemEvents                                   | normal   | CarryOn MC1.12.2 v1.12.1.jar                    | false           |
+| ModPack Basic Tools             | onRespawn              | com.gendeathrow.mpbasic.common.infopanel.CapabilityInfoPanel$EventHandler | normal   | mpbasic-1.12.2-1.4.11.jar                       | false           |
 | ProjectE                        | cloneEvent             | moze_intel.projecte.events.PlayerEvents                                   | normal   | ProjectE-1.12.2-PE1.4.1.jar                     | false           |
-| MatterOverdrive: Legacy Edition | onPlayerClone          | matteroverdrive.handler.EntityHandler                                     | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar    | false           |
-| Astral Sorcery                  | playerClone            | hellfirepvp.astralsorcery.common.constellation.perk.PerkEffectHelper      | normal   | astralsorcery-1.12.2-1.10.19.jar                | false           |
-| CoFH Core                       | handlePlayerCloneEvent | cofh.core.proxy.EventHandler                                              | high     | CoFHCore-1.12.2-4.6.3.27-universal.jar          | false           |
-| Deep Mob Learning               | onPlayerClone          | xt9.deepmoblearning.common.events.CapabilityHandler                       | normal   | deepmoblearning-1.12.2-2.5.2-universal.jar      | false           |
-| NuclearCraft                    | onPlayerRespawn        | nc.handler.PlayerRespawnHandler                                           | normal   | NuclearCraft-2.17a-1.12.2.jar                   | false           |
-| Corail Tombstone                | give                   | ovh.corail.tombstone.event.EventHandler                                   | lowest   | tombstone-3.5.2-1.12.jar                        | true            |
-| Thermal Foundation              | handlePlayerCloneEvent | cofh.thermalfoundation.proxy.EventHandler                                 | normal   | ThermalFoundation-1.12.2-2.6.3.27-universal.jar | false           |
 | Baubles                         | cloneCapabilitiesEvent | baubles.common.event.EventHandlerEntity                                   | normal   | Baubles-1.12-1.5.2.jar                          | false           |
+| Thermal Foundation              | handlePlayerCloneEvent | cofh.thermalfoundation.proxy.EventHandler                                 | normal   | ThermalFoundation-1.12.2-2.6.3.27-universal.jar | false           |
 
 
 ## BlockEvent$PlaceEvent
 | Owner                           | Method              | Location                                                                      | Priority | Source                                       | RecieveCanceled |
 |---------------------------------|---------------------|-------------------------------------------------------------------------------|----------|----------------------------------------------|-----------------|
-| Astral Sorcery                  | onPlace             | hellfirepvp.astralsorcery.common.constellation.perk.tree.root.AevitasRootPerk | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Wither Crumbs                   | onSkullPlacedEvent  | turkey.witherCrumbs.listeners.SkullPlacedEvent                                | normal   | witherCrumbs-1.12.2-0.11.jar                 | false           |
-| Industrial Foregoing            | onBlockPlayerPlace  | com.buuz135.industrial.proxy.event.SkullHandler                               | normal   | industrialforegoing-1.12.2-1.12.12-236.jar   | false           |
-| Headcrumbs                      | onSkullPlacedEvent  | ganymedes01.headcrumbs.eventHandlers.HandlerEvents                            | normal   | Headcrumbs-1.12.2-2.0.5.17.jar               | false           |
-| Sky Grid                        | onBlockPlace        | funwayguy.skygrid.handlers.EventHandler                                       | normal   | SkyGrid-1.1.7.jar                            | false           |
 | Compact Machines 3              | preventPlacingInHub | org.dave.compactmachines3.skyworld.SkyWorldEvents                             | normal   | compactmachines3-1.12.2-3.0.18-b278.jar      | false           |
+| Headcrumbs                      | onSkullPlacedEvent  | ganymedes01.headcrumbs.eventHandlers.HandlerEvents                            | normal   | Headcrumbs-1.12.2-2.0.5.17.jar               | false           |
 | MatterOverdrive: Legacy Edition | onBlockPlaceEvent   | matteroverdrive.handler.BlockHandler                                          | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
+| Wither Crumbs                   | onSkullPlacedEvent  | turkey.witherCrumbs.listeners.SkullPlacedEvent                                | normal   | witherCrumbs-1.12.2-0.11.jar                 | false           |
+| Sky Grid                        | onBlockPlace        | funwayguy.skygrid.handlers.EventHandler                                       | normal   | SkyGrid-1.1.7.jar                            | false           |
+| Astral Sorcery                  | onPlace             | hellfirepvp.astralsorcery.common.constellation.perk.tree.root.AevitasRootPerk | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Industrial Foregoing            | onBlockPlayerPlace  | com.buuz135.industrial.proxy.event.SkullHandler                               | normal   | industrialforegoing-1.12.2-1.12.12-236.jar   | false           |
 
 
 ## LivingEquipmentChangeEvent
@@ -1176,24 +1176,30 @@ submitted to any online service.
 | The Twilight Forest | throwableParry | twilightforest.TFEventListener | normal   | twilightforest-1.12.2-3.8.689-universal.jar | false           |
 
 
+## RegisterRecipeFactoriesEvent
+| Owner   | Method             | Location                                                               | Priority | Source                 | RecieveCanceled |
+|---------|--------------------|------------------------------------------------------------------------|----------|------------------------|-----------------|
+| B.A.S.E | registerConditions | com.teamacronymcoders.base.recipesystem.event.RecipeSystemEventHandler | normal   | base-1.12.2-3.11.0.jar | false           |
+| B.A.S.E | registerInput      | com.teamacronymcoders.base.recipesystem.event.RecipeSystemEventHandler | normal   | base-1.12.2-3.11.0.jar | false           |
+| B.A.S.E | registerOutput     | com.teamacronymcoders.base.recipesystem.event.RecipeSystemEventHandler | normal   | base-1.12.2-3.11.0.jar | false           |
+
+
 ## MaterialEvent$MaterialRegisterEvent
 | Owner | Method           | Location                                | Priority | Source                    | RecieveCanceled |
 |-------|------------------|-----------------------------------------|----------|---------------------------|-----------------|
 | Yoyos | addMaterialStats | com.jozufozu.yoyos.tinkers.TinkersYoyos | normal   | yoyos_1.12.2-1.2.2.20.jar | false           |
 
 
-## RegisterRecipeFactoriesEvent
-| Owner   | Method             | Location                                                               | Priority | Source                 | RecieveCanceled |
-|---------|--------------------|------------------------------------------------------------------------|----------|------------------------|-----------------|
-| B.A.S.E | registerInput      | com.teamacronymcoders.base.recipesystem.event.RecipeSystemEventHandler | normal   | base-1.12.2-3.11.0.jar | false           |
-| B.A.S.E | registerOutput     | com.teamacronymcoders.base.recipesystem.event.RecipeSystemEventHandler | normal   | base-1.12.2-3.11.0.jar | false           |
-| B.A.S.E | registerConditions | com.teamacronymcoders.base.recipesystem.event.RecipeSystemEventHandler | normal   | base-1.12.2-3.11.0.jar | false           |
-
-
 ## ProjectileImpactEvent$Fireball
 | Owner               | Method        | Location                       | Priority | Source                                      | RecieveCanceled |
 |---------------------|---------------|--------------------------------|----------|---------------------------------------------|-----------------|
 | The Twilight Forest | fireballParry | twilightforest.TFEventListener | normal   | twilightforest-1.12.2-3.8.689-universal.jar | false           |
+
+
+## LivingEvent
+| Owner              | Method           | Location                                   | Priority | Source                      | RecieveCanceled |
+|--------------------|------------------|--------------------------------------------|----------|-----------------------------|-----------------|
+| mob_grinding_utils | startChickenFuse | mob_grinding_utils.events.ChickenFuseEvent | normal   | MobGrindingUtils-0.3.13.jar | false           |
 
 
 ## OreGenEvent$GenerateMinable
@@ -1203,30 +1209,24 @@ submitted to any online service.
 | CoFH World | handleOreGenEvent | cofh.cofhworld.init.WorldHandler | highest  | CoFHWorld-1.12.2-1.3.1.7-universal.jar | true            |
 
 
-## LivingEvent
-| Owner              | Method           | Location                                   | Priority | Source                      | RecieveCanceled |
-|--------------------|------------------|--------------------------------------------|----------|-----------------------------|-----------------|
-| mob_grinding_utils | startChickenFuse | mob_grinding_utils.events.ChickenFuseEvent | normal   | MobGrindingUtils-0.3.13.jar | false           |
-
-
 ## PlayerEvent$PlayerChangedDimensionEvent
 | Owner               | Method                   | Location                                                                     | Priority | Source                                      | RecieveCanceled |
 |---------------------|--------------------------|------------------------------------------------------------------------------|----------|---------------------------------------------|-----------------|
-| EnderStorage        | onPlayerChangedDimension | codechicken.enderstorage.manager.EnderStorageManager$EnderStorageSaveHandler | normal   | EnderStorage-1.12.2-2.4.5.135-universal.jar | false           |
-| Cyclic              | onPlayerWarp             | com.lothrazar.cyclicmagic.item.ItemHeartContainer                            | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
-| Morpheus            | changedDimensionEvent    | net.quetzi.morpheus.helpers.MorpheusEventHandler                             | normal   | Morpheus-1.12.2-3.5.106.jar                 | false           |
-| Mekanism            | onPlayerDimChangedEvent  | mekanism.common.CommonPlayerTracker                                          | normal   | Mekanism-1.12.2-9.7.5.376.jar               | false           |
-| PigUtils            | onPlayerChangedDimension | me.ichun.mods.ichunutil.common.core.event.EventHandlerServer                 | highest  | iChunUtil-1.12.2-7.1.4.jar                  | false           |
-| Mystcraft           | onPlayerChangedDimension | com.xcompwiz.mystcraft.instability.bonus.EventManager                        | normal   | mystcraft-1.12.2-0.13.7.03.jar              | false           |
-| The Twilight Forest | playerPortals            | twilightforest.TFEventListener                                               | normal   | twilightforest-1.12.2-3.8.689-universal.jar | false           |
-| ProjectE            | playerChangeDimension    | moze_intel.projecte.events.PlayerEvents                                      | normal   | ProjectE-1.12.2-PE1.4.1.jar                 | false           |
-| Corail Tombstone    | onSyncOnChangedDimension | ovh.corail.tombstone.core.ConfigTombstone                                    | low      | tombstone-3.5.2-1.12.jar                    | false           |
-| Mystcraft           | onPlayerChangedDimension | com.xcompwiz.mystcraft.network.MystcraftConnectionHandler                    | normal   | mystcraft-1.12.2-0.13.7.03.jar              | false           |
-| OpenComputers       | onPlayerChangedDimension | li.cil.oc.common.EventHandler$                                               | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar        | false           |
 | mob_grinding_utils  | onEntityChangeDimension  | mob_grinding_utils.capability.base.EntityCapabilityHandler                   | normal   | MobGrindingUtils-0.3.13.jar                 | false           |
-| CraftTweaker2       | onPlayerChangedDimension | crafttweaker.mc1120.events.CommonEventHandler                                | normal   | CraftTweaker2-1.12-4.1.18.jar               | false           |
+| Mekanism            | onPlayerDimChangedEvent  | mekanism.common.CommonPlayerTracker                                          | normal   | Mekanism-1.12.2-9.7.5.376.jar               | false           |
 | EnderStorage        | onPlayerChangedDimension | codechicken.enderstorage.network.TankSynchroniser                            | normal   | EnderStorage-1.12.2-2.4.5.135-universal.jar | false           |
+| OpenComputers       | onPlayerChangedDimension | li.cil.oc.common.EventHandler$                                               | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar        | false           |
+| Morpheus            | changedDimensionEvent    | net.quetzi.morpheus.helpers.MorpheusEventHandler                             | normal   | Morpheus-1.12.2-3.5.106.jar                 | false           |
+| Corail Tombstone    | onSyncOnChangedDimension | ovh.corail.tombstone.core.ConfigTombstone                                    | low      | tombstone-3.5.2-1.12.jar                    | false           |
+| EnderStorage        | onPlayerChangedDimension | codechicken.enderstorage.manager.EnderStorageManager$EnderStorageSaveHandler | normal   | EnderStorage-1.12.2-2.4.5.135-universal.jar | false           |
+| Mystcraft           | onPlayerChangedDimension | com.xcompwiz.mystcraft.network.MystcraftConnectionHandler                    | normal   | mystcraft-1.12.2-0.13.7.03.jar              | false           |
+| ProjectE            | playerChangeDimension    | moze_intel.projecte.events.PlayerEvents                                      | normal   | ProjectE-1.12.2-PE1.4.1.jar                 | false           |
+| PigUtils            | onPlayerChangedDimension | me.ichun.mods.ichunutil.common.core.event.EventHandlerServer                 | highest  | iChunUtil-1.12.2-7.1.4.jar                  | false           |
+| The Twilight Forest | playerPortals            | twilightforest.TFEventListener                                               | normal   | twilightforest-1.12.2-3.8.689-universal.jar | false           |
 | Iron Jetpacks       | onChangeDimension        | com.blakebr0.ironjetpacks.handler.InputHandler                               | normal   | IronJetpacks-1.12-2-1.1.0.jar               | false           |
+| Mystcraft           | onPlayerChangedDimension | com.xcompwiz.mystcraft.instability.bonus.EventManager                        | normal   | mystcraft-1.12.2-0.13.7.03.jar              | false           |
+| Cyclic              | onPlayerWarp             | com.lothrazar.cyclicmagic.item.ItemHeartContainer                            | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
+| CraftTweaker2       | onPlayerChangedDimension | crafttweaker.mc1120.events.CommonEventHandler                                | normal   | CraftTweaker2-1.12-4.1.18.jar               | false           |
 
 
 ## AttachCapabilitiesEventIngredientComponent
@@ -1240,12 +1240,12 @@ submitted to any online service.
 | Owner              | Method                 | Location                                                       | Priority | Source                                 | RecieveCanceled |
 |--------------------|------------------------|----------------------------------------------------------------|----------|----------------------------------------|-----------------|
 | Baubles            | playerDeath            | baubles.common.event.EventHandlerEntity                        | normal   | Baubles-1.12-1.5.2.jar                 | false           |
-| CoFH Core          | handlePlayerDropsEvent | cofh.core.proxy.EventHandler                                   | high     | CoFHCore-1.12.2-4.6.3.27-universal.jar | false           |
-| Tinkers' Construct | onPlayerDeath          | slimeknights.tconstruct.tools.modifiers.ModSoulbound           | high     | TConstruct-1.12.2-2.12.0.135.jar       | false           |
-| Construct's Armory | onPlayerDeath          | c4.conarm.common.armor.modifiers.ModSoulbound                  | high     | conarm-1.12.2-1.2.3.jar                | false           |
 | Corail Tombstone   | onPlayerDrops          | ovh.corail.tombstone.event.EventHandler                        | lowest   | tombstone-3.5.2-1.12.jar               | true            |
-| Cyclic             | playerDeath            | com.lothrazar.cyclicmagic.playerupgrade.EventExtendedInventory | normal   | Cyclic-1.12.2-1.19.11.jar              | false           |
 | CraftTweaker2      | onPlayerDeathDrops     | crafttweaker.mc1120.events.CommonEventHandler                  | normal   | CraftTweaker2-1.12-4.1.18.jar          | false           |
+| Construct's Armory | onPlayerDeath          | c4.conarm.common.armor.modifiers.ModSoulbound                  | high     | conarm-1.12.2-1.2.3.jar                | false           |
+| Tinkers' Construct | onPlayerDeath          | slimeknights.tconstruct.tools.modifiers.ModSoulbound           | high     | TConstruct-1.12.2-2.12.0.135.jar       | false           |
+| Cyclic             | playerDeath            | com.lothrazar.cyclicmagic.playerupgrade.EventExtendedInventory | normal   | Cyclic-1.12.2-1.19.11.jar              | false           |
+| CoFH Core          | handlePlayerDropsEvent | cofh.core.proxy.EventHandler                                   | high     | CoFHCore-1.12.2-4.6.3.27-universal.jar | false           |
 
 
 ## MOEventBionicStat
@@ -1265,66 +1265,66 @@ submitted to any online service.
 ## CommandEvent
 | Owner               | Method         | Location                                      | Priority | Source                                      | RecieveCanceled |
 |---------------------|----------------|-----------------------------------------------|----------|---------------------------------------------|-----------------|
-| The Twilight Forest | commandSent    | twilightforest.TFEventListener                | normal   | twilightforest-1.12.2-3.8.689-universal.jar | false           |
 | CraftTweaker2       | onCommandEvent | crafttweaker.mc1120.events.CommonEventHandler | normal   | CraftTweaker2-1.12-4.1.18.jar               | false           |
+| The Twilight Forest | commandSent    | twilightforest.TFEventListener                | normal   | twilightforest-1.12.2-3.8.689-universal.jar | false           |
 
 
 ## FMLNetworkEvent$ServerConnectionFromClientEvent
 | Owner          | Method             | Location                                                             | Priority | Source                           | RecieveCanceled |
 |----------------|--------------------|----------------------------------------------------------------------|----------|----------------------------------|-----------------|
-| Astral Sorcery | onConnect          | hellfirepvp.astralsorcery.common.constellation.perk.PerkEffectHelper | normal   | astralsorcery-1.12.2-1.10.19.jar | false           |
 | Mystcraft      | onPlJoin           | com.xcompwiz.mystcraft.network.MystcraftConnectionHandler            | normal   | mystcraft-1.12.2-0.13.7.03.jar   | false           |
+| Astral Sorcery | onConnect          | hellfirepvp.astralsorcery.common.constellation.perk.PerkEffectHelper | normal   | astralsorcery-1.12.2-1.10.19.jar | false           |
 | Topography     | onPlayerJoinServer | com.bloodnbonesgaming.topography.event.ServerEventSubscriber         | normal   | Topography-1.12.2-1.5.1.jar      | false           |
 
 
 ## PlayerInteractEvent$RightClickBlock
 | Owner                  | Method                       | Location                                                           | Priority | Source                                       | RecieveCanceled |
 |------------------------|------------------------------|--------------------------------------------------------------------|----------|----------------------------------------------|-----------------|
-| mob_grinding_utils     | clickBottle                  | mob_grinding_utils.events.FillXPBottleEvent                        | normal   | MobGrindingUtils-0.3.13.jar                  | false           |
-| MCMultiPart            | onPlayerRightClickBlock      | mcmultipart.MCMPCommonProxy                                        | normal   | MCMultiPart-2.5.3.jar                        | false           |
-| Inspirations           | lockAndUnlock                | knightminer.inspirations.tools.ToolsEvents                         | normal   | Inspirations-1.12.2-0.2.4.jar                | false           |
-| Rustic                 | onPlayerUseGlassBottle       | rustic.common.EventHandlerCommon                                   | normal   | rustic-1.0.15.jar                            | false           |
-| EnderCore              | handleCropRightClick         | com.enderio.core.common.handlers.RightClickCropHandler             | normal   | EnderCore-1.12.2-0.5.57.jar                  | false           |
-| CompactStorage         | onPlayerInteract             | com.tattyseal.compactstorage.event.CompactStorageEventHandler      | normal   | CompactStorage-3.1-12.jar                    | false           |
-| Farming for Blockheads | onFertilize                  | net.blay09.mods.farmingforblockheads.FarmlandHandler               | normal   | FarmingForBlockheads_1.12.2-3.1.26.jar       | false           |
-| Inspirations           | placeCarpetOnPressurePlate   | knightminer.inspirations.utility.UtilityEvents                     | normal   | Inspirations-1.12.2-0.2.4.jar                | false           |
-| Chisel                 | onRightClickBlock            | team.chisel.common.item.ChiselController                           | normal   | Chisel-MC1.12.2-0.2.1.35.jar                 | false           |
-| CraftTweaker2          | onPlayerRightClickBlockEvent | crafttweaker.mc1120.events.CommonEventHandler                      | normal   | CraftTweaker2-1.12-4.1.18.jar                | false           |
+| Carry On               | onBlockClick                 | tschipp.carryon.common.event.ItemEntityEvents                      | high     | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
+| Astral Sorcery         | onRightClick                 | hellfirepvp.astralsorcery.common.event.listener.EventHandlerServer | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
 | Cyclic                 | onRightClickBlock            | com.lothrazar.cyclicmagic.block.scaffolding.ItemBlockScaffolding   | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
 | Pickle Tweaks          | onRightClickBlock            | com.blakebr0.pickletweaks.tweaks.TweakToolUselessifier             | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
-| Mekanism               | rightClickEvent              | Block{minecraft:air}                                               | normal   | Mekanism-1.12.2-9.7.5.376.jar                | false           |
-| Carry On               | onBlockRight                 | tschipp.carryon.common.capabilities.event.PositionCommonEvents     | normal   | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
+| CompactStorage         | onPlayerInteract             | com.tattyseal.compactstorage.event.CompactStorageEventHandler      | normal   | CompactStorage-3.1-12.jar                    | false           |
+| Inspirations           | lockAndUnlock                | knightminer.inspirations.tools.ToolsEvents                         | normal   | Inspirations-1.12.2-0.2.4.jar                | false           |
 | ChineseWorkshop        | onRightClickBlock            | cityofskytcd.chineseworkshop.event.SittingHandler                  | normal   | ChineseWorkshop-1.12.2_1.2.6.jar             | false           |
-| Cyclic                 | onRightClickBlock            | com.lothrazar.cyclicmagic.block.scaffolding.ItemBlockScaffolding   | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
-| Pickle Tweaks          | onRightClickBlock            | com.blakebr0.pickletweaks.tweaks.TweakWeaponUselessifier           | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
+| Farming for Blockheads | onFertilize                  | net.blay09.mods.farmingforblockheads.FarmlandHandler               | normal   | FarmingForBlockheads_1.12.2-3.1.26.jar       | false           |
+| Chisels & Bits         | interaction                  | mod.chiselsandbits.events.EventPlayerInteract                      | normal   | chiselsandbits-14.32.jar                     | false           |
+| Chisel                 | onRightClickBlock            | team.chisel.common.item.ChiselController                           | normal   | Chisel-MC1.12.2-0.2.1.35.jar                 | false           |
+| Inspirations           | clickHopperWithPipe          | knightminer.inspirations.utility.UtilityEvents                     | normal   | Inspirations-1.12.2-0.2.4.jar                | false           |
+| Carry On               | onBlockRightClick            | tschipp.carryon.common.event.ItemEvents                            | normal   | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
+| Inspirations           | clickCauldron                | knightminer.inspirations.recipes.RecipesEvents                     | high     | Inspirations-1.12.2-0.2.4.jar                | false           |
+| Carry On               | onBlockRight                 | tschipp.carryon.common.capabilities.event.PositionCommonEvents     | normal   | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
+| Corail Tombstone       | onRightClickChest            | ovh.corail.tombstone.event.EventHandler                            | lowest   | tombstone-3.5.2-1.12.jar                     | false           |
+| Carry On               | onBlockClick                 | tschipp.carryon.common.event.ItemEvents                            | high     | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
+| More Cauldrons         | clickCauldron                | com.mrbysco.morecauldrons.events.EnhancedRecipeEvents              | high     | More-Cauldrons-1.4.4.jar                     | false           |
+| Mekanism               | rightClickEvent              | Block{minecraft:air}                                               | normal   | Mekanism-1.12.2-9.7.5.376.jar                | false           |
+| Mystical Agradditions  | onRightClickBlock            | com.blakebr0.mysticalagradditions.event.NoFertilizerForYou         | normal   | MysticalAgradditions-1.12.2-1.3.2.jar        | false           |
+| Tinkers' Construct     | onInteract                   | slimeknights.tconstruct.tools.ToolEvents                           | normal   | TConstruct-1.12.2-2.12.0.135.jar             | false           |
+| Triumph                | onRightClickBlock            | com.bloodnbonesgaming.triumph.events.TEventHandler                 | normal   | Triumph-1.12.2-3.17.0.jar                    | false           |
+| Corail Tombstone       | uncancelGraveRightClick      | ovh.corail.tombstone.event.EventHandler                            | lowest   | tombstone-3.5.2-1.12.jar                     | true            |
 | The Twilight Forest    | onPlayerRightClick           | twilightforest.TFEventListener                                     | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
+| Cyclic                 | onRightClickBlock            | com.lothrazar.cyclicmagic.block.scaffolding.ItemBlockScaffolding   | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
+| MCMultiPart            | onPlayerRightClickBlock      | mcmultipart.MCMPCommonProxy                                        | normal   | MCMultiPart-2.5.3.jar                        | false           |
+| Pickle Tweaks          | onRightClickBlock            | com.blakebr0.pickletweaks.tweaks.TweakWeaponUselessifier           | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
+| Astral Sorcery         | onRightClickLast             | hellfirepvp.astralsorcery.common.event.listener.EventHandlerServer | lowest   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Astral Sorcery         | onRightClickDebug            | hellfirepvp.astralsorcery.common.event.listener.EventHandlerEntity | high     | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Apotheosis             | handleUseItem                | shadows.spawn.SpawnerModule                                        | normal   | Apotheosis-1.12.2-1.10.2.jar                 | false           |
+| CraftTweaker2          | onPlayerRightClickBlockEvent | crafttweaker.mc1120.events.CommonEventHandler                      | normal   | CraftTweaker2-1.12-4.1.18.jar                | false           |
+| EnderCore              | handleCropRightClick         | com.enderio.core.common.handlers.RightClickCropHandler             | normal   | EnderCore-1.12.2-0.5.57.jar                  | false           |
+| Apotheosis             | rightClick                   | shadows.ench.EnchModule                                            | normal   | Apotheosis-1.12.2-1.10.2.jar                 | false           |
+| Forge Multipart CBE    | playerInteract               | codechicken.multipart.ItemPlacementHelper$                         | low      | ForgeMultipart-1.12.2-2.6.1.81-universal.jar | false           |
+| ChineseWorkshop        | onRightClickBlock            | cityofskytcd.chineseworkshop.item.ItemCWLogo                       | normal   | ChineseWorkshop-1.12.2_1.2.6.jar             | false           |
 | Pickle Tweaks          | onUseShovel                  | com.blakebr0.pickletweaks.tweaks.TweakToolBreaking                 | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
 | Morpheus               | bedClicked                   | net.quetzi.morpheus.helpers.MorpheusEventHandler                   | highest  | Morpheus-1.12.2-3.5.106.jar                  | false           |
-| Forge Multipart CBE    | playerInteract               | codechicken.multipart.ItemPlacementHelper$                         | low      | ForgeMultipart-1.12.2-2.6.1.81-universal.jar | false           |
-| Carry On               | onBlockClick                 | tschipp.carryon.common.event.ItemEntityEvents                      | high     | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
-| Apotheosis             | rightClick                   | shadows.ench.EnchModule                                            | normal   | Apotheosis-1.12.2-1.10.2.jar                 | false           |
-| Carry On               | onBlockClick                 | tschipp.carryon.common.event.ItemEvents                            | high     | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
-| Carry On               | onBlockRightClick            | tschipp.carryon.common.event.ItemEvents                            | normal   | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
-| Inspirations           | clickHopperWithPipe          | knightminer.inspirations.utility.UtilityEvents                     | normal   | Inspirations-1.12.2-0.2.4.jar                | false           |
+| mob_grinding_utils     | clickBottle                  | mob_grinding_utils.events.FillXPBottleEvent                        | normal   | MobGrindingUtils-0.3.13.jar                  | false           |
+| Inspirations           | placeCarpetOnPressurePlate   | knightminer.inspirations.utility.UtilityEvents                     | normal   | Inspirations-1.12.2-0.2.4.jar                | false           |
 | Real Filing Cabinet    | rightClickWithshield         | com.bafomdad.realfilingcabinet.events.RFCEventHandlerServer        | normal   | realfilingcabinet-1.12-0.2.0.14.jar          | false           |
-| Chisels & Bits         | interaction                  | mod.chiselsandbits.events.EventPlayerInteract                      | normal   | chiselsandbits-14.32.jar                     | false           |
-| Triumph                | onRightClickBlock            | com.bloodnbonesgaming.triumph.events.TEventHandler                 | normal   | Triumph-1.12.2-3.17.0.jar                    | false           |
-| Cyclic                 | onRightClickBlock            | com.lothrazar.cyclicmagic.block.scaffolding.ItemBlockScaffolding   | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
-| Corail Tombstone       | onRightClickChest            | ovh.corail.tombstone.event.EventHandler                            | lowest   | tombstone-3.5.2-1.12.jar                     | false           |
-| Corail Tombstone       | uncancelGraveRightClick      | ovh.corail.tombstone.event.EventHandler                            | lowest   | tombstone-3.5.2-1.12.jar                     | true            |
-| Cyclic                 | onInteract                   | com.lothrazar.cyclicmagic.playerupgrade.PlayerAbilitiesModule      | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
-| ChineseWorkshop        | onRightClickBlock            | cityofskytcd.chineseworkshop.item.ItemCWLogo                       | normal   | ChineseWorkshop-1.12.2_1.2.6.jar             | false           |
-| Industrial Foregoing   | onPlayerRightClick           | com.buuz135.industrial.proxy.event.CocoaBeanRightClickHarvesting   | normal   | industrialforegoing-1.12.2-1.12.12-236.jar   | false           |
-| Astral Sorcery         | onRightClickLast             | hellfirepvp.astralsorcery.common.event.listener.EventHandlerServer | lowest   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Inspirations           | clickCauldron                | knightminer.inspirations.recipes.RecipesEvents                     | high     | Inspirations-1.12.2-0.2.4.jar                | false           |
-| Mystical Agradditions  | onRightClickBlock            | com.blakebr0.mysticalagradditions.event.NoFertilizerForYou         | normal   | MysticalAgradditions-1.12.2-1.3.2.jar        | false           |
-| Apotheosis             | handleUseItem                | shadows.spawn.SpawnerModule                                        | normal   | Apotheosis-1.12.2-1.10.2.jar                 | false           |
-| Astral Sorcery         | onRightClickDebug            | hellfirepvp.astralsorcery.common.event.listener.EventHandlerEntity | high     | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| More Cauldrons         | clickCauldron                | com.mrbysco.morecauldrons.events.EnhancedRecipeEvents              | high     | More-Cauldrons-1.4.4.jar                     | false           |
-| Astral Sorcery         | onRightClick                 | hellfirepvp.astralsorcery.common.event.listener.EventHandlerServer | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Rustic                 | onPlayerUseGlassBottle       | rustic.common.EventHandlerCommon                                   | normal   | rustic-1.0.15.jar                            | false           |
 | XL Food Mod            | onPlayerInteract             | mariot7.xlfoodmod.config.RightClickHarvesting                      | normal   | XL-Food-Mod-1.12.2-1.9.1.jar                 | false           |
 | Pickle Tweaks          | onRightClickCrop             | com.blakebr0.pickletweaks.feature.FeatureRightClickHarvest         | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
-| Tinkers' Construct     | onInteract                   | slimeknights.tconstruct.tools.ToolEvents                           | normal   | TConstruct-1.12.2-2.12.0.135.jar             | false           |
+| Cyclic                 | onInteract                   | com.lothrazar.cyclicmagic.playerupgrade.PlayerAbilitiesModule      | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
+| Industrial Foregoing   | onPlayerRightClick           | com.buuz135.industrial.proxy.event.CocoaBeanRightClickHarvesting   | normal   | industrialforegoing-1.12.2-1.12.12-236.jar   | false           |
+| Cyclic                 | onRightClickBlock            | com.lothrazar.cyclicmagic.block.scaffolding.ItemBlockScaffolding   | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
 
 
 ## LivingEntityUseItemEvent$Stop
@@ -1351,11 +1351,11 @@ submitted to any online service.
 ## UseHoeEvent
 | Owner         | Method            | Location                                                   | Priority | Source                        | RecieveCanceled |
 |---------------|-------------------|------------------------------------------------------------|----------|-------------------------------|-----------------|
-| Pickle Tweaks | onRightClickBlock | com.blakebr0.pickletweaks.feature.FeatureHoeInfo           | normal   | PickleTweaks-1.12.2-2.1.3.jar | false           |
-| CraftTweaker2 | onUseHoe          | crafttweaker.mc1120.events.CommonEventHandler              | normal   | CraftTweaker2-1.12-4.1.18.jar | false           |
-| Ender Crop    | useHoe            | io.github.drmanganese.endercrop.handler.UseHoeEventHandler | normal   | endercrop-1.12.2-1.6.0.jar    | false           |
 | Pickle Tweaks | onRightClickBlock | com.blakebr0.pickletweaks.tweaks.TweakHoeUselessifier      | normal   | PickleTweaks-1.12.2-2.1.3.jar | false           |
 | Pickle Tweaks | onUseHoe          | com.blakebr0.pickletweaks.tweaks.TweakToolBreaking         | high     | PickleTweaks-1.12.2-2.1.3.jar | false           |
+| CraftTweaker2 | onUseHoe          | crafttweaker.mc1120.events.CommonEventHandler              | normal   | CraftTweaker2-1.12-4.1.18.jar | false           |
+| Pickle Tweaks | onRightClickBlock | com.blakebr0.pickletweaks.feature.FeatureHoeInfo           | normal   | PickleTweaks-1.12.2-2.1.3.jar | false           |
+| Ender Crop    | useHoe            | io.github.drmanganese.endercrop.handler.UseHoeEventHandler | normal   | endercrop-1.12.2-1.6.0.jar    | false           |
 
 
 ## FluxTileListenerEvent$RemoveConnectionListener
@@ -1422,51 +1422,51 @@ submitted to any online service.
 ## LivingHealEvent
 | Owner              | Method     | Location                                                                                 | Priority | Source                           | RecieveCanceled |
 |--------------------|------------|------------------------------------------------------------------------------------------|----------|----------------------------------|-----------------|
-| Astral Sorcery     | onHeal     | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyCleanseBadPotions  | low      | astralsorcery-1.12.2-1.10.19.jar | false           |
 | Astral Sorcery     | onHeal     | hellfirepvp.astralsorcery.common.constellation.perk.attribute.type.AttributeLifeRecovery | low      | astralsorcery-1.12.2-1.10.19.jar | false           |
+| Astral Sorcery     | onHeal     | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyCleanseBadPotions  | low      | astralsorcery-1.12.2-1.10.19.jar | false           |
 | Construct's Armory | playerHeal | c4.conarm.common.events.ArmorEvents                                                      | normal   | conarm-1.12.2-1.2.3.jar          | false           |
 
 
 ## PlayerInteractEvent
 | Owner                           | Method                | Location                                                      | Priority | Source                                       | RecieveCanceled |
 |---------------------------------|-----------------------|---------------------------------------------------------------|----------|----------------------------------------------|-----------------|
-| CraftTweaker2                   | onPlayerInteract      | crafttweaker.mc1120.events.CommonEventHandler                 | normal   | CraftTweaker2-1.12-4.1.18.jar                | false           |
 | Cyclic                          | onPlayerInteract      | com.lothrazar.cyclicmagic.playerupgrade.PlayerAbilitiesModule | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
-| Applied Energistics 2           | playerInteract        | appeng.parts.PartPlacement                                    | normal   | appliedenergistics2-rv6-stable-6.jar         | false           |
-| MatterOverdrive: Legacy Edition | onPlayerBlockInteract | matteroverdrive.handler.PlayerEventHandler                    | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
 | Item Stages                     | onPlayerInteract      | net.darkhax.itemstages.ItemStages                             | normal   | ItemStages-1.12.2-2.0.50.jar                 | false           |
+| Applied Energistics 2           | playerInteract        | appeng.parts.PartPlacement                                    | normal   | appliedenergistics2-rv6-stable-6.jar         | false           |
+| CraftTweaker2                   | onPlayerInteract      | crafttweaker.mc1120.events.CommonEventHandler                 | normal   | CraftTweaker2-1.12-4.1.18.jar                | false           |
+| MatterOverdrive: Legacy Edition | onPlayerBlockInteract | matteroverdrive.handler.PlayerEventHandler                    | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
 
 
 ## LivingDropsEvent
 | Owner                 | Method                        | Location                                                                          | Priority | Source                                          | RecieveCanceled |
 |-----------------------|-------------------------------|-----------------------------------------------------------------------------------|----------|-------------------------------------------------|-----------------|
-| Cyclic                | onLivingDropsEvent            | com.lothrazar.cyclicmagic.module.tweaks.MobChangesModule                          | normal   | Cyclic-1.12.2-1.19.11.jar                       | false           |
-| Ender Utilities       | onLivingDrops                 | fi.dy.masa.enderutilities.event.LivingDropsEventHandler                           | normal   | enderutilities-1.12.2-0.7.12.jar                | false           |
 | SlimyBoyos            | onLivingDrops                 | com.blamejared.slimyboyos.events.CommonEventHandler                               | normal   | SlimyBoyos-1.0.0.jar                            | false           |
+| Deep Mob Learning     | dropEvent                     | xt9.deepmoblearning.common.events.EntityDeathHandler                              | normal   | deepmoblearning-1.12.2-2.5.2-universal.jar      | false           |
+| Industrial Foregoing  | onDeath                       | com.buuz135.industrial.proxy.event.MobDeathHandler                                | lowest   | industrialforegoing-1.12.2-1.12.12-236.jar      | false           |
 | Astral Sorcery        | onDropLoot                    | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyMagnetDrops | lowest   | astralsorcery-1.12.2-1.10.19.jar                | false           |
-| mob_grinding_utils    | dropEvent                     | mob_grinding_utils.events.EntityHeadDropEvent                                     | lowest   | MobGrindingUtils-0.3.13.jar                     | false           |
-| Thermal Foundation    | handleLivingDropsEvent        | cofh.thermalfoundation.proxy.EventHandler                                         | normal   | ThermalFoundation-1.12.2-2.6.3.27-universal.jar | false           |
+| Apotheosis            | handleCapturing               | shadows.spawn.SpawnerModule                                                       | normal   | Apotheosis-1.12.2-1.10.2.jar                    | false           |
+| CraftTweaker2         | onEntityLivingDeathDropsEvent | crafttweaker.mc1120.events.CommonEventHandler                                     | normal   | CraftTweaker2-1.12-4.1.18.jar                   | false           |
+| InControl             | onLivingDrops                 | mcjty.incontrol.ForgeEventHandlers                                                | lowest   | incontrol-1.12-3.9.10.jar                       | false           |
+| Cyclic                | onLivingDropsEvent            | com.lothrazar.cyclicmagic.module.tweaks.MobChangesModule                          | normal   | Cyclic-1.12.2-1.19.11.jar                       | false           |
+| CoFH Core             | handleLivingDropsEvent        | cofh.core.proxy.EventHandler                                                      | highest  | CoFHCore-1.12.2-4.6.3.27-universal.jar          | false           |
+| Tinkers' Construct    | onLivingDrops                 | slimeknights.tconstruct.tools.modifiers.ModBeheading                              | normal   | TConstruct-1.12.2-2.12.0.135.jar                | false           |
 | Apotheosis            | drops                         | shadows.ench.EnchModule                                                           | low      | Apotheosis-1.12.2-1.10.2.jar                    | false           |
-| mob_grinding_utils    | dropXP                        | Block{minecraft:air}                                                              | normal   | MobGrindingUtils-0.3.13.jar                     | false           |
+| Astral Sorcery        | onDrops                       | hellfirepvp.astralsorcery.common.event.listener.EventHandlerEntity                | normal   | astralsorcery-1.12.2-1.10.19.jar                | false           |
+| Headcrumbs            | dropEvent                     | ganymedes01.headcrumbs.eventHandlers.HandlerEvents                                | lowest   | Headcrumbs-1.12.2-2.0.5.17.jar                  | false           |
 | CraftTweaker2         | mobDrop                       | crafttweaker.mc1120.events.CommonEventHandler                                     | normal   | CraftTweaker2-1.12-4.1.18.jar                   | false           |
+| Corail Tombstone      | onUndeadDrops                 | ovh.corail.tombstone.event.EventHandler                                           | highest  | tombstone-3.5.2-1.12.jar                        | false           |
+| mob_grinding_utils    | dropXP                        | Block{minecraft:air}                                                              | normal   | MobGrindingUtils-0.3.13.jar                     | false           |
+| NuclearCraft          | addEntityDrop                 | nc.handler.DropHandler                                                            | normal   | NuclearCraft-2.17a-1.12.2.jar                   | false           |
+| Mystical Agradditions | onMobDrops                    | com.blakebr0.mysticalagradditions.event.MobDrops                                  | normal   | MysticalAgradditions-1.12.2-1.3.2.jar           | false           |
+| Yoyos                 | onLivingDrops                 | com.jozufozu.yoyos.common.EntityYoyo                                              | lowest   | yoyos_1.12.2-1.2.2.20.jar                       | false           |
 | Dark Utilities        | onLivingDrops                 | net.darkhax.darkutils.features.shulkerpearl.FeatureShulkerPearlItem               | normal   | DarkUtils-1.12.2-1.8.226.jar                    | false           |
 | Mystical Agriculture  | onMobDrops                    | com.blakebr0.mysticalagriculture.handler.MobDrops                                 | normal   | MysticalAgriculture-1.12.2-1.7.5.jar            | false           |
-| Tinkers' Construct    | onLivingDrops                 | slimeknights.tconstruct.tools.modifiers.ModBeheading                              | normal   | TConstruct-1.12.2-2.12.0.135.jar                | false           |
-| CraftTweaker2         | onEntityLivingDeathDropsEvent | crafttweaker.mc1120.events.CommonEventHandler                                     | normal   | CraftTweaker2-1.12-4.1.18.jar                   | false           |
-| CoFH Core             | handleLivingDropsEvent        | cofh.core.proxy.EventHandler                                                      | highest  | CoFHCore-1.12.2-4.6.3.27-universal.jar          | false           |
-| Deep Mob Learning     | dropEvent                     | xt9.deepmoblearning.common.events.EntityDeathHandler                              | normal   | deepmoblearning-1.12.2-2.5.2-universal.jar      | false           |
-| Astral Sorcery        | onDrops                       | hellfirepvp.astralsorcery.common.event.listener.EventHandlerEntity                | normal   | astralsorcery-1.12.2-1.10.19.jar                | false           |
-| Apotheosis            | handleCapturing               | shadows.spawn.SpawnerModule                                                       | normal   | Apotheosis-1.12.2-1.10.2.jar                    | false           |
-| Yoyos                 | onLivingDrops                 | com.jozufozu.yoyos.common.EntityYoyo                                              | lowest   | yoyos_1.12.2-1.2.2.20.jar                       | false           |
-| Tiny Progressions     | onLivingDrops                 | com.kashdeya.tinyprogressions.events.EventDrops                                   | highest  | tinyprogressions-1.12.2-3.3.32-Release.jar      | false           |
-| Mystical Agradditions | onMobDrops                    | com.blakebr0.mysticalagradditions.event.MobDrops                                  | normal   | MysticalAgradditions-1.12.2-1.3.2.jar           | false           |
-| InControl             | onLivingDrops                 | mcjty.incontrol.ForgeEventHandlers                                                | lowest   | incontrol-1.12-3.9.10.jar                       | false           |
 | Statues mod           | onLivingDrop                  | com.svennieke.statues.handler.DropHandler                                         | normal   | statues-1.12.X-0.8.7.2.jar                      | false           |
-| Corail Tombstone      | onUndeadDrops                 | ovh.corail.tombstone.event.EventHandler                                           | highest  | tombstone-3.5.2-1.12.jar                        | false           |
+| Thermal Foundation    | handleLivingDropsEvent        | cofh.thermalfoundation.proxy.EventHandler                                         | normal   | ThermalFoundation-1.12.2-2.6.3.27-universal.jar | false           |
+| Tiny Progressions     | onLivingDrops                 | com.kashdeya.tinyprogressions.events.EventDrops                                   | highest  | tinyprogressions-1.12.2-3.3.32-Release.jar      | false           |
 | Apotheosis            | drops                         | shadows.potion.PotionModule                                                       | normal   | Apotheosis-1.12.2-1.10.2.jar                    | false           |
-| NuclearCraft          | addEntityDrop                 | nc.handler.DropHandler                                                            | normal   | NuclearCraft-2.17a-1.12.2.jar                   | false           |
-| Industrial Foregoing  | onDeath                       | com.buuz135.industrial.proxy.event.MobDeathHandler                                | lowest   | industrialforegoing-1.12.2-1.12.12-236.jar      | false           |
-| Headcrumbs            | dropEvent                     | ganymedes01.headcrumbs.eventHandlers.HandlerEvents                                | lowest   | Headcrumbs-1.12.2-2.0.5.17.jar                  | false           |
+| Ender Utilities       | onLivingDrops                 | fi.dy.masa.enderutilities.event.LivingDropsEventHandler                           | normal   | enderutilities-1.12.2-0.7.12.jar                | false           |
+| mob_grinding_utils    | dropEvent                     | mob_grinding_utils.events.EntityHeadDropEvent                                     | lowest   | MobGrindingUtils-0.3.13.jar                     | false           |
 
 
 ## GeolyzerEvent$Analyze
@@ -1500,24 +1500,24 @@ submitted to any online service.
 | Flux Networks | onNetworkSettingsChanged | sonar.flux.network.FluxCommon | normal   | fluxnetworks-1.12.2-3.0.19-21.jar | false           |
 
 
-## NetworkActivityEvent$Client
-| Owner         | Method            | Location                                       | Priority | Source                               | RecieveCanceled |
-|---------------|-------------------|------------------------------------------------|----------|--------------------------------------|-----------------|
-| OpenComputers | onNetworkActivity | li.cil.oc.common.event.NetworkActivityHandler$ | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar | false           |
-
-
 ## PlayerSetSpawnEvent
 | Owner         | Method                | Location                                      | Priority | Source                        | RecieveCanceled |
 |---------------|-----------------------|-----------------------------------------------|----------|-------------------------------|-----------------|
 | CraftTweaker2 | onPlayerSetSpawnEvent | crafttweaker.mc1120.events.CommonEventHandler | normal   | CraftTweaker2-1.12-4.1.18.jar | false           |
 
 
+## NetworkActivityEvent$Client
+| Owner         | Method            | Location                                       | Priority | Source                               | RecieveCanceled |
+|---------------|-------------------|------------------------------------------------|----------|--------------------------------------|-----------------|
+| OpenComputers | onNetworkActivity | li.cil.oc.common.event.NetworkActivityHandler$ | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar | false           |
+
+
 ## Apotheosis$ApotheosisRecipeEvent
 | Owner      | Method  | Location                    | Priority | Source                       | RecieveCanceled |
 |------------|---------|-----------------------------|----------|------------------------------|-----------------|
+| Apotheosis | recipes | shadows.garden.GardenModule | normal   | Apotheosis-1.12.2-1.10.2.jar | false           |
 | Apotheosis | recipes | shadows.ench.EnchModule     | normal   | Apotheosis-1.12.2-1.10.2.jar | false           |
 | Apotheosis | recipes | shadows.potion.PotionModule | normal   | Apotheosis-1.12.2-1.10.2.jar | false           |
-| Apotheosis | recipes | shadows.garden.GardenModule | normal   | Apotheosis-1.12.2-1.10.2.jar | false           |
 
 
 ## TinkerToolEvent$OnShovelMakePath
@@ -1534,36 +1534,36 @@ submitted to any online service.
 | Astral Sorcery | onAmuletEnchantApply | hellfirepvp.astralsorcery.common.enchantment.amulet.PlayerAmuletHandler              | normal   | astralsorcery-1.12.2-1.10.19.jar | false           |
 
 
-## AttackEntityEvent
-| Owner         | Method                    | Location                                           | Priority | Source                        | RecieveCanceled |
-|---------------|---------------------------|----------------------------------------------------|----------|-------------------------------|-----------------|
-| Cyclic        | onAttackEntity            | com.lothrazar.cyclicmagic.enchant.EnchantVenom     | normal   | Cyclic-1.12.2-1.19.11.jar     | false           |
-| Carry On      | attackEntity              | tschipp.carryon.common.event.ItemEvents            | normal   | CarryOn MC1.12.2 v1.12.1.jar  | false           |
-| Item Stages   | onPlayerAttack            | net.darkhax.itemstages.ItemStages                  | normal   | ItemStages-1.12.2-2.0.50.jar  | false           |
-| Cyclic        | onAttackEntity            | com.lothrazar.cyclicmagic.enchant.EnchantLifeLeech | normal   | Cyclic-1.12.2-1.19.11.jar     | false           |
-| Apotheosis    | trackCooldown             | shadows.ench.EnchModule                            | normal   | Apotheosis-1.12.2-1.10.2.jar  | false           |
-| Chisel        | onLeftClickEntity         | team.chisel.common.item.ChiselController           | normal   | Chisel-MC1.12.2-0.2.1.35.jar  | false           |
-| CraftTweaker2 | onPlayerAttackEntityEvent | crafttweaker.mc1120.events.CommonEventHandler      | normal   | CraftTweaker2-1.12-4.1.18.jar | false           |
-
-
 ## WailaTooltipEvent
 | Owner        | Method         | Location                           | Priority | Source                        | RecieveCanceled |
 |--------------|----------------|------------------------------------|----------|-------------------------------|-----------------|
 | Waila Stages | getTooltipText | com.jarhax.wailastages.WailaStages | normal   | WailaStages-1.12.2-2.0.24.jar | false           |
 
 
+## AttackEntityEvent
+| Owner         | Method                    | Location                                           | Priority | Source                        | RecieveCanceled |
+|---------------|---------------------------|----------------------------------------------------|----------|-------------------------------|-----------------|
+| CraftTweaker2 | onPlayerAttackEntityEvent | crafttweaker.mc1120.events.CommonEventHandler      | normal   | CraftTweaker2-1.12-4.1.18.jar | false           |
+| Cyclic        | onAttackEntity            | com.lothrazar.cyclicmagic.enchant.EnchantLifeLeech | normal   | Cyclic-1.12.2-1.19.11.jar     | false           |
+| Carry On      | attackEntity              | tschipp.carryon.common.event.ItemEvents            | normal   | CarryOn MC1.12.2 v1.12.1.jar  | false           |
+| Apotheosis    | trackCooldown             | shadows.ench.EnchModule                            | normal   | Apotheosis-1.12.2-1.10.2.jar  | false           |
+| Item Stages   | onPlayerAttack            | net.darkhax.itemstages.ItemStages                  | normal   | ItemStages-1.12.2-2.0.50.jar  | false           |
+| Cyclic        | onAttackEntity            | com.lothrazar.cyclicmagic.enchant.EnchantVenom     | normal   | Cyclic-1.12.2-1.19.11.jar     | false           |
+| Chisel        | onLeftClickEntity         | team.chisel.common.item.ChiselController           | normal   | Chisel-MC1.12.2-0.2.1.35.jar  | false           |
+
+
 ## LinkEvent$LinkEventStart
 | Owner     | Method      | Location                                           | Priority | Source                         | RecieveCanceled |
 |-----------|-------------|----------------------------------------------------|----------|--------------------------------|-----------------|
-| Mystcraft | onLinkStart | com.xcompwiz.mystcraft.linking.LinkListenerEffects | normal   | mystcraft-1.12.2-0.13.7.03.jar | false           |
 | Mystcraft | onLinkStart | com.xcompwiz.mystcraft.linking.LinkListenerBasic   | normal   | mystcraft-1.12.2-0.13.7.03.jar | false           |
+| Mystcraft | onLinkStart | com.xcompwiz.mystcraft.linking.LinkListenerEffects | normal   | mystcraft-1.12.2-0.13.7.03.jar | false           |
 
 
 ## FMLNetworkEvent$ClientConnectedToServerEvent
 | Owner         | Method             | Location                                               | Priority | Source                               | RecieveCanceled |
 |---------------|--------------------|--------------------------------------------------------|----------|--------------------------------------|-----------------|
-| Mercurius     | onConnectionOpened | net.minecraftforge.mercurius.StatsMod$ConnectionEvents | normal   | Mercurius-1.12.2.jar                 | false           |
 | OpenComputers | clientLoggedIn     | li.cil.oc.common.EventHandler$                         | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar | false           |
+| Mercurius     | onConnectionOpened | net.minecraftforge.mercurius.StatsMod$ConnectionEvents | normal   | Mercurius-1.12.2.jar                 | false           |
 
 
 ## APIRegistryEvent$PerkDisable
@@ -1584,17 +1584,17 @@ submitted to any online service.
 | Mekanism | onTransmittersAddedEvent | mekanism.common.Mekanism | normal   | Mekanism-1.12.2-9.7.5.376.jar | false           |
 
 
+## LinkEvent$LinkEventAllow
+| Owner     | Method          | Location                                               | Priority | Source                         | RecieveCanceled |
+|-----------|-----------------|--------------------------------------------------------|----------|--------------------------------|-----------------|
+| Mystcraft | isLinkPermitted | com.xcompwiz.mystcraft.linking.LinkListenerPermissions | normal   | mystcraft-1.12.2-0.13.7.03.jar | false           |
+| Mystcraft | isLinkPermitted | com.xcompwiz.mystcraft.linking.LinkListenerBasic       | normal   | mystcraft-1.12.2-0.13.7.03.jar | false           |
+
+
 ## MOEventDialogConstruct
 | Owner                           | Method                   | Location                                   | Priority | Source                                       | RecieveCanceled |
 |---------------------------------|--------------------------|--------------------------------------------|----------|----------------------------------------------|-----------------|
 | MatterOverdrive: Legacy Edition | onDialogMessageConstruct | matteroverdrive.handler.PlayerEventHandler | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
-
-
-## LinkEvent$LinkEventAllow
-| Owner     | Method          | Location                                               | Priority | Source                         | RecieveCanceled |
-|-----------|-----------------|--------------------------------------------------------|----------|--------------------------------|-----------------|
-| Mystcraft | isLinkPermitted | com.xcompwiz.mystcraft.linking.LinkListenerBasic       | normal   | mystcraft-1.12.2-0.13.7.03.jar | false           |
-| Mystcraft | isLinkPermitted | com.xcompwiz.mystcraft.linking.LinkListenerPermissions | normal   | mystcraft-1.12.2-0.13.7.03.jar | false           |
 
 
 ## ForgivingVoidEvent
@@ -1613,15 +1613,15 @@ submitted to any online service.
 ## LivingSpawnEvent$CheckSpawn
 | Owner             | Method             | Location                                                           | Priority | Source                             | RecieveCanceled |
 |-------------------|--------------------|--------------------------------------------------------------------|----------|------------------------------------|-----------------|
-| EnderCore         | onEntitySpawn      | com.enderio.core.common.handlers.FluidSpawnHandler                 | normal   | EnderCore-1.12.2-0.5.57.jar        | false           |
-| TorchMaster       | onEntityCheckSpawn | net.xalcon.torchmaster.common.EventHandlerServer                   | normal   | torchmaster_1.12.2-1.7.1.74.jar    | false           |
-| Astral Sorcery    | onSpawnTest        | hellfirepvp.astralsorcery.common.event.listener.EventHandlerEntity | normal   | astralsorcery-1.12.2-1.10.19.jar   | false           |
 | Mob Stages        | checkSpawn         | net.darkhax.mobstages.MobStages                                    | normal   | MobStages-1.12.2-2.0.13.jar        | false           |
-| Dark Utilities    | checkSpawn         | net.darkhax.darkutils.features.antislime.FeatureAntiSlime          | normal   | DarkUtils-1.12.2-1.8.226.jar       | false           |
-| Headcrumbs        | onCheckSpawn       | ganymedes01.headcrumbs.eventHandlers.HandlerEvents                 | normal   | Headcrumbs-1.12.2-2.0.5.17.jar     | false           |
-| CraftTweaker2     | onCheckSpawnEvent  | crafttweaker.mc1120.events.CommonEventHandler                      | normal   | CraftTweaker2-1.12-4.1.18.jar      | false           |
+| TorchMaster       | onEntityCheckSpawn | net.xalcon.torchmaster.common.EventHandlerServer                   | normal   | torchmaster_1.12.2-1.7.1.74.jar    | false           |
 | Hunting Dimension | onSpawnCheck       | net.darkhax.huntingdim.handler.DimensionEffectHandler              | normal   | HuntingDimension-1.12.2-1.0.38.jar | false           |
+| Dark Utilities    | checkSpawn         | net.darkhax.darkutils.features.antislime.FeatureAntiSlime          | normal   | DarkUtils-1.12.2-1.8.226.jar       | false           |
 | InControl         | onEntitySpawnEvent | mcjty.incontrol.ForgeEventHandlers                                 | lowest   | incontrol-1.12-3.9.10.jar          | false           |
+| Headcrumbs        | onCheckSpawn       | ganymedes01.headcrumbs.eventHandlers.HandlerEvents                 | normal   | Headcrumbs-1.12.2-2.0.5.17.jar     | false           |
+| Astral Sorcery    | onSpawnTest        | hellfirepvp.astralsorcery.common.event.listener.EventHandlerEntity | normal   | astralsorcery-1.12.2-1.10.19.jar   | false           |
+| EnderCore         | onEntitySpawn      | com.enderio.core.common.handlers.FluidSpawnHandler                 | normal   | EnderCore-1.12.2-0.5.57.jar        | false           |
+| CraftTweaker2     | onCheckSpawnEvent  | crafttweaker.mc1120.events.CommonEventHandler                      | normal   | CraftTweaker2-1.12-4.1.18.jar      | false           |
 
 
 ## AdvancementCriterionCompletedEvent
@@ -1630,21 +1630,21 @@ submitted to any online service.
 | Triumph | onAdvancementCriterionCompleted | com.bloodnbonesgaming.triumph.events.CoreEventHandler | normal   | Triumph-1.12.2-3.17.0.jar | false           |
 
 
-## EntityTravelToDimensionEvent
-| Owner            | Method                   | Location                                               | Priority | Source                            | RecieveCanceled |
-|------------------|--------------------------|--------------------------------------------------------|----------|-----------------------------------|-----------------|
-| Topography       | onDimensionChange        | com.bloodnbonesgaming.topography.event.EventSubscriber | normal   | Topography-1.12.2-1.5.1.jar       | false           |
-| Ender Utilities  | onTravelToDimensionEvent | fi.dy.masa.enderutilities.event.EntityEventHandler     | normal   | enderutilities-1.12.2-0.7.12.jar  | false           |
-| Dimension Stages | onDimChange              | net.darkhax.dimstages.DimensionStages                  | normal   | DimensionStages-1.12.2-2.0.23.jar | false           |
-
-
 ## PlayerSleepInBedEvent
 | Owner              | Method                  | Location                                                           | Priority | Source                                  | RecieveCanceled |
 |--------------------|-------------------------|--------------------------------------------------------------------|----------|-----------------------------------------|-----------------|
-| Astral Sorcery     | onSleep                 | hellfirepvp.astralsorcery.common.event.listener.EventHandlerEntity | normal   | astralsorcery-1.12.2-1.10.19.jar        | false           |
 | CraftTweaker2      | onPlayerSleepInBed      | crafttweaker.mc1120.events.CommonEventHandler                      | normal   | CraftTweaker2-1.12-4.1.18.jar           | false           |
-| The Lost Cities    | onPlayerSleepInBedEvent | mcjty.lostcities.ForgeEventHandlers                                | normal   | lostcities-1.12-2.0.17.jar              | false           |
 | Compact Machines 3 | onPlayerSleepInBed      | org.dave.compactmachines3.misc.PlayerEventHandler                  | normal   | compactmachines3-1.12.2-3.0.18-b278.jar | false           |
+| Astral Sorcery     | onSleep                 | hellfirepvp.astralsorcery.common.event.listener.EventHandlerEntity | normal   | astralsorcery-1.12.2-1.10.19.jar        | false           |
+| The Lost Cities    | onPlayerSleepInBedEvent | mcjty.lostcities.ForgeEventHandlers                                | normal   | lostcities-1.12-2.0.17.jar              | false           |
+
+
+## EntityTravelToDimensionEvent
+| Owner            | Method                   | Location                                               | Priority | Source                            | RecieveCanceled |
+|------------------|--------------------------|--------------------------------------------------------|----------|-----------------------------------|-----------------|
+| Dimension Stages | onDimChange              | net.darkhax.dimstages.DimensionStages                  | normal   | DimensionStages-1.12.2-2.0.23.jar | false           |
+| Topography       | onDimensionChange        | com.bloodnbonesgaming.topography.event.EventSubscriber | normal   | Topography-1.12.2-1.5.1.jar       | false           |
+| Ender Utilities  | onTravelToDimensionEvent | fi.dy.masa.enderutilities.event.EntityEventHandler     | normal   | enderutilities-1.12.2-0.7.12.jar  | false           |
 
 
 ## NetworkEvent$ConnectedNetwork
@@ -1653,27 +1653,27 @@ submitted to any online service.
 | Practical Logistics 2 | onNetworksConnected | sonar.logistics.base.events.LogisticsEventHandler | highest  | practicallogistics2-1.12.2-3.0.8-11.jar | false           |
 
 
-## ItemExpireEvent
-| Owner              | Method            | Location                                                                        | Priority | Source                           | RecieveCanceled |
-|--------------------|-------------------|---------------------------------------------------------------------------------|----------|----------------------------------|-----------------|
-| Tinkers' Construct | onExpire          | slimeknights.tconstruct.library.tinkering.IndestructibleEntityItem$EventHandler | normal   | TConstruct-1.12.2-2.12.0.135.jar | false           |
-| CraftTweaker2      | onItemExpireEvent | crafttweaker.mc1120.events.CommonEventHandler                                   | normal   | CraftTweaker2-1.12-4.1.18.jar    | false           |
-| Tinkers' Construct | onItemExpire      | slimeknights.tconstruct.gadgets.block.BlockSlimeChannel$EventHandler            | normal   | TConstruct-1.12.2-2.12.0.135.jar | false           |
-| Cyclic             | onItemExpireEvent | com.lothrazar.cyclicmagic.module.tweaks.EnvironmentTweaksModule                 | normal   | Cyclic-1.12.2-1.19.11.jar        | false           |
-
-
 ## DynamicNetwork$NetworkClientRequest
 | Owner    | Method                 | Location                 | Priority | Source                        | RecieveCanceled |
 |----------|------------------------|--------------------------|----------|-------------------------------|-----------------|
 | Mekanism | onNetworkClientRequest | mekanism.common.Mekanism | normal   | Mekanism-1.12.2-9.7.5.376.jar | false           |
 
 
+## ItemExpireEvent
+| Owner              | Method            | Location                                                                        | Priority | Source                           | RecieveCanceled |
+|--------------------|-------------------|---------------------------------------------------------------------------------|----------|----------------------------------|-----------------|
+| CraftTweaker2      | onItemExpireEvent | crafttweaker.mc1120.events.CommonEventHandler                                   | normal   | CraftTweaker2-1.12-4.1.18.jar    | false           |
+| Tinkers' Construct | onExpire          | slimeknights.tconstruct.library.tinkering.IndestructibleEntityItem$EventHandler | normal   | TConstruct-1.12.2-2.12.0.135.jar | false           |
+| Cyclic             | onItemExpireEvent | com.lothrazar.cyclicmagic.module.tweaks.EnvironmentTweaksModule                 | normal   | Cyclic-1.12.2-1.19.11.jar        | false           |
+| Tinkers' Construct | onItemExpire      | slimeknights.tconstruct.gadgets.block.BlockSlimeChannel$EventHandler            | normal   | TConstruct-1.12.2-2.12.0.135.jar | false           |
+
+
 ## LinkEvent$LinkEventEnd
 | Owner     | Method    | Location                                               | Priority | Source                         | RecieveCanceled |
 |-----------|-----------|--------------------------------------------------------|----------|--------------------------------|-----------------|
-| Mystcraft | onLinkEnd | com.xcompwiz.mystcraft.linking.LinkListenerEffects     | normal   | mystcraft-1.12.2-0.13.7.03.jar | false           |
 | Mystcraft | onLinkEnd | com.xcompwiz.mystcraft.linking.LinkListenerForgeServer | normal   | mystcraft-1.12.2-0.13.7.03.jar | false           |
 | Mystcraft | onLinkEnd | com.xcompwiz.mystcraft.linking.LinkListenerBasic       | normal   | mystcraft-1.12.2-0.13.7.03.jar | false           |
+| Mystcraft | onLinkEnd | com.xcompwiz.mystcraft.linking.LinkListenerEffects     | normal   | mystcraft-1.12.2-0.13.7.03.jar | false           |
 
 
 ## RobotBreakBlockEvent$Post
@@ -1685,8 +1685,8 @@ submitted to any online service.
 ## PopulateChunkEvent$Pre
 | Owner      | Method                   | Location                          | Priority | Source                                 | RecieveCanceled |
 |------------|--------------------------|-----------------------------------|----------|----------------------------------------|-----------------|
-| CoFH World | handlePopulateChunkEvent | cofh.cofhworld.init.WorldHandler  | normal   | CoFHWorld-1.12.2-1.3.1.7-universal.jar | false           |
 | Apotheosis | terrainGen               | shadows.deadly.gen.WorldGenerator | normal   | Apotheosis-1.12.2-1.10.2.jar           | false           |
+| CoFH World | handlePopulateChunkEvent | cofh.cofhworld.init.WorldHandler  | normal   | CoFHWorld-1.12.2-1.3.1.7-universal.jar | false           |
 | CoFH World | handlePopulateChunkEvent | cofh.cofhworld.init.WorldHandler  | normal   | CoFHWorld-1.12.2-1.3.1.7-universal.jar | false           |
 
 
@@ -1723,39 +1723,39 @@ submitted to any online service.
 ## PlayerInteractEvent$LeftClickBlock
 | Owner                          | Method                 | Location                                                              | Priority | Source                                     | RecieveCanceled |
 |--------------------------------|------------------------|-----------------------------------------------------------------------|----------|--------------------------------------------|-----------------|
-| Cyclic                         | onHit                  | com.lothrazar.cyclicmagic.item.firemagic.ItemProjectileBlaze          | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
-| Practical Logistics 2          | onLeftClick            | sonar.logistics.base.events.PL2Events                                 | normal   | practicallogistics2-1.12.2-3.0.8-11.jar    | false           |
-| Deep Mob Learning              | playerLeftClickedBlock | xt9.deepmoblearning.common.events.PlayerHandler                       | normal   | deepmoblearning-1.12.2-2.5.2-universal.jar | false           |
-| Chisel                         | onPlayerInteract       | team.chisel.common.item.ChiselController                              | normal   | Chisel-MC1.12.2-0.2.1.35.jar               | false           |
-| SwingThroughGrass              | onLeftClick            | com.exidex.stg.LeftClickEventHandler                                  | normal   | stg-1.12.2-1.2.3.jar                       | false           |
-| ProjectE                       | leftClickBlock         | moze_intel.projecte.gameObjs.items.rings.ArchangelSmite               | normal   | ProjectE-1.12.2-PE1.4.1.jar                | false           |
-| Cyclic                         | onHit                  | com.lothrazar.cyclicmagic.item.exchangebuild.ItemBuildSwapper         | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
-| Cyclic                         | onHit                  | com.lothrazar.cyclicmagic.item.lightningmagic.ItemProjectileLightning | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
-| Cyclic                         | onLeftClickBlock       | com.lothrazar.cyclicmagic.playerupgrade.PlayerAbilitiesModule         | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
-| Cyclic                         | onHit                  | com.lothrazar.cyclicmagic.item.storagesack.ItemStorageBag             | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
-| Cyclic                         | onHit                  | com.lothrazar.cyclicmagic.item.exchangebuild.ItemBuildSwapper         | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
-| Ender Utilities                | onLeftClickBlock       | fi.dy.masa.enderutilities.event.PlayerEventHandler                    | normal   | enderutilities-1.12.2-0.7.12.jar           | false           |
-| Cyclic                         | onHit                  | com.lothrazar.cyclicmagic.item.random.ItemRandomizer                  | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
-| Barrels, Drums, Storage & More | onBlockHit             | funwayguy.bdsandm.events.EventHandler                                 | normal   | BarrelsDrumsStorageAndMore-0.0.24.jar      | false           |
-| Chisels & Bits                 | interaction            | mod.chiselsandbits.events.EventPlayerInteract                         | normal   | chiselsandbits-14.32.jar                   | false           |
-| Cyclic                         | onLeftClickBlock       | com.lothrazar.cyclicmagic.block.wireless.BlockRedstoneWireless        | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
-| Cyclic                         | onLeftClickBlock       | Block{cyclicmagic:plate_vector}                                       | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
 | Astral Sorcery                 | onLeftClickBlock       | hellfirepvp.astralsorcery.common.event.listener.EventHandlerEntity    | low      | astralsorcery-1.12.2-1.10.19.jar           | false           |
-| Cyclic                         | onHit                  | com.lothrazar.cyclicmagic.item.ItemPlayerLauncher                     | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
-| Cyclic                         | onHit                  | com.lothrazar.cyclicmagic.item.ItemWaterRemoval                       | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
 | Triumph                        | onLeftClickBlock       | com.bloodnbonesgaming.triumph.events.TEventHandler                    | normal   | Triumph-1.12.2-3.17.0.jar                  | false           |
 | PortalGun                      | onClickBlock           | me.ichun.mods.portalgun.common.core.EventHandlerServer                | normal   | PortalGun-1.12.2-7.1.0.jar                 | false           |
+| Practical Logistics 2          | onLeftClick            | sonar.logistics.base.events.PL2Events                                 | normal   | practicallogistics2-1.12.2-3.0.8-11.jar    | false           |
+| Barrels, Drums, Storage & More | onBlockHit             | funwayguy.bdsandm.events.EventHandler                                 | normal   | BarrelsDrumsStorageAndMore-0.0.24.jar      | false           |
+| Chisel                         | onPlayerInteract       | team.chisel.common.item.ChiselController                              | normal   | Chisel-MC1.12.2-0.2.1.35.jar               | false           |
+| Cyclic                         | onHit                  | com.lothrazar.cyclicmagic.item.exchangebuild.ItemBuildSwapper         | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
+| Cyclic                         | onHit                  | com.lothrazar.cyclicmagic.item.storagesack.ItemStorageBag             | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
+| Cyclic                         | onHit                  | com.lothrazar.cyclicmagic.item.lightningmagic.ItemProjectileLightning | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
+| Cyclic                         | onLeftClickBlock       | com.lothrazar.cyclicmagic.playerupgrade.PlayerAbilitiesModule         | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
+| Chisels & Bits                 | interaction            | mod.chiselsandbits.events.EventPlayerInteract                         | normal   | chiselsandbits-14.32.jar                   | false           |
+| Cyclic                         | onHit                  | com.lothrazar.cyclicmagic.item.exchangebuild.ItemBuildSwapper         | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
+| SwingThroughGrass              | onLeftClick            | com.exidex.stg.LeftClickEventHandler                                  | normal   | stg-1.12.2-1.2.3.jar                       | false           |
+| Cyclic                         | onHit                  | com.lothrazar.cyclicmagic.item.ItemPlayerLauncher                     | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
 | Cyclic                         | onHit                  | com.lothrazar.cyclicmagic.item.ItemPistonWand                         | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
+| Cyclic                         | onLeftClickBlock       | com.lothrazar.cyclicmagic.block.wireless.BlockRedstoneWireless        | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
+| Cyclic                         | onHit                  | com.lothrazar.cyclicmagic.item.ItemWaterRemoval                       | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
+| Cyclic                         | onHit                  | com.lothrazar.cyclicmagic.item.firemagic.ItemProjectileBlaze          | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
+| ProjectE                       | leftClickBlock         | moze_intel.projecte.gameObjs.items.rings.ArchangelSmite               | normal   | ProjectE-1.12.2-PE1.4.1.jar                | false           |
+| Deep Mob Learning              | playerLeftClickedBlock | xt9.deepmoblearning.common.events.PlayerHandler                       | normal   | deepmoblearning-1.12.2-2.5.2-universal.jar | false           |
+| Cyclic                         | onLeftClickBlock       | Block{cyclicmagic:plate_vector}                                       | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
+| Cyclic                         | onHit                  | com.lothrazar.cyclicmagic.item.random.ItemRandomizer                  | normal   | Cyclic-1.12.2-1.19.11.jar                  | false           |
+| Ender Utilities                | onLeftClickBlock       | fi.dy.masa.enderutilities.event.PlayerEventHandler                    | normal   | enderutilities-1.12.2-0.7.12.jar           | false           |
 
 
 ## PlayerContainerEvent$Open
 | Owner              | Method                     | Location                                                                | Priority | Source                           | RecieveCanceled |
 |--------------------|----------------------------|-------------------------------------------------------------------------|----------|----------------------------------|-----------------|
-| Triumph            | onInventoryOpen            | com.bloodnbonesgaming.triumph.events.TEventHandler                      | normal   | Triumph-1.12.2-3.17.0.jar        | false           |
-| Astral Sorcery     | onContainerOpen            | hellfirepvp.astralsorcery.common.event.listener.EventHandlerServer      | normal   | astralsorcery-1.12.2-1.10.19.jar | false           |
 | Apotheosis         | enchContainer              | shadows.ench.EnchModule                                                 | normal   | Apotheosis-1.12.2-1.10.2.jar     | false           |
-| Cyclops Core       | onEvent                    | org.cyclops.cyclopscore.advancement.criterion.GuiContainerOpenTrigger   | normal   | CyclopsCore-1.12.2-1.0.6.jar     | false           |
 | Tinkers' Construct | onCraftingStationGuiOpened | slimeknights.tconstruct.tools.common.inventory.ContainerCraftingStation | normal   | TConstruct-1.12.2-2.12.0.135.jar | false           |
+| Cyclops Core       | onEvent                    | org.cyclops.cyclopscore.advancement.criterion.GuiContainerOpenTrigger   | normal   | CyclopsCore-1.12.2-1.0.6.jar     | false           |
+| Astral Sorcery     | onContainerOpen            | hellfirepvp.astralsorcery.common.event.listener.EventHandlerServer      | normal   | astralsorcery-1.12.2-1.10.19.jar | false           |
+| Triumph            | onInventoryOpen            | com.bloodnbonesgaming.triumph.events.TEventHandler                      | normal   | Triumph-1.12.2-3.17.0.jar        | false           |
 | CraftTweaker2      | onPlayerOpenContainer      | crafttweaker.mc1120.events.CommonEventHandler                           | normal   | CraftTweaker2-1.12-4.1.18.jar    | false           |
 
 
@@ -1768,80 +1768,80 @@ submitted to any online service.
 ## ConfigChangedEvent$OnConfigChangedEvent
 | Owner                           | Method                      | Location                                                                                             | Priority | Source                                       | RecieveCanceled |
 |---------------------------------|-----------------------------|------------------------------------------------------------------------------------------------------|----------|----------------------------------------------|-----------------|
-| Advancement Book                | onConfigChanged             | com.parkermc.advancementbook.ModConfig$ConfigurationHandler                                          | normal   | Advancement_Book-1.12-1.0.3.jar              | false           |
-| Statues mod                     | onConfigChanged             | com.svennieke.statues.config.StatuesConfigGen$EventHandler                                           | normal   | statues-1.12.X-0.8.7.2.jar                   | false           |
-| OreExcavation                   | onConfigChanged             | oreexcavation.handlers.EventHandler                                                                  | normal   | OreExcavation-1.4.137.jar                    | false           |
-| Mystical Agradditions           | onConfigChanged             | com.blakebr0.mysticalagradditions.config.ModConfig                                                   | normal   | MysticalAgradditions-1.12.2-1.3.2.jar        | false           |
-| Tinkers' Complement             | onConfigChangedEvent        | knightminer.tcomplement.TinkersComplement                                                            | normal   | TinkersComplement-1.12.2-0.4.0.jar           | false           |
-| Primitive Crafting              | onConfigChanged             | tschipp.primitivecrafting.common.config.PrimitiveConfig$EventHandler                                 | normal   | PrimitiveCrafting MC1.12.2 v1.3.1.jar        | false           |
-| Tinkers' Construct              | update                      | slimeknights.tconstruct.common.config.Config                                                         | normal   | TConstruct-1.12.2-2.12.0.135.jar             | false           |
-| Cooking for Blockheads          | onConfigChanged             | net.blay09.mods.cookingforblockheads.CookingForBlockheads                                            | normal   | CookingForBlockheads_1.12.2-6.4.70.jar       | false           |
-| OG Dragon+                      | onConfigChanged             | com.gendeathrow.ogdragon.common.GD_EventHandler                                                      | normal   | ogdragon-1.12.2-0.1.4.jar                    | false           |
-| Extended Crafting               | onConfigChanged             | com.blakebr0.extendedcrafting.config.ModConfig                                                       | normal   | ExtendedCrafting-1.12.2-1.5.4.jar            | false           |
-| Cyclic                          | onConfigChanged             | com.lothrazar.cyclicmagic.config.EventConfigChanged                                                  | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
-| Baubles                         | onConfigChanged             | baubles.common.Config$ConfigChangeListener                                                           | normal   | Baubles-1.12-1.5.2.jar                       | false           |
-| Horse Power                     | onConfigChanged             | se.gory_moon.horsepower.HPEventHandler                                                               | normal   | HorsePower-1.12.2-2.6.4.74.jar               | false           |
-| Extra Cells 2                   | onChangeConfig              | extracells.util.ECConfigHandler                                                                      | normal   | ExtraCells-1.12.2-2.6.2a.jar                 | false           |
-| sky_orchards                    | onConfigChanged             | sky_orchards.configs.ConfigHandler                                                                   | normal   | SkyOrchards-0.0.12.jar                       | false           |
-| ProjectE                        | onConfigChanged             | moze_intel.projecte.PECore                                                                           | normal   | ProjectE-1.12.2-PE1.4.1.jar                  | false           |
-| Iron Jetpacks                   | onConfigChanged             | com.blakebr0.ironjetpacks.config.ModConfig                                                           | normal   | IronJetpacks-1.12-2-1.1.0.jar                | false           |
-| Culinary Construct              | onConfigChanged             | c4.culinaryconstruct.common.util.ConfigHandler$ConfigEventHandler                                    | normal   | culinaryconstruct-1.3.2.1.jar                | false           |
-| Mekanism                        | onConfigChanged             | mekanism.common.Mekanism                                                                             | normal   | Mekanism-1.12.2-9.7.5.376.jar                | false           |
-| OpenComputers Xnet Driver       | onConfigChangedEvent        | org.dave.ocxnetdriver.config.ConfigurationHandler                                                    | normal   | ocxnetdriver-1.0.3-b17.jar                   | false           |
-| Corail Tombstone                | onConfigChanged             | ovh.corail.tombstone.core.ConfigTombstone                                                            | lowest   | tombstone-3.5.2-1.12.jar                     | false           |
-| Pickle Tweaks                   | onConfigChanged             | com.blakebr0.pickletweaks.config.ModConfig                                                           | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
-| Headcrumbs                      | onConfigChanged             | ganymedes01.headcrumbs.configs.ConfigHandler                                                         | normal   | Headcrumbs-1.12.2-2.0.5.17.jar               | false           |
-| Mystical Agriculture            | onConfigChanged             | com.blakebr0.mysticalagriculture.config.ModConfig                                                    | normal   | MysticalAgriculture-1.12.2-1.7.5.jar         | false           |
-| AppleSkin                       | onConfigChanged             | squeek.appleskin.ModConfig                                                                           | normal   | AppleSkin-mc1.12-1.0.9.jar                   | false           |
-| Elevator Mod                    | configChanged               | xyz.vsngamer.elevator.init.ModConfig                                                                 | normal   | ElevatorMod-1.12.2-1.4.2.jar                 | false           |
-| Chargers                        | onConfigChanged             | se.gory_moon.chargers.Configs                                                                        | normal   | Chargers-1.12.2-1.2.0.4.jar                  | false           |
-| Chisels & Bits                  | onConfigChanged             | /home/oskar/Desktop/minecraft/abserver/SkyFactory/config/chiselsandbits.cfg                          | normal   | chiselsandbits-14.32.jar                     | false           |
-| bouncy_creepers                 | onConfigChanged             | bouncy_creepers.configs.ConfigHandler                                                                | normal   | BouncyCreepers-0.0.4.jar                     | false           |
-| TelePastries                    | onConfigChanged             | com.mrbysco.telepastries.config.TeleConfig$EventHandler                                              | normal   | TelePastries-0.3.4.jar                       | false           |
-| Mystical Agriculture            | onConfigChanged             | com.blakebr0.mysticalagriculture.config.EssenceConfig                                                | normal   | MysticalAgriculture-1.12.2-1.7.5.jar         | false           |
-| CommonCapabilities              | onConfigChanged             | org.cyclops.cyclopscore.event.ConfigChangedEventHook                                                 | normal   | CommonCapabilities-1.12.2-2.1.0.jar          | false           |
-| IntegratedTunnels-Compat        | onConfigChanged             | org.cyclops.cyclopscore.event.ConfigChangedEventHook                                                 | normal   | IntegratedTunnels-1.12.2-1.6.7.jar           | false           |
-| Integrated Tunnels              | onConfigChanged             | org.cyclops.cyclopscore.event.ConfigChangedEventHook                                                 | normal   | IntegratedTunnels-1.12.2-1.6.7.jar           | false           |
-| Ender Crop                      | onConfigChanged             | io.github.drmanganese.endercrop.configuration.EnderCropConfiguration                                 | normal   | endercrop-1.12.2-1.6.0.jar                   | false           |
-| Astral Sorcery                  | onCfgChange                 | hellfirepvp.astralsorcery.common.data.config.Config                                                  | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Game Stages                     | onConfigChangedEvent        | net.darkhax.gamestages.config.Configuration                                                          | normal   | GameStages-1.12.2-2.0.115.jar                | false           |
-| TogetherForever                 | onConfigChanged             | com.buuz135.togetherforever.config.TogetherForeverConfig$EventHandler                                | normal   | togetherforever-1.12.2-1.0.12-22.jar         | false           |
-| IntegratedDynamics-Compat       | onConfigChanged             | org.cyclops.cyclopscore.event.ConfigChangedEventHook                                                 | normal   | IntegratedDynamics-1.12.2-1.0.8.jar          | false           |
-| Waddles                         | onConfigurationChangedEvent | com.girafi.waddles.utils.ConfigurationHandler                                                        | normal   | Waddles-1.12.2-0.6.0.jar                     | false           |
-| Cyclops Core                    | onConfigChanged             | org.cyclops.cyclopscore.event.ConfigChangedEventHook                                                 | normal   | CyclopsCore-1.12.2-1.0.6.jar                 | false           |
-| Yoyos                           | onConfigChanged             | com.jozufozu.yoyos.common.ModConfig                                                                  | normal   | yoyos_1.12.2-1.2.2.20.jar                    | false           |
-| Deep Mob Learning               | onConfigurationChangedEvent | xt9.deepmoblearning.common.config.Config                                                             | normal   | deepmoblearning-1.12.2-2.5.2-universal.jar   | false           |
-| Carry On                        | onConfigChanged             | tschipp.carryon.common.event.ItemEvents                                                              | normal   | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
-| More Cauldrons                  | onConfigChanged             | com.mrbysco.morecauldrons.config.MoreCauldronsConfigGen$EventHandler                                 | normal   | More-Cauldrons-1.4.4.jar                     | false           |
-| SwingThroughGrass               | onConfigChanged             | com.exidex.stg.STGConfig                                                                             | normal   | stg-1.12.2-1.2.3.jar                         | false           |
-| EnderCore                       | onConfigChanged             | com.enderio.core.common.config.ConfigHandler$1                                                       | normal   | EnderCore-1.12.2-0.5.57.jar                  | false           |
-| Forgiving Void                  | onConfigChanged             | net.blay09.mods.forgivingvoid.ForgivingVoid                                                          | normal   | ForgivingVoid_1.12.2-1.0.22.jar              | false           |
-| Sky Grid                        | onConfigChanged             | funwayguy.skygrid.handlers.EventHandler                                                              | normal   | SkyGrid-1.1.7.jar                            | false           |
-| MatterOverdrive: Legacy Edition | onConfigChanged             | matteroverdrive.handler.ConfigurationHandler                                                         | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
-| Building Gadgets                | onConfigurationChanged      | com.direwolf20.buildinggadgets.common.events.ConfigEventHandler                                      | normal   | BuildingGadgets-2.6.8.jar                    | false           |
-| Patchouli                       | onConfigChanged             | vazkii.patchouli.common.base.PatchouliConfig$ChangeListener                                          | normal   | Patchouli-1.0-19.jar                         | false           |
-| Construct's Armory              | onConfigChanged             | c4.conarm.common.ConfigHandler$ConfigEventHandler                                                    | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
-| FoamFix                         | configChanged               | pl.asie.foamfix.FoamFix                                                                              | normal   | foamfix-0.10.5-1.12.2.jar                    | false           |
-| XL Food Mod                     | configChanged               | mariot7.xlfoodmod.config.Configurationxlfoodmod$EventHandler                                         | normal   | XL-Food-Mod-1.12.2-1.9.1.jar                 | false           |
-| BiblioCraft                     | onConfigChanged             | jds.bibliocraft.Config$ConfigUpdateListener                                                          | normal   | BiblioCraft[v2.4.5][MC1.12.2].jar            | false           |
-| Slab Machines                   | onConfigChanged             | com.mrbysco.slabmachines.config.SlabMachineConfigGen$EventHandler                                    | normal   | Slab_Machines-1.0.6.jar                      | false           |
-| Integrated Dynamics             | onConfigChanged             | org.cyclops.cyclopscore.event.ConfigChangedEventHook                                                 | normal   | IntegratedDynamics-1.12.2-1.0.8.jar          | false           |
 | TorchMaster                     | onConfigChanged             | net.xalcon.torchmaster.common.TorchmasterConfig                                                      | normal   | torchmaster_1.12.2-1.7.1.74.jar              | false           |
-| Applied Energistics 2           | onConfigChanged             | /home/oskar/Desktop/minecraft/abserver/SkyFactory/config/AppliedEnergistics2/AppliedEnergistics2.cfg | normal   | appliedenergistics2-rv6-stable-6.jar         | false           |
-| The Twilight Forest             | onConfigChanged             | twilightforest.TFConfig                                                                              | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
-| Carry On                        | onConfigChanged             | tschipp.carryon.common.config.CarryOnConfig$EventHandler                                             | normal   | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
 | Minecraft Forge                 | onConfigChanged             | forge                                                                                                | normal   | forge-1.12.2-14.23.5.2846-universal.jar      | false           |
-| FindMe                          | onConfigChanged             | com.buuz135.findme.proxy.FindMeConfig$EventHandler                                                   | normal   | findme-1.12.2-1.1.0-8.jar                    | false           |
+| Baubles                         | onConfigChanged             | baubles.common.Config$ConfigChangeListener                                                           | normal   | Baubles-1.12-1.5.2.jar                       | false           |
+| Headcrumbs                      | onConfigChanged             | ganymedes01.headcrumbs.configs.ConfigHandler                                                         | normal   | Headcrumbs-1.12.2-2.0.5.17.jar               | false           |
+| Carry On                        | onConfigChanged             | tschipp.carryon.common.event.ItemEvents                                                              | normal   | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
+| IntegratedTunnels-Compat        | onConfigChanged             | org.cyclops.cyclopscore.event.ConfigChangedEventHook                                                 | normal   | IntegratedTunnels-1.12.2-1.6.7.jar           | false           |
+| Cooking for Blockheads          | onConfigChanged             | net.blay09.mods.cookingforblockheads.CookingForBlockheads                                            | normal   | CookingForBlockheads_1.12.2-6.4.70.jar       | false           |
+| BiblioCraft                     | onConfigChanged             | jds.bibliocraft.Config$ConfigUpdateListener                                                          | normal   | BiblioCraft[v2.4.5][MC1.12.2].jar            | false           |
+| Mystical Agriculture            | onConfigChanged             | com.blakebr0.mysticalagriculture.config.ModConfig                                                    | normal   | MysticalAgriculture-1.12.2-1.7.5.jar         | false           |
+| Corail Tombstone                | onConfigChanged             | ovh.corail.tombstone.core.ConfigTombstone                                                            | lowest   | tombstone-3.5.2-1.12.jar                     | false           |
+| TelePastries                    | onConfigChanged             | com.mrbysco.telepastries.config.TeleConfig$EventHandler                                              | normal   | TelePastries-0.3.4.jar                       | false           |
+| OreExcavation                   | onConfigChanged             | oreexcavation.handlers.EventHandler                                                                  | normal   | OreExcavation-1.4.137.jar                    | false           |
+| Elevator Mod                    | configChanged               | xyz.vsngamer.elevator.init.ModConfig                                                                 | normal   | ElevatorMod-1.12.2-1.4.2.jar                 | false           |
+| MatterOverdrive: Legacy Edition | onConfigChanged             | matteroverdrive.handler.ConfigurationHandler                                                         | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
+| Integrated Tunnels              | onConfigChanged             | org.cyclops.cyclopscore.event.ConfigChangedEventHook                                                 | normal   | IntegratedTunnels-1.12.2-1.6.7.jar           | false           |
+| Statues mod                     | onConfigChanged             | com.svennieke.statues.config.StatuesConfigGen$EventHandler                                           | normal   | statues-1.12.X-0.8.7.2.jar                   | false           |
+| Yoyos                           | onConfigChanged             | com.jozufozu.yoyos.common.ModConfig                                                                  | normal   | yoyos_1.12.2-1.2.2.20.jar                    | false           |
+| Astral Sorcery                  | onCfgChange                 | hellfirepvp.astralsorcery.common.data.config.Config                                                  | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Ender Crop                      | onConfigChanged             | io.github.drmanganese.endercrop.configuration.EnderCropConfiguration                                 | normal   | endercrop-1.12.2-1.6.0.jar                   | false           |
+| Forgiving Void                  | onConfigChanged             | net.blay09.mods.forgivingvoid.ForgivingVoid                                                          | normal   | ForgivingVoid_1.12.2-1.0.22.jar              | false           |
+| bouncy_creepers                 | onConfigChanged             | bouncy_creepers.configs.ConfigHandler                                                                | normal   | BouncyCreepers-0.0.4.jar                     | false           |
+| sky_orchards                    | onConfigChanged             | sky_orchards.configs.ConfigHandler                                                                   | normal   | SkyOrchards-0.0.12.jar                       | false           |
+| Waddles                         | onConfigurationChangedEvent | com.girafi.waddles.utils.ConfigurationHandler                                                        | normal   | Waddles-1.12.2-0.6.0.jar                     | false           |
+| SwingThroughGrass               | onConfigChanged             | com.exidex.stg.STGConfig                                                                             | normal   | stg-1.12.2-1.2.3.jar                         | false           |
+| Chisels & Bits                  | onConfigChanged             | /home/oskar/Desktop/minecraft/abserver/SkyFactory/config/chiselsandbits.cfg                          | normal   | chiselsandbits-14.32.jar                     | false           |
+| Construct's Armory              | onConfigChanged             | c4.conarm.common.ConfigHandler$ConfigEventHandler                                                    | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
+| XL Food Mod                     | configChanged               | mariot7.xlfoodmod.config.Configurationxlfoodmod$EventHandler                                         | normal   | XL-Food-Mod-1.12.2-1.9.1.jar                 | false           |
+| ProjectE                        | onConfigChanged             | moze_intel.projecte.PECore                                                                           | normal   | ProjectE-1.12.2-PE1.4.1.jar                  | false           |
+| Advancement Book                | onConfigChanged             | com.parkermc.advancementbook.ModConfig$ConfigurationHandler                                          | normal   | Advancement_Book-1.12-1.0.3.jar              | false           |
+| Game Stages                     | onConfigChangedEvent        | net.darkhax.gamestages.config.Configuration                                                          | normal   | GameStages-1.12.2-2.0.115.jar                | false           |
+| Building Gadgets                | onConfigurationChanged      | com.direwolf20.buildinggadgets.common.events.ConfigEventHandler                                      | normal   | BuildingGadgets-2.6.8.jar                    | false           |
+| TogetherForever                 | onConfigChanged             | com.buuz135.togetherforever.config.TogetherForeverConfig$EventHandler                                | normal   | togetherforever-1.12.2-1.0.12-22.jar         | false           |
+| Extended Crafting               | onConfigChanged             | com.blakebr0.extendedcrafting.config.ModConfig                                                       | normal   | ExtendedCrafting-1.12.2-1.5.4.jar            | false           |
+| Mystical Agriculture            | onConfigChanged             | com.blakebr0.mysticalagriculture.config.EssenceConfig                                                | normal   | MysticalAgriculture-1.12.2-1.7.5.jar         | false           |
 | Mekanism: Generators            | onConfigChanged             | mekanism.generators.common.MekanismGenerators                                                        | normal   | MekanismGenerators-1.12.2-9.7.5.376.jar      | false           |
+| CommonCapabilities              | onConfigChanged             | org.cyclops.cyclopscore.event.ConfigChangedEventHook                                                 | normal   | CommonCapabilities-1.12.2-2.1.0.jar          | false           |
+| Integrated Dynamics             | onConfigChanged             | org.cyclops.cyclopscore.event.ConfigChangedEventHook                                                 | normal   | IntegratedDynamics-1.12.2-1.0.8.jar          | false           |
+| Pickle Tweaks                   | onConfigChanged             | com.blakebr0.pickletweaks.config.ModConfig                                                           | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
+| Mystical Agradditions           | onConfigChanged             | com.blakebr0.mysticalagradditions.config.ModConfig                                                   | normal   | MysticalAgradditions-1.12.2-1.3.2.jar        | false           |
+| OG Dragon+                      | onConfigChanged             | com.gendeathrow.ogdragon.common.GD_EventHandler                                                      | normal   | ogdragon-1.12.2-0.1.4.jar                    | false           |
+| Chargers                        | onConfigChanged             | se.gory_moon.chargers.Configs                                                                        | normal   | Chargers-1.12.2-1.2.0.4.jar                  | false           |
+| Mekanism                        | onConfigChanged             | mekanism.common.Mekanism                                                                             | normal   | Mekanism-1.12.2-9.7.5.376.jar                | false           |
+| Tinkers' Complement             | onConfigChangedEvent        | knightminer.tcomplement.TinkersComplement                                                            | normal   | TinkersComplement-1.12.2-0.4.0.jar           | false           |
+| Deep Mob Learning               | onConfigurationChangedEvent | xt9.deepmoblearning.common.config.Config                                                             | normal   | deepmoblearning-1.12.2-2.5.2-universal.jar   | false           |
+| IntegratedDynamics-Compat       | onConfigChanged             | org.cyclops.cyclopscore.event.ConfigChangedEventHook                                                 | normal   | IntegratedDynamics-1.12.2-1.0.8.jar          | false           |
+| Tinkers' Construct              | update                      | slimeknights.tconstruct.common.config.Config                                                         | normal   | TConstruct-1.12.2-2.12.0.135.jar             | false           |
+| AppleSkin                       | onConfigChanged             | squeek.appleskin.ModConfig                                                                           | normal   | AppleSkin-mc1.12-1.0.9.jar                   | false           |
+| OpenComputers Xnet Driver       | onConfigChangedEvent        | org.dave.ocxnetdriver.config.ConfigurationHandler                                                    | normal   | ocxnetdriver-1.0.3-b17.jar                   | false           |
+| Applied Energistics 2           | onConfigChanged             | /home/oskar/Desktop/minecraft/abserver/SkyFactory/config/AppliedEnergistics2/AppliedEnergistics2.cfg | normal   | appliedenergistics2-rv6-stable-6.jar         | false           |
+| Cyclic                          | onConfigChanged             | com.lothrazar.cyclicmagic.config.EventConfigChanged                                                  | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
+| Horse Power                     | onConfigChanged             | se.gory_moon.horsepower.HPEventHandler                                                               | normal   | HorsePower-1.12.2-2.6.4.74.jar               | false           |
+| Patchouli                       | onConfigChanged             | vazkii.patchouli.common.base.PatchouliConfig$ChangeListener                                          | normal   | Patchouli-1.0-19.jar                         | false           |
+| Iron Jetpacks                   | onConfigChanged             | com.blakebr0.ironjetpacks.config.ModConfig                                                           | normal   | IronJetpacks-1.12-2-1.1.0.jar                | false           |
+| The Twilight Forest             | onConfigChanged             | twilightforest.TFConfig                                                                              | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
+| Slab Machines                   | onConfigChanged             | com.mrbysco.slabmachines.config.SlabMachineConfigGen$EventHandler                                    | normal   | Slab_Machines-1.0.6.jar                      | false           |
+| FoamFix                         | configChanged               | pl.asie.foamfix.FoamFix                                                                              | normal   | foamfix-0.10.5-1.12.2.jar                    | false           |
+| More Cauldrons                  | onConfigChanged             | com.mrbysco.morecauldrons.config.MoreCauldronsConfigGen$EventHandler                                 | normal   | More-Cauldrons-1.4.4.jar                     | false           |
+| Carry On                        | onConfigChanged             | tschipp.carryon.common.config.CarryOnConfig$EventHandler                                             | normal   | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
+| Primitive Crafting              | onConfigChanged             | tschipp.primitivecrafting.common.config.PrimitiveConfig$EventHandler                                 | normal   | PrimitiveCrafting MC1.12.2 v1.3.1.jar        | false           |
+| Culinary Construct              | onConfigChanged             | c4.culinaryconstruct.common.util.ConfigHandler$ConfigEventHandler                                    | normal   | culinaryconstruct-1.3.2.1.jar                | false           |
+| Sky Grid                        | onConfigChanged             | funwayguy.skygrid.handlers.EventHandler                                                              | normal   | SkyGrid-1.1.7.jar                            | false           |
+| Cyclops Core                    | onConfigChanged             | org.cyclops.cyclopscore.event.ConfigChangedEventHook                                                 | normal   | CyclopsCore-1.12.2-1.0.6.jar                 | false           |
+| Extra Cells 2                   | onChangeConfig              | extracells.util.ECConfigHandler                                                                      | normal   | ExtraCells-1.12.2-2.6.2a.jar                 | false           |
+| FindMe                          | onConfigChanged             | com.buuz135.findme.proxy.FindMeConfig$EventHandler                                                   | normal   | findme-1.12.2-1.1.0-8.jar                    | false           |
+| EnderCore                       | onConfigChanged             | com.enderio.core.common.config.ConfigHandler$1                                                       | normal   | EnderCore-1.12.2-0.5.57.jar                  | false           |
 
 
 ## OreDictionary$OreRegisterEvent
 | Owner                 | Method                  | Location                                                  | Priority | Source                               | RecieveCanceled |
 |-----------------------|-------------------------|-----------------------------------------------------------|----------|--------------------------------------|-----------------|
-| Ceramics              | onOredictRegister       | knightminer.ceramics.Ceramics$FurnaceOredictRecipeHandler | normal   | Ceramics-1.12-1.3.7.jar              | false           |
-| Mystcraft             | registerOre             | com.xcompwiz.mystcraft.core.MystcraftEventHandler         | normal   | mystcraft-1.12.2-0.13.7.03.jar       | false           |
-| Applied Energistics 2 | onOreDictionaryRegister | appeng.recipes.ores.OreDictionaryHandler                  | normal   | appliedenergistics2-rv6-stable-6.jar | false           |
 | CraftTweaker2         | onOreDictEvent          | crafttweaker.mc1120.events.CommonEventHandler             | normal   | CraftTweaker2-1.12-4.1.18.jar        | false           |
+| Mystcraft             | registerOre             | com.xcompwiz.mystcraft.core.MystcraftEventHandler         | normal   | mystcraft-1.12.2-0.13.7.03.jar       | false           |
+| Ceramics              | onOredictRegister       | knightminer.ceramics.Ceramics$FurnaceOredictRecipeHandler | normal   | Ceramics-1.12-1.3.7.jar              | false           |
+| Applied Energistics 2 | onOreDictionaryRegister | appeng.recipes.ores.OreDictionaryHandler                  | normal   | appliedenergistics2-rv6-stable-6.jar | false           |
 
 
 ## PartVariableDrivenVariableContentsUpdatedEvent
@@ -1853,20 +1853,20 @@ submitted to any online service.
 ## EntityItemPickupEvent
 | Owner                           | Method                      | Location                                                             | Priority | Source                                          | RecieveCanceled |
 |---------------------------------|-----------------------------|----------------------------------------------------------------------|----------|-------------------------------------------------|-----------------|
-| Chisels & Bits                  | pickupItems                 | mod.chiselsandbits.items.ItemBitBag                                  | normal   | chiselsandbits-14.32.jar                        | false           |
 | Ender Utilities                 | onEntityItemPickupEvent     | fi.dy.masa.enderutilities.event.ItemPickupEventHandler               | normal   | enderutilities-1.12.2-0.7.12.jar                | false           |
-| Real Filing Cabinet             | onPickupItems               | com.bafomdad.realfilingcabinet.events.RFCEventHandlerServer          | normal   | realfilingcabinet-1.12-0.2.0.14.jar             | false           |
-| Cyclops Core                    | onPickup                    | org.cyclops.cyclopscore.advancement.criterion.ModItemObtainedTrigger | normal   | CyclopsCore-1.12.2-1.0.6.jar                    | false           |
-| ProjectE                        | pickupItem                  | moze_intel.projecte.events.PlayerEvents                              | low      | ProjectE-1.12.2-PE1.4.1.jar                     | false           |
-| CraftTweaker2                   | onEntityItemPickup          | crafttweaker.mc1120.events.CommonEventHandler                        | normal   | CraftTweaker2-1.12-4.1.18.jar                   | false           |
-| Thermal Foundation              | handleEntityItemPickupEvent | cofh.thermalfoundation.proxy.EventHandler                            | highest  | ThermalFoundation-1.12.2-2.6.3.27-universal.jar | false           |
-| Construct's Armory              | playerPickUp                | c4.conarm.common.events.ArmorEvents                                  | normal   | conarm-1.12.2-1.2.3.jar                         | false           |
 | Cyclic                          | onEntityItemPickupEvent     | com.lothrazar.cyclicmagic.item.storagesack.ItemStorageBag            | normal   | Cyclic-1.12.2-1.19.11.jar                       | false           |
-| Dark Utilities                  | onItemPickedUp              | net.darkhax.darkutils.features.charms.FeatureCharms                  | normal   | DarkUtils-1.12.2-1.8.226.jar                    | false           |
-| MatterOverdrive: Legacy Edition | onEntityItemPickup          | matteroverdrive.handler.EntityHandler                                | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar    | false           |
 | Building Gadgets                | GetDrops                    | com.direwolf20.buildinggadgets.common.events.ItemPickupHandler       | normal   | BuildingGadgets-2.6.8.jar                       | false           |
 | Astral Sorcery                  | onPickup                    | hellfirepvp.astralsorcery.common.event.listener.EventHandlerServer   | normal   | astralsorcery-1.12.2-1.10.19.jar                | false           |
+| Cyclops Core                    | onPickup                    | org.cyclops.cyclopscore.advancement.criterion.ModItemObtainedTrigger | normal   | CyclopsCore-1.12.2-1.0.6.jar                    | false           |
+| Chisels & Bits                  | pickupItems                 | mod.chiselsandbits.items.ItemBitBag                                  | normal   | chiselsandbits-14.32.jar                        | false           |
+| ProjectE                        | pickupItem                  | moze_intel.projecte.events.PlayerEvents                              | low      | ProjectE-1.12.2-PE1.4.1.jar                     | false           |
+| MatterOverdrive: Legacy Edition | onEntityItemPickup          | matteroverdrive.handler.EntityHandler                                | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar    | false           |
 | Sync                            | onItemPickup                | me.ichun.mods.sync.common.core.EventHandlerServer                    | normal   | Sync-1.12.2-7.1.0.jar                           | false           |
+| Dark Utilities                  | onItemPickedUp              | net.darkhax.darkutils.features.charms.FeatureCharms                  | normal   | DarkUtils-1.12.2-1.8.226.jar                    | false           |
+| Construct's Armory              | playerPickUp                | c4.conarm.common.events.ArmorEvents                                  | normal   | conarm-1.12.2-1.2.3.jar                         | false           |
+| Real Filing Cabinet             | onPickupItems               | com.bafomdad.realfilingcabinet.events.RFCEventHandlerServer          | normal   | realfilingcabinet-1.12-0.2.0.14.jar             | false           |
+| CraftTweaker2                   | onEntityItemPickup          | crafttweaker.mc1120.events.CommonEventHandler                        | normal   | CraftTweaker2-1.12-4.1.18.jar                   | false           |
+| Thermal Foundation              | handleEntityItemPickupEvent | cofh.thermalfoundation.proxy.EventHandler                            | highest  | ThermalFoundation-1.12.2-2.6.3.27-universal.jar | false           |
 
 
 ## GameStageEvent$Added
@@ -1884,9 +1884,15 @@ submitted to any online service.
 ## ItemTossEvent
 | Owner         | Method           | Location                                          | Priority | Source                            | RecieveCanceled |
 |---------------|------------------|---------------------------------------------------|----------|-----------------------------------|-----------------|
-| BiblioCraft   | DroppedItemEvent | jds.bibliocraft.events.EventItemToss              | normal   | BiblioCraft[v2.4.5][MC1.12.2].jar | false           |
-| Sync          | onItemToss       | me.ichun.mods.sync.common.core.EventHandlerServer | normal   | Sync-1.12.2-7.1.0.jar             | false           |
 | CraftTweaker2 | onItemTossEvent  | crafttweaker.mc1120.events.CommonEventHandler     | normal   | CraftTweaker2-1.12-4.1.18.jar     | false           |
+| Sync          | onItemToss       | me.ichun.mods.sync.common.core.EventHandlerServer | normal   | Sync-1.12.2-7.1.0.jar             | false           |
+| BiblioCraft   | DroppedItemEvent | jds.bibliocraft.events.EventItemToss              | normal   | BiblioCraft[v2.4.5][MC1.12.2].jar | false           |
+
+
+## FluxConnectionEvent$Disconnected
+| Owner         | Method             | Location                      | Priority | Source                            | RecieveCanceled |
+|---------------|--------------------|-------------------------------|----------|-----------------------------------|-----------------|
+| Flux Networks | onFluxDisconnected | sonar.flux.network.FluxCommon | normal   | fluxnetworks-1.12.2-3.0.19-21.jar | false           |
 
 
 ## CriticalHitEvent
@@ -1896,32 +1902,26 @@ submitted to any online service.
 | Astral Sorcery | onCrit | hellfirepvp.astralsorcery.common.constellation.perk.attribute.type.AttributeCritMultiplier | lowest   | astralsorcery-1.12.2-1.10.19.jar | false           |
 
 
-## FluxConnectionEvent$Disconnected
-| Owner         | Method             | Location                      | Priority | Source                            | RecieveCanceled |
-|---------------|--------------------|-------------------------------|----------|-----------------------------------|-----------------|
-| Flux Networks | onFluxDisconnected | sonar.flux.network.FluxCommon | normal   | fluxnetworks-1.12.2-3.0.19-21.jar | false           |
-
-
 ## LootTableLoadEvent
 | Owner               | Method             | Location                                                    | Priority | Source                              | RecieveCanceled |
 |---------------------|--------------------|-------------------------------------------------------------|----------|-------------------------------------|-----------------|
-| Resource Hogs       | onTableLoaded      | net.darkhax.bookshelf.registry.AutoRegistry                 | normal   | ResourceHogs-1.12.2-1.0.12.jar      | false           |
-| Placebo             | loadTables         | shadows.placebo.loot.PlaceboLootSystem                      | normal   | Placebo-1.12.2-1.6.0.jar            | false           |
-| Corail Tombstone    | onLootTableLoad    | ovh.corail.tombstone.event.EventHandler                     | lowest   | tombstone-3.5.2-1.12.jar            | false           |
-| Mystcraft           | lootLoad           | com.xcompwiz.mystcraft.treasure.LootTableHandler            | normal   | mystcraft-1.12.2-0.13.7.03.jar      | false           |
-| Dark Utilities      | onTableLoaded      | net.darkhax.bookshelf.registry.AutoRegistry                 | normal   | DarkUtils-1.12.2-1.8.226.jar        | false           |
-| Hunting Dimension   | onTableLoaded      | net.darkhax.bookshelf.registry.AutoRegistry                 | normal   | HuntingDimension-1.12.2-1.0.38.jar  | false           |
-| Parabox             | onTableLoaded      | net.darkhax.bookshelf.registry.AutoRegistry                 | normal   | Parabox-1.12.2-2.0.0.jar            | false           |
-| Inspirations        | onLootTableLoad    | knightminer.inspirations.shared.InspirationsShared          | normal   | Inspirations-1.12.2-0.2.4.jar       | false           |
-| Real Filing Cabinet | onLootTableLoad    | com.bafomdad.realfilingcabinet.events.RFCEventHandlerServer | normal   | realfilingcabinet-1.12-0.2.0.14.jar | false           |
-| Tinkers' Construct  | onLootTableLoad    | slimeknights.tconstruct.gadgets.GadgetEvents                | normal   | TConstruct-1.12.2-2.12.0.135.jar    | false           |
-| Inspirations        | onLootTableLoad    | knightminer.inspirations.tweaks.InspirationsTweaks          | normal   | Inspirations-1.12.2-0.2.4.jar       | false           |
-| Cyclic              | onLootTableLoad    | com.lothrazar.cyclicmagic.module.LootTableModule            | normal   | Cyclic-1.12.2-1.19.11.jar           | false           |
-| Tinkers' Construct  | onLootTableLoad    | slimeknights.tconstruct.tools.ToolEvents                    | normal   | TConstruct-1.12.2-2.12.0.135.jar    | false           |
-| Dark Utilities      | onLootTableLoad    | net.darkhax.darkutils.features.material.FeatureMaterial     | normal   | DarkUtils-1.12.2-1.8.226.jar        | false           |
 | Astral Sorcery      | onLootLoad         | hellfirepvp.astralsorcery.common.util.LootTableUtil         | normal   | astralsorcery-1.12.2-1.10.19.jar    | false           |
+| Mystcraft           | lootLoad           | com.xcompwiz.mystcraft.treasure.LootTableHandler            | normal   | mystcraft-1.12.2-0.13.7.03.jar      | false           |
+| Real Filing Cabinet | onLootTableLoad    | com.bafomdad.realfilingcabinet.events.RFCEventHandlerServer | normal   | realfilingcabinet-1.12-0.2.0.14.jar | false           |
+| Corail Tombstone    | onLootTableLoad    | ovh.corail.tombstone.event.EventHandler                     | lowest   | tombstone-3.5.2-1.12.jar            | false           |
 | Ender Crop          | lootTableLoadEvent | io.github.drmanganese.endercrop.handler.LootHandler         | normal   | endercrop-1.12.2-1.6.0.jar          | false           |
+| Parabox             | onTableLoaded      | net.darkhax.bookshelf.registry.AutoRegistry                 | normal   | Parabox-1.12.2-2.0.0.jar            | false           |
+| Placebo             | loadTables         | shadows.placebo.loot.PlaceboLootSystem                      | normal   | Placebo-1.12.2-1.6.0.jar            | false           |
+| Tinkers' Construct  | onLootTableLoad    | slimeknights.tconstruct.tools.ToolEvents                    | normal   | TConstruct-1.12.2-2.12.0.135.jar    | false           |
 | NuclearCraft        | onLootTableLoad    | nc.handler.DungeonLootHandler                               | normal   | NuclearCraft-2.17a-1.12.2.jar       | false           |
+| Hunting Dimension   | onTableLoaded      | net.darkhax.bookshelf.registry.AutoRegistry                 | normal   | HuntingDimension-1.12.2-1.0.38.jar  | false           |
+| Dark Utilities      | onTableLoaded      | net.darkhax.bookshelf.registry.AutoRegistry                 | normal   | DarkUtils-1.12.2-1.8.226.jar        | false           |
+| Inspirations        | onLootTableLoad    | knightminer.inspirations.shared.InspirationsShared          | normal   | Inspirations-1.12.2-0.2.4.jar       | false           |
+| Cyclic              | onLootTableLoad    | com.lothrazar.cyclicmagic.module.LootTableModule            | normal   | Cyclic-1.12.2-1.19.11.jar           | false           |
+| Resource Hogs       | onTableLoaded      | net.darkhax.bookshelf.registry.AutoRegistry                 | normal   | ResourceHogs-1.12.2-1.0.12.jar      | false           |
+| Tinkers' Construct  | onLootTableLoad    | slimeknights.tconstruct.gadgets.GadgetEvents                | normal   | TConstruct-1.12.2-2.12.0.135.jar    | false           |
+| Dark Utilities      | onLootTableLoad    | net.darkhax.darkutils.features.material.FeatureMaterial     | normal   | DarkUtils-1.12.2-1.8.226.jar        | false           |
+| Inspirations        | onLootTableLoad    | knightminer.inspirations.tweaks.InspirationsTweaks          | normal   | Inspirations-1.12.2-0.2.4.jar       | false           |
 
 
 ## PlayerItemPickupEvent
@@ -1964,8 +1964,8 @@ submitted to any online service.
 ## BlockModifyEvent
 | Owner          | Method   | Location                                                                     | Priority | Source                           | RecieveCanceled |
 |----------------|----------|------------------------------------------------------------------------------|----------|----------------------------------|-----------------|
-| Astral Sorcery | onChange | hellfirepvp.astralsorcery.common.event.listener.EventHandlerServer           | normal   | astralsorcery-1.12.2-1.10.19.jar | false           |
 | Astral Sorcery | onChange | hellfirepvp.astralsorcery.common.structure.change.StructureIntegrityObserver | normal   | astralsorcery-1.12.2-1.10.19.jar | false           |
+| Astral Sorcery | onChange | hellfirepvp.astralsorcery.common.event.listener.EventHandlerServer           | normal   | astralsorcery-1.12.2-1.10.19.jar | false           |
 
 
 ## LivingSpawnEvent$AllowDespawn
@@ -1996,8 +1996,8 @@ submitted to any online service.
 ## FoodRegistryInitEvent
 | Owner                  | Method             | Location                                                     | Priority | Source                                 | RecieveCanceled |
 |------------------------|--------------------|--------------------------------------------------------------|----------|----------------------------------------|-----------------|
-| Cooking for Blockheads | onCookingRegistry  | net.blay09.mods.cookingforblockheads.compat.JsonCompatLoader | normal   | CookingForBlockheads_1.12.2-6.4.70.jar | false           |
 | Cooking for Blockheads | onFoodRegistryInit | net.blay09.mods.cookingforblockheads.IMCHandler              | normal   | CookingForBlockheads_1.12.2-6.4.70.jar | false           |
+| Cooking for Blockheads | onCookingRegistry  | net.blay09.mods.cookingforblockheads.compat.JsonCompatLoader | normal   | CookingForBlockheads_1.12.2-6.4.70.jar | false           |
 
 
 ## AttributeEvent$PostProcessVanilla
@@ -2010,35 +2010,35 @@ submitted to any online service.
 | Owner                           | Method                   | Location                                                                      | Priority | Source                                       | RecieveCanceled |
 |---------------------------------|--------------------------|-------------------------------------------------------------------------------|----------|----------------------------------------------|-----------------|
 | Sync                            | onLivingDeath            | me.ichun.mods.sync.common.core.EventHandlerServer                             | normal   | Sync-1.12.2-7.1.0.jar                        | false           |
-| Headcrumbs                      | playerDrop               | ganymedes01.headcrumbs.eventHandlers.HandlerEvents                            | lowest   | Headcrumbs-1.12.2-2.0.5.17.jar               | false           |
-| The Twilight Forest             | charmOfLife              | twilightforest.TFEventListener                                                | highest  | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
-| Astral Sorcery                  | onEntityDeath            | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyRampage | lowest   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| BiblioCraft                     | onDeath                  | jds.bibliocraft.events.EventDeathDrop                                         | normal   | BiblioCraft[v2.4.5][MC1.12.2].jar            | false           |
-| Sky Grid                        | onLivingDeath            | funwayguy.skygrid.handlers.EventHandler                                       | normal   | SkyGrid-1.1.7.jar                            | false           |
-| Cyclic                          | onEntityKill             | com.lothrazar.cyclicmagic.enchant.EnchantLifeLeech                            | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
-| mob_grinding_utils              | onWitherBossDeath        | mob_grinding_utils.events.LocalWitherSoundEvent                               | normal   | MobGrindingUtils-0.3.13.jar                  | false           |
-| Cyclic                          | onEntityKill             | com.lothrazar.cyclicmagic.enchant.EnchantXpBoost                              | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
 | Deep Mob Learning               | entityDeath              | xt9.deepmoblearning.common.events.EntityDeathHandler                          | normal   | deepmoblearning-1.12.2-2.5.2-universal.jar   | false           |
-| EnderCore                       | handleEntityKill         | com.enderio.core.common.handlers.XPBoostHandler                               | normal   | EnderCore-1.12.2-0.5.57.jar                  | false           |
-| Pickle Tweaks                   | onEntityKilled           | com.blakebr0.pickletweaks.feature.FeatureBowInfo                              | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
-| Astral Sorcery                  | onKill                   | hellfirepvp.astralsorcery.common.event.listener.EventHandlerCapeEffects       | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Cyclic                          | onEntityKill             | com.lothrazar.cyclicmagic.enchant.EnchantBeheading                            | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
-| Astral Sorcery                  | expRemoval               | hellfirepvp.astralsorcery.common.constellation.perk.PerkEffectHelper          | lowest   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Pickle Tweaks                   | onEntityKilled           | com.blakebr0.pickletweaks.feature.FeatureSwordInfo                            | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
-| The Twilight Forest             | charmOfKeeping           | twilightforest.TFEventListener                                                | high     | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
-| Cyclic                          | onLivingKill             | com.lothrazar.cyclicmagic.potion.effect.PotionEnder                           | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
-| Corail Tombstone                | onPlayerPetDeath         | ovh.corail.tombstone.event.EventHandler                                       | lowest   | tombstone-3.5.2-1.12.jar                     | false           |
-| MatterOverdrive: Legacy Edition | onEntityDeath            | matteroverdrive.handler.EntityHandler                                         | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
 | Astral Sorcery                  | onDeath                  | hellfirepvp.astralsorcery.common.event.listener.EventHandlerServer            | highest  | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| CraftTweaker2                   | onEntityLivingDeathEvent | crafttweaker.mc1120.events.CommonEventHandler                                 | normal   | CraftTweaker2-1.12-4.1.18.jar                | false           |
-| Astral Sorcery                  | onDeathInform            | hellfirepvp.astralsorcery.common.event.listener.EventHandlerEntity            | low      | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Tinkers Tool Leveling           | onDeath                  | slimeknights.toolleveling.EntityXpHandler                                     | normal   | TinkerToolLeveling-1.12.2-1.1.0.jar          | false           |
+| The Twilight Forest             | charmOfKeeping           | twilightforest.TFEventListener                                                | high     | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
+| Astral Sorcery                  | expRemoval               | hellfirepvp.astralsorcery.common.constellation.perk.PerkEffectHelper          | lowest   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| BiblioCraft                     | onDeath                  | jds.bibliocraft.events.EventDeathDrop                                         | normal   | BiblioCraft[v2.4.5][MC1.12.2].jar            | false           |
 | CoFH Core                       | handleLivingDeathEvent   | cofh.core.proxy.EventHandler                                                  | normal   | CoFHCore-1.12.2-4.6.3.27-universal.jar       | false           |
-| mob_grinding_utils              | onDragonDeath            | mob_grinding_utils.events.LocalDragonSoundEvent                               | normal   | MobGrindingUtils-0.3.13.jar                  | false           |
-| Industrial Foregoing            | onEntityKill             | com.buuz135.industrial.item.infinity.OneThreeFiveHandler                      | normal   | industrialforegoing-1.12.2-1.12.12-236.jar   | false           |
-| Corail Tombstone                | onPlayerDeath            | ovh.corail.tombstone.event.EventHandler                                       | lowest   | tombstone-3.5.2-1.12.jar                     | true            |
+| Astral Sorcery                  | onDeathInform            | hellfirepvp.astralsorcery.common.event.listener.EventHandlerEntity            | low      | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| The Twilight Forest             | charmOfLife              | twilightforest.TFEventListener                                                | highest  | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
 | Mystcraft                       | onEntityDeath            | com.xcompwiz.mystcraft.instability.bonus.EventManager                         | normal   | mystcraft-1.12.2-0.13.7.03.jar               | false           |
+| Astral Sorcery                  | onEntityDeath            | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyRampage | lowest   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| mob_grinding_utils              | onDragonDeath            | mob_grinding_utils.events.LocalDragonSoundEvent                               | normal   | MobGrindingUtils-0.3.13.jar                  | false           |
+| EnderCore                       | handleEntityKill         | com.enderio.core.common.handlers.XPBoostHandler                               | normal   | EnderCore-1.12.2-0.5.57.jar                  | false           |
+| Corail Tombstone                | onPlayerPetDeath         | ovh.corail.tombstone.event.EventHandler                                       | lowest   | tombstone-3.5.2-1.12.jar                     | false           |
+| Industrial Foregoing            | onEntityKill             | com.buuz135.industrial.item.infinity.OneThreeFiveHandler                      | normal   | industrialforegoing-1.12.2-1.12.12-236.jar   | false           |
+| Pickle Tweaks                   | onEntityKilled           | com.blakebr0.pickletweaks.feature.FeatureBowInfo                              | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
+| Cyclic                          | onEntityKill             | com.lothrazar.cyclicmagic.enchant.EnchantLifeLeech                            | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
+| Pickle Tweaks                   | onEntityKilled           | com.blakebr0.pickletweaks.feature.FeatureSwordInfo                            | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
+| CraftTweaker2                   | onEntityLivingDeathEvent | crafttweaker.mc1120.events.CommonEventHandler                                 | normal   | CraftTweaker2-1.12-4.1.18.jar                | false           |
+| Astral Sorcery                  | onKill                   | hellfirepvp.astralsorcery.common.event.listener.EventHandlerCapeEffects       | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Corail Tombstone                | onPlayerDeath            | ovh.corail.tombstone.event.EventHandler                                       | lowest   | tombstone-3.5.2-1.12.jar                     | true            |
+| Cyclic                          | onEntityKill             | com.lothrazar.cyclicmagic.enchant.EnchantBeheading                            | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
+| Cyclic                          | onEntityKill             | com.lothrazar.cyclicmagic.enchant.EnchantXpBoost                              | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
+| Sky Grid                        | onLivingDeath            | funwayguy.skygrid.handlers.EventHandler                                       | normal   | SkyGrid-1.1.7.jar                            | false           |
+| Cyclic                          | onLivingKill             | com.lothrazar.cyclicmagic.potion.effect.PotionEnder                           | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
+| mob_grinding_utils              | onWitherBossDeath        | mob_grinding_utils.events.LocalWitherSoundEvent                               | normal   | MobGrindingUtils-0.3.13.jar                  | false           |
+| MatterOverdrive: Legacy Edition | onEntityDeath            | matteroverdrive.handler.EntityHandler                                         | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
 | MatterOverdrive: Legacy Edition | onPlayerDeath            | matteroverdrive.handler.PlayerEventHandler                                    | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
+| Headcrumbs                      | playerDrop               | ganymedes01.headcrumbs.eventHandlers.HandlerEvents                            | lowest   | Headcrumbs-1.12.2-2.0.5.17.jar               | false           |
+| Tinkers Tool Leveling           | onDeath                  | slimeknights.toolleveling.EntityXpHandler                                     | normal   | TinkerToolLeveling-1.12.2-1.1.0.jar          | false           |
 
 
 ## ExplosionEvent$Detonate
@@ -2047,25 +2047,25 @@ submitted to any online service.
 | Corail Tombstone | onDetonate | ovh.corail.tombstone.event.EventHandler | lowest   | tombstone-3.5.2-1.12.jar | false           |
 
 
+## LivingEntityUseItemEvent$Tick
+| Owner          | Method                         | Location                                            | Priority | Source                        | RecieveCanceled |
+|----------------|--------------------------------|-----------------------------------------------------|----------|-------------------------------|-----------------|
+| Dark Utilities | onItemUse                      | net.darkhax.darkutils.features.charms.FeatureCharms | normal   | DarkUtils-1.12.2-1.8.226.jar  | false           |
+| Rustic         | onItemUseTick                  | rustic.common.EventHandlerCommon                    | highest  | rustic-1.0.15.jar             | false           |
+| CraftTweaker2  | onLivingEntityUseItemTickEvent | crafttweaker.mc1120.events.CommonEventHandler       | normal   | CraftTweaker2-1.12-4.1.18.jar | false           |
+
+
 ## TinkerRegisterEvent$MeltingRegisterEvent
 | Owner         | Method           | Location                                 | Priority | Source                        | RecieveCanceled |
 |---------------|------------------|------------------------------------------|----------|-------------------------------|-----------------|
 | CraftTweaker2 | onTinkerRegister | com.blamejared.compat.tconstruct.Melting | normal   | CraftTweaker2-1.12-4.1.18.jar | false           |
 
 
-## LivingEntityUseItemEvent$Tick
-| Owner          | Method                         | Location                                            | Priority | Source                        | RecieveCanceled |
-|----------------|--------------------------------|-----------------------------------------------------|----------|-------------------------------|-----------------|
-| CraftTweaker2  | onLivingEntityUseItemTickEvent | crafttweaker.mc1120.events.CommonEventHandler       | normal   | CraftTweaker2-1.12-4.1.18.jar | false           |
-| Dark Utilities | onItemUse                      | net.darkhax.darkutils.features.charms.FeatureCharms | normal   | DarkUtils-1.12.2-1.8.226.jar  | false           |
-| Rustic         | onItemUseTick                  | rustic.common.EventHandlerCommon                    | highest  | rustic-1.0.15.jar             | false           |
-
-
 ## RobotMoveEvent$Post
 | Owner         | Method          | Location                                           | Priority | Source                               | RecieveCanceled |
 |---------------|-----------------|----------------------------------------------------|----------|--------------------------------------|-----------------|
-| OpenComputers | onRobotMovePost | li.cil.oc.common.event.ExperienceUpgradeHandler$   | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar | false           |
 | OpenComputers | onMove          | li.cil.oc.common.event.ChunkloaderUpgradeHandler$  | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar | false           |
+| OpenComputers | onRobotMovePost | li.cil.oc.common.event.ExperienceUpgradeHandler$   | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar | false           |
 | OpenComputers | onMove          | li.cil.oc.common.event.WirelessNetworkCardHandler$ | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar | false           |
 
 
@@ -2079,26 +2079,26 @@ submitted to any online service.
 ## PlayerInteractEvent$EntityInteract
 | Owner              | Method                 | Location                                                            | Priority | Source                               | RecieveCanceled |
 |--------------------|------------------------|---------------------------------------------------------------------|----------|--------------------------------------|-----------------|
-| Inspirations       | milkCow                | knightminer.inspirations.tweaks.TweaksEvents                        | normal   | Inspirations-1.12.2-0.2.4.jar        | false           |
-| OpenComputers      | onInteract             | li.cil.oc.common.item.Analyzer$                                     | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar | false           |
-| Cyclic             | onEntityInteractEvent  | com.lothrazar.cyclicmagic.item.mobs.EventHorseFeed                  | normal   | Cyclic-1.12.2-1.19.11.jar            | false           |
-| Cyclic             | onEntityInteractEvent  | com.lothrazar.cyclicmagic.item.crashtestdummy.ItemCrashSpawner      | normal   | Cyclic-1.12.2-1.19.11.jar            | false           |
-| Cyclic             | onEntityInteractEvent  | com.lothrazar.cyclicmagic.playerupgrade.PlayerAbilitiesModule       | normal   | Cyclic-1.12.2-1.19.11.jar            | false           |
-| Triumph            | onRightClickEntity     | com.bloodnbonesgaming.triumph.events.TEventHandler                  | normal   | Triumph-1.12.2-3.17.0.jar            | false           |
-| Inspirations       | milkSquid              | knightminer.inspirations.recipes.RecipesEvents                      | normal   | Inspirations-1.12.2-0.2.4.jar        | false           |
 | Pickle Tweaks      | onEntityInteract       | com.blakebr0.pickletweaks.feature.item.ItemDyePowder$Handler        | normal   | PickleTweaks-1.12.2-2.1.3.jar        | false           |
-| Rustic             | onSeedInteractEvent    | rustic.common.EventHandlerCommon                                    | normal   | rustic-1.0.15.jar                    | false           |
-| Cyclic             | onEntityInteractEvent  | com.lothrazar.cyclicmagic.item.mobs.ItemVillagerMagic               | normal   | Cyclic-1.12.2-1.19.11.jar            | false           |
-| Statues mod        | worldTick              | com.svennieke.statues.handler.DespawnHandler                        | normal   | statues-1.12.X-0.8.7.2.jar           | false           |
-| Dark Utilities     | onEntityInteract       | net.darkhax.darkutils.features.shulkerpearl.FeatureShulkerPearlItem | normal   | DarkUtils-1.12.2-1.8.226.jar         | false           |
-| CraftTweaker2      | onPlayerInteractEntity | crafttweaker.mc1120.events.CommonEventHandler                       | normal   | CraftTweaker2-1.12-4.1.18.jar        | false           |
 | Ender Utilities    | onEntityInteractEvent  | fi.dy.masa.enderutilities.event.EntityEventHandler                  | normal   | enderutilities-1.12.2-0.7.12.jar     | false           |
-| Carry On           | onEntityRightClick     | tschipp.carryon.common.event.ItemEntityEvents                       | high     | CarryOn MC1.12.2 v1.12.1.jar         | false           |
-| Inspirations       | unsaddlePig            | knightminer.inspirations.tweaks.TweaksEvents                        | normal   | Inspirations-1.12.2-0.2.4.jar        | false           |
-| Cyclic             | onEntityInteractEvent  | com.lothrazar.cyclicmagic.item.mobs.ItemHorseTame                   | normal   | Cyclic-1.12.2-1.19.11.jar            | false           |
 | mob_grinding_utils | clickOnChicken         | mob_grinding_utils.events.ChickenInteractionEvent                   | normal   | MobGrindingUtils-0.3.13.jar          | false           |
-| Sync               | onEntityInteract       | me.ichun.mods.sync.common.core.EventHandlerServer                   | normal   | Sync-1.12.2-7.1.0.jar                | false           |
+| CraftTweaker2      | onPlayerInteractEntity | crafttweaker.mc1120.events.CommonEventHandler                       | normal   | CraftTweaker2-1.12-4.1.18.jar        | false           |
+| Inspirations       | unsaddlePig            | knightminer.inspirations.tweaks.TweaksEvents                        | normal   | Inspirations-1.12.2-0.2.4.jar        | false           |
+| Statues mod        | worldTick              | com.svennieke.statues.handler.DespawnHandler                        | normal   | statues-1.12.X-0.8.7.2.jar           | false           |
+| OpenComputers      | onInteract             | li.cil.oc.common.item.Analyzer$                                     | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar | false           |
+| Cyclic             | onEntityInteractEvent  | com.lothrazar.cyclicmagic.playerupgrade.PlayerAbilitiesModule       | normal   | Cyclic-1.12.2-1.19.11.jar            | false           |
+| Cyclic             | onEntityInteractEvent  | com.lothrazar.cyclicmagic.item.mobs.ItemHorseTame                   | normal   | Cyclic-1.12.2-1.19.11.jar            | false           |
+| Cyclic             | onEntityInteractEvent  | com.lothrazar.cyclicmagic.item.mobs.ItemVillagerMagic               | normal   | Cyclic-1.12.2-1.19.11.jar            | false           |
 | Mystcraft          | entityInteract         | com.xcompwiz.mystcraft.core.MystcraftEventHandler                   | normal   | mystcraft-1.12.2-0.13.7.03.jar       | false           |
+| Triumph            | onRightClickEntity     | com.bloodnbonesgaming.triumph.events.TEventHandler                  | normal   | Triumph-1.12.2-3.17.0.jar            | false           |
+| Sync               | onEntityInteract       | me.ichun.mods.sync.common.core.EventHandlerServer                   | normal   | Sync-1.12.2-7.1.0.jar                | false           |
+| Rustic             | onSeedInteractEvent    | rustic.common.EventHandlerCommon                                    | normal   | rustic-1.0.15.jar                    | false           |
+| Inspirations       | milkSquid              | knightminer.inspirations.recipes.RecipesEvents                      | normal   | Inspirations-1.12.2-0.2.4.jar        | false           |
+| Cyclic             | onEntityInteractEvent  | com.lothrazar.cyclicmagic.item.crashtestdummy.ItemCrashSpawner      | normal   | Cyclic-1.12.2-1.19.11.jar            | false           |
+| Cyclic             | onEntityInteractEvent  | com.lothrazar.cyclicmagic.item.mobs.EventHorseFeed                  | normal   | Cyclic-1.12.2-1.19.11.jar            | false           |
+| Dark Utilities     | onEntityInteract       | net.darkhax.darkutils.features.shulkerpearl.FeatureShulkerPearlItem | normal   | DarkUtils-1.12.2-1.8.226.jar         | false           |
+| Inspirations       | milkCow                | knightminer.inspirations.tweaks.TweaksEvents                        | normal   | Inspirations-1.12.2-0.2.4.jar        | false           |
+| Carry On           | onEntityRightClick     | tschipp.carryon.common.event.ItemEntityEvents                       | high     | CarryOn MC1.12.2 v1.12.1.jar         | false           |
 
 
 ## ArrowNockEvent
@@ -2111,11 +2111,11 @@ submitted to any online service.
 ## Apotheosis$ApotheosisPreInit
 | Owner      | Method  | Location                    | Priority | Source                       | RecieveCanceled |
 |------------|---------|-----------------------------|----------|------------------------------|-----------------|
-| Apotheosis | preInit | shadows.garden.GardenModule | normal   | Apotheosis-1.12.2-1.10.2.jar | false           |
 | Apotheosis | preInit | shadows.ench.EnchModule     | normal   | Apotheosis-1.12.2-1.10.2.jar | false           |
-| Apotheosis | preInit | shadows.deadly.DeadlyModule | normal   | Apotheosis-1.12.2-1.10.2.jar | false           |
-| Apotheosis | preInit | shadows.potion.PotionModule | normal   | Apotheosis-1.12.2-1.10.2.jar | false           |
 | Apotheosis | preInit | shadows.spawn.SpawnerModule | normal   | Apotheosis-1.12.2-1.10.2.jar | false           |
+| Apotheosis | preInit | shadows.potion.PotionModule | normal   | Apotheosis-1.12.2-1.10.2.jar | false           |
+| Apotheosis | preInit | shadows.garden.GardenModule | normal   | Apotheosis-1.12.2-1.10.2.jar | false           |
+| Apotheosis | preInit | shadows.deadly.DeadlyModule | normal   | Apotheosis-1.12.2-1.10.2.jar | false           |
 
 
 ## AttributeEvent$PostProcessModded
@@ -2137,20 +2137,20 @@ submitted to any online service.
 | Practical Logistics 2 | onCableAdded | sonar.logistics.base.events.LogisticsEventHandler | highest  | practicallogistics2-1.12.2-3.0.8-11.jar | false           |
 
 
+## FMLNetworkEvent$ClientDisconnectionFromServerEvent
+| Owner                 | Method                 | Location                                                  | Priority | Source                                        | RecieveCanceled |
+|-----------------------|------------------------|-----------------------------------------------------------|----------|-----------------------------------------------|-----------------|
+| CodeChicken Lib       | onClientDisconnected   | codechicken.lib.configuration.ConfigSyncManager           | normal   | CodeChickenLib-1.12.2-3.2.2.353-universal.jar | false           |
+| Mercurius             | disconnectedFromServer | net.minecraftforge.mercurius.StatsMod$ConnectionEvents    | normal   | Mercurius-1.12.2.jar                          | false           |
+| Practical Logistics 2 | clientDisconnection    | sonar.logistics.base.events.PL2Events                     | normal   | practicallogistics2-1.12.2-3.0.8-11.jar       | false           |
+| EnderCore             | onPlayerLogout         | com.enderio.core.common.config.ConfigHandler$1            | normal   | EnderCore-1.12.2-0.5.57.jar                   | false           |
+| Mystcraft             | connectionClosed       | com.xcompwiz.mystcraft.network.MystcraftConnectionHandler | normal   | mystcraft-1.12.2-0.13.7.03.jar                | false           |
+
+
 ## NetworkEvent$DisconnectedLocalProvider
 | Owner                 | Method                      | Location                                          | Priority | Source                                  | RecieveCanceled |
 |-----------------------|-----------------------------|---------------------------------------------------|----------|-----------------------------------------|-----------------|
 | Practical Logistics 2 | onLocalProviderDisconnected | sonar.logistics.base.events.LogisticsEventHandler | highest  | practicallogistics2-1.12.2-3.0.8-11.jar | false           |
-
-
-## FMLNetworkEvent$ClientDisconnectionFromServerEvent
-| Owner                 | Method                 | Location                                                  | Priority | Source                                        | RecieveCanceled |
-|-----------------------|------------------------|-----------------------------------------------------------|----------|-----------------------------------------------|-----------------|
-| Mystcraft             | connectionClosed       | com.xcompwiz.mystcraft.network.MystcraftConnectionHandler | normal   | mystcraft-1.12.2-0.13.7.03.jar                | false           |
-| Practical Logistics 2 | clientDisconnection    | sonar.logistics.base.events.PL2Events                     | normal   | practicallogistics2-1.12.2-3.0.8-11.jar       | false           |
-| Mercurius             | disconnectedFromServer | net.minecraftforge.mercurius.StatsMod$ConnectionEvents    | normal   | Mercurius-1.12.2.jar                          | false           |
-| CodeChicken Lib       | onClientDisconnected   | codechicken.lib.configuration.ConfigSyncManager           | normal   | CodeChickenLib-1.12.2-3.2.2.353-universal.jar | false           |
-| EnderCore             | onPlayerLogout         | com.enderio.core.common.config.ConfigHandler$1            | normal   | EnderCore-1.12.2-0.5.57.jar                   | false           |
 
 
 ## TinkerToolEvent$OnBowShoot
@@ -2163,8 +2163,8 @@ submitted to any online service.
 ## AttachCapabilitiesEventNetwork
 | Owner               | Method        | Location                                                                             | Priority | Source                              | RecieveCanceled |
 |---------------------|---------------|--------------------------------------------------------------------------------------|----------|-------------------------------------|-----------------|
-| Integrated Tunnels  | onNetworkLoad | org.cyclops.integratedtunnels.capability.network.TunnelNetworkCapabilityConstructors | normal   | IntegratedTunnels-1.12.2-1.6.7.jar  | false           |
 | Integrated Dynamics | onNetworkLoad | org.cyclops.integrateddynamics.capability.network.NetworkCapabilityConstructors      | normal   | IntegratedDynamics-1.12.2-1.0.8.jar | false           |
+| Integrated Tunnels  | onNetworkLoad | org.cyclops.integratedtunnels.capability.network.TunnelNetworkCapabilityConstructors | normal   | IntegratedTunnels-1.12.2-1.6.7.jar  | false           |
 
 
 ## RobotExhaustionEvent
@@ -2179,25 +2179,25 @@ submitted to any online service.
 | Triumph | onAdvancementCompletionEvent | com.bloodnbonesgaming.triumph.events.CoreEventHandler | normal   | Triumph-1.12.2-3.17.0.jar | false           |
 
 
-## RobotMoveEvent$Pre
-| Owner         | Method      | Location                                   | Priority | Source                               | RecieveCanceled |
-|---------------|-------------|--------------------------------------------|----------|--------------------------------------|-----------------|
-| OpenComputers | onRobotMove | li.cil.oc.common.event.RobotCommonHandler$ | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar | false           |
-
-
 ## ProjectileEvent$OnHitBlock
 | Owner        | Method     | Location                                            | Priority | Source                        | RecieveCanceled |
 |--------------|------------|-----------------------------------------------------|----------|-------------------------------|-----------------|
 | NuclearCraft | onHitBlock | slimeknights.tconstruct.tools.traits.TraitBreakable | normal   | NuclearCraft-2.17a-1.12.2.jar | false           |
 
 
+## RobotMoveEvent$Pre
+| Owner         | Method      | Location                                   | Priority | Source                               | RecieveCanceled |
+|---------------|-------------|--------------------------------------------|----------|--------------------------------------|-----------------|
+| OpenComputers | onRobotMove | li.cil.oc.common.event.RobotCommonHandler$ | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar | false           |
+
+
 ## PlayerPickupXpEvent
 | Owner              | Method                    | Location                                               | Priority | Source                                          | RecieveCanceled |
 |--------------------|---------------------------|--------------------------------------------------------|----------|-------------------------------------------------|-----------------|
+| Construct's Armory | onPickupXp                | c4.conarm.common.armor.modifiers.ModMending            | normal   | conarm-1.12.2-1.2.3.jar                         | false           |
+| Thermal Foundation | handlePlayerPickupXpEvent | cofh.thermalfoundation.proxy.EventHandler              | high     | ThermalFoundation-1.12.2-2.6.3.27-universal.jar | false           |
 | CraftTweaker2      | onPlayerPickupXp          | crafttweaker.mc1120.events.CommonEventHandler          | normal   | CraftTweaker2-1.12-4.1.18.jar                   | false           |
 | Tinkers' Construct | onPickupXp                | slimeknights.tconstruct.tools.modifiers.ModMendingMoss | normal   | TConstruct-1.12.2-2.12.0.135.jar                | false           |
-| Thermal Foundation | handlePlayerPickupXpEvent | cofh.thermalfoundation.proxy.EventHandler              | high     | ThermalFoundation-1.12.2-2.6.3.27-universal.jar | false           |
-| Construct's Armory | onPickupXp                | c4.conarm.common.armor.modifiers.ModMending            | normal   | conarm-1.12.2-1.2.3.jar                         | false           |
 | Construct's Armory | onXPPickUp                | c4.conarm.common.armor.traits.TraitAmbitious           | normal   | conarm-1.12.2-1.2.3.jar                         | false           |
 
 
@@ -2217,14 +2217,14 @@ submitted to any online service.
 ## ChunkDataEvent$Save
 | Owner               | Method               | Location                                                               | Priority | Source                                       | RecieveCanceled |
 |---------------------|----------------------|------------------------------------------------------------------------|----------|----------------------------------------------|-----------------|
+| CoFH World          | handleChunkSaveEvent | cofh.cofhworld.init.WorldHandler                                       | normal   | CoFHWorld-1.12.2-1.3.1.7-universal.jar       | false           |
 | Forge Multipart CBE | onChunkDataSave      | codechicken.lib.world.WorldExtensionManager$WorldExtensionEventHandler | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar | false           |
+| Astral Sorcery      | onChDataSave         | hellfirepvp.astralsorcery.common.world.retrogen.ChunkVersionController | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| MalisisCore         | onDataSave           | net.malisis.core.util.chunkblock.ChunkBlockHandler                     | normal   | malisiscore-1.12.2-6.5.1.jar                 | false           |
+| Chisel              | onChunkSave          | INSTANCE                                                               | normal   | Chisel-MC1.12.2-0.2.1.35.jar                 | false           |
 | MalisisCore         | onDataSave           | net.malisis.core.util.blockdata.BlockDataHandler                       | normal   | malisiscore-1.12.2-6.5.1.jar                 | false           |
 | Mekanism            | chunkSave            | mekanism.common.Mekanism                                               | normal   | Mekanism-1.12.2-9.7.5.376.jar                | false           |
-| MalisisCore         | onDataSave           | net.malisis.core.util.chunkblock.ChunkBlockHandler                     | normal   | malisiscore-1.12.2-6.5.1.jar                 | false           |
 | CoFH World          | handleChunkSaveEvent | cofh.cofhworld.init.WorldHandler                                       | normal   | CoFHWorld-1.12.2-1.3.1.7-universal.jar       | false           |
-| CoFH World          | handleChunkSaveEvent | cofh.cofhworld.init.WorldHandler                                       | normal   | CoFHWorld-1.12.2-1.3.1.7-universal.jar       | false           |
-| Chisel              | onChunkSave          | INSTANCE                                                               | normal   | Chisel-MC1.12.2-0.2.1.35.jar                 | false           |
-| Astral Sorcery      | onChDataSave         | hellfirepvp.astralsorcery.common.world.retrogen.ChunkVersionController | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
 
 
 ## FileSystemAccessEvent$Client
@@ -2248,9 +2248,9 @@ submitted to any online service.
 ## ConfigChangedEvent
 | Owner                          | Method                 | Location                                             | Priority | Source                                | RecieveCanceled |
 |--------------------------------|------------------------|------------------------------------------------------|----------|---------------------------------------|-----------------|
-| Pipe Master 2000               | onConfigurationChanged | org.dave.pipemaster.data.config.ConfigurationHandler | normal   | PipeMaster-1.0.2-b8.jar               | false           |
-| Bonsai Trees                   | onConfigurationChanged | org.dave.bonsaitrees.misc.ConfigurationHandler       | normal   | bonsaitrees-1.1.3-b156.jar            | false           |
 | Barrels, Drums, Storage & More | onConfigReload         | funwayguy.bdsandm.core.BdsmConfig                    | normal   | BarrelsDrumsStorageAndMore-0.0.24.jar | false           |
+| Bonsai Trees                   | onConfigurationChanged | org.dave.bonsaitrees.misc.ConfigurationHandler       | normal   | bonsaitrees-1.1.3-b156.jar            | false           |
+| Pipe Master 2000               | onConfigurationChanged | org.dave.pipemaster.data.config.ConfigurationHandler | normal   | PipeMaster-1.0.2-b8.jar               | false           |
 
 
 ## NetworkPartEvent$AddedPart
@@ -2266,24 +2266,16 @@ submitted to any online service.
 | CraftTweaker2 | onPlayerBonemeal | crafttweaker.mc1120.events.CommonEventHandler | normal   | CraftTweaker2-1.12-4.1.18.jar | false           |
 
 
-## FurnaceFuelBurnTimeEvent
-| Owner         | Method                | Location                                      | Priority | Source                        | RecieveCanceled |
-|---------------|-----------------------|-----------------------------------------------|----------|-------------------------------|-----------------|
-| CraftTweaker2 | onFurnaceFuelBurnTime | crafttweaker.mc1120.events.CommonEventHandler | highest  | CraftTweaker2-1.12-4.1.18.jar | false           |
-
-
 ## LinkEvent$LinkEventEnterWorld
 | Owner     | Method       | Location                                         | Priority | Source                         | RecieveCanceled |
 |-----------|--------------|--------------------------------------------------|----------|--------------------------------|-----------------|
 | Mystcraft | onEnterWorld | com.xcompwiz.mystcraft.linking.LinkListenerBasic | normal   | mystcraft-1.12.2-0.13.7.03.jar | false           |
 
 
-## EntityFilterRegisterEvent$MegaTorch
-| Owner       | Method                | Location                                         | Priority | Source                          | RecieveCanceled |
-|-------------|-----------------------|--------------------------------------------------|----------|---------------------------------|-----------------|
-| TorchMaster | registerTorchEntities | net.xalcon.torchmaster.compat.VanillaCompat      | normal   | torchmaster_1.12.2-1.7.1.74.jar | false           |
-| TorchMaster | registerTorchEntities | net.xalcon.torchmaster.compat.MoCreaturesCompat  | normal   | torchmaster_1.12.2-1.7.1.74.jar | false           |
-| TorchMaster | registerTorchEntities | net.xalcon.torchmaster.compat.LycaniteMobsCompat | normal   | torchmaster_1.12.2-1.7.1.74.jar | false           |
+## FurnaceFuelBurnTimeEvent
+| Owner         | Method                | Location                                      | Priority | Source                        | RecieveCanceled |
+|---------------|-----------------------|-----------------------------------------------|----------|-------------------------------|-----------------|
+| CraftTweaker2 | onFurnaceFuelBurnTime | crafttweaker.mc1120.events.CommonEventHandler | highest  | CraftTweaker2-1.12-4.1.18.jar | false           |
 
 
 ## GetCollisionBoxesEvent
@@ -2293,11 +2285,19 @@ submitted to any online service.
 | PortalGun   | onGetCollisionBoxesEvent | me.ichun.mods.ichunutil.common.module.worldportals.common.core.EventHandlerWorldPortal | normal   | PortalGun-1.12.2-7.1.0.jar   | false           |
 
 
+## EntityFilterRegisterEvent$MegaTorch
+| Owner       | Method                | Location                                         | Priority | Source                          | RecieveCanceled |
+|-------------|-----------------------|--------------------------------------------------|----------|---------------------------------|-----------------|
+| TorchMaster | registerTorchEntities | net.xalcon.torchmaster.compat.MoCreaturesCompat  | normal   | torchmaster_1.12.2-1.7.1.74.jar | false           |
+| TorchMaster | registerTorchEntities | net.xalcon.torchmaster.compat.LycaniteMobsCompat | normal   | torchmaster_1.12.2-1.7.1.74.jar | false           |
+| TorchMaster | registerTorchEntities | net.xalcon.torchmaster.compat.VanillaCompat      | normal   | torchmaster_1.12.2-1.7.1.74.jar | false           |
+
+
 ## ZombieEvent$SummonAidEvent
 | Owner              | Method           | Location                                              | Priority | Source                      | RecieveCanceled |
 |--------------------|------------------|-------------------------------------------------------|----------|-----------------------------|-----------------|
-| mob_grinding_utils | zombieEvent      | mob_grinding_utils.events.MGUZombieReinforcementEvent | lowest   | MobGrindingUtils-0.3.13.jar | false           |
 | InControl          | onSummonAidEvent | mcjty.incontrol.ForgeEventHandlers                    | lowest   | incontrol-1.12-3.9.10.jar   | false           |
+| mob_grinding_utils | zombieEvent      | mob_grinding_utils.events.MGUZombieReinforcementEvent | lowest   | MobGrindingUtils-0.3.13.jar | false           |
 
 
 ## PlayerEvent$StopTracking
@@ -2309,9 +2309,9 @@ submitted to any online service.
 ## TickEvent
 | Owner                 | Method | Location                                                   | Priority | Source                               | RecieveCanceled |
 |-----------------------|--------|------------------------------------------------------------|----------|--------------------------------------|-----------------|
+| Integrated Dynamics   | onTick | org.cyclops.integrateddynamics.core.NoteBlockEventReceiver | normal   | IntegratedDynamics-1.12.2-1.0.8.jar  | false           |
 | Applied Energistics 2 | onTick | appeng.hooks.TickHandler                                   | normal   | appliedenergistics2-rv6-stable-6.jar | false           |
 | Integrated Dynamics   | onTick | org.cyclops.integrateddynamics.core.TickHandler            | normal   | IntegratedDynamics-1.12.2-1.0.8.jar  | false           |
-| Integrated Dynamics   | onTick | org.cyclops.integrateddynamics.core.NoteBlockEventReceiver | normal   | IntegratedDynamics-1.12.2-1.0.8.jar  | false           |
 
 
 ## PotionApplyEvent$New
@@ -2329,12 +2329,12 @@ submitted to any online service.
 ## PlayerInteractEvent$RightClickItem
 | Owner           | Method           | Location                                           | Priority | Source                           | RecieveCanceled |
 |-----------------|------------------|----------------------------------------------------|----------|----------------------------------|-----------------|
-| Chisel          | onRightClickItem | team.chisel.common.item.ChiselController           | normal   | Chisel-MC1.12.2-0.2.1.35.jar     | false           |
-| Pickle Tweaks   | onUseBow         | com.blakebr0.pickletweaks.tweaks.TweakToolBreaking | normal   | PickleTweaks-1.12.2-2.1.3.jar    | false           |
-| ChineseWorkshop | onRightClickItem | cityofskytcd.chineseworkshop.item.ItemCWLogo       | normal   | ChineseWorkshop-1.12.2_1.2.6.jar | false           |
-| Ender Utilities | onRightClickAir  | fi.dy.masa.enderutilities.event.PlayerEventHandler | normal   | enderutilities-1.12.2-0.7.12.jar | false           |
 | Triumph         | onRightClickItem | com.bloodnbonesgaming.triumph.events.TEventHandler | normal   | Triumph-1.12.2-3.17.0.jar        | false           |
+| Ender Utilities | onRightClickAir  | fi.dy.masa.enderutilities.event.PlayerEventHandler | normal   | enderutilities-1.12.2-0.7.12.jar | false           |
+| Chisel          | onRightClickItem | team.chisel.common.item.ChiselController           | normal   | Chisel-MC1.12.2-0.2.1.35.jar     | false           |
+| ChineseWorkshop | onRightClickItem | cityofskytcd.chineseworkshop.item.ItemCWLogo       | normal   | ChineseWorkshop-1.12.2_1.2.6.jar | false           |
 | Mystcraft       | bottleFix        | com.xcompwiz.mystcraft.core.MystcraftEventHandler  | normal   | mystcraft-1.12.2-0.13.7.03.jar   | false           |
+| Pickle Tweaks   | onUseBow         | com.blakebr0.pickletweaks.tweaks.TweakToolBreaking | normal   | PickleTweaks-1.12.2-2.1.3.jar    | false           |
 
 
 ## TinkerRegisterEvent$TableCastingRegisterEvent
@@ -2360,8 +2360,8 @@ submitted to any online service.
 | Owner         | Method       | Location                                                       | Priority | Source                               | RecieveCanceled |
 |---------------|--------------|----------------------------------------------------------------|----------|--------------------------------------|-----------------|
 | Game Stages   | onPlayerSave | net.darkhax.gamestages.data.GameStageSaveHandler               | normal   | GameStages-1.12.2-2.0.115.jar        | false           |
-| Triumph       | onPlayerSave | com.bloodnbonesgaming.triumph.events.TEventHandler             | normal   | Triumph-1.12.2-3.17.0.jar            | false           |
 | OpenComputers | onPlayerSave | li.cil.oc.common.event.NanomachinesHandler$Common$             | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar | false           |
+| Triumph       | onPlayerSave | com.bloodnbonesgaming.triumph.events.TEventHandler             | normal   | Triumph-1.12.2-3.17.0.jar            | false           |
 | Cyclic        | playerSave   | com.lothrazar.cyclicmagic.playerupgrade.EventExtendedInventory | normal   | Cyclic-1.12.2-1.19.11.jar            | false           |
 
 
@@ -2374,16 +2374,16 @@ submitted to any online service.
 ## LivingDamageEvent
 | Owner              | Method                      | Location                                                                              | Priority | Source                           | RecieveCanceled |
 |--------------------|-----------------------------|---------------------------------------------------------------------------------------|----------|----------------------------------|-----------------|
-| Corail Tombstone   | onPreventDeath              | ovh.corail.tombstone.event.EventHandler                                               | low      | tombstone-3.5.2-1.12.jar         | false           |
-| Dark Utilities     | onLivingDamage              | net.darkhax.darkutils.features.charms.FeatureCharms                                   | normal   | DarkUtils-1.12.2-1.8.226.jar     | false           |
 | Astral Sorcery     | onAttack                    | hellfirepvp.astralsorcery.common.constellation.perk.attribute.type.AttributeLifeLeech | lowest   | astralsorcery-1.12.2-1.10.19.jar | false           |
-| Astral Sorcery     | onDamageTaken               | hellfirepvp.astralsorcery.common.constellation.perk.attribute.type.AttributeDodge     | high     | astralsorcery-1.12.2-1.10.19.jar | false           |
-| Cyclic             | onLivingDamageEvent         | com.lothrazar.cyclicmagic.item.SoulstoneItem                                          | lowest   | Cyclic-1.12.2-1.19.11.jar        | false           |
-| Astral Sorcery     | onDmg                       | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyCullAttack      | lowest   | astralsorcery-1.12.2-1.10.19.jar | false           |
-| Construct's Armory | playerDamaged               | c4.conarm.common.events.ArmorEvents                                                   | normal   | conarm-1.12.2-1.2.3.jar          | false           |
 | Astral Sorcery     | onDamage                    | hellfirepvp.astralsorcery.common.constellation.perk.tree.root.DiscidiaRootPerk        | lowest   | astralsorcery-1.12.2-1.10.19.jar | false           |
-| Corail Tombstone   | onScaleBeyondTheGraveDamage | ovh.corail.tombstone.event.EventHandler                                               | highest  | tombstone-3.5.2-1.12.jar         | false           |
 | Astral Sorcery     | onDamageResult              | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyDamageEffect    | lowest   | astralsorcery-1.12.2-1.10.19.jar | false           |
+| Construct's Armory | playerDamaged               | c4.conarm.common.events.ArmorEvents                                                   | normal   | conarm-1.12.2-1.2.3.jar          | false           |
+| Cyclic             | onLivingDamageEvent         | com.lothrazar.cyclicmagic.item.SoulstoneItem                                          | lowest   | Cyclic-1.12.2-1.19.11.jar        | false           |
+| Corail Tombstone   | onPreventDeath              | ovh.corail.tombstone.event.EventHandler                                               | low      | tombstone-3.5.2-1.12.jar         | false           |
+| Astral Sorcery     | onDmg                       | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyCullAttack      | lowest   | astralsorcery-1.12.2-1.10.19.jar | false           |
+| Corail Tombstone   | onScaleBeyondTheGraveDamage | ovh.corail.tombstone.event.EventHandler                                               | highest  | tombstone-3.5.2-1.12.jar         | false           |
+| Astral Sorcery     | onDamageTaken               | hellfirepvp.astralsorcery.common.constellation.perk.attribute.type.AttributeDodge     | high     | astralsorcery-1.12.2-1.10.19.jar | false           |
+| Dark Utilities     | onLivingDamage              | net.darkhax.darkutils.features.charms.FeatureCharms                                   | normal   | DarkUtils-1.12.2-1.8.226.jar     | false           |
 
 
 ## EnchantmentLevelSetEvent
@@ -2408,127 +2408,127 @@ submitted to any online service.
 ## LivingHurtEvent
 | Owner                           | Method                  | Location                                                                                           | Priority | Source                                       | RecieveCanceled |
 |---------------------------------|-------------------------|----------------------------------------------------------------------------------------------------|----------|----------------------------------------------|-----------------|
-| Tinkers' Construct              | playerBlockOrHurtEvent  | slimeknights.tconstruct.tools.TraitEvents                                                          | normal   | TConstruct-1.12.2-2.12.0.135.jar             | false           |
-| Astral Sorcery                  | onAttack                | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyDisarm                       | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Pickle Tweaks                   | onEntityDamaged         | com.blakebr0.pickletweaks.feature.FeatureSwordInfo                                                 | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
-| Tinkers' Construct              | onDamageEntity          | slimeknights.tconstruct.shared.AchievementEvents                                                   | normal   | TConstruct-1.12.2-2.12.0.135.jar             | false           |
+| Construct's Armory              | onLivingHurt            | c4.conarm.common.armor.traits.TraitCombustible                                                     | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
 | Astral Sorcery                  | onLivingHurt            | hellfirepvp.astralsorcery.common.constellation.perk.attribute.type.AttributeThorns                 | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Pickle Tweaks                   | onEntityDamaged         | com.blakebr0.pickletweaks.feature.FeatureBowInfo                                                   | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
-| Pickle Tweaks                   | onHitEntity             | com.blakebr0.pickletweaks.tweaks.TweakToolBreaking                                                 | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
-| Astral Sorcery                  | onDmg                   | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyAreaOfEffect                 | high     | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Astral Sorcery                  | onAttack                | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyBleed                        | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Construct's Armory              | onLivingHurt            | c4.conarm.common.armor.modifiers.ModSticky                                                         | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
-| Astral Sorcery                  | onProjDamage            | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyProjectileProximity          | high     | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Astral Sorcery                  | onDamage                | hellfirepvp.astralsorcery.common.event.listener.EventHandlerEntity                                 | low      | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Pickle Tweaks                   | onHurt                  | com.blakebr0.pickletweaks.tweaks.TweakToolUselessifier                                             | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
 | Astral Sorcery                  | onAttack                | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyLightningArc                 | lowest   | astralsorcery-1.12.2-1.10.19.jar             | false           |
 | Astral Sorcery                  | onDamageTaken           | hellfirepvp.astralsorcery.common.constellation.perk.attribute.type.AttributeAllElementalResist     | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Construct's Armory              | playerHurt              | c4.conarm.common.events.ArmorEvents                                                                | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
+| Astral Sorcery                  | onAttack                | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyLastBreath                   | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Dark Utilities                  | onLivingHurt            | net.darkhax.darkutils.features.charms.FeatureCharms                                                | normal   | DarkUtils-1.12.2-1.8.226.jar                 | false           |
 | Sync                            | onEntityHurt            | me.ichun.mods.sync.common.core.EventHandlerServer                                                  | highest  | Sync-1.12.2-7.1.0.jar                        | false           |
-| Pickle Tweaks                   | onHurt                  | com.blakebr0.pickletweaks.tweaks.TweakToolUselessifier                                             | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
+| Pickle Tweaks                   | onHitEntity             | com.blakebr0.pickletweaks.tweaks.TweakToolBreaking                                                 | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
+| Astral Sorcery                  | onHurt                  | hellfirepvp.astralsorcery.common.event.listener.EventHandlerCapeEffects                            | high     | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Corail Tombstone                | onLivingHurt            | ovh.corail.tombstone.event.EventHandler                                                            | highest  | tombstone-3.5.2-1.12.jar                     | false           |
 | Astral Sorcery                  | onAttack                | hellfirepvp.astralsorcery.common.event.listener.EventHandlerEntity                                 | low      | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| CoFH Core                       | handleLivingHurtEvent   | cofh.core.proxy.EventHandler                                                                       | normal   | CoFHCore-1.12.2-4.6.3.27-universal.jar       | false           |
+| Pickle Tweaks                   | onEntityDamaged         | com.blakebr0.pickletweaks.feature.FeatureSwordInfo                                                 | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
+| Tinkers' Construct              | playerBlockOrHurtEvent  | slimeknights.tconstruct.tools.TraitEvents                                                          | normal   | TConstruct-1.12.2-2.12.0.135.jar             | false           |
+| Astral Sorcery                  | onAttack                | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyDisarm                       | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| MatterOverdrive: Legacy Edition | onEntityHurt            | matteroverdrive.handler.EntityHandler                                                              | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
+| Astral Sorcery                  | onHurt                  | hellfirepvp.astralsorcery.common.constellation.perk.tree.root.ArmaraRootPerk                       | highest  | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Astral Sorcery                  | onProjDamage            | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyProjectileDistance           | high     | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Astral Sorcery                  | onAttack                | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyCheatDeath                   | lowest   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Astral Sorcery                  | onAttack                | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyBleed                        | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Pickle Tweaks                   | onHurt                  | com.blakebr0.pickletweaks.tweaks.TweakHoeUselessifier                                              | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
+| Pickle Tweaks                   | onHurt                  | com.blakebr0.pickletweaks.tweaks.TweakWeaponUselessifier                                           | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
+| Construct's Armory              | onLivingHurt            | c4.conarm.common.armor.traits.TraitBlessed                                                         | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
 | Cyclic                          | onHurt                  | com.lothrazar.cyclicmagic.potion.effect.PotionEnder                                                | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
-| Astral Sorcery                  | onProjDamage            | hellfirepvp.astralsorcery.common.constellation.perk.attribute.type.AttributeProjectileAttackDamage | low      | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Rustic                          | onEntityDamage          | rustic.common.potions.EventHandlerPotions                                                          | normal   | rustic-1.0.15.jar                            | false           |
 | Apotheosis                      | livingHurt              | shadows.ench.EnchModule                                                                            | normal   | Apotheosis-1.12.2-1.10.2.jar                 | false           |
 | CraftTweaker2                   | onEntityLivingHurtEvent | crafttweaker.mc1120.events.CommonEventHandler                                                      | normal   | CraftTweaker2-1.12-4.1.18.jar                | false           |
-| Dark Utilities                  | onLivingHurt            | net.darkhax.darkutils.features.charms.FeatureCharms                                                | normal   | DarkUtils-1.12.2-1.8.226.jar                 | false           |
-| Construct's Armory              | onLivingHurt            | c4.conarm.common.armor.traits.TraitVoltaic                                                         | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
-| Astral Sorcery                  | onAttack                | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyLastBreath                   | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Rustic                          | onEntityDamage          | rustic.common.potions.EventHandlerPotions                                                          | normal   | rustic-1.0.15.jar                            | false           |
-| Astral Sorcery                  | onAttack                | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyCheatDeath                   | lowest   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Astral Sorcery                  | onHurt                  | hellfirepvp.astralsorcery.common.constellation.perk.tree.root.ArmaraRootPerk                       | highest  | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| MatterOverdrive: Legacy Edition | onEntityHurt            | matteroverdrive.handler.EntityHandler                                                              | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
-| Pickle Tweaks                   | onHurt                  | com.blakebr0.pickletweaks.tweaks.TweakWeaponUselessifier                                           | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
-| Astral Sorcery                  | onDmg                   | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyDamageArmor                  | low      | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Construct's Armory              | onLivingHurt            | c4.conarm.common.armor.traits.TraitEnderport                                                       | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
-| Construct's Armory              | onLivingHurt            | c4.conarm.common.armor.traits.TraitBlessed                                                         | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
-| The Twilight Forest             | entityHurts             | twilightforest.TFEventListener                                                                     | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
-| Corail Tombstone                | onLivingHurt            | ovh.corail.tombstone.event.EventHandler                                                            | highest  | tombstone-3.5.2-1.12.jar                     | false           |
-| Astral Sorcery                  | onHurt                  | hellfirepvp.astralsorcery.common.event.listener.EventHandlerCapeEffects                            | high     | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| CoFH Core                       | handleLivingHurtEvent   | cofh.core.proxy.EventHandler                                                                       | normal   | CoFHCore-1.12.2-4.6.3.27-universal.jar       | false           |
-| Pickle Tweaks                   | onHurt                  | com.blakebr0.pickletweaks.tweaks.TweakHoeUselessifier                                              | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
-| Astral Sorcery                  | onProjDamage            | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyProjectileDistance           | high     | astralsorcery-1.12.2-1.10.19.jar             | false           |
 | Tinkers' Construct              | reducedDamageBlocked    | slimeknights.tconstruct.tools.melee.item.BattleSign                                                | low      | TConstruct-1.12.2-2.12.0.135.jar             | false           |
-| Construct's Armory              | onLivingHurt            | c4.conarm.common.armor.traits.TraitCombustible                                                     | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
-| Construct's Armory              | onLivingHurt            | c4.conarm.common.armor.traits.TraitSteady                                                          | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
+| The Twilight Forest             | entityHurts             | twilightforest.TFEventListener                                                                     | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
+| Construct's Armory              | onLivingHurt            | c4.conarm.common.armor.traits.TraitEnderport                                                       | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
+| Construct's Armory              | onLivingHurt            | c4.conarm.common.armor.modifiers.ModSticky                                                         | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
+| Astral Sorcery                  | onDmg                   | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyDamageArmor                  | low      | astralsorcery-1.12.2-1.10.19.jar             | false           |
 | Astral Sorcery                  | onLivingHurt            | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyNoArmor                      | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Tinkers' Construct              | onDamageEntity          | slimeknights.tconstruct.shared.AchievementEvents                                                   | normal   | TConstruct-1.12.2-2.12.0.135.jar             | false           |
+| Astral Sorcery                  | onDamage                | hellfirepvp.astralsorcery.common.event.listener.EventHandlerEntity                                 | low      | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Pickle Tweaks                   | onEntityDamaged         | com.blakebr0.pickletweaks.feature.FeatureBowInfo                                                   | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
+| Construct's Armory              | onLivingHurt            | c4.conarm.common.armor.traits.TraitVoltaic                                                         | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
+| Astral Sorcery                  | onDmg                   | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyAreaOfEffect                 | high     | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Astral Sorcery                  | onProjDamage            | hellfirepvp.astralsorcery.common.constellation.perk.attribute.type.AttributeProjectileAttackDamage | low      | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Construct's Armory              | onLivingHurt            | c4.conarm.common.armor.traits.TraitSteady                                                          | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
+| Astral Sorcery                  | onProjDamage            | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyProjectileProximity          | high     | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Construct's Armory              | playerHurt              | c4.conarm.common.events.ArmorEvents                                                                | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
 
 
 ## LivingEvent$LivingUpdateEvent
 | Owner                | Method                    | Location                                                                         | Priority | Source                                      | RecieveCanceled |
 |----------------------|---------------------------|----------------------------------------------------------------------------------|----------|---------------------------------------------|-----------------|
-| Cyclic               | onPlayerUpdate            | com.lothrazar.cyclicmagic.item.ItemFlight                                        | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
+| Astral Sorcery       | onLivingTickTest          | hellfirepvp.astralsorcery.common.util.effect.time.TimeStopController             | highest  | astralsorcery-1.12.2-1.10.19.jar            | false           |
 | The Twilight Forest  | livingUpdate              | twilightforest.TFEventListener                                                   | normal   | twilightforest-1.12.2-3.8.689-universal.jar | false           |
-| OpenComputers        | onLivingUpdate            | li.cil.oc.common.event.NanomachinesHandler$Common$                               | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar        | false           |
-| OpenComputers        | onLivingUpdate            | li.cil.oc.common.event.HoverBootsHandler$                                        | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar        | false           |
-| Cyclic               | onEntityUpdate            | com.lothrazar.cyclicmagic.potion.EventPotionTick                                 | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
-| Cyclic               | onEntityUpdate            | com.lothrazar.cyclicmagic.enchant.EnchantMagnet                                  | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
-| Mystical Agriculture | updatePlayerAbilityStatus | com.blakebr0.mysticalagriculture.items.armor.ItemSuperiumArmor$AbilityHandler    | normal   | MysticalAgriculture-1.12.2-1.7.5.jar        | false           |
-| Cyclic               | onEntityUpdate            | com.lothrazar.cyclicmagic.enchant.EnchantWaterwalking                            | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
-| Cyclic               | onPlayerUpdate            | com.lothrazar.cyclicmagic.enchant.EnchantQuickdraw                               | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
-| PortalGun            | onLivingUpdate            | me.ichun.mods.portalgun.common.core.EventHandlerServer                           | normal   | PortalGun-1.12.2-7.1.0.jar                  | false           |
-| Industrial Foregoing | onTick                    | com.buuz135.industrial.proxy.event.MeatFeederTickHandler                         | normal   | industrialforegoing-1.12.2-1.12.12-236.jar  | false           |
 | Pickle Tweaks        | giveNightvision           | com.blakebr0.pickletweaks.feature.item.ItemNightvisionGoggles$Handler            | normal   | PickleTweaks-1.12.2-2.1.3.jar               | false           |
-| Cyclic               | onPlayerUpdate            | com.lothrazar.cyclicmagic.item.ItemNoclipGhost                                   | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
-| Hunting Dimension    | onLivingUpdate            | net.darkhax.huntingdim.handler.DimensionEffectHandler                            | normal   | HuntingDimension-1.12.2-1.0.38.jar          | false           |
-| Dark Utilities       | onEntityUpdate            | net.darkhax.darkutils.features.shulkerpearl.FeatureShulkerPearlItem              | normal   | DarkUtils-1.12.2-1.8.226.jar                | false           |
-| Cyclic               | onEntityUpdate            | com.lothrazar.cyclicmagic.module.tweaks.MountedTweaksModule                      | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
-| Sky Grid             | onLivingUpdate            | funwayguy.skygrid.handlers.EventHandler                                          | normal   | SkyGrid-1.1.7.jar                           | false           |
-| AppleSkin            | onLivingUpdateEvent       | squeek.appleskin.network.SyncHandler                                             | normal   | AppleSkin-mc1.12-1.0.9.jar                  | false           |
-| Topography           | onEntityTick              | com.bloodnbonesgaming.topography.event.EventSubscriber                           | normal   | Topography-1.12.2-1.5.1.jar                 | false           |
-| Cyclic               | onEntityUpdate            | com.lothrazar.cyclicmagic.item.equipmentmagic.ItemGlowingHelmet                  | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
-| Carry On             | dropNonHotbarItems        | tschipp.carryon.common.event.ItemEvents                                          | normal   | CarryOn MC1.12.2 v1.12.1.jar                | false           |
-| mob_grinding_utils   | onEntityUpdate            | mob_grinding_utils.capability.base.EntityCapabilityHandler                       | normal   | MobGrindingUtils-0.3.13.jar                 | false           |
-| Cyclic               | onEntityUpdate            | com.lothrazar.cyclicmagic.enchant.EnchantReach                                   | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
-| Corail Tombstone     | onUpdateShadowStep        | ovh.corail.tombstone.event.EventHandler                                          | lowest   | tombstone-3.5.2-1.12.jar                    | false           |
-| Hunting Dimension    | onEntityJoinWorld         | net.darkhax.huntingdim.handler.DimensionEffectHandler                            | normal   | HuntingDimension-1.12.2-1.0.38.jar          | false           |
-| Inspirations         | updateMilkCooldown        | knightminer.inspirations.shared.SharedEvents                                     | normal   | Inspirations-1.12.2-0.2.4.jar               | false           |
 | Cyclic               | onEntityUpdate            | com.lothrazar.cyclicmagic.item.ItemAppleStep                                     | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
+| Cyclic               | onPlayerUpdate            | com.lothrazar.cyclicmagic.item.ItemNoclipGhost                                   | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
+| Cyclic               | onEntityUpdate            | com.lothrazar.cyclicmagic.enchant.EnchantWaterwalking                            | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
+| Hunting Dimension    | onLivingUpdate            | net.darkhax.huntingdim.handler.DimensionEffectHandler                            | normal   | HuntingDimension-1.12.2-1.0.38.jar          | false           |
+| Hunting Dimension    | onEntityJoinWorld         | net.darkhax.huntingdim.handler.DimensionEffectHandler                            | normal   | HuntingDimension-1.12.2-1.0.38.jar          | false           |
+| Cyclic               | onEntityUpdate            | com.lothrazar.cyclicmagic.module.tweaks.MountedTweaksModule                      | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
+| OpenComputers        | onLivingUpdate            | li.cil.oc.common.event.NanomachinesHandler$Common$                               | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar        | false           |
 | SlimyBoyos           | onLivingUpdate            | com.blamejared.slimyboyos.events.CommonEventHandler                              | normal   | SlimyBoyos-1.0.0.jar                        | false           |
-| Mystical Agriculture | updatePlayerAbilityStatus | com.blakebr0.mysticalagriculture.items.armor.ItemSupremiumArmor$AbilityHandler   | normal   | MysticalAgriculture-1.12.2-1.7.5.jar        | false           |
-| Dark Utilities       | onEntityUpdate            | net.darkhax.darkutils.features.misc.FeatureSheepArmor                            | normal   | DarkUtils-1.12.2-1.8.226.jar                | false           |
-| Cyclic               | onEntityUpdate            | com.lothrazar.cyclicmagic.module.tweaks.FragileTorchesModule                     | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
-| Cyclic               | onEntityUpdate            | com.lothrazar.cyclicmagic.enchant.EnchantLaunch                                  | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
+| Cyclic               | onPlayerUpdate            | com.lothrazar.cyclicmagic.enchant.EnchantQuickdraw                               | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
 | Item Stages          | onLivingUpdate            | net.darkhax.itemstages.ItemStages                                                | normal   | ItemStages-1.12.2-2.0.50.jar                | false           |
-| Cyclic               | onUpdate                  | Block{cyclicmagic:plate_vector}                                                  | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
-| Rustic               | onChickenUpdate           | rustic.common.EventHandlerCommon                                                 | normal   | rustic-1.0.15.jar                           | false           |
 | Cyclic               | onPlayerTick              | com.lothrazar.cyclicmagic.playerupgrade.PlayerAbilitiesModule                    | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
 | Apotheosis           | lifeMend                  | shadows.ench.EnchModule                                                          | normal   | Apotheosis-1.12.2-1.10.2.jar                | false           |
-| Astral Sorcery       | onLivingTickTest          | hellfirepvp.astralsorcery.common.util.effect.time.TimeStopController             | highest  | astralsorcery-1.12.2-1.10.19.jar            | false           |
-| Mystical Agriculture | updatePlayerAbilityStatus | com.blakebr0.mysticalagriculture.items.armor.ItemIntermediumArmor$AbilityHandler | normal   | MysticalAgriculture-1.12.2-1.7.5.jar        | false           |
+| Cyclic               | onPlayerUpdate            | com.lothrazar.cyclicmagic.item.ItemFlight                                        | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
+| Cyclic               | onUpdate                  | Block{cyclicmagic:plate_vector}                                                  | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
+| Cyclic               | onEntityUpdate            | com.lothrazar.cyclicmagic.item.equipmentmagic.ItemGlowingHelmet                  | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
+| Rustic               | onChickenUpdate           | rustic.common.EventHandlerCommon                                                 | normal   | rustic-1.0.15.jar                           | false           |
+| PortalGun            | onLivingUpdate            | me.ichun.mods.portalgun.common.core.EventHandlerServer                           | normal   | PortalGun-1.12.2-7.1.0.jar                  | false           |
+| Industrial Foregoing | onTick                    | com.buuz135.industrial.proxy.event.MeatFeederTickHandler                         | normal   | industrialforegoing-1.12.2-1.12.12-236.jar  | false           |
+| OpenComputers        | onLivingUpdate            | li.cil.oc.common.event.HoverBootsHandler$                                        | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar        | false           |
+| AppleSkin            | onLivingUpdateEvent       | squeek.appleskin.network.SyncHandler                                             | normal   | AppleSkin-mc1.12-1.0.9.jar                  | false           |
+| Cyclic               | onEntityUpdate            | com.lothrazar.cyclicmagic.potion.EventPotionTick                                 | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
+| Cyclic               | onEntityUpdate            | com.lothrazar.cyclicmagic.module.tweaks.FragileTorchesModule                     | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
 | Carry On             | onLivingUpdate            | tschipp.carryon.common.event.ItemEntityEvents                                    | normal   | CarryOn MC1.12.2 v1.12.1.jar                | false           |
+| Topography           | onEntityTick              | com.bloodnbonesgaming.topography.event.EventSubscriber                           | normal   | Topography-1.12.2-1.5.1.jar                 | false           |
+| Dark Utilities       | onEntityUpdate            | net.darkhax.darkutils.features.misc.FeatureSheepArmor                            | normal   | DarkUtils-1.12.2-1.8.226.jar                | false           |
+| Mystical Agriculture | updatePlayerAbilityStatus | com.blakebr0.mysticalagriculture.items.armor.ItemSupremiumArmor$AbilityHandler   | normal   | MysticalAgriculture-1.12.2-1.7.5.jar        | false           |
+| Dark Utilities       | onEntityUpdate            | net.darkhax.darkutils.features.shulkerpearl.FeatureShulkerPearlItem              | normal   | DarkUtils-1.12.2-1.8.226.jar                | false           |
+| Mystical Agriculture | updatePlayerAbilityStatus | com.blakebr0.mysticalagriculture.items.armor.ItemIntermediumArmor$AbilityHandler | normal   | MysticalAgriculture-1.12.2-1.7.5.jar        | false           |
+| mob_grinding_utils   | onEntityUpdate            | mob_grinding_utils.capability.base.EntityCapabilityHandler                       | normal   | MobGrindingUtils-0.3.13.jar                 | false           |
+| Cyclic               | onEntityUpdate            | com.lothrazar.cyclicmagic.enchant.EnchantMagnet                                  | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
+| Cyclic               | onEntityUpdate            | com.lothrazar.cyclicmagic.enchant.EnchantLaunch                                  | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
+| Cyclic               | onEntityUpdate            | com.lothrazar.cyclicmagic.enchant.EnchantReach                                   | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
+| Mystical Agriculture | updatePlayerAbilityStatus | com.blakebr0.mysticalagriculture.items.armor.ItemSuperiumArmor$AbilityHandler    | normal   | MysticalAgriculture-1.12.2-1.7.5.jar        | false           |
+| Carry On             | dropNonHotbarItems        | tschipp.carryon.common.event.ItemEvents                                          | normal   | CarryOn MC1.12.2 v1.12.1.jar                | false           |
 | Cyclic               | playerTick                | com.lothrazar.cyclicmagic.playerupgrade.EventExtendedInventory                   | normal   | Cyclic-1.12.2-1.19.11.jar                   | false           |
+| Inspirations         | updateMilkCooldown        | knightminer.inspirations.shared.SharedEvents                                     | normal   | Inspirations-1.12.2-0.2.4.jar               | false           |
+| Sky Grid             | onLivingUpdate            | funwayguy.skygrid.handlers.EventHandler                                          | normal   | SkyGrid-1.1.7.jar                           | false           |
+| Corail Tombstone     | onUpdateShadowStep        | ovh.corail.tombstone.event.EventHandler                                          | lowest   | tombstone-3.5.2-1.12.jar                    | false           |
 
 
 ## TickEvent$PlayerTickEvent
 | Owner                           | Method                | Location                                                                | Priority | Source                                       | RecieveCanceled |
 |---------------------------------|-----------------------|-------------------------------------------------------------------------|----------|----------------------------------------------|-----------------|
-| The Twilight Forest             | playerTick            | twilightforest.TFTickHandler                                            | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
-| XNet                            | onPlayerTickEvent     | mcjty.lib.McJtyLib$EventHandler                                         | normal   | xnet-1.12-1.7.6.jar                          | false           |
-| Construct's Armory              | onPlayerTick          | c4.conarm.common.armor.traits.TraitInvigorating                         | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
-| Extra Cells 2                   | onPlayerTick          | extracells.util.ExtraCellsEventHandler                                  | normal   | ExtraCells-1.12.2-2.6.2a.jar                 | false           |
-| Baubles                         | playerTick            | baubles.common.event.EventHandlerEntity                                 | normal   | Baubles-1.12-1.5.2.jar                       | false           |
-| Mekanism                        | onTick                | mekanism.common.CommonPlayerTickHandler                                 | normal   | Mekanism-1.12.2-9.7.5.376.jar                | false           |
-| Aroma1997Core                   | playerTick            | aroma1997.core.util.registry.TickRegistry$2                             | normal   | Aroma1997Core-1.12.2-2.0.0.2.b165.jar        | false           |
-| Astral Sorcery                  | playerUpdatePre       | hellfirepvp.astralsorcery.common.event.listener.EventHandlerCapeEffects | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
 | Forgiving Void                  | onPlayerTick          | net.blay09.mods.forgivingvoid.ForgivingVoid                             | normal   | ForgivingVoid_1.12.2-1.0.22.jar              | false           |
-| Construct's Armory              | onPlayerTick          | c4.conarm.common.events.ArmorEvents                                     | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
-| MatterOverdrive: Legacy Edition | onPlayerTick          | matteroverdrive.handler.PlayerEventHandler                              | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
-| Compact Machines 3              | onPlayerTick          | org.dave.compactmachines3.skyworld.SkyWorldEvents                       | normal   | compactmachines3-1.12.2-3.0.18-b278.jar      | false           |
-| CraftTweaker2                   | onPlayerTickEvent     | crafttweaker.mc1120.events.CommonEventHandler                           | normal   | CraftTweaker2-1.12-4.1.18.jar                | false           |
-| Ender Utilities                 | onPlayerTick          | fi.dy.masa.enderutilities.event.TickHandler                             | normal   | enderutilities-1.12.2-0.7.12.jar             | false           |
-| Tree Growing Simulator 2016     | onPlayerTick          | tterrag.treesimulator.TickHandlerTGS                                    | normal   | TreeGrowingSimulator2017-1.0.1.jar           | false           |
-| NuclearCraft                    | updatePlayerRadiation | nc.radiation.RadiationHandler                                           | normal   | NuclearCraft-2.17a-1.12.2.jar                | false           |
-| Industrial Foregoing            | onPlayerTick          | com.buuz135.industrial.item.infinity.OneThreeFiveHandler                | normal   | industrialforegoing-1.12.2-1.12.12-236.jar   | false           |
-| Dark Utilities                  | onPlayerUpdate        | net.darkhax.darkutils.features.charms.FeatureCharms                     | normal   | DarkUtils-1.12.2-1.8.226.jar                 | false           |
-| EnderCore                       | onPlayerTick          | com.enderio.core.common.handlers.FireworkHandler                        | normal   | EnderCore-1.12.2-0.5.57.jar                  | false           |
-| Chargers                        | playerTick            | se.gory_moon.chargers.handler.WirelessHandler                           | normal   | Chargers-1.12.2-1.2.0.4.jar                  | false           |
 | Compact Machines 3              | onPlayerTick          | org.dave.compactmachines3.misc.PlayerEventHandler                       | normal   | compactmachines3-1.12.2-3.0.18-b278.jar      | false           |
-| Cyclic                          | rebounceTick          | com.lothrazar.cyclicmagic.potion.effect.PotionBounce                    | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
-| Astral Sorcery                  | playerTick            | hellfirepvp.astralsorcery.common.auxiliary.tick.TickManager             | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| ProjectE                        | playerTick            | moze_intel.projecte.events.TickEvents                                   | normal   | ProjectE-1.12.2-PE1.4.1.jar                  | false           |
+| Tree Growing Simulator 2016     | onPlayerTick          | tterrag.treesimulator.TickHandlerTGS                                    | normal   | TreeGrowingSimulator2017-1.0.1.jar           | false           |
+| Chargers                        | playerTick            | se.gory_moon.chargers.handler.WirelessHandler                           | normal   | Chargers-1.12.2-1.2.0.4.jar                  | false           |
+| Astral Sorcery                  | playerUpdatePre       | hellfirepvp.astralsorcery.common.event.listener.EventHandlerCapeEffects | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Industrial Foregoing            | onPlayerTick          | com.buuz135.industrial.item.infinity.OneThreeFiveHandler                | normal   | industrialforegoing-1.12.2-1.12.12-236.jar   | false           |
+| Baubles                         | playerTick            | baubles.common.event.EventHandlerEntity                                 | normal   | Baubles-1.12-1.5.2.jar                       | false           |
+| Ender Utilities                 | onPlayerTick          | fi.dy.masa.enderutilities.event.TickHandler                             | normal   | enderutilities-1.12.2-0.7.12.jar             | false           |
 | PigUtils                        | onPlayerTick          | me.ichun.mods.ichunutil.common.core.event.EventHandlerServer            | normal   | iChunUtil-1.12.2-7.1.4.jar                   | false           |
-| Deep Mob Learning               | playerTickUpdate      | xt9.deepmoblearning.common.events.PlayerHandler                         | normal   | deepmoblearning-1.12.2-2.5.2-universal.jar   | false           |
+| MatterOverdrive: Legacy Edition | onPlayerTick          | matteroverdrive.handler.PlayerEventHandler                              | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
+| Extra Cells 2                   | onPlayerTick          | extracells.util.ExtraCellsEventHandler                                  | normal   | ExtraCells-1.12.2-2.6.2a.jar                 | false           |
 | Wall-Jump!                      | onPlayerTick          | genandnic.walljump.common.CommonListener                                | normal   | walljump-1.12.2-1.2.3.jar                    | false           |
+| Dark Utilities                  | onPlayerUpdate        | net.darkhax.darkutils.features.charms.FeatureCharms                     | normal   | DarkUtils-1.12.2-1.8.226.jar                 | false           |
+| NuclearCraft                    | updatePlayerRadiation | nc.radiation.RadiationHandler                                           | normal   | NuclearCraft-2.17a-1.12.2.jar                | false           |
+| EnderCore                       | onPlayerTick          | com.enderio.core.common.handlers.FireworkHandler                        | normal   | EnderCore-1.12.2-0.5.57.jar                  | false           |
+| Compact Machines 3              | onPlayerTick          | org.dave.compactmachines3.skyworld.SkyWorldEvents                       | normal   | compactmachines3-1.12.2-3.0.18-b278.jar      | false           |
+| Cyclic                          | rebounceTick          | com.lothrazar.cyclicmagic.potion.effect.PotionBounce                    | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
+| XNet                            | onPlayerTickEvent     | mcjty.lib.McJtyLib$EventHandler                                         | normal   | xnet-1.12-1.7.6.jar                          | false           |
+| Aroma1997Core                   | playerTick            | aroma1997.core.util.registry.TickRegistry$2                             | normal   | Aroma1997Core-1.12.2-2.0.0.2.b165.jar        | false           |
+| Construct's Armory              | onPlayerTick          | c4.conarm.common.events.ArmorEvents                                     | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
+| ProjectE                        | playerTick            | moze_intel.projecte.events.TickEvents                                   | normal   | ProjectE-1.12.2-PE1.4.1.jar                  | false           |
+| Astral Sorcery                  | playerTick            | hellfirepvp.astralsorcery.common.auxiliary.tick.TickManager             | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| CraftTweaker2                   | onPlayerTickEvent     | crafttweaker.mc1120.events.CommonEventHandler                           | normal   | CraftTweaker2-1.12-4.1.18.jar                | false           |
+| Mekanism                        | onTick                | mekanism.common.CommonPlayerTickHandler                                 | normal   | Mekanism-1.12.2-9.7.5.376.jar                | false           |
+| The Twilight Forest             | playerTick            | twilightforest.TFTickHandler                                            | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
+| Deep Mob Learning               | playerTickUpdate      | xt9.deepmoblearning.common.events.PlayerHandler                         | normal   | deepmoblearning-1.12.2-2.5.2-universal.jar   | false           |
+| Construct's Armory              | onPlayerTick          | c4.conarm.common.armor.traits.TraitInvigorating                         | normal   | conarm-1.12.2-1.2.3.jar                      | false           |
 
 
 ## RobotUsedToolEvent$ComputeDamageRate
@@ -2546,24 +2546,24 @@ submitted to any online service.
 ## LivingAttackEvent
 | Owner                           | Method                  | Location                                                                               | Priority | Source                                       | RecieveCanceled |
 |---------------------------------|-------------------------|----------------------------------------------------------------------------------------|----------|----------------------------------------------|-----------------|
+| CoFH Core                       | handleLivingAttackEvent | cofh.core.proxy.EventHandler                                                           | high     | CoFHCore-1.12.2-4.6.3.27-universal.jar       | false           |
+| Mystcraft                       | onEntityAttack          | com.xcompwiz.mystcraft.core.MystcraftEventHandler                                      | normal   | mystcraft-1.12.2-0.13.7.03.jar               | false           |
+| CraftTweaker2                   | onLivingAttackEvent     | crafttweaker.mc1120.events.CommonEventHandler                                          | normal   | CraftTweaker2-1.12-4.1.18.jar                | false           |
+| Cooking for Blockheads          | onEntityDamage          | net.blay09.mods.cookingforblockheads.CowJarHandler                                     | normal   | CookingForBlockheads_1.12.2-6.4.70.jar       | false           |
+| PortalGun                       | onLivingAttack          | me.ichun.mods.ichunutil.common.module.worldportals.common.core.EventHandlerWorldPortal | normal   | PortalGun-1.12.2-7.1.0.jar                   | false           |
+| MatterOverdrive: Legacy Edition | onEntityAttack          | matteroverdrive.handler.EntityHandler                                                  | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
+| Mekanism                        | onEntityAttacked        | mekanism.common.item.ItemFreeRunners                                                   | normal   | Mekanism-1.12.2-9.7.5.376.jar                | false           |
+| Tinkers Tool Leveling           | onLivingHurt            | slimeknights.toolleveling.ModToolLeveling                                              | lowest   | TinkerToolLeveling-1.12.2-1.1.0.jar          | true            |
+| Tinkers' Construct              | reflectProjectiles      | slimeknights.tconstruct.tools.melee.item.BattleSign                                    | normal   | TConstruct-1.12.2-2.12.0.135.jar             | false           |
+| Carry On                        | playerAttack            | tschipp.carryon.common.event.ItemEvents                                                | normal   | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
 | Real Filing Cabinet             | onHitEntity             | com.bafomdad.realfilingcabinet.events.RFCEventHandlerServer                            | normal   | realfilingcabinet-1.12-0.2.0.14.jar          | false           |
+| Astral Sorcery                  | onAttack                | hellfirepvp.astralsorcery.common.event.listener.EventHandlerCapeEffects                | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Mekanism                        | onEntityAttacked        | mekanism.common.item.ItemGasMask                                                       | normal   | Mekanism-1.12.2-9.7.5.376.jar                | false           |
 | Ender Utilities                 | onAttackEntity          | fi.dy.masa.enderutilities.event.EntityEventHandler                                     | normal   | enderutilities-1.12.2-0.7.12.jar             | false           |
 | The Twilight Forest             | onDamage                | twilightforest.item.ItemTFKnightlySword                                                | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
-| CraftTweaker2                   | onLivingAttackEvent     | crafttweaker.mc1120.events.CommonEventHandler                                          | normal   | CraftTweaker2-1.12-4.1.18.jar                | false           |
-| CoFH Core                       | handleLivingAttackEvent | cofh.core.proxy.EventHandler                                                           | high     | CoFHCore-1.12.2-4.6.3.27-universal.jar       | false           |
-| Mekanism                        | onEntityAttacked        | mekanism.common.item.ItemGasMask                                                       | normal   | Mekanism-1.12.2-9.7.5.376.jar                | false           |
-| Mekanism                        | onEntityAttacked        | mekanism.common.item.ItemFreeRunners                                                   | normal   | Mekanism-1.12.2-9.7.5.376.jar                | false           |
-| Mystcraft                       | onEntityAttack          | com.xcompwiz.mystcraft.core.MystcraftEventHandler                                      | normal   | mystcraft-1.12.2-0.13.7.03.jar               | false           |
-| Tinkers Tool Leveling           | onLivingHurt            | slimeknights.toolleveling.ModToolLeveling                                              | lowest   | TinkerToolLeveling-1.12.2-1.1.0.jar          | true            |
-| MatterOverdrive: Legacy Edition | onEntityAttack          | matteroverdrive.handler.EntityHandler                                                  | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
-| Tinkers' Construct              | reflectProjectiles      | slimeknights.tconstruct.tools.melee.item.BattleSign                                    | normal   | TConstruct-1.12.2-2.12.0.135.jar             | false           |
-| PortalGun                       | onLivingAttack          | me.ichun.mods.ichunutil.common.module.worldportals.common.core.EventHandlerWorldPortal | normal   | PortalGun-1.12.2-7.1.0.jar                   | false           |
-| The Twilight Forest             | onAttack                | twilightforest.item.ItemTFMinotaurAxe                                                  | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
-| Sync                            | onEntityAttacked        | me.ichun.mods.sync.common.core.EventHandlerServer                                      | highest  | Sync-1.12.2-7.1.0.jar                        | false           |
 | The Twilight Forest             | livingAttack            | twilightforest.TFEventListener                                                         | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
-| Cooking for Blockheads          | onEntityDamage          | net.blay09.mods.cookingforblockheads.CowJarHandler                                     | normal   | CookingForBlockheads_1.12.2-6.4.70.jar       | false           |
-| Astral Sorcery                  | onAttack                | hellfirepvp.astralsorcery.common.event.listener.EventHandlerCapeEffects                | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Carry On                        | playerAttack            | tschipp.carryon.common.event.ItemEvents                                                | normal   | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
+| Sync                            | onEntityAttacked        | me.ichun.mods.sync.common.core.EventHandlerServer                                      | highest  | Sync-1.12.2-7.1.0.jar                        | false           |
+| The Twilight Forest             | onAttack                | twilightforest.item.ItemTFMinotaurAxe                                                  | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
 
 
 ## RobotAnalyzeEvent
@@ -2587,21 +2587,21 @@ submitted to any online service.
 ## PlayerEvent$PlayerRespawnEvent
 | Owner                     | Method          | Location                                                  | Priority | Source                                      | RecieveCanceled |
 |---------------------------|-----------------|-----------------------------------------------------------|----------|---------------------------------------------|-----------------|
-| Corail Tombstone          | onSyncOnRespawn | ovh.corail.tombstone.core.ConfigTombstone                 | highest  | tombstone-3.5.2-1.12.jar                    | true            |
-| Integrated Tunnels        | onRespawn       | org.cyclops.cyclopscore.event.PlayerRingOfFire            | normal   | IntegratedTunnels-1.12.2-1.6.7.jar          | false           |
-| Mystcraft                 | playerRespawn   | com.xcompwiz.mystcraft.network.MystcraftConnectionHandler | normal   | mystcraft-1.12.2-0.13.7.03.jar              | false           |
-| Cyclops Core              | onRespawn       | org.cyclops.cyclopscore.event.PlayerRingOfFire            | normal   | CyclopsCore-1.12.2-1.0.6.jar                | false           |
-| IntegratedDynamics-Compat | onRespawn       | org.cyclops.cyclopscore.event.PlayerRingOfFire            | normal   | IntegratedDynamics-1.12.2-1.0.8.jar         | false           |
-| OpenComputers             | onPlayerRespawn | li.cil.oc.common.event.NanomachinesHandler$Common$        | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar        | false           |
-| The Twilight Forest       | onPlayerRespawn | twilightforest.TFEventListener                            | normal   | twilightforest-1.12.2-3.8.689-universal.jar | false           |
-| CommonCapabilities        | onRespawn       | org.cyclops.cyclopscore.event.PlayerRingOfFire            | normal   | CommonCapabilities-1.12.2-2.1.0.jar         | false           |
-| OpenComputers             | onPlayerRespawn | li.cil.oc.common.EventHandler$                            | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar        | false           |
 | IntegratedTunnels-Compat  | onRespawn       | org.cyclops.cyclopscore.event.PlayerRingOfFire            | normal   | IntegratedTunnels-1.12.2-1.6.7.jar          | false           |
 | Integrated Dynamics       | onRespawn       | org.cyclops.cyclopscore.event.PlayerRingOfFire            | normal   | IntegratedDynamics-1.12.2-1.0.8.jar         | false           |
-| ProjectE                  | respawnEvent    | moze_intel.projecte.events.PlayerEvents                   | normal   | ProjectE-1.12.2-PE1.4.1.jar                 | false           |
 | CraftTweaker2             | onPlayerRespawn | crafttweaker.mc1120.events.CommonEventHandler             | normal   | CraftTweaker2-1.12-4.1.18.jar               | false           |
+| CommonCapabilities        | onRespawn       | org.cyclops.cyclopscore.event.PlayerRingOfFire            | normal   | CommonCapabilities-1.12.2-2.1.0.jar         | false           |
+| Corail Tombstone          | onSyncOnRespawn | ovh.corail.tombstone.core.ConfigTombstone                 | highest  | tombstone-3.5.2-1.12.jar                    | true            |
+| OpenComputers             | onPlayerRespawn | li.cil.oc.common.event.NanomachinesHandler$Common$        | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar        | false           |
+| ProjectE                  | respawnEvent    | moze_intel.projecte.events.PlayerEvents                   | normal   | ProjectE-1.12.2-PE1.4.1.jar                 | false           |
+| Mystcraft                 | playerRespawn   | com.xcompwiz.mystcraft.network.MystcraftConnectionHandler | normal   | mystcraft-1.12.2-0.13.7.03.jar              | false           |
+| OpenComputers             | onPlayerRespawn | li.cil.oc.common.EventHandler$                            | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar        | false           |
+| Integrated Tunnels        | onRespawn       | org.cyclops.cyclopscore.event.PlayerRingOfFire            | normal   | IntegratedTunnels-1.12.2-1.6.7.jar          | false           |
+| Cyclops Core              | onRespawn       | org.cyclops.cyclopscore.event.PlayerRingOfFire            | normal   | CyclopsCore-1.12.2-1.0.6.jar                | false           |
+| IntegratedDynamics-Compat | onRespawn       | org.cyclops.cyclopscore.event.PlayerRingOfFire            | normal   | IntegratedDynamics-1.12.2-1.0.8.jar         | false           |
 | Compact Machines 3        | onPlayerSpawn   | org.dave.compactmachines3.misc.PlayerEventHandler         | normal   | compactmachines3-1.12.2-3.0.18-b278.jar     | false           |
 | Corail Tombstone          | onPlayerRespawn | ovh.corail.tombstone.event.EventHandler                   | lowest   | tombstone-3.5.2-1.12.jar                    | false           |
+| The Twilight Forest       | onPlayerRespawn | twilightforest.TFEventListener                            | normal   | twilightforest-1.12.2-3.8.689-universal.jar | false           |
 
 
 ## TinkerRegisterEvent$AlloyRegisterEvent
@@ -2619,36 +2619,36 @@ submitted to any online service.
 ## BlockEvent$HarvestDropsEvent
 | Owner                           | Method                   | Location                                                                          | Priority | Source                                       | RecieveCanceled |
 |---------------------------------|--------------------------|-----------------------------------------------------------------------------------|----------|----------------------------------------------|-----------------|
-| Yoyos                           | onBlockHarvestDrops      | com.jozufozu.yoyos.common.EntityYoyo                                              | normal   | yoyos_1.12.2-1.2.2.20.jar                    | false           |
-| Farming for Blockheads          | onHarvest                | net.blay09.mods.farmingforblockheads.FarmlandHandler                              | normal   | FarmingForBlockheads_1.12.2-3.1.26.jar       | false           |
-| Inspirations                    | dropCarrotsPotatos       | knightminer.inspirations.tweaks.TweaksEvents                                      | normal   | Inspirations-1.12.2-0.2.4.jar                | false           |
-| EnderCore                       | handleBlockBreak         | com.enderio.core.common.handlers.AutoSmeltHandler                                 | normal   | EnderCore-1.12.2-0.5.57.jar                  | false           |
-| Cyclic                          | onHarvestDropsEvent      | com.lothrazar.cyclicmagic.module.WorldModule                                      | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
-| Inspirations                    | addFlowerDrop            | knightminer.inspirations.building.BuildingEvents                                  | normal   | Inspirations-1.12.2-0.2.4.jar                | false           |
-| Apotheosis                      | drops                    | shadows.spawn.SpawnerModule                                                       | lowest   | Apotheosis-1.12.2-1.10.2.jar                 | false           |
-| Ender Utilities                 | onHarvestDropsEvent      | fi.dy.masa.enderutilities.event.BlockEventHandler                                 | normal   | enderutilities-1.12.2-0.7.12.jar             | false           |
 | EnderCore                       | onHarvestDrop            | com.enderio.core.common.handlers.RightClickCropHandler                            | normal   | EnderCore-1.12.2-0.5.57.jar                  | false           |
-| MatterOverdrive: Legacy Edition | onHarvestDropsEvent      | matteroverdrive.handler.BlockHandler                                              | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
-| NuclearCraft                    | addBlockDrop             | nc.handler.DropHandler                                                            | normal   | NuclearCraft-2.17a-1.12.2.jar                | false           |
-| Inspirations                    | dropMelon                | knightminer.inspirations.tools.ToolsEvents                                        | normal   | Inspirations-1.12.2-0.2.4.jar                | false           |
-| Astral Sorcery                  | onHarvest                | hellfirepvp.astralsorcery.common.event.listener.EventHandlerServer                | low      | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Tinkers' Construct              | blockDropEvent           | slimeknights.tconstruct.tools.TraitEvents                                         | normal   | TConstruct-1.12.2-2.12.0.135.jar             | false           |
-| CoFH Core                       | handleHarvestDropsEvent  | cofh.core.proxy.EventHandler                                                      | low      | CoFHCore-1.12.2-4.6.3.27-universal.jar       | false           |
-| Building Gadgets                | GetDrops                 | com.direwolf20.buildinggadgets.common.events.BreakEventHandler                    | normal   | BuildingGadgets-2.6.8.jar                    | false           |
-| Industrial Foregoing            | onHarvest                | com.buuz135.industrial.proxy.event.PlantInteractorHarvestDropsHandler             | lowest   | industrialforegoing-1.12.2-1.12.12-236.jar   | false           |
 | Carry On                        | onDrop                   | tschipp.carryon.common.event.ItemEvents                                           | normal   | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
-| Astral Sorcery                  | onDropHarvest            | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyMagnetDrops | lowest   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Pickle Tweaks                   | onBlockHarvested         | com.blakebr0.pickletweaks.tweaks.TweakFlintDrop                                   | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
-| The Twilight Forest             | harvestDrops             | twilightforest.TFEventListener                                                    | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
-| Tiny Progressions               | onBlockBreak             | com.kashdeya.tinyprogressions.events.EventDrops                                   | normal   | tinyprogressions-1.12.2-3.3.32-Release.jar   | false           |
-| Flux Networks                   | dropFluxEvent            | sonar.flux.network.FluxCommon                                                     | normal   | fluxnetworks-1.12.2-3.0.19-21.jar            | false           |
-| Astral Sorcery                  | onDrops                  | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyVoidTrash   | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Rustic                          | onVineDropEvent          | rustic.common.EventHandlerCommon                                                  | normal   | rustic-1.0.15.jar                            | false           |
-| Inspirations                    | dropHeartbeet            | knightminer.inspirations.tweaks.TweaksEvents                                      | normal   | Inspirations-1.12.2-0.2.4.jar                | false           |
-| Cyclic                          | onHarvestDrops           | com.lothrazar.cyclicmagic.enchant.EnchantAutoSmelt                                | highest  | Cyclic-1.12.2-1.19.11.jar                    | false           |
+| Farming for Blockheads          | onHarvest                | net.blay09.mods.farmingforblockheads.FarmlandHandler                              | normal   | FarmingForBlockheads_1.12.2-3.1.26.jar       | false           |
 | Inspirations                    | dropExtraSapling         | knightminer.inspirations.tools.ToolsEvents                                        | normal   | Inspirations-1.12.2-0.2.4.jar                | false           |
+| Tinkers' Construct              | blockDropEvent           | slimeknights.tconstruct.tools.TraitEvents                                         | normal   | TConstruct-1.12.2-2.12.0.135.jar             | false           |
+| Industrial Foregoing            | onHarvest                | com.buuz135.industrial.proxy.event.PlantInteractorHarvestDropsHandler             | lowest   | industrialforegoing-1.12.2-1.12.12-236.jar   | false           |
+| Inspirations                    | dropMelon                | knightminer.inspirations.tools.ToolsEvents                                        | normal   | Inspirations-1.12.2-0.2.4.jar                | false           |
+| Inspirations                    | addFlowerDrop            | knightminer.inspirations.building.BuildingEvents                                  | normal   | Inspirations-1.12.2-0.2.4.jar                | false           |
+| Cyclic                          | onHarvestDropsEvent      | com.lothrazar.cyclicmagic.module.WorldModule                                      | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
+| Ender Utilities                 | onHarvestDropsEvent      | fi.dy.masa.enderutilities.event.BlockEventHandler                                 | normal   | enderutilities-1.12.2-0.7.12.jar             | false           |
+| Apotheosis                      | drops                    | shadows.spawn.SpawnerModule                                                       | lowest   | Apotheosis-1.12.2-1.10.2.jar                 | false           |
+| EnderCore                       | handleBlockBreak         | com.enderio.core.common.handlers.AutoSmeltHandler                                 | normal   | EnderCore-1.12.2-0.5.57.jar                  | false           |
 | CraftTweaker2                   | onBlockHarvestDropsEvent | crafttweaker.mc1120.events.CommonEventHandler                                     | normal   | CraftTweaker2-1.12-4.1.18.jar                | false           |
+| NuclearCraft                    | addBlockDrop             | nc.handler.DropHandler                                                            | normal   | NuclearCraft-2.17a-1.12.2.jar                | false           |
+| Astral Sorcery                  | onDrops                  | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyVoidTrash   | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Astral Sorcery                  | onHarvest                | hellfirepvp.astralsorcery.common.event.listener.EventHandlerServer                | low      | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| MatterOverdrive: Legacy Edition | onHarvestDropsEvent      | matteroverdrive.handler.BlockHandler                                              | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
 | The Twilight Forest             | onDrops                  | twilightforest.item.ItemTFFieryPick                                               | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
+| Building Gadgets                | GetDrops                 | com.direwolf20.buildinggadgets.common.events.BreakEventHandler                    | normal   | BuildingGadgets-2.6.8.jar                    | false           |
+| Flux Networks                   | dropFluxEvent            | sonar.flux.network.FluxCommon                                                     | normal   | fluxnetworks-1.12.2-3.0.19-21.jar            | false           |
+| Yoyos                           | onBlockHarvestDrops      | com.jozufozu.yoyos.common.EntityYoyo                                              | normal   | yoyos_1.12.2-1.2.2.20.jar                    | false           |
+| Rustic                          | onVineDropEvent          | rustic.common.EventHandlerCommon                                                  | normal   | rustic-1.0.15.jar                            | false           |
+| Cyclic                          | onHarvestDrops           | com.lothrazar.cyclicmagic.enchant.EnchantAutoSmelt                                | highest  | Cyclic-1.12.2-1.19.11.jar                    | false           |
+| Inspirations                    | dropCarrotsPotatos       | knightminer.inspirations.tweaks.TweaksEvents                                      | normal   | Inspirations-1.12.2-0.2.4.jar                | false           |
+| The Twilight Forest             | harvestDrops             | twilightforest.TFEventListener                                                    | normal   | twilightforest-1.12.2-3.8.689-universal.jar  | false           |
+| Pickle Tweaks                   | onBlockHarvested         | com.blakebr0.pickletweaks.tweaks.TweakFlintDrop                                   | normal   | PickleTweaks-1.12.2-2.1.3.jar                | false           |
+| Tiny Progressions               | onBlockBreak             | com.kashdeya.tinyprogressions.events.EventDrops                                   | normal   | tinyprogressions-1.12.2-3.3.32-Release.jar   | false           |
+| Astral Sorcery                  | onDropHarvest            | hellfirepvp.astralsorcery.common.constellation.perk.tree.nodes.key.KeyMagnetDrops | lowest   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Inspirations                    | dropHeartbeet            | knightminer.inspirations.tweaks.TweaksEvents                                      | normal   | Inspirations-1.12.2-0.2.4.jar                | false           |
+| CoFH Core                       | handleHarvestDropsEvent  | cofh.core.proxy.EventHandler                                                      | low      | CoFHCore-1.12.2-4.6.3.27-universal.jar       | false           |
 
 
 ## BaseRegistryEvent
@@ -2663,60 +2663,60 @@ submitted to any online service.
 | OpenComputers | onRobotRender | li.cil.oc.common.event.ExperienceUpgradeHandler$ | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar | false           |
 
 
-## WorldEvent$Save
-| Owner                           | Method           | Location                                                                     | Priority | Source                                       | RecieveCanceled |
-|---------------------------------|------------------|------------------------------------------------------------------------------|----------|----------------------------------------------|-----------------|
-| ModPack Basic Tools             | onSave           | com.gendeathrow.mpbasic.world.WorldHandler                                   | normal   | mpbasic-1.12.2-1.4.11.jar                    | false           |
-| MatterOverdrive: Legacy Edition | onWorldSave      | matteroverdrive.starmap.GalaxyServer                                         | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
-| Forge Multipart CBE             | onWorldSave      | codechicken.lib.world.WorldExtensionManager$WorldExtensionEventHandler       | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar | false           |
-| EnderStorage                    | onWorldSave      | codechicken.enderstorage.manager.EnderStorageManager$EnderStorageSaveHandler | normal   | EnderStorage-1.12.2-2.4.5.135-universal.jar  | false           |
-| Astral Sorcery                  | onSave           | hellfirepvp.astralsorcery.common.event.listener.EventHandlerIO               | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Ender Utilities                 | onWorldSaveEvent | fi.dy.masa.enderutilities.event.WorldEventHandler                            | normal   | enderutilities-1.12.2-0.7.12.jar             | false           |
-| OpenComputers                   | onWorldSave      | li.cil.oc.common.item.Tablet$                                                | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
-| OpenComputers                   | onWorldSave      | li.cil.oc.common.SaveHandler$                                                | lowest   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
-| Minecraft Forge                 | onDimensionSave  | net.minecraftforge.common.ForgeInternalHandler                               | highest  | forge-1.12.2-14.23.5.2846-universal.jar      | false           |
-| OpenComputers                   | onWorldSave      | li.cil.oc.common.event.ChunkloaderUpgradeHandler$                            | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
-
-
 ## EntityJoinWorldEvent
 | Owner                           | Method                | Location                                                                                   | Priority | Source                                       | RecieveCanceled |
 |---------------------------------|-----------------------|--------------------------------------------------------------------------------------------|----------|----------------------------------------------|-----------------|
-| FastWorkbench                   | normalRemoval         | shadows.fastbench.FastBench                                                                | normal   | FastWorkbench-1.12.2-1.7.2.jar               | false           |
-| Mekanism                        | onEntitySpawn         | mekanism.common.item.ItemBlockCardboardBox                                                 | normal   | Mekanism-1.12.2-9.7.5.376.jar                | false           |
-| Clumps                          | updateEntities        | com.blamejared.clumps.events.CommonEventHandler                                            | normal   | Clumps-3.1.2.jar                             | false           |
-| PigUtils                        | onEntitySpawn         | me.ichun.mods.ichunutil.common.core.event.EventHandlerServer                               | normal   | iChunUtil-1.12.2-7.1.4.jar                   | false           |
-| Calm Down Zombie Guy            | onEntityJoinWorld     | com.bloodnbonesgaming.calmdownzombieguy.CalmDownZombieGuy                                  | normal   | CalmDownZombieGuy-1.12.2-1.0.0.jar           | false           |
-| Astral Sorcery                  | onArrowCt             | hellfirepvp.astralsorcery.common.constellation.perk.attribute.type.AttributeCritMultiplier | lowest   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| BiblioCraft                     | onSpawn               | jds.bibliocraft.events.EventSpawn                                                          | normal   | BiblioCraft[v2.4.5][MC1.12.2].jar            | false           |
-| Minecraft Forge                 | onEntityJoinWorld     | net.minecraftforge.common.ForgeInternalHandler                                             | highest  | forge-1.12.2-14.23.5.2846-universal.jar      | false           |
-| MatterOverdrive: Legacy Edition | onEntityJoinWorld     | matteroverdrive.handler.EntityHandler                                                      | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
-| Carry On                        | onItemDropped         | tschipp.carryon.common.event.ItemEvents                                                    | high     | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
-| Wither Crumbs                   | onLivingSpawn         | turkey.witherCrumbs.listeners.WitherSpawnHandler                                           | normal   | witherCrumbs-1.12.2-0.11.jar                 | false           |
-| InControl                       | onEntityJoinWorldLast | mcjty.incontrol.ForgeEventHandlers                                                         | highest  | incontrol-1.12-3.9.10.jar                    | false           |
 | JourneyMap                      | on                    | journeymap.server.events.ForgeEvents                                                       | normal   | journeymap-1.12.2-5.5.4.jar                  | false           |
-| Astral Sorcery                  | onSpawnDropCloud      | hellfirepvp.astralsorcery.common.event.listener.EventHandlerEntity                         | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Astral Sorcery                  | onArrowFire           | hellfirepvp.astralsorcery.common.constellation.perk.attribute.type.AttributeArrowSpeed     | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
-| Astral Sorcery                  | onArrowCt             | hellfirepvp.astralsorcery.common.constellation.perk.attribute.type.AttributeCritChance     | high     | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Mekanism                        | onEntitySpawn         | mekanism.common.item.ItemBlockCardboardBox                                                 | normal   | Mekanism-1.12.2-9.7.5.376.jar                | false           |
+| FastWorkbench                   | normalRemoval         | shadows.fastbench.FastBench                                                                | normal   | FastWorkbench-1.12.2-1.7.2.jar               | false           |
+| Wither Crumbs                   | onLivingSpawn         | turkey.witherCrumbs.listeners.WitherSpawnHandler                                           | normal   | witherCrumbs-1.12.2-0.11.jar                 | false           |
 | OreExcavation                   | onEntitySpawn         | oreexcavation.handlers.EventHandler                                                        | lowest   | OreExcavation-1.4.137.jar                    | false           |
+| InControl                       | onEntityJoinWorldLast | mcjty.incontrol.ForgeEventHandlers                                                         | highest  | incontrol-1.12-3.9.10.jar                    | false           |
+| Astral Sorcery                  | onArrowCt             | hellfirepvp.astralsorcery.common.constellation.perk.attribute.type.AttributeCritChance     | high     | astralsorcery-1.12.2-1.10.19.jar             | false           |
 | Flux Networks                   | onEntityAdded         | sonar.flux.network.FluxCommon                                                              | lowest   | fluxnetworks-1.12.2-3.0.19-21.jar            | false           |
-| Baubles                         | playerJoin            | baubles.common.event.EventHandlerEntity                                                    | normal   | Baubles-1.12-1.5.2.jar                       | false           |
+| MatterOverdrive: Legacy Edition | onEntitySpawn         | matteroverdrive.handler.EntityHandler                                                      | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
+| Sky Grid                        | onJoinWorld           | funwayguy.skygrid.handlers.EventHandler                                                    | normal   | SkyGrid-1.1.7.jar                            | false           |
+| MatterOverdrive: Legacy Edition | onEntityJoinWorld     | matteroverdrive.handler.EntityHandler                                                      | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
+| Ender Utilities                 | onJoinWorld           | fi.dy.masa.enderutilities.event.EntityEventHandler                                         | normal   | enderutilities-1.12.2-0.7.12.jar             | false           |
+| OG Dragon+                      | onJoinWorld           | com.gendeathrow.ogdragon.common.GD_EventHandler                                            | normal   | ogdragon-1.12.2-0.1.4.jar                    | false           |
 | Carry On                        | onItemDropped         | tschipp.carryon.common.event.ItemEntityEvents                                              | high     | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
+| Cyclic                          | onJoinWorld           | Block{cyclicmagic:imbuer}                                                                  | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
+| InControl                       | onEntityJoinWorld     | mcjty.incontrol.ForgeEventHandlers                                                         | lowest   | incontrol-1.12-3.9.10.jar                    | false           |
 | Astral Sorcery                  | onDrop                | hellfirepvp.astralsorcery.common.util.BlockDropCaptureAssist                               | highest  | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| OpenComputers                   | onEntityJoinWorld     | li.cil.oc.common.EventHandler$                                                             | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
+| Advancement Book                | joinWorldEvent        | com.parkermc.advancementbook.events.EventHandler                                           | normal   | Advancement_Book-1.12-1.0.3.jar              | false           |
+| Baubles                         | playerJoin            | baubles.common.event.EventHandlerEntity                                                    | normal   | Baubles-1.12-1.5.2.jar                       | false           |
+| mob_grinding_utils              | onPlayerJoin          | mob_grinding_utils.capability.base.EntityCapabilityHandler                                 | normal   | MobGrindingUtils-0.3.13.jar                  | false           |
+| Astral Sorcery                  | onArrowCt             | hellfirepvp.astralsorcery.common.constellation.perk.attribute.type.AttributeCritMultiplier | lowest   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Practical Logistics 2           | onEntityJoin          | sonar.logistics.base.events.PL2Events                                                      | normal   | practicallogistics2-1.12.2-3.0.8-11.jar      | false           |
+| Carry On                        | onItemDropped         | tschipp.carryon.common.event.ItemEvents                                                    | high     | CarryOn MC1.12.2 v1.12.1.jar                 | false           |
+| Astral Sorcery                  | onSpawnDropCloud      | hellfirepvp.astralsorcery.common.event.listener.EventHandlerEntity                         | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Guide-API                       | onPlayerJoinWorld     | amerifrance.guideapi.util.EventHandler                                                     | normal   | Guide-API-1.12-2.1.8-63.jar                  | false           |
+| Astral Sorcery                  | onArrowFire           | hellfirepvp.astralsorcery.common.constellation.perk.attribute.type.AttributeArrowSpeed     | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| Calm Down Zombie Guy            | onEntityJoinWorld     | com.bloodnbonesgaming.calmdownzombieguy.CalmDownZombieGuy                                  | normal   | CalmDownZombieGuy-1.12.2-1.0.0.jar           | false           |
+| Minecraft Forge                 | onEntityJoinWorld     | net.minecraftforge.common.ForgeInternalHandler                                             | highest  | forge-1.12.2-14.23.5.2846-universal.jar      | false           |
+| BiblioCraft                     | onSpawn               | jds.bibliocraft.events.EventSpawn                                                          | normal   | BiblioCraft[v2.4.5][MC1.12.2].jar            | false           |
 | DragonMurder                    | join                  | shadows.dragon.DragonMurder                                                                | normal   | DragonMurder-1.12.2-1.0.1.jar                | false           |
 | EnderCore                       | handleArrowFire       | com.enderio.core.common.handlers.XPBoostHandler                                            | normal   | EnderCore-1.12.2-0.5.57.jar                  | false           |
-| Cyclic                          | onJoinWorld           | Block{cyclicmagic:imbuer}                                                                  | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
-| Guide-API                       | onPlayerJoinWorld     | amerifrance.guideapi.util.EventHandler                                                     | normal   | Guide-API-1.12-2.1.8-63.jar                  | false           |
-| InControl                       | onEntityJoinWorld     | mcjty.incontrol.ForgeEventHandlers                                                         | lowest   | incontrol-1.12-3.9.10.jar                    | false           |
+| Clumps                          | updateEntities        | com.blamejared.clumps.events.CommonEventHandler                                            | normal   | Clumps-3.1.2.jar                             | false           |
 | Cyclic                          | onJoinWorld           | com.lothrazar.cyclicmagic.event.EventPlayerData                                            | normal   | Cyclic-1.12.2-1.19.11.jar                    | false           |
-| OG Dragon+                      | onJoinWorld           | com.gendeathrow.ogdragon.common.GD_EventHandler                                            | normal   | ogdragon-1.12.2-0.1.4.jar                    | false           |
-| MatterOverdrive: Legacy Edition | onEntitySpawn         | matteroverdrive.handler.EntityHandler                                                      | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
-| Practical Logistics 2           | onEntityJoin          | sonar.logistics.base.events.PL2Events                                                      | normal   | practicallogistics2-1.12.2-3.0.8-11.jar      | false           |
-| Ender Utilities                 | onJoinWorld           | fi.dy.masa.enderutilities.event.EntityEventHandler                                         | normal   | enderutilities-1.12.2-0.7.12.jar             | false           |
-| Advancement Book                | joinWorldEvent        | com.parkermc.advancementbook.events.EventHandler                                           | normal   | Advancement_Book-1.12-1.0.3.jar              | false           |
-| mob_grinding_utils              | onPlayerJoin          | mob_grinding_utils.capability.base.EntityCapabilityHandler                                 | normal   | MobGrindingUtils-0.3.13.jar                  | false           |
-| OpenComputers                   | onEntityJoinWorld     | li.cil.oc.common.EventHandler$                                                             | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
 | Horse Power                     | onWorldJoin           | se.gory_moon.horsepower.HPEventHandler                                                     | normal   | HorsePower-1.12.2-2.6.4.74.jar               | false           |
-| Sky Grid                        | onJoinWorld           | funwayguy.skygrid.handlers.EventHandler                                                    | normal   | SkyGrid-1.1.7.jar                            | false           |
+| PigUtils                        | onEntitySpawn         | me.ichun.mods.ichunutil.common.core.event.EventHandlerServer                               | normal   | iChunUtil-1.12.2-7.1.4.jar                   | false           |
+
+
+## WorldEvent$Save
+| Owner                           | Method           | Location                                                                     | Priority | Source                                       | RecieveCanceled |
+|---------------------------------|------------------|------------------------------------------------------------------------------|----------|----------------------------------------------|-----------------|
+| Astral Sorcery                  | onSave           | hellfirepvp.astralsorcery.common.event.listener.EventHandlerIO               | normal   | astralsorcery-1.12.2-1.10.19.jar             | false           |
+| OpenComputers                   | onWorldSave      | li.cil.oc.common.SaveHandler$                                                | lowest   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
+| OpenComputers                   | onWorldSave      | li.cil.oc.common.item.Tablet$                                                | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
+| MatterOverdrive: Legacy Edition | onWorldSave      | matteroverdrive.starmap.GalaxyServer                                         | normal   | MatterOverdrive-1.12.2-0.7.1.0-universal.jar | false           |
+| Minecraft Forge                 | onDimensionSave  | net.minecraftforge.common.ForgeInternalHandler                               | highest  | forge-1.12.2-14.23.5.2846-universal.jar      | false           |
+| ModPack Basic Tools             | onSave           | com.gendeathrow.mpbasic.world.WorldHandler                                   | normal   | mpbasic-1.12.2-1.4.11.jar                    | false           |
+| OpenComputers                   | onWorldSave      | li.cil.oc.common.event.ChunkloaderUpgradeHandler$                            | normal   | OpenComputers-MC1.12.2-1.7.4.153.jar         | false           |
+| EnderStorage                    | onWorldSave      | codechicken.enderstorage.manager.EnderStorageManager$EnderStorageSaveHandler | normal   | EnderStorage-1.12.2-2.4.5.135-universal.jar  | false           |
+| Ender Utilities                 | onWorldSaveEvent | fi.dy.masa.enderutilities.event.WorldEventHandler                            | normal   | enderutilities-1.12.2-0.7.12.jar             | false           |
+| Forge Multipart CBE             | onWorldSave      | codechicken.lib.world.WorldExtensionManager$WorldExtensionEventHandler       | normal   | ForgeMultipart-1.12.2-2.6.1.81-universal.jar | false           |
 
 
 ## FileSystemAccessEvent$Server

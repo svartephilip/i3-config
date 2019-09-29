@@ -34,9 +34,11 @@
       "Completed Not a Helmet": "2019-09-25 21:25:29 +0200",
       "Completed Lead it Go": "2019-09-25 19:39:56 +0200",
       "Completed You Cotton Be Kidding Me": "2019-09-22 00:14:20 +0200",
+      "Completed OinkTree": "2019-09-27 19:21:36 +0200",
       "Completed Root": "2019-09-21 18:21:05 +0200",
       "Completed Lead Zeppelin": "2019-09-25 20:03:41 +0200",
       "Completed COALateral Damage": "2019-09-22 16:04:07 +0200",
+      "Completed D\u0027OH!": "2019-09-27 18:11:47 +0200",
       "Completed This Tree is Forever": "2019-09-26 18:44:24 +0200",
       "Completed Hog Tied": "2019-09-27 00:20:43 +0200",
       "Completed One Shiny Boi": "2019-09-25 22:05:47 +0200",
@@ -73,9 +75,10 @@
   },
   "sf4:age1/sapling/bacon": {
     "criteria": {
-      "Completed Root": "2019-09-21 18:21:05 +0200"
+      "Completed Root": "2019-09-21 18:21:05 +0200",
+      "Obtain Bacon Sapling": "2019-09-27 19:21:36 +0200"
     },
-    "done": false
+    "done": true
   },
   "sf4:age1/nonpacifist": {
     "criteria": {
@@ -105,6 +108,12 @@
       "Obtain Tinkers\u0027 Stencil Table": "2019-09-26 20:30:03 +0200"
     },
     "done": true
+  },
+  "compactmachines:test/7x7x7": {
+    "criteria": {
+      "Obtain Netherrack": "2019-09-27 19:18:19 +0200"
+    },
+    "done": false
   },
   "sf4:age_storage/complete_no_prestige": {
     "criteria": {
@@ -140,15 +149,15 @@
     },
     "done": true
   },
-  "sf4:age_enhancement/cast": {
-    "criteria": {
-      "Obtain Metal Pickaxe Head Cast": "2019-09-26 22:26:00 +0200"
-    },
-    "done": true
-  },
   "sf4:age_enhancement/melter": {
     "criteria": {
       "Obtain Melter": "2019-09-26 20:43:27 +0200"
+    },
+    "done": true
+  },
+  "sf4:age_enhancement/cast": {
+    "criteria": {
+      "Obtain Metal Pickaxe Head Cast": "2019-09-26 22:26:00 +0200"
     },
     "done": true
   },
@@ -208,6 +217,12 @@
     },
     "done": true
   },
+  "sf4:age_farming/wateringcan": {
+    "criteria": {
+      "Obtain Watering Can": "2019-09-27 19:43:17 +0200"
+    },
+    "done": true
+  },
   "sf4:age1/lavasource": {
     "criteria": {
       "Completed Root": "2019-09-21 18:21:05 +0200",
@@ -227,6 +242,12 @@
     },
     "done": false
   },
+  "sf4:age_exploration/nether": {
+    "criteria": {
+      "Entered Nether": "2019-09-27 19:16:50 +0200"
+    },
+    "done": true
+  },
   "hardcore:hardcore/forgivingvoid": {
     "criteria": {
       "Completed Age of Exploration": "2019-09-21 18:21:04 +0200"
@@ -240,14 +261,19 @@
       "Completed Forging Ahead": "2019-09-26 20:58:20 +0200",
       "Completed Age of Enhancement": "2019-09-21 18:21:04 +0200",
       "Completed To Be ORe Not to Be": "2019-09-26 20:43:27 +0200",
+      "Completed Suit Up": "2019-09-27 19:31:03 +0200",
       "Completed Axe Me Anything": "2019-09-26 22:25:08 +0200",
       "Completed Sign My Cast": "2019-09-26 22:26:00 +0200",
       "Completed Pattern Me, Sir": "2019-09-26 20:59:07 +0200",
+      "Completed Paxel Rose": "2019-09-27 19:53:28 +0200",
       "Completed Ore\u0027nt You Glad I Didn\u0027t Say Banana": "2019-09-22 16:54:53 +0200",
       "Completed Getting Warmer": "2019-09-26 20:43:27 +0200",
       "Completed Up in Arms": "2019-09-26 20:58:23 +0200",
       "Completed Tim the Tool Man Taylor": "2019-09-26 20:30:03 +0200",
-      "Completed Keep It Between the Lines": "2019-09-26 20:30:03 +0200"
+      "Completed Ding!": "2019-09-27 22:05:00 +0200",
+      "Completed Keep It Between the Lines": "2019-09-26 20:30:03 +0200",
+      "Completed Yo-Yo Ma": "2019-09-27 20:19:55 +0200",
+      "Completed Better With Mods": "2019-09-27 19:06:43 +0200"
     },
     "done": false
   },
@@ -280,9 +306,11 @@
       "Completed Not a Helmet": "2019-09-25 21:25:29 +0200",
       "Completed Lead it Go": "2019-09-25 19:39:56 +0200",
       "Completed You Cotton Be Kidding Me": "2019-09-22 00:14:20 +0200",
+      "Completed OinkTree": "2019-09-27 19:21:36 +0200",
       "Completed Root": "2019-09-21 18:21:05 +0200",
       "Completed Lead Zeppelin": "2019-09-25 20:03:41 +0200",
       "Completed COALateral Damage": "2019-09-22 16:04:07 +0200",
+      "Completed D\u0027OH!": "2019-09-27 18:11:47 +0200",
       "Completed This Tree is Forever": "2019-09-26 18:44:24 +0200",
       "Completed Hog Tied": "2019-09-27 00:20:43 +0200",
       "Completed One Shiny Boi": "2019-09-25 22:05:47 +0200",
@@ -315,7 +343,13 @@
       "Completed Bubble, Bubble": "2019-09-21 21:00:43 +0200",
       "Completed Ironwood": "2019-09-22 17:56:55 +0200"
     },
-    "done": false
+    "done": true
+  },
+  "sf4:age_enhancement/armorforge": {
+    "criteria": {
+      "Obtain Armor Forge": "2019-09-27 19:31:03 +0200"
+    },
+    "done": true
   },
   "sf4:age_farming/root": {
     "criteria": {
@@ -332,6 +366,8 @@
   "sf4:age_exploration/completenoprestige": {
     "criteria": {
       "Prestige Mode Disabled": "2019-09-21 18:21:05 +0200",
+      "Completed No Cake Like Home": "2019-09-27 19:16:50 +0200",
+      "Completed Nether Here Nor There": "2019-09-27 19:16:50 +0200",
       "Completed Age of Exploration": "2019-09-21 18:21:04 +0200"
     },
     "done": false
@@ -341,6 +377,12 @@
       "Obtain Chest Slab": "2019-09-21 23:57:47 +0200"
     },
     "done": false
+  },
+  "sf4:age_enhancement/yoyo": {
+    "criteria": {
+      "Obtain Yoyo": "2019-09-27 20:19:55 +0200"
+    },
+    "done": true
   },
   "tutorial:tutorial/copied/claysapling": {
     "criteria": {
@@ -390,7 +432,12 @@
   },
   "sf4:age_farming/animalseeds": {
     "criteria": {
+      "Parrot Seed": "2019-09-27 19:38:33 +0200",
+      "Donkey Seed": "2019-09-27 19:38:07 +0200",
       "Cow Seed": "2019-09-26 22:15:51 +0200",
+      "Horse Seed": "2019-09-27 19:37:59 +0200",
+      "Rabbit Seed": "2019-09-27 19:39:36 +0200",
+      "Chicken Seed": "2019-09-27 19:38:42 +0200",
       "Pig Seed": "2019-09-27 00:18:46 +0200"
     },
     "done": false
@@ -474,9 +521,10 @@
   },
   "sf4:age1/sapling/donut": {
     "criteria": {
-      "Completed Root": "2019-09-21 18:21:05 +0200"
+      "Completed Root": "2019-09-21 18:21:05 +0200",
+      "Obtain Donut Sapling": "2019-09-27 18:11:47 +0200"
     },
-    "done": false
+    "done": true
   },
   "tutorial:tutorial/copied/ironsapling": {
     "criteria": {
@@ -522,6 +570,12 @@
     "criteria": {
       "Completed Root": "2019-09-21 18:21:05 +0200",
       "Obtain Gold Sapling": "2019-09-25 22:09:13 +0200"
+    },
+    "done": true
+  },
+  "sf4:age_farming/hoppingbonsai": {
+    "criteria": {
+      "Obtain Bonsai Pot": "2019-09-27 19:27:26 +0200"
     },
     "done": true
   },
@@ -575,8 +629,16 @@
     },
     "done": true
   },
+  "sf4:age_exploration/overworldcake": {
+    "criteria": {
+      "Obtain Overworld Cake": "2019-09-27 19:16:50 +0200"
+    },
+    "done": true
+  },
   "sf4:age_exploration/complete": {
     "criteria": {
+      "Completed No Cake Like Home": "2019-09-27 19:16:50 +0200",
+      "Completed Nether Here Nor There": "2019-09-27 19:16:50 +0200",
       "Completed Age of Exploration": "2019-09-21 18:21:04 +0200"
     },
     "done": false
@@ -634,6 +696,12 @@
     },
     "done": false
   },
+  "sf4:age_farming/mattock": {
+    "criteria": {
+      "Obtain Mattock": "2019-09-28 01:25:12 +0200"
+    },
+    "done": true
+  },
   "sf4:age1/amber/silver": {
     "criteria": {
       "Completed Root": "2019-09-21 18:21:05 +0200",
@@ -651,6 +719,12 @@
     "criteria": {
       "Completed Root": "2019-09-21 18:21:05 +0200",
       "Obtain Lead Amber": "2019-09-25 19:39:56 +0200"
+    },
+    "done": true
+  },
+  "sf4:age_farming/brownmulch": {
+    "criteria": {
+      "Obtain Brown Mulch": "2019-09-27 19:49:31 +0200"
     },
     "done": true
   },
@@ -691,11 +765,17 @@
       "Obtain Lead Sapling": "2019-09-25 20:03:41 +0200",
       "Obtain Silver Sapling": "2019-09-26 18:42:22 +0200",
       "Obtain Coal Sapling": "2019-09-22 15:54:07 +0200",
+      "Obtain Netherrack Sapling": "2019-09-27 19:30:15 +0200",
       "Obtain Diamond Sapling": "2019-09-26 18:44:24 +0200",
+      "Obtain Copper Sapling": "2019-09-27 18:19:24 +0200",
       "Obtain Cottonwood Sapling": "2019-09-22 00:14:20 +0200",
       "Obtain Lapis Sapling": "2019-09-22 18:05:23 +0200",
+      "Obtain Bacon Sapling": "2019-09-27 19:21:36 +0200",
+      "Obtain Donut Sapling": "2019-09-27 18:11:47 +0200",
+      "Obtain Emerald Sapling": "2019-09-27 19:26:35 +0200",
       "Obtain Petrified Sapling": "2019-09-21 18:43:08 +0200",
       "Obtain Tin Sapling": "2019-09-22 16:14:37 +0200",
+      "Obtain Nickel Sapling": "2019-09-27 19:28:09 +0200",
       "Obtain Iron Sapling": "2019-09-22 17:56:55 +0200",
       "Obtain Cookie Sapling": "2019-09-27 00:14:41 +0200",
       "Obtain Sand Sapling": "2019-09-21 21:42:38 +0200",
@@ -743,6 +823,12 @@
   "sf4:age_farming/cowjar": {
     "criteria": {
       "Obtain Cow in a Jar": "2019-09-27 00:03:55 +0200"
+    },
+    "done": true
+  },
+  "sf4:age_enhancement/levelup": {
+    "criteria": {
+      "Level Up Tinkers\u0027 Pickaxe": "2019-09-27 22:05:00 +0200"
     },
     "done": true
   },
@@ -817,14 +903,19 @@
       "Completed Forging Ahead": "2019-09-26 20:58:20 +0200",
       "Completed Age of Enhancement": "2019-09-21 18:21:04 +0200",
       "Completed To Be ORe Not to Be": "2019-09-26 20:43:27 +0200",
+      "Completed Suit Up": "2019-09-27 19:31:03 +0200",
       "Completed Axe Me Anything": "2019-09-26 22:25:08 +0200",
       "Completed Sign My Cast": "2019-09-26 22:26:00 +0200",
       "Completed Pattern Me, Sir": "2019-09-26 20:59:07 +0200",
+      "Completed Paxel Rose": "2019-09-27 19:53:28 +0200",
       "Completed Ore\u0027nt You Glad I Didn\u0027t Say Banana": "2019-09-22 16:54:53 +0200",
       "Completed Getting Warmer": "2019-09-26 20:43:27 +0200",
       "Completed Up in Arms": "2019-09-26 20:58:23 +0200",
       "Completed Tim the Tool Man Taylor": "2019-09-26 20:30:03 +0200",
-      "Completed Keep It Between the Lines": "2019-09-26 20:30:03 +0200"
+      "Completed Ding!": "2019-09-27 22:05:00 +0200",
+      "Completed Keep It Between the Lines": "2019-09-26 20:30:03 +0200",
+      "Completed Yo-Yo Ma": "2019-09-27 20:19:55 +0200",
+      "Completed Better With Mods": "2019-09-27 19:06:43 +0200"
     },
     "done": false
   },
@@ -833,6 +924,12 @@
       "Obtain Melter": "2019-09-26 20:43:27 +0200"
     },
     "done": false
+  },
+  "sf4:age_enhancement/tconmodifier": {
+    "criteria": {
+      "Apply 2 Modifers": "2019-09-27 19:06:43 +0200"
+    },
+    "done": true
   },
   "tutorial:tutorial/copied/claybucket": {
     "criteria": {
@@ -852,6 +949,12 @@
     "criteria": {
       "Completed Root": "2019-09-21 18:21:05 +0200",
       "Obtain Iron Sapling": "2019-09-22 17:56:55 +0200"
+    },
+    "done": true
+  },
+  "sf4:age_enhancement/paxel": {
+    "criteria": {
+      "Obtain Pickle Tweaks Stone Paxel": "2019-09-27 19:53:28 +0200"
     },
     "done": true
   },
@@ -882,6 +985,15 @@
       "Obtain Cooked Dirt Acorn": "2019-09-21 23:52:48 +0200"
     },
     "done": true
+  },
+  "sf4:age_allthethingsomglol/modifiermaster": {
+    "criteria": {
+      "Diamond": "2019-09-27 19:06:43 +0200",
+      "Sharpness": "2019-09-27 21:08:09 +0200",
+      "Silktouch": "2019-09-27 19:06:43 +0200",
+      "Luck": "2019-09-27 20:46:40 +0200"
+    },
+    "done": false
   },
   "sf4:age1/twerk": {
     "criteria": {
@@ -941,14 +1053,22 @@
     },
     "done": true
   },
+  "sf4:age_exploration/dragonkill": {
+    "criteria": {
+      "Enter Custom End Dimension": "2019-09-27 19:16:50 +0200"
+    },
+    "done": false
+  },
   "sf4:age_farming/complete": {
     "criteria": {
       "Completed Citizen Cane": "2019-09-27 00:42:54 +0200",
+      "Completed Yes We Can!": "2019-09-27 19:43:17 +0200",
       "Completed Age of Farming": "2019-09-21 18:21:04 +0200",
       "Completed Shredded Wheat": "2019-09-25 22:21:05 +0200",
       "Completed Bonsai!!!": "2019-09-26 22:54:11 +0200",
       "Completed This Little Piggy": "2019-09-26 23:08:24 +0200",
-      "Completed Condensed Milk": "2019-09-27 00:03:55 +0200"
+      "Completed Condensed Milk": "2019-09-27 00:03:55 +0200",
+      "Completed Nothing Really Mattocks": "2019-09-28 01:25:12 +0200"
     },
     "done": false
   },
@@ -1007,6 +1127,10 @@
       "Completed Age of Farming": "2019-09-21 18:21:04 +0200",
       "Completed Shredded Wheat": "2019-09-25 22:21:05 +0200",
       "Completed Fertile Soil": "2019-09-26 22:56:29 +0200",
+      "Completed Nothing Really Mattocks": "2019-09-28 01:25:12 +0200",
+      "Completed Cowabonsai!": "2019-09-27 19:27:26 +0200",
+      "Completed TuMULCHuous": "2019-09-27 19:49:31 +0200",
+      "Completed Yes We Can!": "2019-09-27 19:43:17 +0200",
       "Completed Bonsai!!!": "2019-09-26 22:54:11 +0200",
       "Completed This Little Piggy": "2019-09-26 23:08:24 +0200",
       "Completed Condensed Milk": "2019-09-27 00:03:55 +0200"
