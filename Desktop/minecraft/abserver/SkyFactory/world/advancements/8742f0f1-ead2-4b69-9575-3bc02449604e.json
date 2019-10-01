@@ -156,6 +156,12 @@
     },
     "done": true
   },
+  "sf4:age_enhancement/craftingupgrade": {
+    "criteria": {
+      "Eat Cyclic Crafting Upgrade": "2019-10-01 16:15:40 +0200"
+    },
+    "done": true
+  },
   "hardcore:hardcore/forgivingvoid": {
     "criteria": {
       "Completed Age of Exploration": "2019-09-21 18:21:04 +0200"
@@ -182,11 +188,13 @@
       "Completed Sign My Cast": "2019-09-26 22:26:00 +0200",
       "Completed Pattern Me, Sir": "2019-09-26 20:59:07 +0200",
       "Completed Paxel Rose": "2019-09-27 19:53:28 +0200",
+      "Completed Storage Wars": "2019-10-01 16:21:34 +0200",
       "Completed Ore\u0027nt You Glad I Didn\u0027t Say Banana": "2019-09-22 16:54:53 +0200",
       "Completed Getting Warmer": "2019-09-26 20:43:27 +0200",
       "Completed Up in Arms": "2019-09-26 20:58:23 +0200",
       "Completed Tim the Tool Man Taylor": "2019-09-26 20:30:03 +0200",
       "Completed Ding!": "2019-09-27 22:05:00 +0200",
+      "Completed Edible Arrangements": "2019-10-01 16:15:40 +0200",
       "Completed Keep It Between the Lines": "2019-09-26 20:30:03 +0200",
       "Completed Yo-Yo Ma": "2019-09-27 20:19:55 +0200",
       "Completed Hot Pockets": "2019-09-29 22:31:27 +0200",
@@ -1290,11 +1298,13 @@
       "Completed Sign My Cast": "2019-09-26 22:26:00 +0200",
       "Completed Pattern Me, Sir": "2019-09-26 20:59:07 +0200",
       "Completed Paxel Rose": "2019-09-27 19:53:28 +0200",
+      "Completed Storage Wars": "2019-10-01 16:21:34 +0200",
       "Completed Ore\u0027nt You Glad I Didn\u0027t Say Banana": "2019-09-22 16:54:53 +0200",
       "Completed Getting Warmer": "2019-09-26 20:43:27 +0200",
       "Completed Up in Arms": "2019-09-26 20:58:23 +0200",
       "Completed Tim the Tool Man Taylor": "2019-09-26 20:30:03 +0200",
       "Completed Ding!": "2019-09-27 22:05:00 +0200",
+      "Completed Edible Arrangements": "2019-10-01 16:15:40 +0200",
       "Completed Keep It Between the Lines": "2019-09-26 20:30:03 +0200",
       "Completed Yo-Yo Ma": "2019-09-27 20:19:55 +0200",
       "Completed Hot Pockets": "2019-09-29 22:31:27 +0200",
@@ -1450,6 +1460,12 @@
   "sf4:age_power/pristinezombiematter": {
     "criteria": {
       "Obtain Pristine Zombie Matter": "2019-09-29 21:18:41 +0200"
+    },
+    "done": true
+  },
+  "sf4:age_enhancement/inventoryupgrade": {
+    "criteria": {
+      "Eat Cyclic Inventory Upgrade": "2019-10-01 16:21:34 +0200"
     },
     "done": true
   },
