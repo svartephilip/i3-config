@@ -12,6 +12,12 @@
     },
     "done": false
   },
+  "tutorial:tutorial/copied/greenslimydirt": {
+    "criteria": {
+      "Obtain Green Slime Dirt": "2019-09-29 14:35:06 +0200"
+    },
+    "done": false
+  },
   "sf4:age1/complete": {
     "criteria": {
       "Completed Amber is the Color of my Dinosaur": "2019-09-22 16:16:33 +0200",
@@ -48,6 +54,8 @@
       "Completed Oh, the Irony": "2019-09-22 16:29:58 +0200",
       "Completed Break a Leg": "2019-09-21 20:16:46 +0200",
       "Completed Study in the Dark Arts": "2019-09-26 22:12:01 +0200",
+      "Completed I\u0027ve Been Slimed": "2019-09-29 14:35:06 +0200",
+      "Completed I Love Lucy": "2019-09-30 21:02:40 +0200",
       "Completed Hardwood": "2019-09-21 18:43:12 +0200",
       "Completed Don\u0027t Sieve on Me": "2019-09-21 20:01:12 +0200",
       "Completed On the Rocks": "2019-09-21 21:42:19 +0200",
@@ -73,6 +81,12 @@
     },
     "done": true
   },
+  "sf4:age_exploration/cobaltore": {
+    "criteria": {
+      "Obtain Cobalt Ore": "2019-09-29 21:55:06 +0200"
+    },
+    "done": true
+  },
   "sf4:age1/sapling/slime": {
     "criteria": {
       "Completed Root": "2019-09-21 18:25:13 +0200",
@@ -85,6 +99,12 @@
       "Completed Root": "2019-09-21 18:25:13 +0200",
       "Obtain Cottonwood Sapling": "2019-09-22 00:10:24 +0200",
       "Obtain String": "2019-09-21 20:54:04 +0200"
+    },
+    "done": true
+  },
+  "sf4:age_power/wirelesscharger": {
+    "criteria": {
+      "Obtain Wireless Charger": "2019-09-30 19:36:41 +0200"
     },
     "done": true
   },
@@ -103,8 +123,13 @@
   "sf4:age_storage/complete_no_prestige": {
     "criteria": {
       "Prestige Mode Disabled": "2019-09-21 18:25:13 +0200",
+      "Completed I WANT IT NOW!": "2019-09-29 15:04:47 +0200",
+      "Completed Wares the Remote?": "2019-09-29 20:04:05 +0200",
+      "Completed CAT 5": "2019-09-29 15:03:46 +0200",
+      "Completed Master Blaster": "2019-09-29 15:07:33 +0200",
       "Completed Age of Storage": "2019-09-21 18:25:13 +0200",
-      "Completed Hop to It": "2019-09-27 00:57:24 +0200"
+      "Completed Hop to It": "2019-09-27 00:57:24 +0200",
+      "Completed Control Yourself": "2019-09-30 21:36:34 +0200"
     },
     "done": false
   },
@@ -122,9 +147,24 @@
     },
     "done": true
   },
+  "twilightforest:progress_naga": {
+    "criteria": {
+      "kill_mob": "2019-09-30 23:55:59 +0200"
+    },
+    "done": false
+  },
   "compactmachines:test/3x3x3": {
     "criteria": {
       "Obtain Grass Block": "2019-09-25 20:57:53 +0200"
+    },
+    "done": false
+  },
+  "sf4:age_allthethingsomglol/armormodifiers": {
+    "criteria": {
+      "Dexterous": "2019-09-30 19:25:02 +0200",
+      "Speedy": "2019-09-30 19:53:55 +0200",
+      "Resistant": "2019-09-30 18:38:40 +0200",
+      "Reinforced": "2019-09-30 19:01:50 +0200"
     },
     "done": false
   },
@@ -144,6 +184,18 @@
   "sf4:age_enhancement/cast": {
     "criteria": {
       "Obtain Metal Pickaxe Head Cast": "2019-09-26 21:34:59 +0200"
+    },
+    "done": true
+  },
+  "sf4:age_exploration/tritaniumore": {
+    "criteria": {
+      "Obtain Ice Tritanium Ore": "2019-10-01 00:03:45 +0200"
+    },
+    "done": true
+  },
+  "sf4:age_exploration/lostcities": {
+    "criteria": {
+      "Entered Lost Cities Dimension": "2019-10-01 00:30:54 +0200"
     },
     "done": true
   },
@@ -174,8 +226,13 @@
   },
   "sf4:age_storage/complete": {
     "criteria": {
+      "Completed I WANT IT NOW!": "2019-09-29 15:04:47 +0200",
+      "Completed Wares the Remote?": "2019-09-29 20:04:05 +0200",
+      "Completed CAT 5": "2019-09-29 15:03:46 +0200",
+      "Completed Master Blaster": "2019-09-29 15:07:33 +0200",
       "Completed Age of Storage": "2019-09-21 18:25:13 +0200",
-      "Completed Hop to It": "2019-09-27 00:57:24 +0200"
+      "Completed Hop to It": "2019-09-27 00:57:24 +0200",
+      "Completed Control Yourself": "2019-09-30 21:36:34 +0200"
     },
     "done": false
   },
@@ -190,6 +247,12 @@
       "Obtain Blue Slime Sapling": "2019-09-26 22:56:02 +0200"
     },
     "done": false
+  },
+  "sf4:age_farming/enderseeds": {
+    "criteria": {
+      "Obtain Ender Seeds": "2019-09-30 21:09:05 +0200"
+    },
+    "done": true
   },
   "sf4:age1/slabs": {
     "criteria": {
@@ -229,11 +292,23 @@
     },
     "done": true
   },
+  "sf4:age_enhancement/craftingupgrade": {
+    "criteria": {
+      "Eat Cyclic Crafting Upgrade": "2019-09-29 22:12:50 +0200"
+    },
+    "done": true
+  },
   "hardcore:hardcore/forgivingvoid": {
     "criteria": {
       "Completed Age of Exploration": "2019-09-21 18:25:13 +0200"
     },
     "done": false
+  },
+  "sf4:age_storage/simplestoragerequest": {
+    "criteria": {
+      "Obtain Request Block": "2019-09-29 15:04:47 +0200"
+    },
+    "done": true
   },
   "sf4:age_enhancement/completenoprestige": {
     "criteria": {
@@ -242,8 +317,10 @@
       "Completed Forging Ahead": "2019-09-26 20:41:53 +0200",
       "Completed Age of Enhancement": "2019-09-21 18:25:13 +0200",
       "Completed To Be ORe Not to Be": "2019-09-22 16:00:00 +0200",
+      "Completed I\u0027ll Be Your Alloy": "2019-09-29 22:39:13 +0200",
       "Completed Suit Up": "2019-09-27 19:30:55 +0200",
       "Completed Axe Me Anything": "2019-09-26 21:14:49 +0200",
+      "Completed It\u0027s Over 20!": "2019-09-30 22:32:13 +0200",
       "Completed Sign My Cast": "2019-09-26 21:34:59 +0200",
       "Completed Pattern Me, Sir": "2019-09-26 21:18:50 +0200",
       "Completed Paxel Rose": "2019-09-27 19:53:33 +0200",
@@ -252,10 +329,19 @@
       "Completed Up in Arms": "2019-09-26 20:44:03 +0200",
       "Completed Tim the Tool Man Taylor": "2019-09-26 20:29:43 +0200",
       "Completed Ding!": "2019-09-27 18:41:00 +0200",
+      "Completed Unbroken": "2019-10-01 00:55:29 +0200",
+      "Completed Edible Arrangements": "2019-09-29 22:12:50 +0200",
       "Completed Keep It Between the Lines": "2019-09-26 20:29:39 +0200",
+      "Completed Hot Pockets": "2019-09-29 22:31:36 +0200",
       "Completed Better With Mods": "2019-09-26 21:43:40 +0200"
     },
     "done": false
+  },
+  "sf4:age_exploration/magnesiumore": {
+    "criteria": {
+      "Obtain Magnesium Ore": "2019-10-01 00:07:04 +0200"
+    },
+    "done": true
   },
   "tutorial:tutorial/copied/goldsapling": {
     "criteria": {
@@ -306,6 +392,8 @@
       "Completed Oh, the Irony": "2019-09-22 16:29:58 +0200",
       "Completed Break a Leg": "2019-09-21 20:16:46 +0200",
       "Completed Study in the Dark Arts": "2019-09-26 22:12:01 +0200",
+      "Completed I\u0027ve Been Slimed": "2019-09-29 14:35:06 +0200",
+      "Completed I Love Lucy": "2019-09-30 21:02:40 +0200",
       "Completed Hardwood": "2019-09-21 18:43:12 +0200",
       "Completed Don\u0027t Sieve on Me": "2019-09-21 20:01:12 +0200",
       "Completed On the Rocks": "2019-09-21 21:42:19 +0200",
@@ -337,10 +425,17 @@
   },
   "sf4:age_exploration/completenoprestige": {
     "criteria": {
+      "Completed Thorium\u0027s Hammer": "2019-10-01 00:03:52 +0200",
       "Prestige Mode Disabled": "2019-09-21 18:25:13 +0200",
+      "Completed Enter the Twilight": "2019-09-30 23:53:05 +0200",
+      "Completed Uranium Fever": "2019-10-01 00:03:40 +0200",
       "Completed No Cake Like Home": "2019-09-27 19:16:58 +0200",
+      "Completed Lost and Found": "2019-10-01 00:30:54 +0200",
+      "Completed Where\u0027s the Boss?": "2019-09-30 22:40:51 +0200",
+      "Completed You\u0027re Tritanium to Bring Me Down": "2019-10-01 00:03:45 +0200",
       "Completed Nether Here Nor There": "2019-09-27 19:16:58 +0200",
-      "Completed Age of Exploration": "2019-09-21 18:25:13 +0200"
+      "Completed Age of Exploration": "2019-09-21 18:25:13 +0200",
+      "Completed Light up Your Night": "2019-10-01 00:07:04 +0200"
     },
     "done": false
   },
@@ -375,11 +470,23 @@
     },
     "done": true
   },
+  "sf4:age_power/extraterrestrialmatter": {
+    "criteria": {
+      "Obtain Extraterrestrial Matter": "2019-09-29 21:20:39 +0200"
+    },
+    "done": true
+  },
   "sf4:age1/sapling/lead": {
     "criteria": {
       "Completed Root": "2019-09-21 18:25:13 +0200"
     },
     "done": false
+  },
+  "sf4:age_exploration/lostcitiesworld": {
+    "criteria": {
+      "Entered Lost Cities Dimension": "2019-10-01 00:30:53 +0200"
+    },
+    "done": true
   },
   "sf4:age1/sapling/diamond": {
     "criteria": {
@@ -436,9 +543,10 @@
   },
   "sf4:age1/crushing_tub": {
     "criteria": {
+      "Obtain Crushing Tub": "2019-09-30 21:02:40 +0200",
       "Completed Root": "2019-09-21 18:25:13 +0200"
     },
-    "done": false
+    "done": true
   },
   "sf4:age1/prestige_notify": {
     "criteria": {
@@ -504,8 +612,15 @@
   },
   "sf4:age_power/completenoprestige": {
     "criteria": {
+      "Completed Tesla was Right!": "2019-09-30 19:36:41 +0200",
+      "Completed The Truth is Out There": "2019-09-29 21:20:39 +0200",
+      "Completed Dead Cells": "2019-09-30 00:47:12 +0200",
       "Prestige Mode Disabled": "2019-09-21 18:25:13 +0200",
-      "Completed Age of Power": "2019-09-21 18:25:13 +0200"
+      "Completed Chargin\u0027 Mah Lazer!": "2019-09-30 19:37:06 +0200",
+      "Completed Age of Power": "2019-09-21 18:25:13 +0200",
+      "Completed I\u0027ll Dehydrate You": "2019-09-30 19:30:47 +0200",
+      "Completed Extraction, Extraction, Read All About It!": "2019-09-29 22:38:16 +0200",
+      "Completed The Study Guide": "2019-09-29 20:32:18 +0200"
     },
     "done": false
   },
@@ -549,6 +664,12 @@
     },
     "done": true
   },
+  "compactmachines:test/9x9x9": {
+    "criteria": {
+      "Obtain End Stone": "2019-09-30 23:41:00 +0200"
+    },
+    "done": false
+  },
   "sf4:age1/acorn/dirt": {
     "criteria": {
       "Obtain Dirt Acorn": "2019-09-21 18:28:02 +0200",
@@ -574,9 +695,21 @@
     },
     "done": true
   },
+  "compactmachines:test/9x9x92": {
+    "criteria": {
+      "Obtain Chorus Fruit": "2019-09-30 22:47:05 +0200"
+    },
+    "done": false
+  },
   "sf4:age_exploration/overworldcake": {
     "criteria": {
       "Obtain Overworld Cake": "2019-09-27 19:16:58 +0200"
+    },
+    "done": true
+  },
+  "sf4:age_storage/simplestorageremote": {
+    "criteria": {
+      "Obtain Storage Network Remote": "2019-09-29 20:04:05 +0200"
     },
     "done": true
   },
@@ -589,11 +722,29 @@
   },
   "sf4:age_exploration/complete": {
     "criteria": {
+      "Completed Thorium\u0027s Hammer": "2019-10-01 00:03:52 +0200",
+      "Completed Uranium Fever": "2019-10-01 00:03:40 +0200",
       "Completed No Cake Like Home": "2019-09-27 19:16:58 +0200",
+      "Completed Lost and Found": "2019-10-01 00:30:54 +0200",
+      "Completed Where\u0027s the Boss?": "2019-09-30 22:40:51 +0200",
+      "Completed You\u0027re Tritanium to Bring Me Down": "2019-10-01 00:03:45 +0200",
       "Completed Nether Here Nor There": "2019-09-27 19:16:58 +0200",
-      "Completed Age of Exploration": "2019-09-21 18:25:13 +0200"
+      "Completed Age of Exploration": "2019-09-21 18:25:13 +0200",
+      "Completed Light up Your Night": "2019-10-01 00:07:04 +0200"
     },
     "done": false
+  },
+  "sf4:age_enhancement/alloytank": {
+    "criteria": {
+      "Obtain Seared Alloying Tank": "2019-09-29 22:39:13 +0200"
+    },
+    "done": true
+  },
+  "sf4:age_power/dehydrator": {
+    "criteria": {
+      "Obtain Dehydrator": "2019-09-30 19:30:47 +0200"
+    },
+    "done": true
   },
   "sf4:age1/resourcehogs": {
     "criteria": {
@@ -609,11 +760,18 @@
     },
     "done": true
   },
+  "sf4:age_exploration/arditeore": {
+    "criteria": {
+      "Obtain Ardite Ore": "2019-09-29 21:58:47 +0200"
+    },
+    "done": true
+  },
   "sf4:age1/green_slimy_dirt": {
     "criteria": {
-      "Completed Root": "2019-09-21 18:25:13 +0200"
+      "Completed Root": "2019-09-21 18:25:13 +0200",
+      "Obtain Green Slime Dirt": "2019-09-29 14:35:06 +0200"
     },
-    "done": false
+    "done": true
   },
   "sf4:age_enhancement/tank": {
     "criteria": {
@@ -646,6 +804,12 @@
     },
     "done": true
   },
+  "sf4:age_farming/magicbeans": {
+    "criteria": {
+      "Obtain Sprout Seeds": "2019-09-29 21:52:12 +0200"
+    },
+    "done": true
+  },
   "sf4:age1/amber/silver": {
     "criteria": {
       "Completed Root": "2019-09-21 18:25:13 +0200",
@@ -665,6 +829,12 @@
     },
     "done": false
   },
+  "sf4:age_farming/brownmulch": {
+    "criteria": {
+      "Obtain Brown Mulch": "2019-09-29 14:01:31 +0200"
+    },
+    "done": true
+  },
   "tutorial:tutorial/placedirtsapling": {
     "criteria": {
       "Placed Dirt Sapling": "2019-09-21 18:30:35 +0200"
@@ -677,10 +847,22 @@
     },
     "done": false
   },
+  "sf4:age_power/deeplearner": {
+    "criteria": {
+      "Obtain Deep Learner": "2019-09-29 20:32:18 +0200"
+    },
+    "done": true
+  },
   "sf4:age1/amber/gold": {
     "criteria": {
       "Completed Root": "2019-09-21 18:25:13 +0200",
       "Obtain Gold Amber": "2019-09-26 20:57:15 +0200"
+    },
+    "done": true
+  },
+  "sf4:age_power/extractionchamber": {
+    "criteria": {
+      "Obtain Loot Fabricator": "2019-09-29 22:38:16 +0200"
     },
     "done": true
   },
@@ -696,15 +878,23 @@
     },
     "done": false
   },
+  "sf4:age_storage/simplestoragecontroller": {
+    "criteria": {
+      "Obtain Processing Controller": "2019-09-30 21:36:34 +0200"
+    },
+    "done": true
+  },
   "sf4:age_farming/skyorchards": {
     "criteria": {
       "Obtain Dirt Sapling": "2019-09-21 18:26:24 +0200",
+      "Obtain Osmium Sapling": "2019-09-29 22:28:42 +0200",
       "Obtain Silver Sapling": "2019-09-26 18:42:27 +0200",
       "Obtain Coal Sapling": "2019-09-21 23:57:51 +0200",
       "Obtain Netherrack Sapling": "2019-09-27 19:30:21 +0200",
       "Obtain Diamond Sapling": "2019-09-27 00:40:49 +0200",
       "Obtain Copper Sapling": "2019-09-27 18:19:12 +0200",
       "Obtain Cottonwood Sapling": "2019-09-22 00:10:24 +0200",
+      "Obtain Ardite Sapling": "2019-09-29 22:28:40 +0200",
       "Obtain Lapis Sapling": "2019-09-22 18:05:29 +0200",
       "Obtain Emerald Sapling": "2019-09-27 00:40:59 +0200",
       "Obtain Petrified Sapling": "2019-09-21 18:43:12 +0200",
@@ -716,7 +906,8 @@
       "Obtain Redstone Sapling": "2019-09-25 22:08:56 +0200",
       "Obtain Clay Sapling": "2019-09-21 20:16:49 +0200",
       "Obtain Gravel Sapling": "2019-09-21 20:01:12 +0200",
-      "Obtain Bone Sapling": "2019-09-21 20:16:46 +0200"
+      "Obtain Bone Sapling": "2019-09-21 20:16:46 +0200",
+      "Obtain Cobalt Sapling": "2019-09-29 22:28:38 +0200"
     },
     "done": false
   },
@@ -729,6 +920,12 @@
   "tutorial:tutorial/copied/water": {
     "criteria": {
       "Obtain Water in an Iron Bucket": "2019-09-23 23:31:30 +0200"
+    },
+    "done": false
+  },
+  "tutorial:tutorial/copied/crushingtub": {
+    "criteria": {
+      "Obtain Crushing Tub": "2019-09-30 21:02:40 +0200"
     },
     "done": false
   },
@@ -810,6 +1007,12 @@
     },
     "done": true
   },
+  "sf4:age_storage/simplestoragecable": {
+    "criteria": {
+      "Obtain Network Cable": "2019-09-29 15:03:46 +0200"
+    },
+    "done": true
+  },
   "sf4:age1/dirt": {
     "criteria": {
       "Completed Root": "2019-09-21 18:25:13 +0200",
@@ -830,8 +1033,10 @@
       "Completed Forging Ahead": "2019-09-26 20:41:53 +0200",
       "Completed Age of Enhancement": "2019-09-21 18:25:13 +0200",
       "Completed To Be ORe Not to Be": "2019-09-22 16:00:00 +0200",
+      "Completed I\u0027ll Be Your Alloy": "2019-09-29 22:39:13 +0200",
       "Completed Suit Up": "2019-09-27 19:30:55 +0200",
       "Completed Axe Me Anything": "2019-09-26 21:14:49 +0200",
+      "Completed It\u0027s Over 20!": "2019-09-30 22:32:13 +0200",
       "Completed Sign My Cast": "2019-09-26 21:34:59 +0200",
       "Completed Pattern Me, Sir": "2019-09-26 21:18:50 +0200",
       "Completed Paxel Rose": "2019-09-27 19:53:33 +0200",
@@ -840,7 +1045,10 @@
       "Completed Up in Arms": "2019-09-26 20:44:03 +0200",
       "Completed Tim the Tool Man Taylor": "2019-09-26 20:29:43 +0200",
       "Completed Ding!": "2019-09-27 18:41:00 +0200",
+      "Completed Unbroken": "2019-10-01 00:55:29 +0200",
+      "Completed Edible Arrangements": "2019-09-29 22:12:50 +0200",
       "Completed Keep It Between the Lines": "2019-09-26 20:29:39 +0200",
+      "Completed Hot Pockets": "2019-09-29 22:31:36 +0200",
       "Completed Better With Mods": "2019-09-26 21:43:40 +0200"
     },
     "done": false
@@ -857,12 +1065,24 @@
     },
     "done": true
   },
+  "sf4:age_enhancement/20damage": {
+    "criteria": {
+      "Deal 20 or More Damage": "2019-09-30 22:32:13 +0200"
+    },
+    "done": true
+  },
   "tutorial:tutorial/copied/claybucket": {
     "criteria": {
       "Obtain Unfired Clay Bucket": "2019-09-22 17:43:07 +0200",
       "Obtain Clay Bucket": "2019-09-22 17:32:33 +0200"
     },
     "done": false
+  },
+  "sf4:age_exploration/twilightforest": {
+    "criteria": {
+      "Entered Twilight Forest Dimension": "2019-09-30 23:53:05 +0200"
+    },
+    "done": true
   },
   "sf4:age1/stone_crook": {
     "criteria": {
@@ -875,6 +1095,12 @@
     "criteria": {
       "Completed Root": "2019-09-21 18:25:13 +0200",
       "Obtain Iron Sapling": "2019-09-22 17:56:49 +0200"
+    },
+    "done": true
+  },
+  "sf4:age_exploration/thoriumore": {
+    "criteria": {
+      "Obtain Thorium Ore": "2019-10-01 00:03:52 +0200"
     },
     "done": true
   },
@@ -898,6 +1124,12 @@
     },
     "done": false
   },
+  "sf4:age_power/charger1": {
+    "criteria": {
+      "Obtain Tier 1 Charger": "2019-09-30 19:37:06 +0200"
+    },
+    "done": true
+  },
   "sf4:age1/water": {
     "criteria": {
       "Completed Root": "2019-09-21 18:25:13 +0200",
@@ -913,12 +1145,16 @@
   },
   "sf4:age_allthethingsomglol/modifiermaster": {
     "criteria": {
+      "Fiery": "2019-09-30 22:10:06 +0200",
+      "Mending Moss": "2019-09-30 22:31:19 +0200",
       "Diamond": "2019-09-26 21:43:40 +0200",
       "Sharpness": "2019-09-27 21:40:29 +0200",
       "Haste": "2019-09-27 19:13:48 +0200",
       "Silktouch": "2019-09-27 00:43:38 +0200",
       "Luck": "2019-09-27 20:48:15 +0200",
-      "Emerald": "2019-09-27 21:39:37 +0200"
+      "Emerald": "2019-09-27 21:39:37 +0200",
+      "Necrotic": "2019-09-30 22:12:35 +0200",
+      "Reinforced": "2019-09-30 00:46:06 +0200"
     },
     "done": false
   },
@@ -936,6 +1172,12 @@
     },
     "done": false
   },
+  "sf4:age_storage/simplestoragemaster": {
+    "criteria": {
+      "Obtain Network Master Block": "2019-09-29 15:07:33 +0200"
+    },
+    "done": true
+  },
   "tutorial:tutorial/copied/diamond": {
     "criteria": {
       "Obtain Diamond": "2019-09-26 21:43:17 +0200"
@@ -951,7 +1193,14 @@
   },
   "sf4:age_power/complete": {
     "criteria": {
-      "Completed Age of Power": "2019-09-21 18:25:13 +0200"
+      "Completed Tesla was Right!": "2019-09-30 19:36:41 +0200",
+      "Completed The Truth is Out There": "2019-09-29 21:20:39 +0200",
+      "Completed Dead Cells": "2019-09-30 00:47:12 +0200",
+      "Completed Chargin\u0027 Mah Lazer!": "2019-09-30 19:37:06 +0200",
+      "Completed Age of Power": "2019-09-21 18:25:13 +0200",
+      "Completed I\u0027ll Dehydrate You": "2019-09-30 19:30:47 +0200",
+      "Completed Extraction, Extraction, Read All About It!": "2019-09-29 22:38:16 +0200",
+      "Completed The Study Guide": "2019-09-29 20:32:18 +0200"
     },
     "done": false
   },
@@ -961,11 +1210,29 @@
     },
     "done": true
   },
+  "sf4:age_power/pristinezombiematter": {
+    "criteria": {
+      "Obtain Pristine Zombie Matter": "2019-09-30 00:47:12 +0200"
+    },
+    "done": true
+  },
+  "sf4:age_farming/market": {
+    "criteria": {
+      "Obtain Market": "2019-09-29 22:43:37 +0200"
+    },
+    "done": true
+  },
   "hardcore:hardcore/survive": {
     "criteria": {
       "Get killed": "2019-09-21 18:44:11 +0200"
     },
     "done": false
+  },
+  "twilightforest:root": {
+    "criteria": {
+      "in_tf": "2019-09-30 23:53:05 +0200"
+    },
+    "done": true
   },
   "sf4:age1/clay_bucket": {
     "criteria": {
@@ -976,17 +1243,21 @@
   },
   "sf4:age_exploration/dragonkill": {
     "criteria": {
-      "Enter Custom End Dimension": "2019-09-27 19:16:58 +0200"
+      "Enter Custom End Dimension": "2019-09-27 19:16:58 +0200",
+      "Enter End Dimension": "2019-09-30 22:40:51 +0200"
     },
-    "done": false
+    "done": true
   },
   "sf4:age_farming/complete": {
     "criteria": {
       "Completed Age of Farming": "2019-09-21 18:25:13 +0200",
+      "Completed It\u0027s the End of the World As We Know It": "2019-09-30 21:09:05 +0200",
       "Completed Shredded Wheat": "2019-09-26 23:14:34 +0200",
       "Completed Bonsai!!!": "2019-09-27 00:56:20 +0200",
+      "Completed This Little Piggy": "2019-09-29 22:43:37 +0200",
       "Completed Condensed Milk": "2019-09-27 00:04:01 +0200",
-      "Completed Nothing Really Mattocks": "2019-09-26 23:59:39 +0200"
+      "Completed Nothing Really Mattocks": "2019-09-26 23:59:39 +0200",
+      "Completed Beanboozled": "2019-09-29 21:52:12 +0200"
     },
     "done": false
   },
@@ -994,6 +1265,18 @@
     "criteria": {
       "Completed Root": "2019-09-21 18:25:13 +0200",
       "Obtain Iron Amber": "2019-09-22 16:16:33 +0200"
+    },
+    "done": true
+  },
+  "sf4:age_exploration/uraniumore": {
+    "criteria": {
+      "Obtain Uranium Ore": "2019-10-01 00:03:40 +0200"
+    },
+    "done": true
+  },
+  "twilightforest:hill1": {
+    "criteria": {
+      "redcap": "2019-09-30 23:58:43 +0200"
     },
     "done": true
   },
@@ -1009,11 +1292,23 @@
     },
     "done": false
   },
+  "twilightforest:twilight_hunter": {
+    "criteria": {
+      "swarm_spider": "2019-09-30 23:55:59 +0200"
+    },
+    "done": true
+  },
   "sf4:age1/drying_rack": {
     "criteria": {
       "Completed Root": "2019-09-21 18:25:13 +0200"
     },
     "done": false
+  },
+  "sf4:age_enhancement/enderpouch": {
+    "criteria": {
+      "Obtain Ender Pouch": "2019-09-29 22:31:36 +0200"
+    },
+    "done": true
   },
   "tutorial:tutorial/placeoak": {
     "criteria": {
@@ -1044,9 +1339,26 @@
       "Completed Shredded Wheat": "2019-09-26 23:14:34 +0200",
       "Completed Fertile Soil": "2019-09-27 00:56:20 +0200",
       "Completed Nothing Really Mattocks": "2019-09-26 23:59:39 +0200",
+      "Completed Beanboozled": "2019-09-29 21:52:12 +0200",
       "Completed Cowabonsai!": "2019-09-27 00:57:28 +0200",
+      "Completed TuMULCHuous": "2019-09-29 14:01:31 +0200",
+      "Completed It\u0027s the End of the World As We Know It": "2019-09-30 21:09:05 +0200",
       "Completed Bonsai!!!": "2019-09-27 00:56:20 +0200",
+      "Completed This Little Piggy": "2019-09-29 22:43:37 +0200",
       "Completed Condensed Milk": "2019-09-27 00:04:01 +0200"
+    },
+    "done": false
+  },
+  "sf4:age_enhancement/unbreakablepickaxe": {
+    "criteria": {
+      "Obtain Unbreakable Tinkers\u0027 Tool or Weapon": "2019-10-01 00:55:29 +0200"
+    },
+    "done": true
+  },
+  "sf4:age_allthethingsomglol/pristinematter": {
+    "criteria": {
+      "Pristine Creeper Matter": "2019-09-30 00:40:19 +0200",
+      "Pristine Zombie Matter": "2019-09-30 00:47:12 +0200"
     },
     "done": false
   },
