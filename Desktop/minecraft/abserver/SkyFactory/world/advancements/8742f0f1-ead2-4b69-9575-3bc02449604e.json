@@ -96,9 +96,10 @@
   },
   "twilightforest:progress_naga": {
     "criteria": {
-      "kill_mob": "2019-09-30 23:56:28 +0200"
+      "kill_mob": "2019-09-30 23:56:28 +0200",
+      "scale": "2019-10-01 18:34:57 +0200"
     },
-    "done": false
+    "done": true
   },
   "compactmachines:test/3x3x3": {
     "criteria": {
@@ -108,7 +109,10 @@
   },
   "sf4:age_allthethingsomglol/armormodifiers": {
     "criteria": {
-      "Mending": "2019-09-30 00:45:14 +0200"
+      "Mending": "2019-09-30 00:45:14 +0200",
+      "Speedy": "2019-10-02 01:30:59 +0200",
+      "Resistant": "2019-10-02 01:25:08 +0200",
+      "Reinforced": "2019-10-02 01:10:08 +0200"
     },
     "done": false
   },
@@ -194,6 +198,7 @@
       "Completed Up in Arms": "2019-09-26 20:58:23 +0200",
       "Completed Tim the Tool Man Taylor": "2019-09-26 20:30:03 +0200",
       "Completed Ding!": "2019-09-27 22:05:00 +0200",
+      "Completed Eat Your Heart Out": "2019-10-01 16:48:09 +0200",
       "Completed Edible Arrangements": "2019-10-01 16:15:40 +0200",
       "Completed Keep It Between the Lines": "2019-09-26 20:30:03 +0200",
       "Completed Yo-Yo Ma": "2019-09-27 20:19:55 +0200",
@@ -290,6 +295,12 @@
     },
     "done": true
   },
+  "sf4:age_farming/fenceoverhaul": {
+    "criteria": {
+      "Obtain Oak Diagonal Fence": "2019-10-01 18:26:10 +0200"
+    },
+    "done": true
+  },
   "sf4:age_power/completenoprestige": {
     "criteria": {
       "Completed Tesla was Right!": "2019-09-30 19:45:37 +0200",
@@ -300,6 +311,7 @@
       "Completed Dead Cells": "2019-09-29 21:18:41 +0200",
       "Prestige Mode Disabled": "2019-09-21 18:21:05 +0200",
       "Completed What\u0027s the Matter with Overworldians?": "2019-09-29 21:03:19 +0200",
+      "Completed Clicker Hero": "2019-10-01 17:17:21 +0200",
       "Completed Chargin\u0027 Mah Lazer!": "2019-09-29 21:08:04 +0200",
       "Completed The End of all Matter": "2019-09-30 23:39:24 +0200",
       "Completed Age of Power": "2019-09-21 18:21:04 +0200",
@@ -360,6 +372,12 @@
     },
     "done": true
   },
+  "sf4:age_storage/compactstoragechest": {
+    "criteria": {
+      "Obtain Compact Storage Chest": "2019-10-01 22:51:38 +0200"
+    },
+    "done": true
+  },
   "sf4:age_allthethingsomglol/complete": {
     "criteria": {
       "Completed Age of ALLTHETHINGSOMGLOL": "2019-09-21 18:21:04 +0200"
@@ -400,6 +418,7 @@
     "criteria": {
       "Completed Thorium\u0027s Hammer": "2019-10-01 00:01:20 +0200",
       "Completed B\u0027Aiken a C\u0027Aiken": "2019-09-30 21:23:54 +0200",
+      "Completed Come Fly With Me": "2019-10-01 22:12:17 +0200",
       "Completed Uranium Fever": "2019-09-30 23:59:59 +0200",
       "Completed No Cake Like Home": "2019-09-27 19:16:50 +0200",
       "Completed Lost and Found": "2019-10-01 00:30:54 +0200",
@@ -442,6 +461,12 @@
   "sf4:age_enhancement/tank": {
     "criteria": {
       "Obtain Tank": "2019-09-22 16:54:53 +0200"
+    },
+    "done": true
+  },
+  "sf4:age_storage/hopper": {
+    "criteria": {
+      "Obtain Hopper": "2019-10-02 02:24:01 +0200"
     },
     "done": true
   },
@@ -494,6 +519,12 @@
       "Obtain Loot Fabricator": "2019-09-29 22:38:10 +0200"
     },
     "done": true
+  },
+  "twilightforest:progress_trophy_pedestal": {
+    "criteria": {
+      "kill_hydra": "2019-10-01 19:04:47 +0200"
+    },
+    "done": false
   },
   "tutorial:tutorial/dirtsapling": {
     "criteria": {
@@ -637,6 +668,12 @@
     },
     "done": false
   },
+  "sf4:age_exploration/viescraft": {
+    "criteria": {
+      "Obtain Airship": "2019-10-01 22:12:17 +0200"
+    },
+    "done": true
+  },
   "tutorial:tutorial/copied/string": {
     "criteria": {
       "Obtain Cottonwood Sapling": "2019-09-22 00:14:20 +0200",
@@ -682,7 +719,9 @@
       "Completed This Little Piggy": "2019-09-26 23:08:24 +0200",
       "Completed Condensed Milk": "2019-09-27 00:03:55 +0200",
       "Completed Nothing Really Mattocks": "2019-09-28 01:25:12 +0200",
-      "Completed All the Trees": "2019-09-29 22:17:24 +0200"
+      "Completed Beanboozled": "2019-10-01 21:00:19 +0200",
+      "Completed All the Trees": "2019-09-29 22:17:24 +0200",
+      "Completed Diagon Alley": "2019-10-01 18:26:10 +0200"
     },
     "done": false
   },
@@ -804,6 +843,8 @@
       "Completed CAT 5": "2019-09-29 15:04:18 +0200",
       "Completed Master Blaster": "2019-09-29 15:07:38 +0200",
       "Completed Age of Storage": "2019-09-21 18:21:04 +0200",
+      "Completed I Like Big Box and I Cannot Lie": "2019-10-01 22:51:38 +0200",
+      "Completed Hop to It": "2019-10-02 02:24:01 +0200",
       "Completed Control Yourself": "2019-09-30 21:36:45 +0200"
     },
     "done": false
@@ -872,6 +913,8 @@
       "Completed CAT 5": "2019-09-29 15:04:18 +0200",
       "Completed Master Blaster": "2019-09-29 15:07:38 +0200",
       "Completed Age of Storage": "2019-09-21 18:21:04 +0200",
+      "Completed I Like Big Box and I Cannot Lie": "2019-10-01 22:51:38 +0200",
+      "Completed Hop to It": "2019-10-02 02:24:01 +0200",
       "Completed Control Yourself": "2019-09-30 21:36:45 +0200"
     },
     "done": false
@@ -996,6 +1039,7 @@
     "criteria": {
       "Completed Thorium\u0027s Hammer": "2019-10-01 00:01:20 +0200",
       "Completed B\u0027Aiken a C\u0027Aiken": "2019-09-30 21:23:54 +0200",
+      "Completed Come Fly With Me": "2019-10-01 22:12:17 +0200",
       "Prestige Mode Disabled": "2019-09-21 18:21:05 +0200",
       "Completed Enter the Twilight": "2019-09-30 23:53:05 +0200",
       "Completed Uranium Fever": "2019-09-30 23:59:59 +0200",
@@ -1182,10 +1226,22 @@
     },
     "done": true
   },
+  "sf4:age_farming/magicbeans": {
+    "criteria": {
+      "Obtain Sprout Seeds": "2019-10-01 21:00:19 +0200"
+    },
+    "done": true
+  },
   "sf4:age1/amber/silver": {
     "criteria": {
       "Completed Root": "2019-09-21 18:21:05 +0200",
       "Obtain Silver Amber": "2019-09-26 18:37:46 +0200"
+    },
+    "done": true
+  },
+  "sf4:age_enhancement/heartcontainer": {
+    "criteria": {
+      "Eat Cyclic Heart Container": "2019-10-01 16:48:09 +0200"
     },
     "done": true
   },
@@ -1260,6 +1316,12 @@
     },
     "done": false
   },
+  "twilightforest:progress_labyrinth": {
+    "criteria": {
+      "kill_lich": "2019-10-01 19:04:47 +0200"
+    },
+    "done": false
+  },
   "compactmachines:test/11x11x11": {
     "criteria": {
       "Obtain Nether Star": "2019-09-29 22:05:46 +0200"
@@ -1304,6 +1366,7 @@
       "Completed Up in Arms": "2019-09-26 20:58:23 +0200",
       "Completed Tim the Tool Man Taylor": "2019-09-26 20:30:03 +0200",
       "Completed Ding!": "2019-09-27 22:05:00 +0200",
+      "Completed Eat Your Heart Out": "2019-10-01 16:48:09 +0200",
       "Completed Edible Arrangements": "2019-10-01 16:15:40 +0200",
       "Completed Keep It Between the Lines": "2019-09-26 20:30:03 +0200",
       "Completed Yo-Yo Ma": "2019-09-27 20:19:55 +0200",
@@ -1422,6 +1485,12 @@
     },
     "done": true
   },
+  "twilightforest:progress_yeti": {
+    "criteria": {
+      "previous_progression": "2019-10-01 19:04:47 +0200"
+    },
+    "done": false
+  },
   "tutorial:tutorial/copied/diamond": {
     "criteria": {
       "Obtain Diamond": "2019-09-26 18:54:14 +0200"
@@ -1437,6 +1506,7 @@
       "Completed What the Heck?!": "2019-09-29 21:06:54 +0200",
       "Completed Dead Cells": "2019-09-29 21:18:41 +0200",
       "Completed What\u0027s the Matter with Overworldians?": "2019-09-29 21:03:19 +0200",
+      "Completed Clicker Hero": "2019-10-01 17:17:21 +0200",
       "Completed Chargin\u0027 Mah Lazer!": "2019-09-29 21:08:04 +0200",
       "Completed The End of all Matter": "2019-09-30 23:39:24 +0200",
       "Completed Age of Power": "2019-09-21 18:21:04 +0200",
@@ -1494,6 +1564,25 @@
     },
     "done": true
   },
+  "sf4:age_power/autoclicker": {
+    "criteria": {
+      "Obtain Auto Clicker": "2019-10-01 17:17:21 +0200"
+    },
+    "done": true
+  },
+  "twilightforest:progress_lich": {
+    "criteria": {
+      "kill_lich": "2019-10-01 19:04:47 +0200",
+      "kill_naga": "2019-10-01 18:34:57 +0200"
+    },
+    "done": true
+  },
+  "twilightforest:hill3": {
+    "criteria": {
+      "wraith": "2019-10-01 19:16:46 +0200"
+    },
+    "done": true
+  },
   "sf4:age_enhancement/enderpouch": {
     "criteria": {
       "Obtain Ender Pouch": "2019-09-29 22:31:27 +0200"
@@ -1528,7 +1617,9 @@
       "Completed Shredded Wheat": "2019-09-25 22:21:05 +0200",
       "Completed Fertile Soil": "2019-09-26 22:56:29 +0200",
       "Completed Nothing Really Mattocks": "2019-09-28 01:25:12 +0200",
+      "Completed Beanboozled": "2019-10-01 21:00:19 +0200",
       "Completed All the Trees": "2019-09-29 22:17:24 +0200",
+      "Completed Diagon Alley": "2019-10-01 18:26:10 +0200",
       "Completed Cowabonsai!": "2019-09-27 19:27:26 +0200",
       "Completed TuMULCHuous": "2019-09-27 19:49:31 +0200",
       "Completed Yes We Can!": "2019-09-27 19:43:17 +0200",
